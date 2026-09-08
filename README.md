@@ -1,3 +1,5 @@
+## Arabic Adaptive Spatial Reasoning (AASR): an AdaMix-inspired framework for adaptive Short/Long reasoning over Arabic spatial long-context data.
+
 ## Model Development
 
 The repository also contains the research and machine-learning workflow for AASR.
