@@ -1,8 +1,55 @@
-# ASAR — Arabic Spatial Adaptive Reasoning
+## Research & Model Development
+
+The repository also contains the research and machine-learning workflow for AASR.
+
+### Project Documentation
+
+* [`PROJECT_STATUS.md`](PROJECT_STATUS.md) — current project stage, main findings, and planned experiments.
+* [`ARTIFACT_REGISTRY.md`](ARTIFACT_REGISTRY.md) — available trained artifacts and their Modal storage locations.
+* [`docs/configuration_audit.md`](docs/configuration_audit.md) — configuration review against the original AdaMix framework.
+
+### Machine Learning Code
+
+* [`training/train/`](training/train/) — original Short/Long adapter and continuous-router pipeline.
+* [`training/ASAR/`](training/ASAR/) — adaptive alpha-mixing and later Router experiments.
+
+### Experiments
+
+Experimental runs are documented under:
+
+[`experiments/`](experiments/)
+
+Current structure:
+
+```text
+E0_current/               Current baseline
+E1_balanced_data/         Dataset balancing
+E2_english_diagnostic/    English diagnostic
+E3_adapter_improvement/   Adapter configuration improvement
+E4_router/                Router evaluation
+```
+
+See [`experiments/README.md`](experiments/README.md) for the experiment-recording convention.
+
+### Model & Experiment Storage
+
+Large model weights, checkpoints, and generated outputs are stored outside GitHub.
+
+Primary Modal volume:
+
+```text
+asar-artifacts
+```
+
+Before starting a new training run, check [`ARTIFACT_REGISTRY.md`](ARTIFACT_REGISTRY.md) to avoid unnecessary retraining.
+
+
+
+## ASAR Frontend 
 
 واجهة Django عربية أحادية الصفحة، مصممة لتكون سهلة الربط لاحقًا مع مخرجات مودل ASAR.
 
-## التشغيل
+### التشغيل
 
 ```bash
 python -m venv .venv
@@ -18,7 +65,7 @@ python manage.py runserver
 
 `http://127.0.0.1:8000/`
 
-## أين أربط المودل؟
+### أين أربط المودل؟
 
 الربط مقصود أن يكون في ملف واحد فقط:
 
@@ -52,7 +99,7 @@ analyze_spatial_question(question)
 
 ثم يحدث كل أجزاء الصفحة تلقائيًا من JSON.
 
-## أهم الملفات
+### أهم الملفات
 
 - `dashboard/templates/dashboard/index.html` الواجهة
 - `dashboard/static/dashboard/css/style.css` التصميم
