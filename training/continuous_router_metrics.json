@@ -1,0 +1,143 @@
+{
+  "model_id": "xlm-roberta-base",
+  "source": "continuous_train_4000.jsonl",
+  "usable_examples": 2058,
+  "split": {
+    "train": 1440,
+    "dev": 309,
+    "router_holdout": 309
+  },
+  "selected_threshold_from_dev": 0.3500000000000001,
+  "router_holdout_threshold_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.7378640776699029,
+    "balanced_accuracy": 0.5,
+    "precision_long": 0.0,
+    "recall_long": 0.0,
+    "f1_long": 0.0,
+    "confusion_matrix": [
+      [
+        228,
+        0
+      ],
+      [
+        81,
+        0
+      ]
+    ]
+  },
+  "router_holdout_tuned_threshold": {
+    "threshold": 0.3500000000000001,
+    "accuracy": 0.47572815533980584,
+    "balanced_accuracy": 0.5611598440545809,
+    "precision_long": 0.29850746268656714,
+    "recall_long": 0.7407407407407407,
+    "f1_long": 0.425531914893617,
+    "confusion_matrix": [
+      [
+        87,
+        141
+      ],
+      [
+        21,
+        60
+      ]
+    ]
+  },
+  "holdout_score_mae": 0.255392971536006,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.05235082744620741,
+      "dev_mae": 0.25081864303176843,
+      "dev_best": {
+        "threshold": 0.3500000000000001,
+        "accuracy": 0.47572815533980584,
+        "balanced_accuracy": 0.5333008447043535,
+        "precision_long": 0.28342245989304815,
+        "recall_long": 0.654320987654321,
+        "f1_long": 0.39552238805970147,
+        "confusion_matrix": [
+          [
+            94,
+            134
+          ],
+          [
+            28,
+            53
+          ]
+        ]
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.04839628883637488,
+      "dev_mae": 0.26006322168416574,
+      "dev_best": {
+        "threshold": 0.15,
+        "accuracy": 0.2621359223300971,
+        "balanced_accuracy": 0.5,
+        "precision_long": 0.2621359223300971,
+        "recall_long": 1.0,
+        "f1_long": 0.4153846153846154,
+        "confusion_matrix": [
+          [
+            0,
+            228
+          ],
+          [
+            0,
+            81
+          ]
+        ]
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.047987818135879934,
+      "dev_mae": 0.27737761484187784,
+      "dev_best": {
+        "threshold": 0.15,
+        "accuracy": 0.2621359223300971,
+        "balanced_accuracy": 0.5,
+        "precision_long": 0.2621359223300971,
+        "recall_long": 1.0,
+        "f1_long": 0.4153846153846154,
+        "confusion_matrix": [
+          [
+            0,
+            228
+          ],
+          [
+            0,
+            81
+          ]
+        ]
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.047826753083306056,
+      "dev_mae": 0.259737932614524,
+      "dev_best": {
+        "threshold": 0.15,
+        "accuracy": 0.2621359223300971,
+        "balanced_accuracy": 0.5,
+        "precision_long": 0.2621359223300971,
+        "recall_long": 1.0,
+        "f1_long": 0.4153846153846154,
+        "confusion_matrix": [
+          [
+            0,
+            228
+          ],
+          [
+            0,
+            81
+          ]
+        ]
+      }
+    }
+  ],
+  "input": "context + question only"
+}
