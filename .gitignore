@@ -1,1 +1,21 @@
 artifacts/
+
+# Python
+__pycache__/
+*.pyc
+
+# Django
+db.sqlite3
+*.sqlite3
+staticfiles/
+media/
+
+# macOS
+.DS_Store
+
+# Secrets / env
+.env
+
+# Virtual environments
+venv/
+env/
