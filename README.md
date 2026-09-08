@@ -1,4 +1,4 @@
-## Research & Model Development
+## Model Development
 
 The repository also contains the research and machine-learning workflow for AASR.
 
