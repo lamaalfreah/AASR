@@ -1,3 +1,7 @@
+from .agents.verifier import verify_result
+from .agents.logger import log_result
+
+
 def analyze_spatial_question(question: str) -> dict:
     """Main integration point for the ASAR model.
 
@@ -20,6 +24,8 @@ def analyze_spatial_question(question: str) -> dict:
     result = builders[task_type]()
     result["question"] = question
     result["task_type"] = task_type
+    result = verify_result(result)
+    log_result(result)
     return result
 
 
