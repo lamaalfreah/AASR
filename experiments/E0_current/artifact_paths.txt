@@ -1,0 +1,30 @@
+# E0 Current Baseline - Artifact Locations
+
+Modal Volume:
+asar-artifacts
+
+Short SFT Adapter:
+/asar_sft_grpo/adapters/short_sft
+
+Long SFT Adapter:
+/asar_sft_grpo/adapters/long_sft
+
+Continuous Router:
+/asar_sft_grpo/empirical_router/continuous_router/model
+
+Alpha Router V2:
+/asar_sft_grpo/alpha_router_v2/model
+
+Alpha Router V3:
+/asar_sft_grpo/alpha_router_v3/model
+
+Main Evaluation Outputs:
+/asar_sft_grpo/final_evaluation_adamix_fast/
+
+Main 400-example Validation Evaluation:
+sft_validation_all_n400_seed42_outputs.jsonl
+
+Notes:
+- Model weights are stored in Modal and are not committed to GitHub.
+- Reuse existing completed artifacts for evaluation.
+- Do not retrain unless the configuration is intentionally changed.

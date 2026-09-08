@@ -19,3 +19,30 @@ media/
 # Virtual environments
 venv/
 env/
+# ML model weights and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Large training/evaluation outputs
+checkpoints/
+outputs/
+*_outputs.jsonl
+
+# Model / Hugging Face cache
+.cache/
+hf-cache/
+huggingface/
+
+# Local Python environment
+.venv/
+
+# Additional secrets
+.env.*
+.modal/
+secrets/
+
+# Python generated files
+__pycache__/
+*.pyc

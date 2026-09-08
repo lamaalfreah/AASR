@@ -1,0 +1,62 @@
+{
+  "experiment": "E0_current_baseline",
+  "router_version": "V3",
+  "source": "sft_validation_all_n400_seed42_outputs.jsonl",
+  "examples": 400,
+  "alpha_set": [
+    0.0,
+    0.25,
+    1.0
+  ],
+  "empirical_alpha_distribution": {
+    "0.0": 285,
+    "0.25": 69,
+    "1.0": 46
+  },
+  "split": {
+    "train": 320,
+    "holdout": 80
+  },
+  "best_epoch": 1,
+  "holdout_alpha_class_accuracy": 0.7125,
+  "holdout_alpha_balanced_accuracy": 0.3333333333333333,
+  "holdout_confusion_matrix": [
+    [57, 0, 0],
+    [14, 0, 0],
+    [9, 0, 0]
+  ],
+  "same_holdout_end_to_end": {
+    "fixed_alpha_0.0": {
+      "strict_accuracy": 0.475,
+      "avg_tokens": 7.375,
+      "avg_latency_sec": 0.4642575
+    },
+    "fixed_alpha_0.25": {
+      "strict_accuracy": 0.375,
+      "avg_tokens": 6.95,
+      "avg_latency_sec": 0.4758425
+    },
+    "fixed_alpha_1.0": {
+      "strict_accuracy": 0.35,
+      "avg_tokens": 120.775,
+      "avg_latency_sec": 5.8729
+    },
+    "router_v3": {
+      "strict_accuracy": 0.475,
+      "avg_tokens": 7.375,
+      "avg_latency_sec": 0.4642575
+    },
+    "oracle_3alpha": {
+      "strict_accuracy": 0.6625,
+      "avg_tokens": 19.225,
+      "avg_latency_sec": 1.03796
+    }
+  },
+  "router_prediction_behavior": {
+    "predicted_alpha_0": 80,
+    "predicted_alpha_0.25": 0,
+    "predicted_alpha_1.0": 0,
+    "finding": "Router V3 collapsed to the majority alpha=0 class."
+  },
+  "conclusion": "The learned router did not outperform the best fixed alpha strategy. However, the 3-alpha oracle achieved 66.25% versus 47.5% for fixed alpha=0, indicating substantial remaining routing potential."
+}

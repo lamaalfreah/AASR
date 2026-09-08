@@ -1,0 +1,25 @@
+{
+  "source": "empirical_train_2000.jsonl",
+  "usable_examples": 1049,
+  "train_examples": 839,
+  "holdout_examples": 210,
+  "short_total": 750,
+  "long_total": 299,
+  "accuracy": 0.6523809523809524,
+  "precision_long": 0.38181818181818183,
+  "recall_long": 0.35,
+  "f1_long": 0.3652173913043478,
+  "confusion_matrix": [
+    [
+      116,
+      34
+    ],
+    [
+      39,
+      21
+    ]
+  ],
+  "threshold": 0.5,
+  "router": "TF-IDF char ngrams + LogisticRegression",
+  "input": "context head + context tail + question"
+}
