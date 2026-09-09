@@ -1,0 +1,5 @@
+variant,arabic_accuracy,english_accuracy,accuracy_delta,arabic_avg_tokens,english_avg_tokens,arabic_avg_latency_sec,english_avg_latency_sec,note
+alpha_0.0,0.37,0.6867,0.3167,7.18,556.17,0.4646,24.3713,diagnostic only; different domain
+alpha_0.25,0.35,0.6667,0.3167,7.11,495.73,0.4963,21.6862,diagnostic only; different domain
+alpha_1.0,0.3325,0.7,0.3675,120.83,1585.75,5.9007,69.5719,diagnostic only; different domain
+oracle_alpha,0.59,0.8333,0.2433,18.71,445.87,1.0257,19.5525,diagnostic only; different domain

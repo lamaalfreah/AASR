@@ -1,0 +1,67 @@
+# E2 — English Diagnostic (MATH500)
+# Student 3 | steps 1-3 of the task brief
+# Adapters are REUSED, never retrained. The Router is never loaded.
+
+# ---------------------------------------------------------------------------
+# Main run — this produced the reported results
+# ---------------------------------------------------------------------------
+modal run training/ASAR/modal_runner_e2_english.py::run_eval \
+  --alphas 0,0.25,1 \
+  --max-samples 150 \
+  --seed 42 \
+  --max-new-floor 4096 \
+  --arabic-summary /workspace/artifacts/asar_sft_grpo/final_evaluation_adamix_fast/sft_validation_all_n400_seed42_summary.csv
+
+# ---------------------------------------------------------------------------
+# Budget calibration (8 problems each) — why --max-new-floor exists
+#
+# E0's budget formula is max_new_tokens = 256 + alpha * 768, calibrated on
+# Arabic answers averaging ~7 tokens. Unchanged on MATH500 it truncated most
+# generations before the FINAL line, so accuracy measured token budget rather
+# than reasoning. These three runs found the point of diminishing returns.
+#
+#   floor 256  (E0 default) -> alpha 0: 25.0% accuracy, 62.5% truncated
+#   floor 2048              -> alpha 0: 62.5% accuracy,  0.0% truncated
+#   floor 4096              -> alpha 0: 62.5% accuracy,  0.0% truncated
+#                              alpha 1 gained ~500 tokens, no accuracy change
+#
+# 4096 was adopted for the main run and applied equally to every alpha.
+# ---------------------------------------------------------------------------
+modal run training/ASAR/modal_runner_e2_english.py::run_eval \
+  --alphas 0,0.25,1 --max-samples 8 --seed 42
+
+modal run training/ASAR/modal_runner_e2_english.py::run_eval \
+  --alphas 0,0.25,1 --max-samples 8 --seed 42 --max-new-floor 2048
+
+modal run training/ASAR/modal_runner_e2_english.py::run_eval \
+  --alphas 0,0.25,1 --max-samples 8 --seed 42 --max-new-floor 4096
+
+# Note: the script resumes from *_outputs.jsonl. Delete it before re-running
+# the same tag with different settings, or old rows will be reused:
+#   modal volume rm asar-artifacts \
+#     /asar_sft_grpo/e2_english_diagnostic/e2_sft_n8_seed42_outputs.jsonl
+
+# ---------------------------------------------------------------------------
+# Retrieving results
+# ---------------------------------------------------------------------------
+modal volume get asar-artifacts \
+  /asar_sft_grpo/e2_english_diagnostic/e2_sft_n150_seed42_summary.csv ./
+modal volume get asar-artifacts \
+  /asar_sft_grpo/e2_english_diagnostic/e2_sft_n150_seed42_comparison.csv ./
+modal volume get asar-artifacts \
+  /asar_sft_grpo/e2_english_diagnostic/e2_sft_n150_seed42_meta.json ./
+
+# ---------------------------------------------------------------------------
+# Compliance notes
+# ---------------------------------------------------------------------------
+# Step 1  Adapters loaded with is_trainable=False. No optimizer or trainer in
+#         evaluate_e2_english.py.
+# Step 2  accuracy / avg_tokens / avg_latency_sec are the first three metric
+#         columns of the summary CSV.
+# Step 3  --arabic-summary produces the side-by-side comparison. Every output
+#         file carries the diagnostic-only caveat.
+# Step 4  Not automated. Supervisor decision.
+# Step 5  The Router is not loaded, called, or referenced.
+#
+# MATH500's "test" split is an external benchmark and is unrelated to the AASR
+# validation/test splits, which remain untouched.

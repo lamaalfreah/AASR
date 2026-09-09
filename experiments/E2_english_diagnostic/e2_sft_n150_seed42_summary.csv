@@ -1,0 +1,5 @@
+variant,n,strict_accuracy,avg_tokens,avg_latency_sec,lenient_accuracy,no_final_line_rate,truncated_rate,needs_review_rate
+alpha_0.0,150,0.6867,556.17,24.3713,0.72,0.04,0.0333,0.24
+alpha_0.25,150,0.6667,495.73,21.6862,0.7133,0.0267,0.0133,0.2533
+alpha_1.0,150,0.7,1585.75,69.5719,0.72,0.1733,0.18,0.1067
+oracle_alpha,150,0.8333,445.87,19.5525,0.8533,0.0,0.0,0.14

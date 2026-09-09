@@ -1,0 +1,21 @@
+{
+  "experiment": "E2 English Diagnostic",
+  "dataset": "HuggingFaceH4/MATH-500",
+  "base_model": "Qwen/Qwen3-4B",
+  "adapters_reused": "sft",
+  "adapters_retrained": false,
+  "router_used": false,
+  "router_retrained": false,
+  "generation_policy": "identical to evaluate_full_adamix_fast.py (E0)",
+  "alphas": [
+    0.0,
+    0.25,
+    1.0
+  ],
+  "seed": 42,
+  "n": 150,
+  "beta": 0.2,
+  "max_new_floor": 4096,
+  "generation_budget": "E0 policy with a floor of 4096 new tokens, applied equally to every alpha",
+  "caveat": "DIAGNOSTIC ONLY \u2014 MATH500 is a different domain from the Arabic spatial task. An English/Arabic gap cannot be attributed to language alone."
+}
