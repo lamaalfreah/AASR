@@ -1,0 +1,11 @@
+{
+  "provider": "OpenRouter",
+  "model": "qwen/qwen3-4b:free",
+  "status": "stopped",
+  "reason_code": "model_unavailable",
+  "reason": "Exact qwen/qwen3-4b:free is absent from the current OpenRouter model catalogue; no substitution",
+  "inference_calls": 0,
+  "authentication_verified": true,
+  "authentication_http_status": 200,
+  "exact_model_listed": false
+}

@@ -1,0 +1,9 @@
+split,group,n,short_accuracy,long_accuracy,short_parse,long_parse,short_query_exact,long_query_exact,short_abstention,long_abstention,paired_evaluated,short_wrong_long_correct,opportunity_percent,long_rescue_percent,long_regression_percent,long_regression_denominator
+dev,L1,72,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,L2,56,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,L3,32,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,L4,32,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,L1,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,L2,40,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,L3,32,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,L4,32,0.0,,0.0,,0.0,,100.0,,0,,,,,0

@@ -1,0 +1,28 @@
+{
+  "count": 320,
+  "dev": 192,
+  "eval": 128,
+  "unique_source_records": 320,
+  "unique_source_anchors": 320,
+  "source": "TRAIN only; audit class A",
+  "frozen_step1_sha256": {
+    "spatial/__init__.py": "76615b7a805a3797e8d5e916927276d5e2cad963da2210ff9461316fe1ef2fe3",
+    "spatial/context_parser.py": "ebef0affa6a5f718a064eaad5ad030a9f8400bb1b17ece4e9ac36936afdd24bb",
+    "spatial/executor.py": "05f1166c7fd5245f778b11b450779de752a1f0e801b391841a0ee140f925a896",
+    "spatial/geometry.py": "d58a6a0b7814c0dc9b4ddc9b6b88f4008417f8b7719f446aca0fb16ee368915c",
+    "spatial/identity.py": "68876964fe36de80f44291e931ce40a26b0930003dcab515dadef89a2830262b",
+    "spatial/normalization.py": "c4c8419eaee4ceff7deb54092d2241c88d06955656d7ba39d7c5d5d5c94a4758",
+    "spatial/query_parser.py": "4f9aa07e50ece052d6184cc7868e5c766410d806fbaeb49bdd88a772e165a835",
+    "spatial/schema.py": "24cc68f471974ddde296fbe6b7abfc79b92a770361e16ab26bb1bb5adaa8b692",
+    "evaluation/evaluate_structured_baseline.py": "379e7995422187b550fc194f88a1c05ac06d422ecd912f0a9ace51251ab94d41"
+  },
+  "bank_sha256": "5955354f864f74d9c555bb5ad8340cd203a90ede27083c45c1fdcea7b782e9cc",
+  "accepted": 320,
+  "rejected_paraphrases": 0,
+  "revised_paraphrases": 39,
+  "source_names_skipped_for_multiline_or_edge_whitespace": 0,
+  "review_limit": "Author/agent semantic review plus slot and execution checks; not independent native-speaker review. Constructed paraphrases, not real user logs.",
+  "source_selection": "First eligible distinct TRAIN anchors within deterministic hash partition; not a random representative sample.",
+  "split_policy": "Anchor-disjoint and wording-family-disjoint; source IDs also disjoint. All split/selection decisions fixed before Long calls.",
+  "core_sha256": "f1efc2ff1fe47c6a9baf751fc0a126124ff230e76f569910aa5ba49151b91ffc"
+}

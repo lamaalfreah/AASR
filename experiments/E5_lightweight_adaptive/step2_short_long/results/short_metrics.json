@@ -1,0 +1,85 @@
+{
+  "original_validation": {
+    "total": 2502,
+    "parse_success": 2502,
+    "parse_success_percent": 100.0,
+    "identity_status_counts": {
+      "UNIQUE": 2383,
+      "AMBIGUOUS": 119
+    },
+    "execution_status_counts": {
+      "success": 2383,
+      "ambiguous": 119
+    },
+    "executor_success": 2383,
+    "executor_success_percent": 95.243805,
+    "correct": 2383,
+    "accuracy_percent": 95.243805,
+    "answered_accuracy_percent": 100.0,
+    "identity_ambiguous": 119,
+    "identity_ambiguity_percent": 4.756195,
+    "ambiguous": 119,
+    "ambiguity_percent": 4.756195,
+    "abstentions": 119,
+    "abstention_percent": 4.756195,
+    "reconstructable_total": 2383,
+    "reconstructable_correct": 2383,
+    "reconstructable_accuracy_percent": 100.0,
+    "failure_stage_counts": {
+      "identity": 119
+    },
+    "split": "validation",
+    "purpose": "quality evaluation",
+    "operation_annotation_agreement": 2502,
+    "runtime": {
+      "total_wall_seconds": 0.581813292,
+      "total_inference_seconds": 0.4393388300000008,
+      "mean_inference_ms": 0.175595055955236,
+      "p50_inference_ms": 0.14235399999999732,
+      "p95_inference_ms": 0.3829874999999677,
+      "mean_wall_ms_per_record": 0.2325392853717026,
+      "context_cache": {
+        "hits": 1518,
+        "misses": 984,
+        "maxsize": 32,
+        "currsize": 32
+      },
+      "measurement": "One streaming pass in original order; cache cleared per split, LRU 32. Inference includes parsing, identity, geometry and trace construction; wall includes gzip/JSON, scoring, and audit-class lookup. No warmup or repeated benchmark."
+    }
+  },
+  "original_validation_provenance": "Reused frozen Step-1 full-split execution. No re-audit. Independent full structured-query EM labels do not exist for all original records; parse and operation agreement are 100%, query EM is not claimed.",
+  "core": {
+    "dev": {
+      "evaluated": 192,
+      "status": "evaluated",
+      "correct": 0,
+      "accuracy_percent": 0.0,
+      "query_exact_percent": 0.0,
+      "parse_success_percent": 0.0,
+      "abstention_percent": 100.0,
+      "status_counts": {
+        "unsupported": 192
+      },
+      "mean_ms": 0.0013374687499998073,
+      "p50_ms": 0.0012499999999943112,
+      "p95_ms": 0.0014590000000015702
+    },
+    "eval": {
+      "evaluated": 128,
+      "status": "evaluated",
+      "correct": 0,
+      "accuracy_percent": 0.0,
+      "query_exact_percent": 0.0,
+      "parse_success_percent": 0.0,
+      "abstention_percent": 100.0,
+      "status_counts": {
+        "unsupported": 128
+      },
+      "mean_ms": 0.001355460937500167,
+      "p50_ms": 0.0013330000000061348,
+      "p95_ms": 0.0015000000000015001
+    }
+  },
+  "llm_calls": 0,
+  "core_timing_scope": "Pre-parsed immutable contexts shared by both parsers. Short latency includes query parsing and execution if parsed; Long includes request, retry, validation and execution. Original-validation timing includes context parsing and is not directly comparable."
+}

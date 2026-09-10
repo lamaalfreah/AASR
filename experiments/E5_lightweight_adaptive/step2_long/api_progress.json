@@ -1,0 +1,17 @@
+{
+  "status": "blocked_model_unavailable",
+  "provider": "OpenRouter",
+  "model": "qwen/qwen3-4b:free",
+  "credential_loaded_locally": true,
+  "authentication_http_status": 200,
+  "exact_model_availability": "absent_from_current_catalogue",
+  "smoke_examples_completed": 0,
+  "smoke_gate": "not_passed",
+  "eval_examples_completed": 0,
+  "eval_examples_remaining": 128,
+  "successful_inference_calls": 0,
+  "inference_calls_attempted": 0,
+  "eval_accessed_for_long_inference": false,
+  "key_contents_saved_or_printed": false,
+  "next_action": "Stop until exact qwen/qwen3-4b:free becomes available or the user explicitly authorizes a different model. No substitution."
+}

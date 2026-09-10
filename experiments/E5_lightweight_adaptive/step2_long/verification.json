@@ -1,0 +1,7 @@
+{
+  "new_provider_tests_passed": 7,
+  "frozen_sources_and_checkpoint_match": true,
+  "challenge_hashes_match": true,
+  "no_live_inference_calls": true,
+  "test_note": "Synthetic provider responses verify mechanics only; excluded from live metrics."
+}
