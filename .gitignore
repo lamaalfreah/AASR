@@ -46,3 +46,4 @@ secrets/
 # Python generated files
 __pycache__/
 *.pyc
+data/raw/
