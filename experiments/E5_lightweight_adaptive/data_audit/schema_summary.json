@@ -1,0 +1,1508 @@
+{
+  "anchor_latitude": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "float": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "float": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "float": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "float": 24431
+    }
+  },
+  "anchor_longitude": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "float": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "float": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "float": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "float": 24431
+    }
+  },
+  "anchor_place": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "answer": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "answer_position": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2068,
+        "present": 2332,
+        "types": {
+          "null": 2068,
+          "str": 264
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 17430,
+        "present": 19597,
+        "types": {
+          "null": 17430,
+          "str": 2167
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2219,
+        "present": 2502,
+        "types": {
+          "null": 2219,
+          "str": 283
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 21717,
+    "null_percent_of_present": 88.8911628668495,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 21717,
+      "str": 2714
+    }
+  },
+  "article_chars": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "int": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "int": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "int": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "int": 24431
+    }
+  },
+  "context": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "context_chars": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "int": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "int": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "int": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "int": 24431
+    }
+  },
+  "context_length_bin_chars": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "country": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "difficulty": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "difficulty_score": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "float": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "float": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "float": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "float": 24431
+    }
+  },
+  "direction_constraint": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2159,
+        "present": 2332,
+        "types": {
+          "null": 2159,
+          "str": 173
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 18119,
+        "present": 19597,
+        "types": {
+          "null": 18119,
+          "str": 1478
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2311,
+        "present": 2502,
+        "types": {
+          "null": 2311,
+          "str": 191
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22589,
+    "null_percent_of_present": 92.46039867381606,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 22589,
+      "str": 1842
+    }
+  },
+  "evidence_poi_ids": {
+    "by_split": {
+      "test": {
+        "element_types": {
+          "str": 12747
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "list": 2332
+        }
+      },
+      "train": {
+        "element_types": {
+          "str": 111211
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "list": 19597
+        }
+      },
+      "validation": {
+        "element_types": {
+          "str": 13984
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "list": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "list": 24431
+    }
+  },
+  "first_hop_category": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2144,
+        "present": 2332,
+        "types": {
+          "null": 2144,
+          "str": 188
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 17994,
+        "present": 19597,
+        "types": {
+          "null": 17994,
+          "str": 1603
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2292,
+        "present": 2502,
+        "types": {
+          "null": 2292,
+          "str": 210
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22430,
+    "null_percent_of_present": 91.80958618149073,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 22430,
+      "str": 2001
+    }
+  },
+  "id": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "intermediate_answer": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2144,
+        "present": 2332,
+        "types": {
+          "null": 2144,
+          "str": 188
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 17994,
+        "present": 19597,
+        "types": {
+          "null": 17994,
+          "str": 1603
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2292,
+        "present": 2502,
+        "types": {
+          "null": 2292,
+          "str": 210
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22430,
+    "null_percent_of_present": 91.80958618149073,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 22430,
+      "str": 2001
+    }
+  },
+  "language": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "long_target": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "num_context_pois": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "int": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "int": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "int": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "int": 24431
+    }
+  },
+  "num_qualifying_pois": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2159,
+        "present": 2332,
+        "types": {
+          "float": 173,
+          "null": 2159
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 18119,
+        "present": 19597,
+        "types": {
+          "float": 1478,
+          "null": 18119
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2311,
+        "present": 2502,
+        "types": {
+          "float": 191,
+          "null": 2311
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22589,
+    "null_percent_of_present": 92.46039867381606,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "float": 1842,
+      "null": 22589
+    }
+  },
+  "question": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "radius_constraint_km": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2159,
+        "present": 2332,
+        "types": {
+          "float": 173,
+          "null": 2159
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 18119,
+        "present": 19597,
+        "types": {
+          "float": 1478,
+          "null": 18119
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2311,
+        "present": 2502,
+        "types": {
+          "float": 191,
+          "null": 2311
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22589,
+    "null_percent_of_present": 92.46039867381606,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "float": 1842,
+      "null": 22589
+    }
+  },
+  "recommended_reasoning": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "router_target_alpha": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2332,
+        "present": 2332,
+        "types": {
+          "null": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 19597,
+        "present": 19597,
+        "types": {
+          "null": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2502,
+        "present": 2502,
+        "types": {
+          "null": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 24431,
+    "null_percent_of_present": 100.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 24431
+    }
+  },
+  "second_hop_category": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2144,
+        "present": 2332,
+        "types": {
+          "null": 2144,
+          "str": 188
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 17994,
+        "present": 19597,
+        "types": {
+          "null": 17994,
+          "str": 1603
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2292,
+        "present": 2502,
+        "types": {
+          "null": 2292,
+          "str": 210
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22430,
+    "null_percent_of_present": 91.80958618149073,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 22430,
+      "str": 2001
+    }
+  },
+  "short_target": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "sources": {
+    "by_split": {
+      "test": {
+        "element_types": {
+          "str": 6996
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "list": 2332
+        }
+      },
+      "train": {
+        "element_types": {
+          "str": 58791
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "list": 19597
+        }
+      },
+      "validation": {
+        "element_types": {
+          "str": 7506
+        },
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "list": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "list": 24431
+    }
+  },
+  "split": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "target_category": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2159,
+        "present": 2332,
+        "types": {
+          "null": 2159,
+          "str": 173
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 18119,
+        "present": 19597,
+        "types": {
+          "null": 18119,
+          "str": 1478
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 2311,
+        "present": 2502,
+        "types": {
+          "null": 2311,
+          "str": 191
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 22589,
+    "null_percent_of_present": 92.46039867381606,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "null": 22589,
+      "str": 1842
+    }
+  },
+  "task_type": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "verified_rationale": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "wikidata_id": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  },
+  "wikipedia_title": {
+    "by_split": {
+      "test": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2332,
+        "types": {
+          "str": 2332
+        }
+      },
+      "train": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 19597,
+        "types": {
+          "str": 19597
+        }
+      },
+      "validation": {
+        "element_types": {},
+        "empty_list": 0,
+        "empty_string": 0,
+        "null": 0,
+        "present": 2502,
+        "types": {
+          "str": 2502
+        }
+      }
+    },
+    "empty_list_count": 0,
+    "empty_string_count": 0,
+    "null_count": 0,
+    "null_percent_of_present": 0.0,
+    "presence_count": 24431,
+    "presence_percent": 100.0,
+    "types": {
+      "str": 24431
+    }
+  }
+}

@@ -1,0 +1,43 @@
+split,category,count
+test,بنك,13493
+test,جامعة,6480
+test,روضة أطفال,2562
+test,صراف آلي,5928
+test,صيدلية,13375
+test,عيادة,10540
+test,كلية,6318
+test,محطة وقود,12259
+test,مدرسة,8572
+test,مستشفى,13500
+test,مطعم,14158
+test,مطعم وجبات سريعة,15007
+test,مقهى,13725
+test,مكان عبادة,8230
+train,بنك,112243
+train,جامعة,55127
+train,روضة أطفال,20269
+train,صراف آلي,48203
+train,صيدلية,110130
+train,عيادة,91626
+train,كلية,52592
+train,محطة وقود,108736
+train,مدرسة,83451
+train,مستشفى,122960
+train,مطعم,130283
+train,مطعم وجبات سريعة,124159
+train,مقهى,117583
+train,مكان عبادة,76583
+validation,بنك,13912
+validation,جامعة,6849
+validation,روضة أطفال,2472
+validation,صراف آلي,5838
+validation,صيدلية,13240
+validation,عيادة,11649
+validation,كلية,6420
+validation,محطة وقود,13837
+validation,مدرسة,9858
+validation,مستشفى,15006
+validation,مطعم,16065
+validation,مطعم وجبات سريعة,15803
+validation,مقهى,14714
+validation,مكان عبادة,9398

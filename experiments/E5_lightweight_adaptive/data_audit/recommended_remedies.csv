@@ -1,0 +1,210 @@
+issue,split,task_type,affected_records,remedy_class,exact_rule,raw_untouched
+answer_edge_whitespace,train,nearest_category,27,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_edge_whitespace,train,nearest_of_two_categories,12,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_edge_whitespace,train,spatial_multi_constraint,2,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_edge_whitespace,train,two_hop_nearest,4,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_edge_whitespace,validation,nearest_category,3,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_edge_whitespace,validation,nearest_of_two_categories,2,B,Retain raw target and define a separately documented comparison key; never silently rewrite raw labels.,True
+answer_position_mismatch,train,closer_of_two,4,F,"Re-derive comparison-position target from the two quoted alternatives on TRAIN only, after review.",True
+article_chars_mismatch,train,cardinal_direction,6,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,closer_of_two,4,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,count_within_radius,1,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,nearest_category,13,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,nearest_of_two_categories,4,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,spatial_multi_constraint,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,two_hop_nearest,4,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,train,within_radius_yes_no,4,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,cardinal_direction,3,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,closer_of_two,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,count_within_radius,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,nearest_category,9,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,nearest_of_two_categories,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,spatial_multi_constraint,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,two_hop_nearest,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+article_chars_mismatch,validation,within_radius_yes_no,2,B,Treat trim-based article lengths as derived measurements; retain stored construction count.,True
+candidate_name_edge_whitespace,test,cardinal_direction,24,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,closer_of_two,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,count_within_radius,8,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,nearest_category,80,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,nearest_of_two_categories,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,spatial_multi_constraint,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,two_hop_nearest,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,test,within_radius_yes_no,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,cardinal_direction,155,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,closer_of_two,104,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,count_within_radius,41,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,nearest_category,511,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,nearest_of_two_categories,104,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,spatial_multi_constraint,104,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,two_hop_nearest,104,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,train,within_radius_yes_no,104,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,cardinal_direction,23,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,closer_of_two,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,count_within_radius,6,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,nearest_category,76,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,nearest_of_two_categories,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,spatial_multi_constraint,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,two_hop_nearest,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+candidate_name_edge_whitespace,validation,within_radius_yes_no,16,A,Preserve raw names; any future normalized lookup key must be separate and collision-aware.,True
+count_origin_name_collides_with_context_anchor,test,count_within_radius,3,C,Represent query origin explicitly; clarify whether named OSM candidate or context anchor when coordinates differ.,True
+count_origin_name_collides_with_context_anchor,train,count_within_radius,17,C,Represent query origin explicitly; clarify whether named OSM candidate or context anchor when coordinates differ.,True
+count_origin_name_collides_with_context_anchor,validation,count_within_radius,3,C,Represent query origin explicitly; clarify whether named OSM candidate or context anchor when coordinates differ.,True
+count_would_change_if_names_deduplicated,train,count_within_radius,115,B,"Count candidate records, not unique names; name deduplication changes valid counts.",True
+count_would_change_if_names_deduplicated,validation,count_within_radius,6,B,"Count candidate records, not unique names; name deduplication changes valid counts.",True
+duplicate_candidate_coordinates,test,cardinal_direction,13,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,closer_of_two,10,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,count_within_radius,3,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,nearest_category,43,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,nearest_of_two_categories,10,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,spatial_multi_constraint,10,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,two_hop_nearest,10,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,test,within_radius_yes_no,10,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,cardinal_direction,64,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,closer_of_two,44,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,count_within_radius,9,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,nearest_category,177,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,nearest_of_two_categories,43,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,spatial_multi_constraint,41,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,two_hop_nearest,42,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_coordinates,train,within_radius_yes_no,44,E,Review co-located entities; do not merge on coordinates.,True
+duplicate_candidate_names,test,cardinal_direction,285,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,closer_of_two,193,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,count_within_radius,82,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,nearest_category,708,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,nearest_of_two_categories,173,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,spatial_multi_constraint,165,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,two_hop_nearest,176,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,test,within_radius_yes_no,192,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,cardinal_direction,2383,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,closer_of_two,1637,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,count_within_radius,617,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,nearest_category,6147,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,nearest_of_two_categories,1470,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,spatial_multi_constraint,1384,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,two_hop_nearest,1487,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,train,within_radius_yes_no,1612,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,cardinal_direction,283,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,closer_of_two,202,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,count_within_radius,77,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,nearest_category,753,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,nearest_of_two_categories,183,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,spatial_multi_constraint,175,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,two_hop_nearest,190,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_names,validation,within_radius_yes_no,202,C,Preserve separate candidate identities; duplicate name alone does not imply a query is ambiguous.,True
+duplicate_candidate_rows,test,cardinal_direction,7,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,closer_of_two,6,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,count_within_radius,2,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,nearest_category,30,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,nearest_of_two_categories,6,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,spatial_multi_constraint,6,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,two_hop_nearest,6,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,test,within_radius_yes_no,6,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,cardinal_direction,47,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,closer_of_two,32,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,count_within_radius,7,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,nearest_category,144,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,nearest_of_two_categories,32,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,spatial_multi_constraint,32,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,two_hop_nearest,32,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+duplicate_candidate_rows,train,within_radius_yes_no,32,E,Preserve duplicate rows until original OSM identities and multiplicity semantics are recovered.,True
+exact_nearest_tie,train,nearest_category,6,G,Preserve all exact minima; do not invent an ordinal tie break.,True
+exact_nearest_tie,train,nearest_of_two_categories,8,G,Preserve all exact minima; do not invent an ordinal tie break.,True
+exact_nearest_tie,train,spatial_multi_constraint,1,G,Preserve all exact minima; do not invent an ordinal tie break.,True
+intermediate_name_repeated_but_geometry_resolves,train,two_hop_nearest,202,B,Select first hop by geometry and retain its candidate identity; do not resolve the gold intermediate name by lookup.,True
+intermediate_name_repeated_but_geometry_resolves,validation,two_hop_nearest,24,B,Select first hop by geometry and retain its candidate identity; do not resolve the gold intermediate name by lookup.,True
+multi_constraint_four_sector_answer_differs,train,spatial_multi_constraint,172,B,Use train-derived +/-35-degree filtering before nearest selection; do not change raw labels.,True
+multi_constraint_four_sector_answer_differs,validation,spatial_multi_constraint,16,B,Use train-derived +/-35-degree filtering before nearest selection; do not change raw labels.,True
+multi_constraint_four_sector_count_differs,train,spatial_multi_constraint,514,B,Use separate +/-35-degree directional filter for multi-constraint tasks; four-sector classification is different.,True
+multi_constraint_four_sector_count_differs,validation,spatial_multi_constraint,61,B,Use separate +/-35-degree directional filter for multi-constraint tasks; four-sector classification is different.,True
+multiline_candidate_names,test,cardinal_direction,39,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,closer_of_two,26,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,count_within_radius,18,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,nearest_category,116,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,nearest_of_two_categories,26,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,spatial_multi_constraint,26,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,two_hop_nearest,26,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,test,within_radius_yes_no,26,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,cardinal_direction,191,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,closer_of_two,132,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,count_within_radius,56,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,nearest_category,595,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,nearest_of_two_categories,132,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,spatial_multi_constraint,132,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,two_hop_nearest,132,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,train,within_radius_yes_no,132,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,cardinal_direction,33,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,closer_of_two,22,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,count_within_radius,11,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,nearest_category,97,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,nearest_of_two_categories,22,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,spatial_multi_constraint,22,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,two_hop_nearest,22,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+multiline_candidate_names,validation,within_radius_yes_no,22,A,Parse complete numbered candidate blocks across newlines; preserve name text.,True
+named_identity_ambiguous,test,cardinal_direction,45,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,test,closer_of_two,58,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,test,count_within_radius,4,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,train,cardinal_direction,307,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,train,closer_of_two,493,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,train,count_within_radius,56,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,validation,cardinal_direction,30,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,validation,closer_of_two,71,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+named_identity_ambiguous,validation,count_within_radius,10,C,Return ambiguity set; exclude from unique entity-link labels unless identity is independently supplied.,True
+nearest_gap_within_0_2m,train,nearest_category,15,G,Flag fixed 0.2m rounding-sensitivity envelope; inspect original precision before changing order.,True
+nearest_gap_within_0_2m,train,nearest_of_two_categories,10,G,Flag fixed 0.2m rounding-sensitivity envelope; inspect original precision before changing order.,True
+nearest_gap_within_0_2m,train,spatial_multi_constraint,6,G,Flag fixed 0.2m rounding-sensitivity envelope; inspect original precision before changing order.,True
+nearest_gap_within_0_2m,validation,nearest_category,2,G,Flag fixed 0.2m rounding-sensitivity envelope; inspect original precision before changing order.,True
+nearest_gap_within_0_2m,validation,nearest_of_two_categories,2,G,Flag fixed 0.2m rounding-sensitivity envelope; inspect original precision before changing order.,True
+query_origin_differs_from_context_anchor,test,count_within_radius,86,B,Resolve the origin named in the question from visible candidates; never substitute context main anchor.,True
+query_origin_differs_from_context_anchor,train,count_within_radius,684,B,Resolve the origin named in the question from visible candidates; never substitute context main anchor.,True
+query_origin_differs_from_context_anchor,validation,count_within_radius,94,B,Resolve the origin named in the question from visible candidates; never substitute context main anchor.,True
+radius_boundary_within_0_2m,train,count_within_radius,1,G,Flag fixed 0.2m radius sensitivity; threshold is diagnostic only.,True
+radius_boundary_within_0_2m,train,within_radius_yes_no,1,G,Flag fixed 0.2m radius sensitivity; threshold is diagnostic only.,True
+radius_boundary_within_0_2m,validation,within_radius_yes_no,1,G,Flag fixed 0.2m radius sensitivity; threshold is diagnostic only.,True
+reconstructability_B,train,cardinal_direction,337,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,train,closer_of_two,502,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,train,count_within_radius,73,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,train,nearest_category,5,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,validation,cardinal_direction,33,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,validation,closer_of_two,73,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_B,validation,count_within_radius,13,D,Candidate for exclusion from single-answer/entity-identity training; retain for ambiguity-aware evaluation and clarification.,True
+reconstructability_F,train,within_radius_yes_no,1,G,Review source coordinate precision/rounding and label provenance; do not automatically relabel or drop.,True
+repeated_name_gold_answer,train,closer_of_two,249,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,train,nearest_category,837,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,train,nearest_of_two_categories,230,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,train,spatial_multi_constraint,257,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,train,two_hop_nearest,228,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,validation,closer_of_two,33,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,validation,nearest_category,103,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,validation,nearest_of_two_categories,32,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,validation,spatial_multi_constraint,25,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+repeated_name_gold_answer,validation,two_hop_nearest,34,C,Answer text is not a unique entity identity; obtain ID from geometry or retain multiple matches.,True
+same_name_multiple_coordinates,test,cardinal_direction,285,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,closer_of_two,193,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,count_within_radius,82,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,nearest_category,708,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,nearest_of_two_categories,173,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,spatial_multi_constraint,165,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,two_hop_nearest,176,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,test,within_radius_yes_no,192,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,cardinal_direction,2383,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,closer_of_two,1637,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,count_within_radius,617,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,nearest_category,6147,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,nearest_of_two_categories,1470,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,spatial_multi_constraint,1384,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,two_hop_nearest,1487,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,train,within_radius_yes_no,1612,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,cardinal_direction,283,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,closer_of_two,202,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,count_within_radius,77,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,nearest_category,753,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,nearest_of_two_categories,183,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,spatial_multi_constraint,175,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,two_hop_nearest,190,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+same_name_multiple_coordinates,validation,within_radius_yes_no,202,C,Keep distinct locations and flag identity uncertainty when referenced.,True
+target_name_collides_with_context_anchor,test,cardinal_direction,6,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True
+target_name_collides_with_context_anchor,test,closer_of_two,2,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True
+target_name_collides_with_context_anchor,train,cardinal_direction,31,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True
+target_name_collides_with_context_anchor,train,closer_of_two,9,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True
+target_name_collides_with_context_anchor,validation,cardinal_direction,3,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True
+target_name_collides_with_context_anchor,validation,closer_of_two,3,C,A target repeats the main anchor name at another coordinate; require explicit candidate identity before assigning a unique spatial answer.,True

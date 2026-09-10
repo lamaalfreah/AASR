@@ -1,0 +1,2294 @@
+{
+  "issues": {
+    "answer_edge_whitespace": [
+      {
+        "detail": "",
+        "id": "c0c5859307311b4e",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "bcc80c1c7eed420d",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "67a5d67e25533b86",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "46eb84e5edf3db14",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "07f4b9e3648293f8",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "answer_position_mismatch": [
+      {
+        "detail": "{'expected': 'first', 'stored': 'second'}",
+        "id": "bbd01df5e94e5f30",
+        "split": "train",
+        "task_type": "closer_of_two"
+      },
+      {
+        "detail": "{'expected': 'first', 'stored': 'second'}",
+        "id": "35cd3828e0182a18",
+        "split": "train",
+        "task_type": "closer_of_two"
+      },
+      {
+        "detail": "{'expected': 'first', 'stored': 'second'}",
+        "id": "b6a3b8cb2a5dfc08",
+        "split": "train",
+        "task_type": "closer_of_two"
+      },
+      {
+        "detail": "{'expected': 'first', 'stored': 'second'}",
+        "id": "a3d060e1456ff6f2",
+        "split": "train",
+        "task_type": "closer_of_two"
+      }
+    ],
+    "article_chars_mismatch": [
+      {
+        "detail": "{'observed': 758, 'metadata': 759}",
+        "id": "4b949998c6f0e934",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'observed': 758, 'metadata': 759}",
+        "id": "cbe59f9ece27ef86",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'observed': 758, 'metadata': 759}",
+        "id": "5fc0c7d338a5d862",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'observed': 758, 'metadata': 759}",
+        "id": "c4d587ada1dacf85",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'observed': 758, 'metadata': 759}",
+        "id": "3c07075792a72d16",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "candidate_name_edge_whitespace": [
+      {
+        "detail": "",
+        "id": "88e320a34fdf07dd",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "e836e2b99baf2fd7",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "61b793055b1485d0",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "5c363c25d188cf14",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "643f94c592257754",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "count_origin_name_collides_with_context_anchor": [
+      {
+        "detail": "",
+        "id": "3c11566fd8ae213e",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "e0cc1791a01050e9",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "110f7dc981a2862b",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "48eb804bc7369a27",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "51cdd9f679607a98",
+        "split": "train",
+        "task_type": "count_within_radius"
+      }
+    ],
+    "count_would_change_if_names_deduplicated": [
+      {
+        "detail": "",
+        "id": "5409a118a3a0c998",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "fb34246e33dd94dd",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "387b829faa7baf76",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "a9364429a5014745",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "d38c61adec902870",
+        "split": "train",
+        "task_type": "count_within_radius"
+      }
+    ],
+    "duplicate_candidate_coordinates": [
+      {
+        "detail": "",
+        "id": "b60975eaf79c9ce0",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "629a0b48426e9e4a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "2984b4833fe83a2f",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "0ee9f17fabdf5c39",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "05521693ef9786f6",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "duplicate_candidate_names": [
+      {
+        "detail": "",
+        "id": "b3535f5aae6c7234",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "0a089e9ae7fed0f1",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "1aeae56773067116",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "a5747250accd054e",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "7395ada6311b8c4a",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "duplicate_candidate_rows": [
+      {
+        "detail": "",
+        "id": "b60975eaf79c9ce0",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "629a0b48426e9e4a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "2984b4833fe83a2f",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "0ee9f17fabdf5c39",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "05521693ef9786f6",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "exact_nearest_tie": [
+      {
+        "detail": "",
+        "id": "54467d69a0215542",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "6ff8ed5f5e825dfb",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "6a18b80b2c497f1a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "527eed3eafd6846f",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "15d91e8fc5bf2047",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "intermediate_name_repeated_but_geometry_resolves": [
+      {
+        "detail": "4",
+        "id": "48f9e2bcd9f6882d",
+        "split": "train",
+        "task_type": "two_hop_nearest"
+      },
+      {
+        "detail": "2",
+        "id": "f79a2d63b976ec9c",
+        "split": "train",
+        "task_type": "two_hop_nearest"
+      },
+      {
+        "detail": "6",
+        "id": "169d0a60c2d85ebb",
+        "split": "train",
+        "task_type": "two_hop_nearest"
+      },
+      {
+        "detail": "6",
+        "id": "9a180bbff755bc3b",
+        "split": "train",
+        "task_type": "two_hop_nearest"
+      },
+      {
+        "detail": "2",
+        "id": "c797d11a52208e76",
+        "split": "train",
+        "task_type": "two_hop_nearest"
+      }
+    ],
+    "multi_constraint_four_sector_answer_differs": [
+      {
+        "detail": "",
+        "id": "ce702cac5c19ec4d",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "f56c162eb87f27f8",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "798ed8691957d839",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "827275b7799cf22e",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "7e2c606f9d05581c",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      }
+    ],
+    "multi_constraint_four_sector_count_differs": [
+      {
+        "detail": "",
+        "id": "59c8511d1688e532",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "6b1b148b910f95bb",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "beb2eedd6f45727b",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "75f55d4b5f115ae2",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      },
+      {
+        "detail": "",
+        "id": "8a4877ac16588198",
+        "split": "train",
+        "task_type": "spatial_multi_constraint"
+      }
+    ],
+    "multiline_candidate_names": [
+      {
+        "detail": "5",
+        "id": "14820c98d2e74039",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "5",
+        "id": "7a666f8383ac0e99",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "5",
+        "id": "31672147949ad7d3",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "5",
+        "id": "c3a5a7d65aff18c6",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "5",
+        "id": "1c7f7c0c215397cb",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "named_identity_ambiguous": [
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «أي براند» بالنسبة إلى «قصر شبرا (الطائف)»؟', 'match_counts': [4]}",
+        "id": "a3fe6d649651c3a6",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «جامع» بالنسبة إلى «دحل الهشامي»؟', 'match_counts': [2]}",
+        "id": "6d9137c5d60015c5",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «Mosque» بالنسبة إلى «هيئة تنمية البحث والتطوير والابتكار»؟', 'match_counts': [3]}",
+        "id": "f90546fd4c437981",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': \"في أي اتجاه يقع «Dunkin' Donuts» بالنسبة إلى «جدة سوبر دوم»؟\", 'match_counts': [4]}",
+        "id": "632e37dff096fb63",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «ستاربكس» بالنسبة إلى «الرياض بارك»؟', 'match_counts': [4]}",
+        "id": "d5cb9fffa1b5ea60",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      }
+    ],
+    "nearest_gap_within_0_2m": [
+      {
+        "detail": "",
+        "id": "0f5ed7b36bed8c3d",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "54467d69a0215542",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "75aafb8aff400b0a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "c1a5600bcfa41e74",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "cd4f11a9825aecf0",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "query_origin_differs_from_context_anchor": [
+      {
+        "detail": "{'question': 'كم عدد المعالم من نوع «مستشفى» الواقعة ضمن مسافة 1.5 كم تقريبًا من «مسجد عبدالله مفوز» وفق الإحداثيات المتاحة؟', 'context_anchor': 'جبل أحد'}",
+        "id": "08dbab2028512cc0",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "{'question': 'كم عدد المعالم من نوع «مدرسة» الواقعة ضمن مسافة 1.5 كم تقريبًا من «مصلى عيد الحزم» وفق الإحداثيات المتاحة؟', 'context_anchor': 'الخماسين (وادي الدواسر)'}",
+        "id": "792f9218affecf9c",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "{'question': 'كم عدد المعالم من نوع «محطة وقود» الواقعة ضمن مسافة 2 كم تقريبًا من «هرفي» وفق الإحداثيات المتاحة؟', 'context_anchor': 'بحيرة دومة الجندل'}",
+        "id": "47a6a4cde79431d0",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "{'question': 'كم عدد المعالم من نوع «محطة وقود» الواقعة ضمن مسافة 1.5 كم تقريبًا من «مسجد الرابطة» وفق الإحداثيات المتاحة؟', 'context_anchor': 'مجمع الملك عبد العزيز لكسوة الكعبة المشرفة'}",
+        "id": "5409a118a3a0c998",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "{'question': 'كم عدد المعالم من نوع «مدرسة» الواقعة ضمن مسافة 1.5 كم تقريبًا من «صيدلية النهدي» وفق الإحداثيات المتاحة؟', 'context_anchor': 'المدرسة الهندية العالمية (جدة)'}",
+        "id": "0ab587ce5fbf7d20",
+        "split": "train",
+        "task_type": "count_within_radius"
+      }
+    ],
+    "radius_boundary_within_0_2m": [
+      {
+        "detail": "",
+        "id": "0d72e822252187b2",
+        "split": "train",
+        "task_type": "within_radius_yes_no"
+      },
+      {
+        "detail": "",
+        "id": "0820eee9c492d44a",
+        "split": "train",
+        "task_type": "count_within_radius"
+      },
+      {
+        "detail": "",
+        "id": "01b1a9bb6f359090",
+        "split": "validation",
+        "task_type": "within_radius_yes_no"
+      }
+    ],
+    "reconstructability_B": [
+      {
+        "detail": "{'reason': 'exact_spatial_tie_changes_visible_answer', 'question': 'ما أقرب جامعة إلى «الخالدية (الخرج)» من بين المعالم الواردة في السياق؟', 'gold': 'Prince Sattam bin Abdul Aziz University (PSAU)', 'details': {'identity': 'NOT APPLICABLE', 'nearest_gaps_km': [0.0], 'selected_distances_km': [2.5921692643717456], 'first_visible_tied_candidate_matches_gold': False, 'tied_candidates': [{'ordinal': 6, 'name': 'جامعة الأمير سطام بن عبدالعزيز'}, {'ordinal': 23, 'name': 'Prince Sattam bin Abdul Aziz Un",
+        "id": "54467d69a0215542",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'reason': 'exact_spatial_tie_changes_visible_answer', 'question': 'ما أقرب جامعة إلى «السيح» من بين المعالم الواردة في السياق؟', 'gold': 'جامعة الأمير سطام بن عبدالعزيز', 'details': {'identity': 'NOT APPLICABLE', 'nearest_gaps_km': [0.0], 'selected_distances_km': [3.337277495010546], 'first_visible_tied_candidate_matches_gold': False, 'tied_candidates': [{'ordinal': 23, 'name': 'Prince Sattam bin Abdul Aziz University (PSAU)'}, {'ordinal': 31, 'name': 'جامعة الأمير سطام بن عبدالعزيز'}], 'predic",
+        "id": "6ff8ed5f5e825dfb",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'reason': 'exact_spatial_tie_changes_visible_answer', 'question': 'ما أقرب جامعة إلى «محافظة الخرج» من بين المعالم الواردة في السياق؟', 'gold': 'جامعة الأمير سطام بن عبدالعزيز', 'details': {'identity': 'NOT APPLICABLE', 'nearest_gaps_km': [0.0], 'selected_distances_km': [3.337276617213248], 'first_visible_tied_candidate_matches_gold': True, 'tied_candidates': [{'ordinal': 22, 'name': 'جامعة الأمير سطام بن عبدالعزيز'}, {'ordinal': 25, 'name': 'Prince Sattam bin Abdul Aziz University (PSAU)'}], '",
+        "id": "6a18b80b2c497f1a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'reason': 'exact_spatial_tie_changes_visible_answer', 'question': 'ما أقرب جامعة إلى «اليمامة (إقليم)» من بين المعالم الواردة في السياق؟', 'gold': 'جامعة الأمير سطام بن عبدالعزيز', 'details': {'identity': 'NOT APPLICABLE', 'nearest_gaps_km': [0.0], 'selected_distances_km': [3.337277495010546], 'first_visible_tied_candidate_matches_gold': False, 'tied_candidates': [{'ordinal': 9, 'name': 'Prince Sattam bin Abdul Aziz University (PSAU)'}, {'ordinal': 29, 'name': 'جامعة الأمير سطام بن عبدالعزيز'}]",
+        "id": "527eed3eafd6846f",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "{'reason': 'exact_spatial_tie_changes_visible_answer', 'question': 'ما أقرب جامعة إلى «ملعب نادي الشعلة» من بين المعالم الواردة في السياق؟', 'gold': 'Prince Sattam bin Abdul Aziz University (PSAU)', 'details': {'identity': 'NOT APPLICABLE', 'nearest_gaps_km': [0.0], 'selected_distances_km': [8.973671391374118], 'first_visible_tied_candidate_matches_gold': True, 'tied_candidates': [{'ordinal': 9, 'name': 'Prince Sattam bin Abdul Aziz University (PSAU)'}, {'ordinal': 12, 'name': 'جامعة الأمير سطام",
+        "id": "f6b54bb4355f27b2",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "reconstructability_F": [
+      {
+        "detail": "{'reason': 'visible_input_reconstruction_disagrees_with_gold', 'question': 'هل يوجد مستشفى ضمن مسافة 3 كم تقريبًا من «كلية الجبيل الجامعية» من بين المعالم الواردة في السياق؟', 'gold': 'نعم', 'details': {'identity': 'NOT APPLICABLE', 'qualifying_count': 0, 'strict_count': 0, 'exact_boundary_candidates': 0, 'nearest_radius_gap_km': 0.00028135771708637236, 'rounded_3decimal_radius_matches_gold': True, 'unrounded_radius_matches_gold': False, 'count_radius_6371': 0, 'predicted_answers': ['لا']}}",
+        "id": "7a7831fabeacb0c8",
+        "split": "train",
+        "task_type": "within_radius_yes_no"
+      }
+    ],
+    "repeated_name_gold_answer": [
+      {
+        "detail": "مصرف الراجحي",
+        "id": "e5e5453f0ad5bd2a",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "صيدلية النهدي",
+        "id": "75214e5b35cd82ee",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "البنك العربي الوطني",
+        "id": "83758c5308746ede",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "مركز الرعاية الصحية الأولية",
+        "id": "e00040ac149b71e9",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "صيدلية النهدي",
+        "id": "2e618c352764c72e",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "same_name_multiple_coordinates": [
+      {
+        "detail": "",
+        "id": "b3535f5aae6c7234",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "0a089e9ae7fed0f1",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "1aeae56773067116",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "a5747250accd054e",
+        "split": "train",
+        "task_type": "nearest_category"
+      },
+      {
+        "detail": "",
+        "id": "7395ada6311b8c4a",
+        "split": "train",
+        "task_type": "nearest_category"
+      }
+    ],
+    "target_name_collides_with_context_anchor": [
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «الأبواء» بالنسبة إلى «الأبواء»؟'}",
+        "id": "e2f8f921d92cf06f",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «كلية الملك خالد العسكرية» بالنسبة إلى «كلية الملك خالد العسكرية»؟'}",
+        "id": "20a265653f6bcb92",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «مسجد الغمامة» بالنسبة إلى «مسجد الغمامة»؟'}",
+        "id": "d7ecf30161d856b2",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «مسجد المشعر الحرام» بالنسبة إلى «مسجد المشعر الحرام»؟'}",
+        "id": "b551c100eb1c01ce",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      },
+      {
+        "detail": "{'question': 'في أي اتجاه يقع «ساحوت» بالنسبة إلى «ساحوت»؟'}",
+        "id": "f54504a073d2ab1b",
+        "split": "train",
+        "task_type": "cardinal_direction"
+      }
+    ]
+  },
+  "reconstruction_examples": [
+    {
+      "class": "B",
+      "details": {
+        "first_visible_tied_candidate_matches_gold": false,
+        "identity": "NOT APPLICABLE",
+        "nearest_gaps_km": [
+          0.0
+        ],
+        "predicted_answers": [
+          "Prince Sattam bin Abdul Aziz University (PSAU)",
+          "جامعة الأمير سطام بن عبدالعزيز"
+        ],
+        "selected_distances_km": [
+          2.5921692643717456
+        ],
+        "tied_candidates": [
+          {
+            "name": "جامعة الأمير سطام بن عبدالعزيز",
+            "ordinal": 6
+          },
+          {
+            "name": "Prince Sattam bin Abdul Aziz University (PSAU)",
+            "ordinal": 23
+          }
+        ]
+      },
+      "flags": [
+        "exact_nearest_tie",
+        "nearest_gap_within_0_2m"
+      ],
+      "gold": "Prince Sattam bin Abdul Aziz University (PSAU)",
+      "id": "54467d69a0215542",
+      "question": "ما أقرب جامعة إلى «الخالدية (الخرج)» من بين المعالم الواردة في السياق؟",
+      "reason": "exact_spatial_tie_changes_visible_answer",
+      "split": "train",
+      "task_type": "nearest_category"
+    },
+    {
+      "class": "B",
+      "details": {
+        "first_visible_tied_candidate_matches_gold": false,
+        "identity": "NOT APPLICABLE",
+        "nearest_gaps_km": [
+          0.0
+        ],
+        "predicted_answers": [
+          "Prince Sattam bin Abdul Aziz University (PSAU)",
+          "جامعة الأمير سطام بن عبدالعزيز"
+        ],
+        "selected_distances_km": [
+          3.337277495010546
+        ],
+        "tied_candidates": [
+          {
+            "name": "Prince Sattam bin Abdul Aziz University (PSAU)",
+            "ordinal": 23
+          },
+          {
+            "name": "جامعة الأمير سطام بن عبدالعزيز",
+            "ordinal": 31
+          }
+        ]
+      },
+      "flags": [
+        "exact_nearest_tie",
+        "nearest_gap_within_0_2m"
+      ],
+      "gold": "جامعة الأمير سطام بن عبدالعزيز",
+      "id": "6ff8ed5f5e825dfb",
+      "question": "ما أقرب جامعة إلى «السيح» من بين المعالم الواردة في السياق؟",
+      "reason": "exact_spatial_tie_changes_visible_answer",
+      "split": "train",
+      "task_type": "nearest_category"
+    },
+    {
+      "class": "B",
+      "details": {
+        "first_visible_tied_candidate_matches_gold": true,
+        "identity": "NOT APPLICABLE",
+        "nearest_gaps_km": [
+          0.0
+        ],
+        "predicted_answers": [
+          "Prince Sattam bin Abdul Aziz University (PSAU)",
+          "جامعة الأمير سطام بن عبدالعزيز"
+        ],
+        "selected_distances_km": [
+          3.337276617213248
+        ],
+        "tied_candidates": [
+          {
+            "name": "جامعة الأمير سطام بن عبدالعزيز",
+            "ordinal": 22
+          },
+          {
+            "name": "Prince Sattam bin Abdul Aziz University (PSAU)",
+            "ordinal": 25
+          }
+        ]
+      },
+      "flags": [
+        "exact_nearest_tie",
+        "nearest_gap_within_0_2m"
+      ],
+      "gold": "جامعة الأمير سطام بن عبدالعزيز",
+      "id": "6a18b80b2c497f1a",
+      "question": "ما أقرب جامعة إلى «محافظة الخرج» من بين المعالم الواردة في السياق؟",
+      "reason": "exact_spatial_tie_changes_visible_answer",
+      "split": "train",
+      "task_type": "nearest_category"
+    },
+    {
+      "class": "B",
+      "details": {
+        "first_visible_tied_candidate_matches_gold": false,
+        "identity": "NOT APPLICABLE",
+        "nearest_gaps_km": [
+          0.0
+        ],
+        "predicted_answers": [
+          "Prince Sattam bin Abdul Aziz University (PSAU)",
+          "جامعة الأمير سطام بن عبدالعزيز"
+        ],
+        "selected_distances_km": [
+          3.337277495010546
+        ],
+        "tied_candidates": [
+          {
+            "name": "Prince Sattam bin Abdul Aziz University (PSAU)",
+            "ordinal": 9
+          },
+          {
+            "name": "جامعة الأمير سطام بن عبدالعزيز",
+            "ordinal": 29
+          }
+        ]
+      },
+      "flags": [
+        "exact_nearest_tie",
+        "nearest_gap_within_0_2m"
+      ],
+      "gold": "جامعة الأمير سطام بن عبدالعزيز",
+      "id": "527eed3eafd6846f",
+      "question": "ما أقرب جامعة إلى «اليمامة (إقليم)» من بين المعالم الواردة في السياق؟",
+      "reason": "exact_spatial_tie_changes_visible_answer",
+      "split": "train",
+      "task_type": "nearest_category"
+    },
+    {
+      "class": "B",
+      "details": {
+        "first_visible_tied_candidate_matches_gold": true,
+        "identity": "NOT APPLICABLE",
+        "nearest_gaps_km": [
+          0.0
+        ],
+        "predicted_answers": [
+          "Prince Sattam bin Abdul Aziz University (PSAU)",
+          "جامعة الأمير سطام بن عبدالعزيز"
+        ],
+        "selected_distances_km": [
+          8.973671391374118
+        ],
+        "tied_candidates": [
+          {
+            "name": "Prince Sattam bin Abdul Aziz University (PSAU)",
+            "ordinal": 9
+          },
+          {
+            "name": "جامعة الأمير سطام بن عبدالعزيز",
+            "ordinal": 12
+          }
+        ]
+      },
+      "flags": [
+        "exact_nearest_tie",
+        "nearest_gap_within_0_2m"
+      ],
+      "gold": "Prince Sattam bin Abdul Aziz University (PSAU)",
+      "id": "f6b54bb4355f27b2",
+      "question": "ما أقرب جامعة إلى «ملعب نادي الشعلة» من بين المعالم الواردة في السياق؟",
+      "reason": "exact_spatial_tie_changes_visible_answer",
+      "split": "train",
+      "task_type": "nearest_category"
+    },
+    {
+      "class": "B",
+      "details": {
+        "target_context_name_collision": true
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "e2f8f921d92cf06f",
+      "question": "في أي اتجاه يقع «الأبواء» بالنسبة إلى «الأبواء»؟",
+      "reason": "named_target_and_context_anchor_share_name_but_coordinates_differ",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "a3fe6d649651c3a6",
+      "question": "في أي اتجاه يقع «أي براند» بالنسبة إلى «قصر شبرا (الطائف)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "6d9137c5d60015c5",
+      "question": "في أي اتجاه يقع «جامع» بالنسبة إلى «دحل الهشامي»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "f90546fd4c437981",
+      "question": "في أي اتجاه يقع «Mosque» بالنسبة إلى «هيئة تنمية البحث والتطوير والابتكار»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "632e37dff096fb63",
+      "question": "في أي اتجاه يقع «Dunkin' Donuts» بالنسبة إلى «جدة سوبر دوم»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "d5cb9fffa1b5ea60",
+      "question": "في أي اتجاه يقع «ستاربكس» بالنسبة إلى «الرياض بارك»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "a12c0a4087dfd705",
+      "question": "في أي اتجاه يقع «Dunkin» بالنسبة إلى «جبل عكمة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "2f61b59bd8e04196",
+      "question": "في أي اتجاه يقع «بنك الرياض» بالنسبة إلى «أكاديمية طويق»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "ba7b192f448bdf05",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «الطوال»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "8fd14e7c1dc8fe7d",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «مركز ريع مصيدة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "4eeac85c0b69102a",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «هروب (مدينة)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "4ff827a453628971",
+      "question": "في أي اتجاه يقع «مسجد» بالنسبة إلى «ملعب نادي التعاون»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "e007a6aa551ef428",
+      "question": "في أي اتجاه يقع «محطة وقود مغلقة» بالنسبة إلى «ملعب نادي التعاون»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "cd2f67569cfb9592",
+      "question": "في أي اتجاه يقع «مطعم بخاري» بالنسبة إلى «الكامل»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "07989c8c86bdcb8b",
+      "question": "في أي اتجاه يقع «مسجد ال مسعود» بالنسبة إلى «منتزه سلام»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "34884ebc9eeadf52",
+      "question": "في أي اتجاه يقع «مستشفى النبهانية العام» بالنسبة إلى «النبهانية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "35aac7cb67ee5384",
+      "question": "في أي اتجاه يقع «Al Rajhi Bank» بالنسبة إلى «طريق الملك عبد العزيز (مكة)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "afdea98c17988b75",
+      "question": "في أي اتجاه يقع «صيدلية» بالنسبة إلى «ضرية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "b88b643572da6340",
+      "question": "في أي اتجاه يقع «شيخ البلد» بالنسبة إلى «سكيرينة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "25c217e5a43f03a6",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «مدينة الحجاج بأبو عجرم»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "f29c7a8c5843cd5e",
+      "question": "في أي اتجاه يقع «مسجد» بالنسبة إلى «محافظة غامد الزناد»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "9f1d8b2a7847fe92",
+      "question": "في أي اتجاه يقع «مطعم زمزم» بالنسبة إلى «حي الكدوة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "7c128175943ee215",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «مركز الحكامية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "6680ccdcb0977b8f",
+      "question": "في أي اتجاه يقع «Kudu» بالنسبة إلى «حديقة السويدي»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "6eb523ea30d6fef5",
+      "question": "في أي اتجاه يقع «ستاربكس» بالنسبة إلى «شركة نيوم للطاقة والمياه والهيدروجين»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "69a13a3a37b705c1",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «المكعب (برج)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "dd4338a777770166",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «جبل الطوال (حائل)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "8952ed458a297879",
+      "question": "في أي اتجاه يقع «مجمع مدرسي بنات» بالنسبة إلى «مقصورة القنون»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "be23224d6577fdde",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «الخريبة (محافظة ضباء)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "b62b115f4c16eff7",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «محافظة حريملاء»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "bbc0787474d60091",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «العزيزية (محافظة الطائف)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "fe74d93490fed4e8",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «قلعة قيار»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "7e54b5fee338341f",
+      "question": "في أي اتجاه يقع «مقهى قنيف» بالنسبة إلى «قلعة قيار»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "e2b8e0544224e646",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «قرية العنقة الأثرية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "61228e806f270db8",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «متحف العالية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "7ad44f063d1beac1",
+      "question": "في أي اتجاه يقع «صيدلية الدواء» بالنسبة إلى «متحف العالية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "767e695274cf0436",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «سوق الهجلة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "1a0b8d0f60a50479",
+      "question": "في أي اتجاه يقع «مطعم التنور» بالنسبة إلى «إمارة آل عياش»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "dd625a3a3ede9c8f",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «حصن بديوي الوقداني»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "6de2f2b852b5b38c",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «أحداث نجران (2000)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "7224f4f4f6f11c71",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «إمارة الظفير»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "177dc6400657141a",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «محطة المدينة المنورة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "89d56fc92f50ee35",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «مدينة الجهوة الأثرية»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "25391728919262cd",
+      "question": "في أي اتجاه يقع «صيدلية النهدي» بالنسبة إلى «الحجرة النبوية (المسجد النبوي)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "84fbf4460c38e17f",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «الخالدية (الخرج)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "02b85e194d5db386",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «الديحمة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "0713cfdc3eec2279",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «الربيعية (بريدة)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "432f56d7ff365c7a",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «مركز السهي»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "eb6deb21bbb2ea81",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «العظيم (حائل)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "eae190494f27c1bd",
+      "question": "في أي اتجاه يقع «مطعم التنور» بالنسبة إلى «القطيف (مدينة)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "89ce7e3f40a54397",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «المهدج»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "f02f8c27c90291d0",
+      "question": "في أي اتجاه يقع «مسجد» بالنسبة إلى «اليتمة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "eee377da674888bd",
+      "question": "في أي اتجاه يقع «مصرف الراجحي» بالنسبة إلى «بئر السقيا»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "f8abb5be6bde2873",
+      "question": "في أي اتجاه يقع «صيدلية النهدي» بالنسبة إلى «بئر حاء»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "4cacb5195d26e337",
+      "question": "في أي اتجاه يقع «صيدلية النحاس» بالنسبة إلى «بئر عذق»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "cab33f23b2132af1",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «محافظة بيش»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "750eeca701002209",
+      "question": "في أي اتجاه يقع «Kudu» بالنسبة إلى «جبال الجماوات»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "e70178800a540979",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «جبل عير»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "9e27efd32c6d1c33",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «جبال قطن»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "476a02f0a643444c",
+      "question": "في أي اتجاه يقع «محطة» بالنسبة إلى «جبل هادا»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "f3f7c06861bad44a",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «حاكمة أبي عريش»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "1738bdf95eee7ca8",
+      "question": "في أي اتجاه يقع «الدريس» بالنسبة إلى «سد عكرمة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "267178f0f8b9c30f",
+      "question": "في أي اتجاه يقع «دانكن دونتس» بالنسبة إلى «مسجد العودة (الدرعية)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "14823e7da85e4499",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «محافظة عقلة الصقور»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "525b5f5e41a427fb",
+      "question": "في أي اتجاه يقع «صيدلية الدواء» بالنسبة إلى «مسجد أم زرينيق»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "00be7e0403f979e7",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «سلسلة جبال فيفا»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "00f8be18039ca650",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «الريان (جازان)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "شرق",
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "41fb6fe65abe0ef7",
+      "question": "في أي اتجاه يقع «مركز الرعاية الصحية الأولية» بالنسبة إلى «قرية قيار»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "9989a1e91aa98427",
+      "question": "في أي اتجاه يقع «مقهى قنيف» بالنسبة إلى «قرية قيار»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "06b4a1d3d07c61f1",
+      "question": "في أي اتجاه يقع «Mosque» بالنسبة إلى «قصر العشروات»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "جنوب",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "جنوب",
+      "id": "3fba0def5733ccef",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «قناء»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "target_context_name_collision": true
+      },
+      "flags": [],
+      "gold": "شمال",
+      "id": "20a265653f6bcb92",
+      "question": "في أي اتجاه يقع «كلية الملك خالد العسكرية» بالنسبة إلى «كلية الملك خالد العسكرية»؟",
+      "reason": "named_target_and_context_anchor_share_name_but_coordinates_differ",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شمال",
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "5a53d43727bc610e",
+      "question": "في أي اتجاه يقع «محطة وقود» بالنسبة إلى «لينة»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": false,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "شرق",
+          "شمال"
+        ]
+      },
+      "flags": [],
+      "gold": "شرق",
+      "id": "30e8d5172cfbc362",
+      "question": "في أي اتجاه يقع «نور» بالنسبة إلى «محافظة ظهران الجنوب»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    },
+    {
+      "class": "B",
+      "details": {
+        "answer_in_possible_set": true,
+        "answer_invariant_despite_identity_ambiguity": true,
+        "identity": "AMBIGUOUS",
+        "possible_answers": [
+          "غرب"
+        ]
+      },
+      "flags": [],
+      "gold": "غرب",
+      "id": "c01c09c814bff594",
+      "question": "في أي اتجاه يقع «صيدلية» بالنسبة إلى «قبة (محافظة الأسياح)»؟",
+      "reason": "named_entity_identity_ambiguous",
+      "split": "train",
+      "task_type": "cardinal_direction"
+    }
+  ]
+}

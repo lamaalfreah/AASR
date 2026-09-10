@@ -1,0 +1,23 @@
+{
+  "unit_tests_passed": 12,
+  "report_consistency_checks": {
+    "split_counts_match_expected": true,
+    "task_counts_match_splits": true,
+    "reconstruction_records_match_aggregates": true,
+    "reconstruction_excludes_test": true,
+    "schema_34_fields_full_presence": true,
+    "all_candidates_parsed": true,
+    "ambiguity_totals_match_full_count": true,
+    "reconciliation_balances": true,
+    "raw_hashes_verified_unchanged_by_completed_scan": true,
+    "test_gold_locked_in_completed_scan": true
+  },
+  "dataset_counts_reproduced_in_completed_runs": true,
+  "no_new_dataset_scan_on_resume": true,
+  "raw_checksums": {
+    "test": "f159c749364ad7244661a80409cb7d40948ba2d75daa978d6601ecd122f19469",
+    "train": "e7d8d578a216ce452166f3b0cb85a4c9d4159f26b43fabea0c9046a859f562ba",
+    "validation": "2b530c47d70d9356a9564e7cb99bcaee67b3b474e112e6ec9b8c6a1ec1c67f99"
+  },
+  "verification_scope": "Reconciled saved report totals and record-level audit CSVs; reused before/after raw checksums from completed scan. No raw dataset reread during this completion."
+}

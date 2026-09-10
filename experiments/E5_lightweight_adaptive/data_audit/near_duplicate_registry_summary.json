@@ -1,0 +1,70 @@
+{
+  "affected_record_counts": {
+    "train__test|test": 953,
+    "train__test|train": 1686,
+    "train__validation|train": 1624,
+    "train__validation|validation": 997,
+    "validation__test|test": 219,
+    "validation__test|validation": 151
+  },
+  "examples": [
+    {
+      "jaccard": 1.0,
+      "registry1": "fcca9acaa7aad15f147635bef938c2c44db0b38e8e965d72a26612687bb81ea4",
+      "registry2": "534354dc9a9df1bb8f988a41694948ef62d57bc2997211c379c82f38a794321d"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "87841692e31bf096bf5ec43617304d382e54cfe827529957782dff496a46d66c",
+      "registry2": "ebbaef543e763f92544aaa31b41df382d7667a2bcaefcc05318bc25e27e6351f"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "435c12544c605df409b5c8cdd57f6cf6af3838ead5f445b0c703c009ba14d606",
+      "registry2": "ebbaef543e763f92544aaa31b41df382d7667a2bcaefcc05318bc25e27e6351f"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "ebbaef543e763f92544aaa31b41df382d7667a2bcaefcc05318bc25e27e6351f",
+      "registry2": "6898e6b530c59ea7da426e3861723dae68baedca69cb73e43bf0495c2d587620"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "9a65f663ae02e557f351767d4121a3c84baca4c2f647e1c031bf335e34a9b41d",
+      "registry2": "aef342bb9ce39d4e8a717799d091003911c12098f1a8b7f53205ecbccf1f1e72"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "9a65f663ae02e557f351767d4121a3c84baca4c2f647e1c031bf335e34a9b41d",
+      "registry2": "8ec36e3c7205da1f5aacbb981ed617ce513c497266cbbc20ce9da2da0bb13280"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "479438c2af064d0e86e0a4f41eb781c3fc3935379b902b3412c3f96d447c21e0",
+      "registry2": "42684988229ce62841c965039e7b451d15ca310e0e6107a9810cfa165f4707cf"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "42684988229ce62841c965039e7b451d15ca310e0e6107a9810cfa165f4707cf",
+      "registry2": "ba0e83a77204c502b7f6d0c6e62d46ad40deb991f984054425d76dd05236ab1a"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "a3f6686887a4c5ee6bc628904929dc7b2161d49942a1ebddd534091f92a96416",
+      "registry2": "aff96f3b937dfc30dd7525bfe44dcb8d34da86a43692fcb532dc915cb4f485d7"
+    },
+    {
+      "jaccard": 1.0,
+      "registry1": "dd36cfbc5a22639ee924c337cab1bf46d1d0cb2106b5e28df83d205536e0975a",
+      "registry2": "aff96f3b937dfc30dd7525bfe44dcb8d34da86a43692fcb532dc915cb4f485d7"
+    }
+  ],
+  "limitation": "Near-context proxy over spatial registry; not a general natural-language semantic similarity search.",
+  "method": "Complete cross-split pair search for candidate-row-set Jaccard >= 0.9 using inverted index; order/multiplicity ignored ONLY in this duplicate detector, not parsing/execution.",
+  "pairs": {
+    "train__test": 148,
+    "train__validation": 100,
+    "validation__test": 13
+  },
+  "unique_registries": 1496
+}

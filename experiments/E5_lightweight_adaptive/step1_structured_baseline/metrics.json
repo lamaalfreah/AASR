@@ -1,0 +1,127 @@
+{
+  "test_gold_locked": true,
+  "device": "CPU",
+  "python": "3.9.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "runtime_source_sha256": {
+    "spatial/__init__.py": "76615b7a805a3797e8d5e916927276d5e2cad963da2210ff9461316fe1ef2fe3",
+    "spatial/context_parser.py": "ebef0affa6a5f718a064eaad5ad030a9f8400bb1b17ece4e9ac36936afdd24bb",
+    "spatial/executor.py": "05f1166c7fd5245f778b11b450779de752a1f0e801b391841a0ee140f925a896",
+    "spatial/geometry.py": "d58a6a0b7814c0dc9b4ddc9b6b88f4008417f8b7719f446aca0fb16ee368915c",
+    "spatial/identity.py": "68876964fe36de80f44291e931ce40a26b0930003dcab515dadef89a2830262b",
+    "spatial/normalization.py": "c4c8419eaee4ceff7deb54092d2241c88d06955656d7ba39d7c5d5d5c94a4758",
+    "spatial/query_parser.py": "4f9aa07e50ece052d6184cc7868e5c766410d806fbaeb49bdd88a772e165a835",
+    "spatial/schema.py": "24cc68f471974ddde296fbe6b7abfc79b92a770361e16ab26bb1bb5adaa8b692",
+    "evaluation/evaluate_structured_baseline.py": "379e7995422187b550fc194f88a1c05ac06d422ecd912f0a9ace51251ab94d41"
+  },
+  "audit_classes_sha256": "49a3b95118bb5c31bb3764a9b2a48b9dce37f3efcfeaf384e69db0edc823a0f0",
+  "scoring": "All rows denominator; abstentions count as incorrect. Reconstructable subset is saved audit class A, never an inference input. Entity whitespace only; strict direction labels; safe whole-string integer parsing; Arabic yes/no formatting.",
+  "splits": {
+    "validation": {
+      "total": 2502,
+      "parse_success": 2502,
+      "parse_success_percent": 100.0,
+      "identity_status_counts": {
+        "UNIQUE": 2383,
+        "AMBIGUOUS": 119
+      },
+      "execution_status_counts": {
+        "success": 2383,
+        "ambiguous": 119
+      },
+      "executor_success": 2383,
+      "executor_success_percent": 95.243805,
+      "correct": 2383,
+      "accuracy_percent": 95.243805,
+      "answered_accuracy_percent": 100.0,
+      "identity_ambiguous": 119,
+      "identity_ambiguity_percent": 4.756195,
+      "ambiguous": 119,
+      "ambiguity_percent": 4.756195,
+      "abstentions": 119,
+      "abstention_percent": 4.756195,
+      "reconstructable_total": 2383,
+      "reconstructable_correct": 2383,
+      "reconstructable_accuracy_percent": 100.0,
+      "failure_stage_counts": {
+        "identity": 119
+      },
+      "split": "validation",
+      "purpose": "quality evaluation",
+      "operation_annotation_agreement": 2502,
+      "runtime": {
+        "total_wall_seconds": 0.581813292,
+        "total_inference_seconds": 0.4393388300000008,
+        "mean_inference_ms": 0.175595055955236,
+        "p50_inference_ms": 0.14235399999999732,
+        "p95_inference_ms": 0.3829874999999677,
+        "mean_wall_ms_per_record": 0.2325392853717026,
+        "context_cache": {
+          "hits": 1518,
+          "misses": 984,
+          "maxsize": 32,
+          "currsize": 32
+        },
+        "measurement": "One streaming pass in original order; cache cleared per split, LRU 32. Inference includes parsing, identity, geometry and trace construction; wall includes gzip/JSON, scoring, and audit-class lookup. No warmup or repeated benchmark."
+      }
+    },
+    "train": {
+      "total": 19597,
+      "parse_success": 19597,
+      "parse_success_percent": 100.0,
+      "identity_status_counts": {
+        "UNIQUE": 18685,
+        "AMBIGUOUS": 912
+      },
+      "execution_status_counts": {
+        "success": 18680,
+        "ambiguous": 917
+      },
+      "executor_success": 18680,
+      "executor_success_percent": 95.320712,
+      "correct": 18679,
+      "accuracy_percent": 95.31561,
+      "answered_accuracy_percent": 99.994647,
+      "identity_ambiguous": 912,
+      "identity_ambiguity_percent": 4.653774,
+      "ambiguous": 917,
+      "ambiguity_percent": 4.679288,
+      "abstentions": 917,
+      "abstention_percent": 4.679288,
+      "reconstructable_total": 18679,
+      "reconstructable_correct": 18679,
+      "reconstructable_accuracy_percent": 100.0,
+      "failure_stage_counts": {
+        "executor": 5,
+        "identity": 912,
+        "executor_answer": 1
+      },
+      "split": "train",
+      "purpose": "diagnostic only",
+      "operation_annotation_agreement": 19597,
+      "runtime": {
+        "total_wall_seconds": 4.607446417,
+        "total_inference_seconds": 3.5722550899999503,
+        "mean_inference_ms": 0.18228581364494312,
+        "p50_inference_ms": 0.14849999999999586,
+        "p95_inference_ms": 0.3922583999999674,
+        "mean_wall_ms_per_record": 0.2351097829769863,
+        "context_cache": {
+          "hits": 11824,
+          "misses": 7773,
+          "maxsize": 32,
+          "currsize": 32
+        },
+        "measurement": "One streaming pass in original order; cache cleared per split, LRU 32. Inference includes parsing, identity, geometry and trace construction; wall includes gzip/JSON, scoring, and audit-class lookup. No warmup or repeated benchmark."
+      }
+    }
+  },
+  "runtime_unchanged_during_evaluation": true,
+  "diagnostic_counts": {
+    "train|exact_nearest_tie": 15,
+    "train|nearest_gap_within_0_2m": 31,
+    "train|radius_boundary_within_0_2m": 2,
+    "validation|nearest_gap_within_0_2m": 4,
+    "validation|radius_boundary_within_0_2m": 1
+  }
+}

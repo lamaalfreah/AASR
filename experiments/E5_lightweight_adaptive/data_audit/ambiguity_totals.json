@@ -1,0 +1,134 @@
+{
+  "cardinal_direction": {
+    "counts": {
+      "AMBIGUOUS": 382,
+      "UNIQUE": 3691
+    },
+    "n": 4073,
+    "percentages": {
+      "AMBIGUOUS": 9.378836,
+      "UNIQUE": 90.621164
+    }
+  },
+  "closer_of_two": {
+    "counts": {
+      "AMBIGUOUS": 622,
+      "UNIQUE": 2092
+    },
+    "n": 2714,
+    "percentages": {
+      "AMBIGUOUS": 22.918202,
+      "UNIQUE": 77.081798
+    }
+  },
+  "count_within_radius": {
+    "counts": {
+      "AMBIGUOUS": 70,
+      "NOT APPLICABLE": 23,
+      "UNIQUE": 794
+    },
+    "n": 887,
+    "percentages": {
+      "AMBIGUOUS": 7.89177,
+      "NOT APPLICABLE": 2.59301,
+      "UNIQUE": 89.51522
+    }
+  },
+  "nearest_category": {
+    "counts": {
+      "NOT APPLICABLE": 8174
+    },
+    "n": 8174,
+    "percentages": {
+      "NOT APPLICABLE": 100.0
+    }
+  },
+  "nearest_of_two_categories": {
+    "counts": {
+      "NOT APPLICABLE": 1982
+    },
+    "n": 1982,
+    "percentages": {
+      "NOT APPLICABLE": 100.0
+    }
+  },
+  "overall": {
+    "counts": {
+      "AMBIGUOUS": 1074,
+      "NOT APPLICABLE": 16780,
+      "UNIQUE": 6577
+    },
+    "n": 24431,
+    "percentages": {
+      "AMBIGUOUS": 4.396054,
+      "NOT APPLICABLE": 68.68323,
+      "UNIQUE": 26.920715
+    }
+  },
+  "spatial_multi_constraint": {
+    "counts": {
+      "NOT APPLICABLE": 1842
+    },
+    "n": 1842,
+    "percentages": {
+      "NOT APPLICABLE": 100.0
+    }
+  },
+  "test": {
+    "counts": {
+      "AMBIGUOUS": 107,
+      "NOT APPLICABLE": 1585,
+      "UNIQUE": 640
+    },
+    "n": 2332,
+    "percentages": {
+      "AMBIGUOUS": 4.588336,
+      "NOT APPLICABLE": 67.96741,
+      "UNIQUE": 27.444254
+    }
+  },
+  "train": {
+    "counts": {
+      "AMBIGUOUS": 856,
+      "NOT APPLICABLE": 13479,
+      "UNIQUE": 5262
+    },
+    "n": 19597,
+    "percentages": {
+      "AMBIGUOUS": 4.368016,
+      "NOT APPLICABLE": 68.780936,
+      "UNIQUE": 26.851049
+    }
+  },
+  "two_hop_nearest": {
+    "counts": {
+      "NOT APPLICABLE": 2001
+    },
+    "n": 2001,
+    "percentages": {
+      "NOT APPLICABLE": 100.0
+    }
+  },
+  "validation": {
+    "counts": {
+      "AMBIGUOUS": 111,
+      "NOT APPLICABLE": 1716,
+      "UNIQUE": 675
+    },
+    "n": 2502,
+    "percentages": {
+      "AMBIGUOUS": 4.436451,
+      "NOT APPLICABLE": 68.585132,
+      "UNIQUE": 26.978417
+    }
+  },
+  "within_radius_yes_no": {
+    "counts": {
+      "NOT APPLICABLE": 2758
+    },
+    "n": 2758,
+    "percentages": {
+      "NOT APPLICABLE": 100.0
+    }
+  }
+}

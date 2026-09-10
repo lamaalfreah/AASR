@@ -1,0 +1,35 @@
+field,policy,reason
+anchor_latitude,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+anchor_longitude,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+anchor_place,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+answer,C,Training target/offline reference only; never feed raw annotation to inference
+answer_position,C,Training target/offline reference only; never feed raw annotation to inference
+article_chars,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+context,A,Visible context supplied to system
+context_chars,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+context_length_bin_chars,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+country,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+difficulty,D,Construction/gold metadata; not an inference feature
+difficulty_score,D,Construction/gold metadata; not an inference feature
+direction_constraint,C,Training target/offline reference only; never feed raw annotation to inference
+evidence_poi_ids,D,Construction/gold metadata; not an inference feature
+first_hop_category,C,Training target/offline reference only; never feed raw annotation to inference
+id,D,Construction/gold metadata; not an inference feature
+intermediate_answer,C,Training target/offline reference only; never feed raw annotation to inference
+language,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+long_target,C,Training target/offline reference only; never feed raw annotation to inference
+num_context_pois,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+num_qualifying_pois,D,Construction/gold metadata; not an inference feature
+question,A,User question
+radius_constraint_km,C,Training target/offline reference only; never feed raw annotation to inference
+recommended_reasoning,D,Construction/gold metadata; not an inference feature
+router_target_alpha,D,Construction/gold metadata; not an inference feature
+second_hop_category,C,Training target/offline reference only; never feed raw annotation to inference
+short_target,C,Training target/offline reference only; never feed raw annotation to inference
+sources,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+split,D,Construction/gold metadata; not an inference feature
+target_category,C,Training target/offline reference only; never feed raw annotation to inference
+task_type,C,Training target/offline reference only; never feed raw annotation to inference
+verified_rationale,C,Training target/offline reference only; never feed raw annotation to inference
+wikidata_id,B,Use only when extracted/recomputed from input or supplied by independent retrieval
+wikipedia_title,B,Use only when extracted/recomputed from input or supplied by independent retrieval

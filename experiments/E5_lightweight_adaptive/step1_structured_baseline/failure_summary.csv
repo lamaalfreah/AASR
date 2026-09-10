@@ -1,0 +1,9 @@
+split,task_type,stage,status,reason,count
+train,cardinal_direction,identity,ambiguous,referenced_entity_ambiguous,337
+train,closer_of_two,identity,ambiguous,referenced_entity_ambiguous,502
+train,count_within_radius,identity,ambiguous,referenced_entity_ambiguous,73
+train,nearest_category,executor,ambiguous,nearest_tie_distinct_answers,5
+train,within_radius_yes_no,executor_answer,success,answer_mismatch,1
+validation,cardinal_direction,identity,ambiguous,referenced_entity_ambiguous,33
+validation,closer_of_two,identity,ambiguous,referenced_entity_ambiguous,73
+validation,count_within_radius,identity,ambiguous,referenced_entity_ambiguous,13

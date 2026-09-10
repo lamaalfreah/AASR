@@ -1,0 +1,10 @@
+split,difficulty,count
+test,easy,1432
+test,hard,361
+test,medium,539
+train,easy,12057
+train,hard,3081
+train,medium,4459
+validation,easy,1516
+validation,hard,401
+validation,medium,585

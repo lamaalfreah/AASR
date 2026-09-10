@@ -1,0 +1,725 @@
+{
+  "counters": {
+    "train|cardinal_direction": {
+      "answer_in_possible_set_true": 306,
+      "answer_invariant_despite_identity_ambiguity_false": 212,
+      "answer_invariant_despite_identity_ambiguity_true": 94,
+      "eight_match_false": 1097,
+      "eight_match_true": 1833,
+      "four_match_true": 2930,
+      "target_context_name_collision_true": 31
+    },
+    "train|closer_of_two": {
+      "answer_in_possible_set_true": 493,
+      "answer_invariant_despite_identity_ambiguity_false": 238,
+      "answer_invariant_despite_identity_ambiguity_true": 255,
+      "answer_name_exact_present": 2167,
+      "answer_position_consistent_true": 1665,
+      "entity_answer_examples": 2167,
+      "target_context_name_collision_true": 9
+    },
+    "train|count_within_radius": {
+      "answer_in_possible_set_true": 73,
+      "answer_invariant_despite_identity_ambiguity_false": 52,
+      "answer_invariant_despite_identity_ambiguity_true": 21,
+      "candidate_origin_agrees_with_gold_true": 17,
+      "origin_name_collision_true": 17,
+      "query_origin_is_candidate_true": 628,
+      "rounded_3decimal_radius_matches_gold_false": 1,
+      "rounded_3decimal_radius_matches_gold_true": 627,
+      "unrounded_radius_matches_gold_true": 628
+    },
+    "train|nearest_category": {
+      "answer_name_exact_present": 6588,
+      "entity_answer_examples": 6588,
+      "first_visible_tied_candidate_matches_gold_false": 3,
+      "first_visible_tied_candidate_matches_gold_true": 3
+    },
+    "train|nearest_of_two_categories": {
+      "answer_name_exact_present": 1591,
+      "entity_answer_examples": 1591
+    },
+    "train|spatial_multi_constraint": {
+      "answer_name_exact_present": 1478,
+      "entity_answer_examples": 1478,
+      "evidence_list_length_matches_qualifying_metadata_true": 1478,
+      "gold_present_in_qualifying_set_true": 1478,
+      "qualifying_count_metadata_match_true": 1478,
+      "query_metadata_match_true": 1478,
+      "rounded_radius_qualifying_count_matches_gold_true": 1478,
+      "unique_name_qualifying_count_matches_gold_false": 396,
+      "unique_name_qualifying_count_matches_gold_true": 1082,
+      "width_22.5_answer_matches_gold_false": 477,
+      "width_22.5_answer_matches_gold_true": 1001,
+      "width_22.5_count_matches_gold_false": 1058,
+      "width_22.5_count_matches_gold_true": 420,
+      "width_30_answer_matches_gold_false": 193,
+      "width_30_answer_matches_gold_true": 1285,
+      "width_30_count_matches_gold_false": 598,
+      "width_30_count_matches_gold_true": 880,
+      "width_35_answer_matches_gold_true": 1478,
+      "width_35_count_matches_gold_true": 1478,
+      "width_40_answer_matches_gold_false": 113,
+      "width_40_answer_matches_gold_true": 1365,
+      "width_40_count_matches_gold_false": 336,
+      "width_40_count_matches_gold_true": 1142,
+      "width_45_answer_matches_gold_false": 172,
+      "width_45_answer_matches_gold_true": 1306,
+      "width_45_count_matches_gold_false": 514,
+      "width_45_count_matches_gold_true": 964,
+      "width_60_answer_matches_gold_false": 268,
+      "width_60_answer_matches_gold_true": 1210,
+      "width_60_count_matches_gold_false": 776,
+      "width_60_count_matches_gold_true": 702,
+      "width_90_answer_matches_gold_false": 435,
+      "width_90_answer_matches_gold_true": 1043,
+      "width_90_count_matches_gold_false": 1032,
+      "width_90_count_matches_gold_true": 446
+    },
+    "train|two_hop_nearest": {
+      "answer_name_exact_present": 1603,
+      "category_metadata_match_true": 1603,
+      "entity_answer_examples": 1603,
+      "intermediate_reference_match_true": 1603
+    },
+    "train|within_radius_yes_no": {
+      "rounded_3decimal_radius_matches_gold_true": 2202,
+      "unrounded_radius_matches_gold_false": 1,
+      "unrounded_radius_matches_gold_true": 2201
+    },
+    "validation|cardinal_direction": {
+      "answer_in_possible_set_true": 30,
+      "answer_invariant_despite_identity_ambiguity_false": 22,
+      "answer_invariant_despite_identity_ambiguity_true": 8,
+      "eight_match_false": 135,
+      "eight_match_true": 241,
+      "four_match_true": 376,
+      "target_context_name_collision_true": 3
+    },
+    "validation|closer_of_two": {
+      "answer_in_possible_set_true": 70,
+      "answer_invariant_despite_identity_ambiguity_false": 37,
+      "answer_invariant_despite_identity_ambiguity_true": 33,
+      "answer_name_exact_present": 283,
+      "answer_position_consistent_true": 210,
+      "entity_answer_examples": 283,
+      "target_context_name_collision_true": 3
+    },
+    "validation|count_within_radius": {
+      "answer_in_possible_set_true": 13,
+      "answer_invariant_despite_identity_ambiguity_false": 10,
+      "answer_invariant_despite_identity_ambiguity_true": 3,
+      "candidate_origin_agrees_with_gold_true": 3,
+      "origin_name_collision_true": 3,
+      "query_origin_is_candidate_true": 84,
+      "rounded_3decimal_radius_matches_gold_true": 84,
+      "unrounded_radius_matches_gold_true": 84
+    },
+    "validation|nearest_category": {
+      "answer_name_exact_present": 827,
+      "entity_answer_examples": 827
+    },
+    "validation|nearest_of_two_categories": {
+      "answer_name_exact_present": 205,
+      "entity_answer_examples": 205
+    },
+    "validation|spatial_multi_constraint": {
+      "answer_name_exact_present": 191,
+      "entity_answer_examples": 191,
+      "evidence_list_length_matches_qualifying_metadata_true": 191,
+      "gold_present_in_qualifying_set_true": 191,
+      "qualifying_count_metadata_match_true": 191,
+      "query_metadata_match_true": 191,
+      "rounded_radius_qualifying_count_matches_gold_true": 191,
+      "unique_name_qualifying_count_matches_gold_false": 42,
+      "unique_name_qualifying_count_matches_gold_true": 149,
+      "width_22.5_answer_matches_gold_false": 65,
+      "width_22.5_answer_matches_gold_true": 126,
+      "width_22.5_count_matches_gold_false": 136,
+      "width_22.5_count_matches_gold_true": 55,
+      "width_30_answer_matches_gold_false": 31,
+      "width_30_answer_matches_gold_true": 160,
+      "width_30_count_matches_gold_false": 77,
+      "width_30_count_matches_gold_true": 114,
+      "width_35_answer_matches_gold_true": 191,
+      "width_35_count_matches_gold_true": 191,
+      "width_40_answer_matches_gold_false": 12,
+      "width_40_answer_matches_gold_true": 179,
+      "width_40_count_matches_gold_false": 40,
+      "width_40_count_matches_gold_true": 151,
+      "width_45_answer_matches_gold_false": 16,
+      "width_45_answer_matches_gold_true": 175,
+      "width_45_count_matches_gold_false": 61,
+      "width_45_count_matches_gold_true": 130,
+      "width_60_answer_matches_gold_false": 27,
+      "width_60_answer_matches_gold_true": 164,
+      "width_60_count_matches_gold_false": 89,
+      "width_60_count_matches_gold_true": 102,
+      "width_90_answer_matches_gold_false": 45,
+      "width_90_answer_matches_gold_true": 146,
+      "width_90_count_matches_gold_false": 121,
+      "width_90_count_matches_gold_true": 70
+    },
+    "validation|two_hop_nearest": {
+      "answer_name_exact_present": 210,
+      "category_metadata_match_true": 210,
+      "entity_answer_examples": 210,
+      "intermediate_reference_match_true": 210
+    },
+    "validation|within_radius_yes_no": {
+      "rounded_3decimal_radius_matches_gold_true": 280,
+      "unrounded_radius_matches_gold_true": 280
+    }
+  },
+  "fixed_hypotheses": {
+    "direction": "classification: four 90-degree sectors, boundaries 45/135/225/315; multi-constraint filter: angular deviation <=35 degrees (TRAIN-derived, VALIDATION-confirmed)",
+    "distance": "Haversine sphere radius 6371.0088 km; visible context coordinates only",
+    "duplicates": "all rows preserved",
+    "radius": "<=; compare < without tuning",
+    "taxonomy": "exact visible category strings",
+    "ties": "retain all exact minima; report coordinate-rounding-sensitive gaps <=0.2m separately"
+  },
+  "numeric_statistics": {
+    "test|anchor_metadata_rounding_distance_m": {
+      "max": 0.06826053605062762,
+      "mean": 0.025886,
+      "min": 0.0,
+      "n": 2332,
+      "p50": 0.027121,
+      "p90": 0.054373,
+      "p95": 0.063342,
+      "p99": 0.067256
+    },
+    "train|anchor_metadata_rounding_distance_m": {
+      "max": 0.07152381502536227,
+      "mean": 0.02265,
+      "min": 0.0,
+      "n": 19597,
+      "p50": 0.022239,
+      "p90": 0.052896,
+      "p95": 0.0591,
+      "p99": 0.067407
+    },
+    "train|cardinal_direction:bearing": {
+      "max": 359.9617337431896,
+      "mean": 182.71636,
+      "min": 0.15204240876519462,
+      "n": 2930,
+      "p50": 182.370278,
+      "p90": 330.112949,
+      "p95": 345.624371,
+      "p99": 356.52512
+    },
+    "train|cardinal_direction:distance_to_sector_boundary_deg": {
+      "max": 45.0,
+      "mean": 27.080081,
+      "min": 10.013274753825726,
+      "n": 2930,
+      "p50": 26.634556,
+      "p90": 41.549384,
+      "p95": 43.167384,
+      "p99": 44.645937
+    },
+    "train|closer_of_two:comparison_gap_km": {
+      "max": 9.1216742677598,
+      "mean": 0.604568,
+      "min": 0.2990194699619464,
+      "n": 1665,
+      "p50": 0.302592,
+      "p90": 0.764795,
+      "p95": 2.265479,
+      "p99": 6.597652
+    },
+    "train|count_within_radius:count_excluding_zero_distance": {
+      "max": 6,
+      "mean": 3.834395,
+      "min": 2,
+      "n": 628,
+      "p50": 4.0,
+      "p90": 6.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "train|count_within_radius:count_radius_6371": {
+      "max": 6,
+      "mean": 3.834395,
+      "min": 2,
+      "n": 628,
+      "p50": 4.0,
+      "p90": 6.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "train|count_within_radius:exact_boundary_candidates": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 628,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "train|count_within_radius:nearest_radius_gap_km": {
+      "max": 1.8112075180731741,
+      "mean": 0.262488,
+      "min": 0.0001767713851397179,
+      "n": 628,
+      "p50": 0.147325,
+      "p90": 0.699265,
+      "p95": 0.873506,
+      "p99": 1.367629
+    },
+    "train|count_within_radius:qualifying_count": {
+      "max": 6,
+      "mean": 3.834395,
+      "min": 2,
+      "n": 628,
+      "p50": 4.0,
+      "p90": 6.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "train|count_within_radius:strict_count": {
+      "max": 6,
+      "mean": 3.834395,
+      "min": 2,
+      "n": 628,
+      "p50": 4.0,
+      "p90": 6.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "train|count_within_radius:unique_name_count": {
+      "max": 6,
+      "mean": 3.606688,
+      "min": 1,
+      "n": 628,
+      "p50": 4.0,
+      "p90": 6.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "train|nearest_category:nearest_gap_km": {
+      "max": 9.266497358235888,
+      "mean": 0.878128,
+      "min": 0.0,
+      "n": 6588,
+      "p50": 0.44667,
+      "p90": 2.226819,
+      "p95": 3.372017,
+      "p99": 6.272817
+    },
+    "train|nearest_of_two_categories:nearest_gap_km": {
+      "max": 9.266497358235888,
+      "mean": 0.828427,
+      "min": 0.0,
+      "n": 4773,
+      "p50": 0.404763,
+      "p90": 2.058022,
+      "p95": 3.210241,
+      "p99": 6.257906
+    },
+    "train|spatial_multi_constraint:after_category": {
+      "max": 10,
+      "mean": 8.489851,
+      "min": 3,
+      "n": 1478,
+      "p50": 9.0,
+      "p90": 10.0,
+      "p95": 10.0,
+      "p99": 10.0
+    },
+    "train|spatial_multi_constraint:after_direction": {
+      "max": 10,
+      "mean": 5.290257,
+      "min": 2,
+      "n": 1478,
+      "p50": 5.0,
+      "p90": 8.0,
+      "p95": 8.0,
+      "p99": 10.0
+    },
+    "train|spatial_multi_constraint:after_radius": {
+      "max": 9,
+      "mean": 5.019621,
+      "min": 2,
+      "n": 1478,
+      "p50": 5.0,
+      "p90": 7.0,
+      "p95": 8.0,
+      "p99": 9.0
+    },
+    "train|spatial_multi_constraint:candidates_strictly_closer_than_gold": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 1478,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "train|spatial_multi_constraint:nearest_gap_km": {
+      "max": 7.257772550606079,
+      "mean": 0.73992,
+      "min": 0.0,
+      "n": 1478,
+      "p50": 0.321643,
+      "p90": 2.110767,
+      "p95": 2.929466,
+      "p99": 4.845274
+    },
+    "train|two_hop_nearest:first_selected_count": {
+      "max": 1,
+      "mean": 1,
+      "min": 1,
+      "n": 1603,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    },
+    "train|two_hop_nearest:intermediate_visible_matches": {
+      "max": 10,
+      "mean": 1.340611,
+      "min": 1,
+      "n": 1603,
+      "p50": 1.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 8.0
+    },
+    "train|two_hop_nearest:nearest_gap_km": {
+      "max": 11.604360317796033,
+      "mean": 0.638698,
+      "min": 0.19980720292962262,
+      "n": 3206,
+      "p50": 0.343423,
+      "p90": 1.182074,
+      "p95": 2.298445,
+      "p99": 5.209224
+    },
+    "train|within_radius_yes_no:count_radius_6371": {
+      "max": 10,
+      "mean": 0.81653,
+      "min": 0,
+      "n": 2202,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 6.0
+    },
+    "train|within_radius_yes_no:exact_boundary_candidates": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 2202,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "train|within_radius_yes_no:nearest_radius_gap_km": {
+      "max": 4.996079958061134,
+      "mean": 0.780053,
+      "min": 9.20810596740651e-05,
+      "n": 2202,
+      "p50": 0.44664,
+      "p90": 1.936998,
+      "p95": 3.307745,
+      "p99": 4.78672
+    },
+    "train|within_radius_yes_no:qualifying_count": {
+      "max": 10,
+      "mean": 0.81653,
+      "min": 0,
+      "n": 2202,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 6.0
+    },
+    "train|within_radius_yes_no:strict_count": {
+      "max": 10,
+      "mean": 0.81653,
+      "min": 0,
+      "n": 2202,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 6.0
+    },
+    "validation|anchor_metadata_rounding_distance_m": {
+      "max": 0.06931761065336786,
+      "mean": 0.024056,
+      "min": 0.0,
+      "n": 2502,
+      "p50": 0.023088,
+      "p90": 0.053757,
+      "p95": 0.059238,
+      "p99": 0.062371
+    },
+    "validation|cardinal_direction:bearing": {
+      "max": 359.08591109052395,
+      "mean": 187.176527,
+      "min": 0.0,
+      "n": 376,
+      "p50": 186.122781,
+      "p90": 331.94172,
+      "p95": 345.604391,
+      "p99": 356.642433
+    },
+    "validation|cardinal_direction:distance_to_sector_boundary_deg": {
+      "max": 45.0,
+      "mean": 27.40053,
+      "min": 10.215183473896644,
+      "n": 376,
+      "p50": 26.788617,
+      "p90": 41.191722,
+      "p95": 43.276101,
+      "p99": 44.504627
+    },
+    "validation|closer_of_two:comparison_gap_km": {
+      "max": 9.249866427805022,
+      "mean": 0.617408,
+      "min": 0.29903336373894396,
+      "n": 210,
+      "p50": 0.304312,
+      "p90": 0.755532,
+      "p95": 1.927167,
+      "p99": 5.522318
+    },
+    "validation|count_within_radius:count_excluding_zero_distance": {
+      "max": 6,
+      "mean": 3.428571,
+      "min": 2,
+      "n": 84,
+      "p50": 3.0,
+      "p90": 5.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "validation|count_within_radius:count_radius_6371": {
+      "max": 6,
+      "mean": 3.428571,
+      "min": 2,
+      "n": 84,
+      "p50": 3.0,
+      "p90": 5.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "validation|count_within_radius:exact_boundary_candidates": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 84,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "validation|count_within_radius:nearest_radius_gap_km": {
+      "max": 1.6293519805231496,
+      "mean": 0.324266,
+      "min": 0.0035212762596699143,
+      "n": 84,
+      "p50": 0.226946,
+      "p90": 0.732763,
+      "p95": 1.019751,
+      "p99": 1.44718
+    },
+    "validation|count_within_radius:qualifying_count": {
+      "max": 6,
+      "mean": 3.428571,
+      "min": 2,
+      "n": 84,
+      "p50": 3.0,
+      "p90": 5.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "validation|count_within_radius:strict_count": {
+      "max": 6,
+      "mean": 3.428571,
+      "min": 2,
+      "n": 84,
+      "p50": 3.0,
+      "p90": 5.0,
+      "p95": 6.0,
+      "p99": 6.0
+    },
+    "validation|count_within_radius:unique_name_count": {
+      "max": 6,
+      "mean": 3.345238,
+      "min": 2,
+      "n": 84,
+      "p50": 3.0,
+      "p90": 5.0,
+      "p95": 5.85,
+      "p99": 6.0
+    },
+    "validation|nearest_category:nearest_gap_km": {
+      "max": 7.435438224109124,
+      "mean": 0.905676,
+      "min": 3.0436641154207855e-05,
+      "n": 827,
+      "p50": 0.435441,
+      "p90": 2.425553,
+      "p95": 3.661084,
+      "p99": 5.483729
+    },
+    "validation|nearest_of_two_categories:nearest_gap_km": {
+      "max": 7.379950285901289,
+      "mean": 0.792482,
+      "min": 3.0436641154207855e-05,
+      "n": 615,
+      "p50": 0.410995,
+      "p90": 1.953587,
+      "p95": 2.965653,
+      "p99": 5.320928
+    },
+    "validation|spatial_multi_constraint:after_category": {
+      "max": 10,
+      "mean": 8.329843,
+      "min": 3,
+      "n": 191,
+      "p50": 9.0,
+      "p90": 10.0,
+      "p95": 10.0,
+      "p99": 10.0
+    },
+    "validation|spatial_multi_constraint:after_direction": {
+      "max": 10,
+      "mean": 5.157068,
+      "min": 2,
+      "n": 191,
+      "p50": 5.0,
+      "p90": 7.0,
+      "p95": 8.0,
+      "p99": 9.1
+    },
+    "validation|spatial_multi_constraint:after_radius": {
+      "max": 9,
+      "mean": 4.853403,
+      "min": 2,
+      "n": 191,
+      "p50": 5.0,
+      "p90": 7.0,
+      "p95": 8.0,
+      "p99": 9.0
+    },
+    "validation|spatial_multi_constraint:candidates_strictly_closer_than_gold": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 191,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "validation|spatial_multi_constraint:nearest_gap_km": {
+      "max": 7.292029991324308,
+      "mean": 0.81716,
+      "min": 0.004213163375275997,
+      "n": 191,
+      "p50": 0.354707,
+      "p90": 2.482211,
+      "p95": 3.141813,
+      "p99": 4.826463
+    },
+    "validation|two_hop_nearest:first_selected_count": {
+      "max": 1,
+      "mean": 1,
+      "min": 1,
+      "n": 210,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0,
+      "p99": 1.0
+    },
+    "validation|two_hop_nearest:intermediate_visible_matches": {
+      "max": 9,
+      "mean": 1.32381,
+      "min": 1,
+      "n": 210,
+      "p50": 1.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 8.0
+    },
+    "validation|two_hop_nearest:nearest_gap_km": {
+      "max": 6.620450781889608,
+      "mean": 0.596849,
+      "min": 0.20047413911492473,
+      "n": 420,
+      "p50": 0.353216,
+      "p90": 1.06611,
+      "p95": 1.954003,
+      "p99": 4.132436
+    },
+    "validation|within_radius_yes_no:count_radius_6371": {
+      "max": 10,
+      "mean": 0.814286,
+      "min": 0,
+      "n": 280,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 5.0
+    },
+    "validation|within_radius_yes_no:exact_boundary_candidates": {
+      "max": 0,
+      "mean": 0,
+      "min": 0,
+      "n": 280,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "validation|within_radius_yes_no:nearest_radius_gap_km": {
+      "max": 4.957989670032285,
+      "mean": 0.771411,
+      "min": 0.00012932036200030694,
+      "n": 280,
+      "p50": 0.463862,
+      "p90": 1.847107,
+      "p95": 3.281848,
+      "p99": 4.208207
+    },
+    "validation|within_radius_yes_no:qualifying_count": {
+      "max": 10,
+      "mean": 0.814286,
+      "min": 0,
+      "n": 280,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 5.0
+    },
+    "validation|within_radius_yes_no:strict_count": {
+      "max": 10,
+      "mean": 0.814286,
+      "min": 0,
+      "n": 280,
+      "p50": 0.0,
+      "p90": 2.0,
+      "p95": 3.0,
+      "p99": 5.0
+    }
+  },
+  "reconstructability_classes": {
+    "A": "deterministically reconstructable",
+    "B": "ambiguous input",
+    "C": "required candidate missing",
+    "D": "malformed candidate registry",
+    "E": "taxonomy/category uncertainty",
+    "F": "suspected label inconsistency",
+    "G": "insufficient information",
+    "H": "other"
+  },
+  "scope": "TRAIN AND VALIDATION ONLY; metadata coordinate-rounding diagnostics may include TEST inputs"
+}
