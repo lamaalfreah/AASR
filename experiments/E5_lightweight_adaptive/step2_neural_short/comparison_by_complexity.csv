@@ -1,0 +1,10 @@
+scope,group,n,rule0_intent_accuracy_percent,rule0_query_exact_match_percent,rule0_end_to_end_accuracy_percent,neural_intent_accuracy_percent,neural_query_exact_match_percent,neural_end_to_end_accuracy_percent
+original_validation,original_template,2502,100.0,100.0,95.243805,100.0,99.920064,95.203837
+core_dev,L1,72,0.0,0.0,0.0,27.777778,26.388889,30.555556
+core_dev,L2,56,0.0,0.0,0.0,17.857143,17.857143,19.642857
+core_dev,L3,32,0.0,0.0,0.0,15.625,15.625,15.625
+core_dev,L4,32,0.0,0.0,0.0,25.0,18.75,18.75
+core_eval,L1,24,0.0,0.0,0.0,29.166667,29.166667,29.166667
+core_eval,L2,40,0.0,0.0,0.0,17.5,17.5,20.0
+core_eval,L3,32,0.0,0.0,0.0,34.375,28.125,31.25
+core_eval,L4,32,0.0,0.0,0.0,15.625,9.375,15.625

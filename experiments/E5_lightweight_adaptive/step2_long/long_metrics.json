@@ -1,0 +1,21 @@
+{
+  "status": "blocked_model_unavailable",
+  "completed": 0,
+  "remaining": 128,
+  "model": "qwen/qwen3-4b:free",
+  "intent_accuracy": null,
+  "query_exact_match": null,
+  "end_to_end_accuracy": null,
+  "query_pairwise": null,
+  "answer_pairwise": null,
+  "mean_latency_ms": null,
+  "p50_latency_ms": null,
+  "p95_latency_ms": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "provider_cost": null,
+  "short_long_latency_ratio": null,
+  "inference_calls": 0,
+  "verdict": "ROUTER NOT YET JUSTIFIED",
+  "reason": "Exact qwen/qwen3-4b:free is absent from the current OpenRouter model catalogue; no substitution"
+}

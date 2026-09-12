@@ -1,0 +1,119 @@
+{
+  "scopes": {
+    "original_validation": {
+      "n": 2502,
+      "intent_correct": 2502,
+      "intent_accuracy_percent": 100.0,
+      "query_exact_correct": 2500,
+      "structured_query_exact_match_percent": 99.920064,
+      "answer_correct": 2382,
+      "end_to_end_accuracy_percent": 95.203837,
+      "query_produced": 2500,
+      "query_produced_percent": 99.920064,
+      "abstentions": 120,
+      "abstention_percent": 4.796163,
+      "reconstructable_n": 2383,
+      "reconstructable_accuracy_percent": 99.958036,
+      "failure_counts": {
+        "identity": 118,
+        "slot_extraction": 2
+      },
+      "pipeline_latency": {
+        "mean_ms": 0.6527383505195864,
+        "p50_ms": 0.5430834999999856,
+        "p95_ms": 0.9704475999999791
+      },
+      "parser_latency": {
+        "mean_ms": 0.46587406514788177,
+        "p50_ms": 0.3788125000000475,
+        "p95_ms": 0.6199833500000639
+      },
+      "wall_seconds": 1.984402292,
+      "oov_token_percent": 0.0
+    },
+    "core_dev": {
+      "n": 192,
+      "intent_correct": 43,
+      "intent_accuracy_percent": 22.395833,
+      "query_exact_correct": 40,
+      "structured_query_exact_match_percent": 20.833333,
+      "answer_correct": 44,
+      "end_to_end_accuracy_percent": 22.916667,
+      "query_produced": 64,
+      "query_produced_percent": 33.333333,
+      "abstentions": 128,
+      "abstention_percent": 66.666667,
+      "reconstructable_n": 192,
+      "reconstructable_accuracy_percent": 22.916667,
+      "failure_counts": {
+        "intent": 145,
+        "structured_query": 3
+      },
+      "pipeline_latency": {
+        "mean_ms": 0.5560262447916695,
+        "p50_ms": 0.5560204999996987,
+        "p95_ms": 0.8488372000001297
+      },
+      "parser_latency": {
+        "mean_ms": 0.3687124739583288,
+        "p50_ms": 0.37202050000018083,
+        "p95_ms": 0.5350522999999494
+      },
+      "wall_seconds": 0.1158479579999998,
+      "oov_token_percent": 40.062354
+    },
+    "core_eval": {
+      "n": 128,
+      "intent_correct": 30,
+      "intent_accuracy_percent": 23.4375,
+      "query_exact_correct": 26,
+      "structured_query_exact_match_percent": 20.3125,
+      "answer_correct": 30,
+      "end_to_end_accuracy_percent": 23.4375,
+      "query_produced": 46,
+      "query_produced_percent": 35.9375,
+      "abstentions": 82,
+      "abstention_percent": 64.0625,
+      "reconstructable_n": 128,
+      "reconstructable_accuracy_percent": 23.4375,
+      "failure_counts": {
+        "intent": 94,
+        "structured_query": 4
+      },
+      "pipeline_latency": {
+        "mean_ms": 0.5772744374999937,
+        "p50_ms": 0.5594995000000047,
+        "p95_ms": 0.8619437500000382
+      },
+      "parser_latency": {
+        "mean_ms": 0.39171972656251025,
+        "p50_ms": 0.3938329999999546,
+        "p95_ms": 0.542570950000143
+      },
+      "wall_seconds": 0.08016195800000014,
+      "oov_token_percent": 47.481243
+    }
+  },
+  "model_load_seconds": 0.014631583999999975,
+  "parameter_count": 32264,
+  "training_seconds": 9.795446708,
+  "cpu_threads": 2,
+  "device": "cpu",
+  "evaluation_protocol": "Single frozen run; original validation then CORE DEV then CORE EVAL. No retraining, vocabulary changes, threshold selection or slot-rule changes from these results.",
+  "query_reference": "Original validation: frozen audited Rule Baseline 0 query, an agreement metric. CORE: preserved source expected_structured_query.",
+  "source_hash": "a74c6cdd8d117fd5bc5c71d0c2fa11c64317bad525a5f8cbe8db9e2f9d7a4267",
+  "challenge_hashes": {
+    "core_dev.jsonl": "e2335ae1ebb637a1d422c9ebf41d4c935d67caebfa0d782c8ed01baaeb2eea79",
+    "core_eval.jsonl": "01eb2c7177740a4f2298596662efc6929a635022632bd424158a2af357d83db5",
+    "core_challenge.jsonl": "f1efc2ff1fe47c6a9baf751fc0a126124ff230e76f569910aa5ba49151b91ffc",
+    "source_contexts.jsonl": "dac4496b79f9fc9b3482c9c68f84772e5d02562b328101d5c93efd151ac7593a"
+  },
+  "model_checkpoint_sha256": "2971ce28a720e45cf3b98fcfce92293eef9daf0202913e3f146a74361b6770d7",
+  "inference_inputs": [
+    "question",
+    "context"
+  ],
+  "provider_calls": 0,
+  "test_accessed": false,
+  "limitation": "CORE was agent-authored in earlier work; source anchors excluded from this model fit. No independent native-speaker review."
+}

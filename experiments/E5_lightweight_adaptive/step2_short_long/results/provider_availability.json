@@ -1,0 +1,6 @@
+{
+  "requested_model": "qwen3-4b",
+  "account_region_verified": false,
+  "status": "blocked",
+  "reason": "Missing DASHSCOPE_API_KEY and/or DASHSCOPE_BASE_URL; account/region access unverified"
+}

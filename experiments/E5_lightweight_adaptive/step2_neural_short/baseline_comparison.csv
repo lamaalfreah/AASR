@@ -1,0 +1,4 @@
+scope,n,rule0_intent_accuracy_percent,rule0_query_exact_match_percent,rule0_query_reference_note,rule0_end_to_end_accuracy_percent,neural_intent_accuracy_percent,neural_query_exact_match_percent,neural_end_to_end_accuracy_percent
+original_validation,2502,100.0,100.0,Identity with reference by definition; not an independent annotation score,95.243805,100.0,99.920064,95.203837
+core_dev,192,0.0,0.0,Measured against preserved source query,0.0,22.395833,20.833333,22.916667
+core_eval,128,0.0,0.0,Measured against preserved source query,0.0,23.4375,20.3125,23.4375

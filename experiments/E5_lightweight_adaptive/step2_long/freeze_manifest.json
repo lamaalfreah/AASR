@@ -1,0 +1,24 @@
+{
+  "frozen_step1_files": {
+    "spatial/__init__.py": "76615b7a805a3797e8d5e916927276d5e2cad963da2210ff9461316fe1ef2fe3",
+    "spatial/context_parser.py": "ebef0affa6a5f718a064eaad5ad030a9f8400bb1b17ece4e9ac36936afdd24bb",
+    "spatial/executor.py": "05f1166c7fd5245f778b11b450779de752a1f0e801b391841a0ee140f925a896",
+    "spatial/geometry.py": "d58a6a0b7814c0dc9b4ddc9b6b88f4008417f8b7719f446aca0fb16ee368915c",
+    "spatial/identity.py": "68876964fe36de80f44291e931ce40a26b0930003dcab515dadef89a2830262b",
+    "spatial/normalization.py": "c4c8419eaee4ceff7deb54092d2241c88d06955656d7ba39d7c5d5d5c94a4758",
+    "spatial/query_parser.py": "4f9aa07e50ece052d6184cc7868e5c766410d806fbaeb49bdd88a772e165a835",
+    "spatial/schema.py": "24cc68f471974ddde296fbe6b7abfc79b92a770361e16ab26bb1bb5adaa8b692",
+    "evaluation/evaluate_structured_baseline.py": "379e7995422187b550fc194f88a1c05ac06d422ecd912f0a9ace51251ab94d41"
+  },
+  "neural_source_sha256": "a74c6cdd8d117fd5bc5c71d0c2fa11c64317bad525a5f8cbe8db9e2f9d7a4267",
+  "neural_checkpoint_sha256": "2971ce28a720e45cf3b98fcfce92293eef9daf0202913e3f146a74361b6770d7",
+  "challenge_files": {
+    "core_dev.jsonl": "e2335ae1ebb637a1d422c9ebf41d4c935d67caebfa0d782c8ed01baaeb2eea79",
+    "core_eval.jsonl": "01eb2c7177740a4f2298596662efc6929a635022632bd424158a2af357d83db5",
+    "core_challenge.jsonl": "f1efc2ff1fe47c6a9baf751fc0a126124ff230e76f569910aa5ba49151b91ffc",
+    "source_contexts.jsonl": "dac4496b79f9fc9b3482c9c68f84772e5d02562b328101d5c93efd151ac7593a"
+  },
+  "neural_predictions_sha256": "8daed9fcd08adfd5c08dbfc1b762702d8e0b9d2cff178ea2d79c0adc6b51e575",
+  "neural_metrics_sha256": "e9135f314e59c4c75fe183457ab9fb102aa66dbbd7bc71031a1a2a0da3ef3945",
+  "long_prompt_source_sha256": "203b6004c393079ae9105fff797b3da3897c065079e12331f02f2fcb5324afda"
+}

@@ -1,0 +1,19 @@
+{
+  "display_name": "Hard Natural Arabic Challenge Set",
+  "original_name": "CORE challenge",
+  "core_records": 320,
+  "dev_records": 192,
+  "eval_records": 128,
+  "existing_ids_and_questions_unchanged": true,
+  "rule_baseline_0": "Frozen Step-1 template parser; zero correct/parsed among 320, evidence of template dependence",
+  "neural_short": "Separate trained 32,264-parameter BiGRU intent model plus deterministic slot extraction",
+  "core_eval_policy": "Held out from fitting and selection; completed evaluation is preserved. Do not tune on these observed results.",
+  "long_evaluation": "Paused by user; no provider calls authorized in this turn",
+  "router": "Not implemented",
+  "challenge_hashes": {
+    "core_dev.jsonl": "e2335ae1ebb637a1d422c9ebf41d4c935d67caebfa0d782c8ed01baaeb2eea79",
+    "core_eval.jsonl": "01eb2c7177740a4f2298596662efc6929a635022632bd424158a2af357d83db5",
+    "core_challenge.jsonl": "f1efc2ff1fe47c6a9baf751fc0a126124ff230e76f569910aa5ba49151b91ffc",
+    "source_contexts.jsonl": "dac4496b79f9fc9b3482c9c68f84772e5d02562b328101d5c93efd151ac7593a"
+  }
+}
