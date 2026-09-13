@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e0a953192a14a03ec7fd6cb04aa9d878a9b43d44623e7eb4adfc5b2be6218f86",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"جامع مركز الملك عبد الله المالي\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"كلية\"],\n    \"radius_km\": 5,\n    \"direction\": \"جنوب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2439,
+  "output_tokens": 105,
+  "generation_ms": 6058.468031000302,
+  "inference_ms": 6070.316934999937,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7520.507291017566,
+  "case_id": "router-a609f8eef8984323b230"
+}

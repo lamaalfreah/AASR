@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d1c4ddca1def793ee6bc7e34ee157576c67921ec580be79269dc5820604743b4",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"جبل عرفة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"جامعة\",\"مستشفى\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"جامعة\",\"second_hop_category\":\"مستشفى\"},\"message\":\"\"}",
+  "input_tokens": 1991,
+  "output_tokens": 65,
+  "generation_ms": 3939.2938900000445,
+  "inference_ms": 3950.2126369998223,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5403.62870800891,
+  "case_id": "router-baa2892be1261bac4d34"
+}

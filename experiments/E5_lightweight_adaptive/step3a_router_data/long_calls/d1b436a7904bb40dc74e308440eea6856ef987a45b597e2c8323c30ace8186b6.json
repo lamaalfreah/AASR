@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d1b436a7904bb40dc74e308440eea6856ef987a45b597e2c8323c30ace8186b6",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"كلية المجتمع في الدمام\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مدرسة\",\n    \"second_hop_category\": \"مقهى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2222,
+  "output_tokens": 101,
+  "generation_ms": 5729.286267000134,
+  "inference_ms": 5740.140135000729,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7237.030707998201,
+  "case_id": "router-cd11cbac6e58516c9f29"
+}

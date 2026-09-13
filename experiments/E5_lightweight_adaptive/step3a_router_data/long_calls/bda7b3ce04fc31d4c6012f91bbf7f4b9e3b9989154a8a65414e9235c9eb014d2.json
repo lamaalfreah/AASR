@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "bda7b3ce04fc31d4c6012f91bbf7f4b9e3b9989154a8a65414e9235c9eb014d2",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"قصر الصفا بمكة المكرمة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Firdous Restaurant\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2446,
+  "output_tokens": 74,
+  "generation_ms": 4446.488884000246,
+  "inference_ms": 4458.934373999909,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7325.037290982436,
+  "case_id": "router-f47b41cb7238ec2a5183"
+}

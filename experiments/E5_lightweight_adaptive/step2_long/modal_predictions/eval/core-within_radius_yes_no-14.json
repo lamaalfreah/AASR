@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-within_radius_yes_no-14",
+  "task_type": "within_radius_yes_no",
+  "language_register": "natural_msa",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.4785771667957306,
+  "short_pipeline_ms": 0.7282499999998748,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2317,
+  "output_tokens": 100,
+  "long_inference_ms": 4653.758078999999,
+  "long_roundtrip_ms": 5535.9810829977505,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "فيا رياض",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  },
+  "raw_operation": "within_radius_yes_no",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

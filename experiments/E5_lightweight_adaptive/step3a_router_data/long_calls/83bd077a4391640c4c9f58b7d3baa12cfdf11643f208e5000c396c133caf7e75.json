@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "83bd077a4391640c4c9f58b7d3baa12cfdf11643f208e5000c396c133caf7e75",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"وادي حنيفة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مطعم\"],\n    \"radius_km\": 3,\n    \"direction\": \"غرب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"الطلب مُحلل بشكل صحيح، وتم تحديد نوع المطعم والاتجاه والمسافة.\"\n}",
+  "input_tokens": 2281,
+  "output_tokens": 126,
+  "generation_ms": 7058.8396280008965,
+  "inference_ms": 7069.307664000007,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8629.096541990293,
+  "case_id": "router-c4c165282807b4cf17a7"
+}

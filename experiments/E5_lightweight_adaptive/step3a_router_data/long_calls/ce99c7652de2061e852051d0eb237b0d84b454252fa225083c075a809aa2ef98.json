@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ce99c7652de2061e852051d0eb237b0d84b454252fa225083c075a809aa2ef98",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"بيت الكعكي\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب محطة وقود\",\"source\":\"unspecified\"},{\"name\":\"أقرب مستشفى\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2238,
+  "output_tokens": 87,
+  "generation_ms": 5165.212972000063,
+  "inference_ms": 5175.865183999576,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6727.356499992311,
+  "case_id": "router-f3b552bd077f270f2096"
+}

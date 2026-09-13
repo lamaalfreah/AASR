@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "fc51ddf897af690c3328756a388ac5cc624942134c004f4dc2c70cadd2609461",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"كأس القارات 1997\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"صيدلية النوران الطبية\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"محطة لتر\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to compare the distances of two specific entities (صيدلية النوران الطبية and محطة لتر) from the origin (كأس القارات 1997).\"\n}",
+  "input_tokens": 2340,
+  "output_tokens": 193,
+  "generation_ms": 10776.878758000294,
+  "inference_ms": 10788.055841000187,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 12330.175042006886,
+  "case_id": "router-9a6263001125d23dab7c"
+}

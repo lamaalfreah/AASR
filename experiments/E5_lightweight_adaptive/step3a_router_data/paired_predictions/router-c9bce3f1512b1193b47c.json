@@ -1,0 +1,48 @@
+{
+  "id": "router-c9bce3f1512b1193b47c",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.839374303817749,
+    "short_entropy": 0.6134343218950695,
+    "short_top1_top2_margin": 0.7379935383796692,
+    "query_valid": false,
+    "missing_slots": [
+      "origin"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 79,
+    "question_length_words": 14,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "count_within_radius",
+      "origin": {
+        "name": "مسجد العصيمي",
+        "source": "candidate"
+      },
+      "targets": [],
+      "categories": [
+        "مكان عبادة"
+      ],
+      "radius_km": 1.5,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5404.0677590001
+  }
+}

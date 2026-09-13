@@ -1,0 +1,194 @@
+{
+  "n": 2400,
+  "primary_correctness": "exact_and_answer",
+  "label_counts": {
+    "SHORT": 550,
+    "LONG": 1499,
+    "FAILURE": 351
+  },
+  "strict_label_counts": {
+    "LONG": 1499,
+    "FAILURE": 351,
+    "SHORT": 550
+  },
+  "answer_only_label_counts": {
+    "LONG": 1502,
+    "SHORT": 602,
+    "FAILURE": 296
+  },
+  "counts_by_split": {
+    "train": 1920,
+    "dev": 480
+  },
+  "labels_by_split": {
+    "train": {
+      "LONG": 1196,
+      "FAILURE": 284,
+      "SHORT": 440
+    },
+    "dev": {
+      "LONG": 303,
+      "FAILURE": 67,
+      "SHORT": 110
+    }
+  },
+  "counts_by_task": {
+    "count_within_radius": 300,
+    "nearest_of_two_categories": 300,
+    "within_radius_yes_no": 300,
+    "cardinal_direction": 300,
+    "two_hop_nearest": 300,
+    "nearest_category": 300,
+    "closer_of_two": 300,
+    "spatial_multi_constraint": 300
+  },
+  "counts_by_register": {
+    "indirect_compositional": 600,
+    "natural_msa": 600,
+    "conversational": 600,
+    "light_saudi": 600
+  },
+  "feature_nonnull_counts": {
+    "constraint_count": 769,
+    "entity_ambiguity_count": 2400,
+    "missing_slots": 2400,
+    "predicted_operation": 2400,
+    "query_valid": 2400,
+    "question_length_chars": 2400,
+    "question_length_words": 2400,
+    "short_confidence": 2400,
+    "short_entropy": 2400,
+    "short_top1_top2_margin": 2400
+  },
+  "long_generation_calls": 2941,
+  "long_retry_calls": 541,
+  "long_inference_seconds": 17128.354472790998,
+  "long_session_wall_seconds": 23888.04641220899,
+  "sessions": [
+    {
+      "app_id": "ap-Nn6d1vn4biwurWwNB1SmLn",
+      "started_unix": 1789250803.96561,
+      "primary_correctness": "exact_and_answer",
+      "cache": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.004433257000000079
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 6.739874762000001,
+        "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "status": "stopped",
+      "error": "AuthError: failed to parse auth token",
+      "wall_seconds": 9276.183181625005,
+      "long_wall_seconds": 9276.094490166986
+    },
+    {
+      "app_id": "ap-qaV4fblRjU1xaMl4cN8ier",
+      "started_unix": 1789280686.559117,
+      "primary_correctness": "exact_and_answer",
+      "cache": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.00799524500000004
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 5.611194648,
+        "container_session": "330f93fee2f04ae7b058494e19520945",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "remote_checkpoint_sample_verified": true,
+      "status": "complete",
+      "wall_seconds": 1439.1712570830132,
+      "long_wall_seconds": 1439.086354041996
+    },
+    {
+      "app_id": "ap-dnRLJT6tQJb0Zh8rCmE8LK",
+      "started_unix": 1789271682.4641979,
+      "primary_correctness": "exact_and_answer",
+      "cache": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.009165757999999968
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 7.832644613999998,
+        "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "status": "stopped",
+      "error": "ConflictError: function fu-zz8pqOBQMEoSeySowXn894 is stopped",
+      "wall_seconds": 8204.640889500006,
+      "long_wall_seconds": 8204.536539458
+    },
+    {
+      "app_id": "ap-TxYxjGWzVibV0IQmS4cqYw",
+      "started_unix": 1789238003.73635,
+      "primary_correctness": "exact_and_answer",
+      "cache": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.007628478999999855
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 7.412387078,
+        "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "status": "stopped",
+      "error": "ConflictError: function fu-zc6tIpGFIwT4w4eH0tA0SK is stopped",
+      "wall_seconds": 4990.970718499972,
+      "long_wall_seconds": 4968.329028542008
+    }
+  ],
+  "gpus": [
+    "NVIDIA L4"
+  ],
+  "frozen_components_verified": true,
+  "router_trained": false
+}

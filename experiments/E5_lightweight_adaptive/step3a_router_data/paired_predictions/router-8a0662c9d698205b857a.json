@@ -1,0 +1,47 @@
+{
+  "id": "router-8a0662c9d698205b857a",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.6357752084732056,
+    "short_entropy": 0.9595100670533454,
+    "short_top1_top2_margin": 0.35897061228752136,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 143,
+    "question_length_words": 23,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "جزيرة سوق السمك (القطيف)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "محطة وقود",
+        "مستشفى"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_output",
+    "reason": "strict_json_validation_failed",
+    "llm_calls": 2,
+    "invalid_responses": 2,
+    "inference_ms": 10282.462595000652
+  }
+}

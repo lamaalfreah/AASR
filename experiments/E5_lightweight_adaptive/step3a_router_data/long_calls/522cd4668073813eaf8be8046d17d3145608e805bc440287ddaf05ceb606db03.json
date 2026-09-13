@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "522cd4668073813eaf8be8046d17d3145608e805bc440287ddaf05ceb606db03",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"قلعة عسفان\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"بنك\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"بنك\"},\"message\":\"\"}",
+  "input_tokens": 1840,
+  "output_tokens": 69,
+  "generation_ms": 4012.2255619999123,
+  "inference_ms": 4022.769829000026,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5559.376374993008,
+  "case_id": "router-f3cf71e77c1101936b8a"
+}

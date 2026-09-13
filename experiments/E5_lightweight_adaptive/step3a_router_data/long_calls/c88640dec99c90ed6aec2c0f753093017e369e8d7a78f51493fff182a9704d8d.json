@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c88640dec99c90ed6aec2c0f753093017e369e8d7a78f51493fff182a9704d8d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"مدينة الأمير محمد بن عبد العزيز الرياضية\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مركز الأمير فيصل بن خالد لأمراض وجراحة القلب\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1871,
+  "output_tokens": 87,
+  "generation_ms": 4920.838619000278,
+  "inference_ms": 4931.45006099985,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7687.331082997844,
+  "case_id": "router-a77d2ed5307023646bbc"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "router-a7314d4b25a9b441d531",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.9275381565093994,
+    "short_entropy": 0.37330268745749656,
+    "short_top1_top2_margin": 0.9024528991430998,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 101,
+    "question_length_words": 20,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "سد عتود",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مقهى",
+        "مطعم وجبات سريعة"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 9596.904711999741
+  }
+}

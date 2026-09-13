@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "2b55f6a13725b547a88cbf7091292c24d7c574d457500cbf516909d15989f416",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"الطائف\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"البنك السعودي الفرنسي\",\"source\":\"unspecified\"},{\"name\":\"شاورما الدمشقي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2182,
+  "output_tokens": 83,
+  "generation_ms": 4704.520680000314,
+  "inference_ms": 4714.445771000101,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6738.321834011003,
+  "case_id": "router-278f2c79d0dcd8863951"
+}

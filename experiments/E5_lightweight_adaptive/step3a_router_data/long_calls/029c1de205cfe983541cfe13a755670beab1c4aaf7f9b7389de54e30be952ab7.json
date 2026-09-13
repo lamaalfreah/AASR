@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "029c1de205cfe983541cfe13a755670beab1c4aaf7f9b7389de54e30be952ab7",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"مسجد مشربة أم إبراهيم\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"محطة وقود\",\n    \"second_hop_category\": \"بنك\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2473,
+  "output_tokens": 106,
+  "generation_ms": 6039.250875000107,
+  "inference_ms": 6051.206690000072,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7641.211791022215,
+  "case_id": "router-e51f4e20af3db9add3f9"
+}

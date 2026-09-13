@@ -1,0 +1,52 @@
+{
+  "challenge_id": "core-nearest_category-14",
+  "task_type": "nearest_category",
+  "language_register": "natural_msa",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "ambiguous",
+  "long_reason": "referenced_entity_ambiguous",
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.4507373571395874,
+  "short_pipeline_ms": 0.327832999999611,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1594,
+  "output_tokens": 139,
+  "long_inference_ms": 5824.137149999999,
+  "long_roundtrip_ms": 6744.101791991852,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الأبواء",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "الجمعية",
+        "source": "unspecified"
+      },
+      {
+        "name": "الأبواء",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": null,
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": false
+}

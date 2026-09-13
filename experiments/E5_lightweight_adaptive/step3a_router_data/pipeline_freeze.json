@@ -1,0 +1,9 @@
+{
+  "code_sha256": {
+    "evaluation/router_data.py": "c5430e9359d49c8f22852245ba4871a787d6d1d6ffc988cfdf8705a2a24d48f6",
+    "evaluation/modal_router_data.py": "38072b8da28ae514f7bb946ff9d20523fab2a6e5e38534376feaaee9eec1f9ef",
+    "evaluation/router_paraphrases.json": "03c094e2c9b736e2c2a954597ae181dfcca14e420783bd1c842f8c5c07304cfe"
+  },
+  "primary_label_policy": "exact_and_answer",
+  "feature_input_policy": "Only question, public context and frozen Short outputs; no Long-derived or gold features."
+}

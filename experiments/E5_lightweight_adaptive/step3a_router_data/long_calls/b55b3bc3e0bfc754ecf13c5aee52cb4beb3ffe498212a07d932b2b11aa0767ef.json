@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b55b3bc3e0bfc754ecf13c5aee52cb4beb3ffe498212a07d932b2b11aa0767ef",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"محطة تحلية المياه بالطاقة الشمسية في الخفجي\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"محطة وقود\"],\n    \"radius_km\": 5,\n    \"direction\": \"غرب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1709,
+  "output_tokens": 112,
+  "generation_ms": 4968.2734120000305,
+  "inference_ms": 4973.886329000038,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6693.110958003672,
+  "case_id": "router-d203aff8606a61b1dab5"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "router-5c93f95afa4382fd8719",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8582631349563599,
+    "short_entropy": 0.5340196354855625,
+    "short_top1_top2_margin": 0.7491035014390945,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 87,
+    "question_length_words": 20,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "سد وادي حنيفة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مستشفى"
+      ],
+      "radius_km": 8.0,
+      "direction": "شمال",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "سد وادي حنيفة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مستشفى"
+      ],
+      "radius_km": 8,
+      "direction": "شمال",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 6137.535098000626
+  }
+}

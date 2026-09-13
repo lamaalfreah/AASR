@@ -1,0 +1,14 @@
+{
+  "examples": 128,
+  "unique_generation_checkpoints": 162,
+  "local_resume_replay_verified": true,
+  "replay_extra_generations": 0,
+  "checkpoints_unchanged": true,
+  "exact_eval_id_coverage": true,
+  "dev_disjoint": true,
+  "frozen_short_predictions_reused": true,
+  "independent_scores_verified": true,
+  "single_gpu_container_session": true,
+  "frozen_files_verified": 18,
+  "eval_freeze_verified": true
+}

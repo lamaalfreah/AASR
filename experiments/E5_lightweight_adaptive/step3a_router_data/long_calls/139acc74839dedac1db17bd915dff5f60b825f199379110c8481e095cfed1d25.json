@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "139acc74839dedac1db17bd915dff5f60b825f199379110c8481e095cfed1d25",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"المسجد النبوي\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مقهى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2337,
+  "output_tokens": 63,
+  "generation_ms": 3596.9138119999116,
+  "inference_ms": 3606.7357440006163,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7139.436875004321,
+  "case_id": "router-896d48c578ddc154acb9"
+}

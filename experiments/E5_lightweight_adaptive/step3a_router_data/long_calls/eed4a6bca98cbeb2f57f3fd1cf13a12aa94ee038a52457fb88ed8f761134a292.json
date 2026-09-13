@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "eed4a6bca98cbeb2f57f3fd1cf13a12aa94ee038a52457fb88ed8f761134a292",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"قصر المربع\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"محطة الدريس\",\"source\":\"unspecified\"},{\"name\":\"صيدلية المتحدة\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2187,
+  "output_tokens": 81,
+  "generation_ms": 4727.313910999783,
+  "inference_ms": 4737.328342999717,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6228.726332978113,
+  "case_id": "router-e2c5ccc249121ee4e3cb"
+}

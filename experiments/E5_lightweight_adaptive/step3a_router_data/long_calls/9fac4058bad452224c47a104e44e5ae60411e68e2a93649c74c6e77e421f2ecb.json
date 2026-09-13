@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "9fac4058bad452224c47a104e44e5ae60411e68e2a93649c74c6e77e421f2ecb",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"الكلابية (الأحساء)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"البنك الاهلي\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"محطة العمير\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to find the closer of two specific entities: 'البنك الاهلي' and 'محطة العمير' from the origin 'الكلابية (الأحساء)'.\"\n}",
+  "input_tokens": 2236,
+  "output_tokens": 189,
+  "generation_ms": 10392.87486000012,
+  "inference_ms": 10402.647781999804,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11902.052916993853,
+  "case_id": "router-5c56f27305faf11e89db"
+}

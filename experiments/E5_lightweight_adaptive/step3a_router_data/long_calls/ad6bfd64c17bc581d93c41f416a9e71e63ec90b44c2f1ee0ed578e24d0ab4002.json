@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ad6bfd64c17bc581d93c41f416a9e71e63ec90b44c2f1ee0ed578e24d0ab4002",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"Barn's | بارنز\",\n      \"source\": \"candidate\"\n    },\n    \"targets\": [],\n    \"categories\": [\"جامعة\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1973,
+  "output_tokens": 103,
+  "generation_ms": 5663.687638000738,
+  "inference_ms": 5672.414386000128,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7424.892207985977,
+  "case_id": "router-b395fdc64e3e12408339"
+}

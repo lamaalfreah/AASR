@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f720215926f051469704ca4dcb55e315131cd6d63fd7653275366b51550b2d63",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مصرف الإنماء\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\"],\"radius_km\":3,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1695,
+  "output_tokens": 59,
+  "generation_ms": 3228.2963329998893,
+  "inference_ms": 3236.1362530000406,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5207.809540996095,
+  "case_id": "router-a8c7440aac9796c741e9"
+}

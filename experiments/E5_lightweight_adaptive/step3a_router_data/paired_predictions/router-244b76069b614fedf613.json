@@ -1,0 +1,49 @@
+{
+  "id": "router-244b76069b614fedf613",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.9374864101409912,
+    "short_entropy": 0.3343471909326026,
+    "short_top1_top2_margin": 0.9167379550635815,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 106,
+    "question_length_words": 20,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "روض الجواء",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مستشفى",
+        "صراف آلي"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5861.246558999937
+  }
+}

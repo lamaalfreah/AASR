@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.098056089,
+  "container_session": "f327fc50875242408b15296279cc43c7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "da6d67c7c146ed93c22e4e8dc716d643f54913206805102a74f2e762c15abd7b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_category\",\n    \"origin\": {\n      \"name\": \"محطة قطار الشمال بالرياض\",\n      \"source\": \"context_anchor\"\n    },\n    \"categories\": [\"مستشفى\"]\n  },\n  \"message\": \"Query parsed successfully for finding the nearest hospital to 'محطة قطار الشمال بالرياض'.\"\n}",
+  "input_tokens": 1181,
+  "output_tokens": 82,
+  "generation_ms": 4908.926164999997,
+  "inference_ms": 4937.871826999999,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9372.727000009036,
+  "case_id": "core-nearest_category-01"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8c349ba20c438e9a0becb7b6209d94c652937647fc55228cf4b332aff783034b",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"سد عتود\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"المستشفى السعودي الالماني عسير\",\"source\":\"unspecified\"},{\"name\":\"صيدلية النهدي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1909,
+  "output_tokens": 91,
+  "generation_ms": 4897.978121999586,
+  "inference_ms": 4906.42637000019,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6343.91987498384,
+  "case_id": "router-c421d1c3659f58d0e852"
+}

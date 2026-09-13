@@ -1,0 +1,7 @@
+{
+  "n": 128,
+  "model": "small_mlp",
+  "threshold": 0.30140149024077767,
+  "pre_eval_freeze_sha256": "7695c16d1c1ad00c038ed7cde0dd3be95e9bf3a8958c706d57414627e3d3f108",
+  "short_feature_response_sha256": "029eea73e5c61d9fd6c7754e813e1a4e594dd7b762d5c95297c4c73b5589b620"
+}

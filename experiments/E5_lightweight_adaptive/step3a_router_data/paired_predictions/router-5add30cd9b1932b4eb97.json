@@ -1,0 +1,48 @@
+{
+  "id": "router-5add30cd9b1932b4eb97",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8632371425628662,
+    "short_entropy": 0.5595264816961838,
+    "short_top1_top2_margin": 0.7807829156517982,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 1,
+    "question_length_chars": 81,
+    "question_length_words": 17,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "مدينة الملك سعود الطبية",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "بنك"
+      ],
+      "radius_km": 5,
+      "direction": "جنوب",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 4785.172697000007
+  }
+}

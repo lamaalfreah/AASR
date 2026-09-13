@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "50813b112eae796244aa2aa3de088ba685b4fcb1864cdc3e2e5afd43432f86a4",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"بريدة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مطعم جاردن\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"صيدلية يافا\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يطلب مقارنة بين أقرب مطعم وصيدلية من المرجع ثابت «بريدة»، مما يجعله نوعًا من مقارنة بين عناصر محددة.\"\n}",
+  "input_tokens": 2333,
+  "output_tokens": 187,
+  "generation_ms": 10782.192028999816,
+  "inference_ms": 10796.045749999848,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 12634.61016700603,
+  "case_id": "router-f7625d241d5674fc16e6"
+}

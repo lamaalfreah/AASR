@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d20fd803798208e3e5ec7f7b505dbd7f8503ac4b64f7da6e8ec2c80b13af60ab",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"Clinic 20 - Helath Care Center\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2397,
+  "output_tokens": 67,
+  "generation_ms": 4451.562429999999,
+  "inference_ms": 4486.538436,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6275.7016670075245,
+  "case_id": "router-5445b46aeeb8827e179d"
+}

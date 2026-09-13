@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0bfdd05093d7def23a25dc9c06f5e29501fb969253388c47a7ae1b44691efd3a",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"خليج أبحر\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 3,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1975,
+  "output_tokens": 100,
+  "generation_ms": 5457.965795000291,
+  "inference_ms": 5467.286689000048,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7278.239667008165,
+  "case_id": "router-a1aa81c1cfa0d5c8880e"
+}

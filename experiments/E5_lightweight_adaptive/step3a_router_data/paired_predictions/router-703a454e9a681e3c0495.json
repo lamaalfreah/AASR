@@ -1,0 +1,49 @@
+{
+  "id": "router-703a454e9a681e3c0495",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7309399247169495,
+    "short_entropy": 1.0381817930100425,
+    "short_top1_top2_margin": 0.6212453842163086,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 70,
+    "question_length_words": 13,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "مكتبة الملك سعود",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مستشفى",
+        "مدرسة"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5911.74222599966
+  }
+}

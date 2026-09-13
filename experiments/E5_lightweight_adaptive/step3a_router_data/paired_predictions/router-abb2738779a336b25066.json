@@ -1,0 +1,51 @@
+{
+  "id": "router-abb2738779a336b25066",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.9231835603713989,
+    "short_entropy": 0.41667428471754087,
+    "short_top1_top2_margin": 0.9046381991356611,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 110,
+    "question_length_words": 18,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "cardinal_direction",
+      "origin": {
+        "name": "مدينة جدة الاقتصادية",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "تميم",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 6677.590452000004
+  }
+}

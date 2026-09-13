@@ -1,0 +1,56 @@
+{
+  "id": "router-c28f2e685fd1c1d94c1a",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.41944700479507446,
+    "short_entropy": 1.5949685654696772,
+    "short_top1_top2_margin": 0.22019578516483307,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 130,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "المركز المالي (مترو الرياض)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "عيادة",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "المركز المالي (مترو الرياض)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "عيادة",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 6073.0985019999935
+  }
+}

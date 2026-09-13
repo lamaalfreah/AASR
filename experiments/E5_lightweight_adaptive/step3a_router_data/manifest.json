@@ -1,0 +1,64 @@
+{
+  "stage": "3A",
+  "seed": "aasr-step3a-v1",
+  "source_train_path": "/Users/joudalrubaish/Tuwaiq-AI /ArabicSpatialReasoning/split_dataset/train.jsonl.gz",
+  "source_train_sha256": "e7d8d578a216ce452166f3b0cb85a4c9d4159f26b43fabea0c9046a859f562ba",
+  "core_source_ids_sha256": "dac4496b79f9fc9b3482c9c68f84772e5d02562b328101d5c93efd151ac7593a",
+  "excluded_core_anchors": 320,
+  "n": 2400,
+  "counts_by_split": {
+    "train": 1920,
+    "dev": 480
+  },
+  "counts_by_task": {
+    "nearest_category": 300,
+    "cardinal_direction": 300,
+    "within_radius_yes_no": 300,
+    "closer_of_two": 300,
+    "count_within_radius": 300,
+    "nearest_of_two_categories": 300,
+    "two_hop_nearest": 300,
+    "spatial_multi_constraint": 300
+  },
+  "counts_by_register": {
+    "natural_msa": 600,
+    "conversational": 600,
+    "light_saudi": 600,
+    "indirect_compositional": 600
+  },
+  "represented_train_anchors": 618,
+  "represented_dev_anchors": 150,
+  "anchor_disjoint": true,
+  "unique_source_records": 2400,
+  "source_rejections": {
+    "original_executor_or_gold_mismatch": 654,
+    "nonliteral_clean_name": 14,
+    "duplicate_rendered_question": 3
+  },
+  "source_policy": "Original TRAIN only, excluding every CORE source anchor; only exactly reconstructable original gold cases.",
+  "split_policy": "80/20 eligible anchor assignment before sampling; exact 1920/480 question quotas, 60/15 per task/register cell.",
+  "wording_policy": "128 new agent-authored generic Arabic templates (4 per task/register), instantiated without semantic slot changes. Not user logs or independently human-reviewed.",
+  "frozen_sources": {
+    "spatial/__init__.py": "76615b7a805a3797e8d5e916927276d5e2cad963da2210ff9461316fe1ef2fe3",
+    "spatial/context_parser.py": "ebef0affa6a5f718a064eaad5ad030a9f8400bb1b17ece4e9ac36936afdd24bb",
+    "spatial/executor.py": "05f1166c7fd5245f778b11b450779de752a1f0e801b391841a0ee140f925a896",
+    "spatial/geometry.py": "d58a6a0b7814c0dc9b4ddc9b6b88f4008417f8b7719f446aca0fb16ee368915c",
+    "spatial/identity.py": "68876964fe36de80f44291e931ce40a26b0930003dcab515dadef89a2830262b",
+    "spatial/normalization.py": "c4c8419eaee4ceff7deb54092d2241c88d06955656d7ba39d7c5d5d5c94a4758",
+    "spatial/query_parser.py": "4f9aa07e50ece052d6184cc7868e5c766410d806fbaeb49bdd88a772e165a835",
+    "spatial/schema.py": "24cc68f471974ddde296fbe6b7abfc79b92a770361e16ab26bb1bb5adaa8b692",
+    "evaluation/evaluate_structured_baseline.py": "379e7995422187b550fc194f88a1c05ac06d422ecd912f0a9ace51251ab94d41",
+    "language/long_parser.py": "534ff0b7bd98455bb5820e3bec369af76c4aa7d58b57b012c67a2420d8159d4b",
+    "language/neural_short.py": "a74c6cdd8d117fd5bc5c71d0c2fa11c64317bad525a5f8cbe8db9e2f9d7a4267",
+    "experiments/E5_lightweight_adaptive/step2_neural_short/intent_bigru.pt": "2971ce28a720e45cf3b98fcfce92293eef9daf0202913e3f146a74361b6770d7",
+    "language/modal_long_backend.py": "50dde6fccc71257056c02840ef849e242e784ef2cc4bd6fb7626a574d91a024c",
+    "language/modal_checkpoint.py": "d9ead7db2883847332d9adc7c90fd8f8c09ed003bc843a4e284ce4129abc43a6",
+    "experiments/E5_lightweight_adaptive/step2_neural_short/model_config.json": "08f19e75c3413b597d69bcf7a67b94c7026175ec17498b3601366ad2861a778e"
+  },
+  "dataset_sha256": {
+    "questions.jsonl": "1dc0985483c5c893494a48678b11452268f7934877adfc570dc5d347a6677092",
+    "public_inputs.jsonl": "3c2c8ec0008ca2a7692a3752cc0715e9f58ca2b10b282a1edafd22920ba5af73",
+    "anchor_split.json": "ffd7521ece16be88a81a40d1aabc7ef5571a4e5fb476948155a0479ef3851f85",
+    "paraphrase_bank.json": "03c094e2c9b736e2c2a954597ae181dfcca14e420783bd1c842f8c5c07304cfe"
+  }
+}

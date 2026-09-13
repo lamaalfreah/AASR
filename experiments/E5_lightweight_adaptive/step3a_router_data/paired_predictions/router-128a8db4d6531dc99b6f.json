@@ -1,0 +1,56 @@
+{
+  "id": "router-128a8db4d6531dc99b6f",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7543600797653198,
+    "short_entropy": 0.9540846496755849,
+    "short_top1_top2_margin": 0.6697161793708801,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 101,
+    "question_length_words": 19,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "متحف العقيلات",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مستشفى",
+      "second_hop_category": "مدرسة"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "متحف العقيلات",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مستشفى",
+      "second_hop_category": "مدرسة"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5662.807775999681
+  }
+}

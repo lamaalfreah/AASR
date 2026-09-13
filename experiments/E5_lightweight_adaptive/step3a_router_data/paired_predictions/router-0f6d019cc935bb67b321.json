@@ -1,0 +1,56 @@
+{
+  "id": "router-0f6d019cc935bb67b321",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.27181440591812134,
+    "short_entropy": 1.7425096740623458,
+    "short_top1_top2_margin": 0.04160836338996887,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 139,
+    "question_length_words": 25,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "مسجد عمر بن الخطاب (المدينة المنورة)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "صيدلية",
+      "second_hop_category": "بنك"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "مسجد عمر بن الخطاب (المدينة المنورة)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "صيدلية",
+      "second_hop_category": "بنك"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5983.824889000061
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8bfb1139047904a0db954668b6fbf19e19df5d7e11ed1bd2c4bfd2bbbf79b30b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"السر\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"عيادة\",\n      \"محطة وقود\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"عيادة\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1711,
+  "output_tokens": 112,
+  "generation_ms": 6336.819991000084,
+  "inference_ms": 6346.088635999877,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8051.3518750085495,
+  "case_id": "router-43c6ffad437c15490b75"
+}

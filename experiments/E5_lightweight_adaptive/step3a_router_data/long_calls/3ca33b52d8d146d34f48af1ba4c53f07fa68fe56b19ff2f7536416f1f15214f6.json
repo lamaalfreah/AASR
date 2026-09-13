@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3ca33b52d8d146d34f48af1ba4c53f07fa68fe56b19ff2f7536416f1f15214f6",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مسجد الشيخ نغيمش الأحمدي\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مقهى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2230,
+  "output_tokens": 67,
+  "generation_ms": 3716.0766769993643,
+  "inference_ms": 3725.52049099977,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5261.370749998605,
+  "case_id": "router-7c2fcc08beb788e6994d"
+}

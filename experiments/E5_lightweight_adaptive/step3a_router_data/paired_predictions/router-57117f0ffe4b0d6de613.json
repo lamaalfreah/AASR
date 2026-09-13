@@ -1,0 +1,48 @@
+{
+  "id": "router-57117f0ffe4b0d6de613",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8791412115097046,
+    "short_entropy": 0.5312498661219649,
+    "short_top1_top2_margin": 0.8194404020905495,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 87,
+    "question_length_words": 17,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "دار النفائس والمخطوطات ببريدة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مطعم"
+      ],
+      "radius_km": 3,
+      "direction": "غرب",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 4984.045121999998
+  }
+}

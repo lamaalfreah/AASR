@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a49ca596ddee59a2db7b6e429eb9dea9f40f79c23b10d7667fe6c55242dd1fcd",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"مشهد العيد\",\n      \"source\": \"candidate\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مدرسة\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1631,
+  "output_tokens": 99,
+  "generation_ms": 5212.079850998634,
+  "inference_ms": 5219.781035999404,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7327.1473750064615,
+  "case_id": "router-0e46810bebfb5f55d453"
+}

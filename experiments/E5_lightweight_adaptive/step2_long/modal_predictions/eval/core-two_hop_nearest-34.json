@@ -1,0 +1,50 @@
+{
+  "challenge_id": "core-two_hop_nearest-34",
+  "task_type": "two_hop_nearest",
+  "language_register": "light_saudi",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "success",
+  "short_confidence": 0.5725800395011902,
+  "short_pipeline_ms": 0.49304099999991635,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1716,
+  "output_tokens": 108,
+  "long_inference_ms": 4756.41258099995,
+  "long_roundtrip_ms": 5693.09895898914,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "قبة (محافظة الأسياح)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى",
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "الدريس",
+    "text": "الدريس"
+  },
+  "raw_operation": "nearest_of_two_categories",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": false
+}

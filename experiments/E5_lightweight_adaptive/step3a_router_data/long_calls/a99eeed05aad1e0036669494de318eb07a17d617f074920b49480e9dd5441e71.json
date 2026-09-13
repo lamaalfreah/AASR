@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a99eeed05aad1e0036669494de318eb07a17d617f074920b49480e9dd5441e71",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"سوق المسوكف\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"بنك\",\"مستشفى\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"بنك\",\"second_hop_category\":\"مستشفى\"},\"message\":\"\"}",
+  "input_tokens": 2149,
+  "output_tokens": 64,
+  "generation_ms": 3675.9788120007215,
+  "inference_ms": 3686.343370999566,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5374.968999996781,
+  "case_id": "router-e372038b56300a5e8fff"
+}

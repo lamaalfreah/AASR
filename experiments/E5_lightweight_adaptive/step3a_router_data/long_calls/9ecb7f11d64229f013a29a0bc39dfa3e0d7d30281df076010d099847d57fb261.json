@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "9ecb7f11d64229f013a29a0bc39dfa3e0d7d30281df076010d099847d57fb261",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"حادثة منى 2015\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مطعم\",\"مطعم وجبات سريعة\"],\"radius_km\":3,\"direction\":null,\"first_hop_category\":\"مطعم\",\"second_hop_category\":\"مطعم وجبات سريعة\"},\"message\":\"\"}",
+  "input_tokens": 2395,
+  "output_tokens": 83,
+  "generation_ms": 3998.903096000049,
+  "inference_ms": 4006.2587230000872,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5758.072333002929,
+  "case_id": "router-539a188867d0f316f59d"
+}

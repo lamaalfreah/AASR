@@ -1,0 +1,49 @@
+{
+  "id": "router-2e6600528e6a6c45b9ad",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8634417653083801,
+    "short_entropy": 0.515284918205202,
+    "short_top1_top2_margin": 0.7633498758077621,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 88,
+    "question_length_words": 16,
+    "predicted_operation": "nearest_category",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "الليث",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "صيدلية",
+        "كلية"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7549.737816000061
+  }
+}

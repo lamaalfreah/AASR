@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-spatial_multi_constraint-40",
+  "task_type": "spatial_multi_constraint",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.8190240263938904,
+  "short_pipeline_ms": 0.8138330000000416,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2405,
+  "output_tokens": 102,
+  "long_inference_ms": 4885.277819000066,
+  "long_roundtrip_ms": 6012.002749979729,
+  "predicted_query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "بوابة الملك سلمان",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 8,
+    "direction": "شرق",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "عيادات البدر الطبية",
+    "text": "عيادات البدر الطبية"
+  },
+  "raw_operation": "spatial_multi_constraint",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

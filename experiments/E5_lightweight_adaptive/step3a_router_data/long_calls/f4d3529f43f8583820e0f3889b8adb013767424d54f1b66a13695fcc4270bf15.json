@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f4d3529f43f8583820e0f3889b8adb013767424d54f1b66a13695fcc4270bf15",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"حائل\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"بن طواله\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2097,
+  "output_tokens": 68,
+  "generation_ms": 4038.9013760000125,
+  "inference_ms": 4048.903535000136,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6679.6247079910245,
+  "case_id": "router-02b7cf259ed0e2cf7272"
+}

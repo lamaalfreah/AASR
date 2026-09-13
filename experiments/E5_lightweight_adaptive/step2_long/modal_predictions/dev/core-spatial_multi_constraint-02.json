@@ -1,0 +1,44 @@
+{
+  "challenge_id": "core-spatial_multi_constraint-02",
+  "task_type": "spatial_multi_constraint",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.6204299330711365,
+  "short_pipeline_ms": 0.5774169999996914,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1737,
+  "output_tokens": 100,
+  "long_inference_ms": 5390.433043000002,
+  "long_roundtrip_ms": 7028.033291018801,
+  "predicted_query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "تمير",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": 5,
+    "direction": "شرق",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مجمع السلطان",
+    "text": "مجمع السلطان"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "2b157d20cf98885aea1e245c9bccf71e950b988634b099bd9b949a88fa627586",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"الخضراء (منفذ حدودي)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مستشفى الطوال العام‭\",\"source\":\"unspecified\"},{\"name\":\"مدرسة العباس بن عبدالمطلب\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1779,
+  "output_tokens": 93,
+  "generation_ms": 4933.883033000711,
+  "inference_ms": 4941.936567000084,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6571.3394159975,
+  "case_id": "router-6ebbf09bce63802be242"
+}

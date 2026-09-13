@@ -1,0 +1,52 @@
+{
+  "challenge_id": "core-cardinal_direction-38",
+  "task_type": "cardinal_direction",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.3724294900894165,
+  "short_pipeline_ms": 0.7417919999999079,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2254,
+  "output_tokens": 119,
+  "long_inference_ms": 5455.28030700001,
+  "long_roundtrip_ms": 6773.664540989557,
+  "predicted_query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "السياسب",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطعم نسيم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "direction",
+    "value": "شرق",
+    "text": "شرق"
+  },
+  "raw_operation": "cardinal_direction",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-within_radius_yes_no-40",
+  "task_type": "within_radius_yes_no",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.7265082597732544,
+  "short_pipeline_ms": 0.513291999999943,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1732,
+  "output_tokens": 101,
+  "long_inference_ms": 4455.796594000049,
+  "long_roundtrip_ms": 5509.275124990381,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "متحف الزيلعي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 1,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  },
+  "raw_operation": "within_radius_yes_no",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

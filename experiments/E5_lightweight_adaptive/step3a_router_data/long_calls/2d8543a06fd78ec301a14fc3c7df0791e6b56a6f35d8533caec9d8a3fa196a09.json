@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "2d8543a06fd78ec301a14fc3c7df0791e6b56a6f35d8533caec9d8a3fa196a09",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"برج الحقيط\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مدرسة\",\n    \"second_hop_category\": \"مطعم\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2402,
+  "output_tokens": 99,
+  "generation_ms": 5735.105963000024,
+  "inference_ms": 5746.243172000504,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7271.823042014148,
+  "case_id": "router-7225d5ac61fb5e521379"
+}

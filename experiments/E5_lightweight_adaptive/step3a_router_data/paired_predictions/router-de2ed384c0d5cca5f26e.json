@@ -1,0 +1,68 @@
+{
+  "id": "router-de2ed384c0d5cca5f26e",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.47733479738235474,
+    "short_entropy": 0.9522272405749722,
+    "short_top1_top2_margin": 0.012546628713607788,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 147,
+    "question_length_words": 25,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "متحف المدينة المنورة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "صيدلية",
+        "مستشفى"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "متحف المدينة المنورة",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "صيدلية بدور",
+          "source": "unspecified"
+        },
+        {
+          "name": "مستشفى الدكتور حامد سليمان الأحمدي",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 2,
+    "invalid_responses": 1,
+    "inference_ms": 13262.26764699959
+  }
+}

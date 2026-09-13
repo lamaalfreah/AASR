@@ -1,0 +1,65 @@
+{
+  "id": "router-73a42946658f3e9dbcc9",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.3644612729549408,
+    "short_entropy": 1.6070608036955751,
+    "short_top1_top2_margin": 0.09331339597702026,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 96,
+    "question_length_words": 18,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "أوثال",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "صيدلية",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "أوثال",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "صيدلية عادل",
+          "source": "unspecified"
+        },
+        {
+          "name": "مطعم جاردن",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8075.472696999896
+  }
+}

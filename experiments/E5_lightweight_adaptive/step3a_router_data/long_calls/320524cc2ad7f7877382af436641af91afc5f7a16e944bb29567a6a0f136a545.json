@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "320524cc2ad7f7877382af436641af91afc5f7a16e944bb29567a6a0f136a545",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"جزيرة القرمة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"الخنيني 55\",\"source\":\"unspecified\"},{\"name\":\"Numan bin Almoqaran mosque\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1942,
+  "output_tokens": 89,
+  "generation_ms": 4772.710490000463,
+  "inference_ms": 4781.115946000682,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6381.087582994951,
+  "case_id": "router-dec37553cf1fb9fd5ccf"
+}

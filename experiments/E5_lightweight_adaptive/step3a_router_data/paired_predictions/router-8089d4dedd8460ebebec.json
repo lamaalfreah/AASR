@@ -1,0 +1,65 @@
+{
+  "id": "router-8089d4dedd8460ebebec",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.4983619153499603,
+    "short_entropy": 1.4907824945446286,
+    "short_top1_top2_margin": 0.31628990173339844,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 109,
+    "question_length_words": 20,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "محافظة الأحساء",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مدرسة",
+      "second_hop_category": "محطة وقود"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "محافظة الأحساء",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "مستشفى الأحساء",
+          "source": "unspecified"
+        },
+        {
+          "name": "محطة العمير",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "ambiguous",
+    "reason": "referenced_entity_ambiguous",
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7956.188393000048
+  }
+}

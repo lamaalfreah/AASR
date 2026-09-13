@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "1503aae22e5cc6d5aea1fc4ec99530677d3cd5e14609302c7e7452828d1edf44",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"محافظة الغاط\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"بنك الراجحي\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"جامع الغاط الاوسط\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to compare the distances of two specific named entities from the origin.\"\n}",
+  "input_tokens": 1751,
+  "output_tokens": 162,
+  "generation_ms": 8468.192238000483,
+  "inference_ms": 8479.324397999335,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10302.282749995356,
+  "case_id": "router-aba1275bed049d0a7a55"
+}

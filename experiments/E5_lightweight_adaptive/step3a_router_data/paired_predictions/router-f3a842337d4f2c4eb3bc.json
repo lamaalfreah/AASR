@@ -1,0 +1,55 @@
+{
+  "id": "router-f3a842337d4f2c4eb3bc",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.5918509364128113,
+    "short_entropy": 1.3313667857811382,
+    "short_top1_top2_margin": 0.44275204837322235,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 2,
+    "question_length_chars": 66,
+    "question_length_words": 12,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "جامع عائشة الراجحي",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "جامعة أم القرى (العابدية)",
+          "source": "unspecified"
+        },
+        {
+          "name": "جامعة أم القرى / شطر الطالبات",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 2,
+    "invalid_responses": 1,
+    "inference_ms": 13505.612714000108
+  }
+}

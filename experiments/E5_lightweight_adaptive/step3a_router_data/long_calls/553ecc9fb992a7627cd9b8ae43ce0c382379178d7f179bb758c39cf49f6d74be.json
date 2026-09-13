@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "553ecc9fb992a7627cd9b8ae43ce0c382379178d7f179bb758c39cf49f6d74be",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"القريات (جدة)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"المعلمى للكبدة\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2400,
+  "output_tokens": 76,
+  "generation_ms": 4411.0985620000065,
+  "inference_ms": 4421.949106000284,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7877.628916001413,
+  "case_id": "router-80c8ec4f182ea64e23f3"
+}

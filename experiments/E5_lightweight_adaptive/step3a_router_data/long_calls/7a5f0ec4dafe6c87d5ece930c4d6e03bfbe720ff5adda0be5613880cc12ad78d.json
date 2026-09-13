@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "7a5f0ec4dafe6c87d5ece930c4d6e03bfbe720ff5adda0be5613880cc12ad78d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"مسجد المدهون\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"مطعم\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"مطعم\"},\"message\":\"\"}",
+  "input_tokens": 2206,
+  "output_tokens": 68,
+  "generation_ms": 4017.4364049998985,
+  "inference_ms": 4027.413351999712,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5541.702874994371,
+  "case_id": "router-e07b6bee60bef708e0db"
+}

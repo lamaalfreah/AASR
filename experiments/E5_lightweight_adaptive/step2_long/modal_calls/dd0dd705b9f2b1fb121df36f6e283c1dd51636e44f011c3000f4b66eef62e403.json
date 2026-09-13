@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.618463624,
+  "container_session": "eca56fee0e21444b9766113dd09681c1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "dd0dd705b9f2b1fb121df36f6e283c1dd51636e44f011c3000f4b66eef62e403",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"قرية العنقة الأثرية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"الريشة الذهبية\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"مقهى الذهبي\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1980,
+  "output_tokens": 148,
+  "generation_ms": 7914.223550999992,
+  "inference_ms": 7922.165586999995,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9910.48812502413,
+  "case_id": "core-closer_of_two-02"
+}

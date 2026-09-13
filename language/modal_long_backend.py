@@ -3,14 +3,23 @@
 Run from the repository root: modal run -m language.modal_long_backend
 No service is deployed; exiting the attached run releases its resources.
 """
-from __future__ import annotations
 import modal
+
+CACHED_REVISION = '1cfa9a7208912126459214e8b04321603b3df60c'
+CACHE_ROOT = '/root/.cache/huggingface'
+
+
+def primitive_payload(value):
+    """Strip framework scalar subclasses and reject non-JSON runtime objects."""
+    import json
+    return json.loads(json.dumps(value, ensure_ascii=False, allow_nan=False))
 
 app = modal.App('aasr-step2b-qwen3-4b-long')
 image = (modal.Image.debian_slim(python_version='3.11')
          .pip_install('torch==2.6.0', 'transformers==4.57.1',
                       'huggingface-hub==0.36.0', 'safetensors==0.6.2')
          .env({'HF_HOME': '/root/.cache/huggingface',
+               'HF_HUB_OFFLINE': '1', 'TRANSFORMERS_OFFLINE': '1',
                'HF_HUB_DISABLE_PROGRESS_BARS': '1', 'TOKENIZERS_PARALLELISM': 'false'})
          .add_local_python_source('language'))
 hf_cache = modal.Volume.from_name('asar-hf-cache')
@@ -20,17 +29,29 @@ checkpoints = modal.Volume.from_name('aasr-step2b-long-checkpoints', create_if_m
 @app.function(image=image, volumes={'/root/.cache/huggingface': hf_cache},
               cpu=2, memory=4096, timeout=1200, retries=0, max_containers=1)
 def prepare_weights(revision: str = ''):
-    """Download on CPU, before any GPU is allocated; pin the official revision."""
-    from huggingface_hub import HfApi, snapshot_download
+    """Verify the existing snapshot on CPU without network access or cache writes."""
+    import json
+    from pathlib import Path
     from language.modal_checkpoint import MODEL
     from time import perf_counter
     started = perf_counter()
-    revision = revision or HfApi().model_info(MODEL).sha
-    snapshot_download(MODEL, revision=revision,
-                      allow_patterns=['*.json', '*.safetensors', '*.txt', '*.jinja'])
-    hf_cache.commit()
-    return dict(model=MODEL, revision=revision,
-                weight_preparation_seconds=perf_counter()-started)
+    revision = revision or CACHED_REVISION
+    if revision != CACHED_REVISION:
+        raise RuntimeError('Unexpected cached model revision: ' + revision)
+    snapshot = Path(CACHE_ROOT) / 'hub/models--Qwen--Qwen3-4B/snapshots' / revision
+    required = ['config.json', 'tokenizer_config.json', 'tokenizer.json',
+                'model.safetensors.index.json']
+    required += [f'model-{i:05d}-of-00003.safetensors' for i in range(1, 4)]
+    for name in required:
+        if not (snapshot / name).is_file():
+            raise FileNotFoundError('Missing cached model file: ' + str(snapshot / name))
+    index = json.loads((snapshot / 'model.safetensors.index.json').read_text())
+    for name in set(index['weight_map'].values()):
+        if not (snapshot / name).is_file():
+            raise FileNotFoundError('Missing indexed weight shard: ' + str(snapshot / name))
+    return primitive_payload(dict(model=MODEL, revision=revision,
+                cache_only=True, snapshot_path=str(snapshot),
+                weight_preparation_seconds=float(perf_counter()-started)))
 
 
 @app.cls(image=image, gpu='L4', cpu=2, memory=16384,
@@ -49,27 +70,44 @@ class QwenLong:
         from time import perf_counter
         import uuid
         started = perf_counter()
+        if self.revision != CACHED_REVISION:
+            raise RuntimeError('Unexpected model revision')
+        snapshot = f'{CACHE_ROOT}/hub/models--Qwen--Qwen3-4B/snapshots/{self.revision}'
         if torch.cuda.device_count() != 1 or 'L4' != torch.cuda.get_device_name(0).split()[-1]:
             raise RuntimeError('Exactly one NVIDIA L4 is required')
         if not torch.cuda.is_bf16_supported():
             raise RuntimeError('bfloat16 is unavailable; stop rather than change precision')
-        self.tokenizer = AutoTokenizer.from_pretrained(MODEL, revision=self.revision,
+        self.tokenizer = AutoTokenizer.from_pretrained(snapshot,
                                                        local_files_only=True)
         self.model = AutoModelForCausalLM.from_pretrained(
-            MODEL, revision=self.revision, local_files_only=True,
+            snapshot, local_files_only=True,
             torch_dtype=torch.bfloat16, attn_implementation='sdpa',
             use_safetensors=True).to('cuda').eval()
         torch.cuda.synchronize()
-        self.info = dict(model=MODEL, revision=self.revision,
-                         gpu=torch.cuda.get_device_name(0), gpu_count=1,
+        self.info = primitive_payload(dict(model=MODEL, revision=self.revision,
+                         model_loaded=True,
+                         cache_only=True, snapshot_path=snapshot,
+                         gpu=str(torch.cuda.get_device_name(0)), gpu_count=1,
                          precision=str(self.model.dtype),
-                         model_load_seconds=perf_counter()-started,
+                         model_load_seconds=float(perf_counter()-started),
                          container_session=uuid.uuid4().hex,
-                         torch_version=torch.__version__, transformers_version=transformers.__version__)
+                         torch_version=str(torch.__version__),
+                         transformers_version=str(transformers.__version__)))
 
     @modal.method()
     def metadata(self):
-        return self.info
+        return primitive_payload(self.info)
+
+    @modal.method()
+    def read_checkpoint(self, request_digest: str):
+        """Verify a committed checkpoint without invoking generation."""
+        import json
+        import re
+        from pathlib import Path
+        if not re.fullmatch('[a-f0-9]{64}', request_digest):
+            raise ValueError('Invalid checkpoint key')
+        checkpoints.reload()
+        return json.loads((Path('/checkpoints') / (request_digest + '.json')).read_text())
 
     @modal.method()
     def generate(self, messages: list, request_digest: str):
@@ -99,18 +137,18 @@ class QwenLong:
                        pad_token_id=self.tokenizer.eos_token_id)
         torch.cuda.synchronize()
         generated = output[0, length:]
-        response = dict(self.info, request_digest=request_digest,
+        response = primitive_payload(dict(self.info, request_digest=request_digest,
                         text=self.tokenizer.decode(generated, skip_special_tokens=True),
                         input_tokens=int(length), output_tokens=len(generated),
                         generation_ms=(perf_counter()-generation_start)*1000,
                         inference_ms=(perf_counter()-began)*1000,
-                        reached_token_limit=len(generated) == GENERATION['max_new_tokens'])
+                        reached_token_limit=len(generated) == GENERATION['max_new_tokens']))
         atomic_json(path, response)
         checkpoints.commit()  # Survives a lost response or interrupted local process.
         return response
 
 
 @app.local_entrypoint()
-def main():
+def main(smoke_only: bool = True):
     from evaluation.evaluate_modal_long import run
-    run(prepare_weights, QwenLong, app.app_id)
+    run(prepare_weights, QwenLong, app.app_id, smoke_only=smoke_only)

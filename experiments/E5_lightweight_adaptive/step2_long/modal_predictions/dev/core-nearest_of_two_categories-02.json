@@ -1,0 +1,45 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-02",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.8663734197616577,
+  "short_pipeline_ms": 0.5473750000000166,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2055,
+  "output_tokens": 106,
+  "long_inference_ms": 5817.137287000009,
+  "long_roundtrip_ms": 7594.438250001986,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "الكلية التقنية بجدة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "جامعة",
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مستشفى الملك عبدالله بن عبدالعزيز التخصصي للأطفال",
+    "text": "مستشفى الملك عبدالله بن عبدالعزيز التخصصي للأطفال"
+  }
+}

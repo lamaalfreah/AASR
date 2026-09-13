@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-nearest_category-31",
+  "task_type": "nearest_category",
+  "language_register": "light_saudi",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.3819868266582489,
+  "short_pipeline_ms": 0.37091700000013716,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1790,
+  "output_tokens": 121,
+  "long_inference_ms": 5188.094578999994,
+  "long_roundtrip_ms": 7300.202958023874,
+  "predicted_query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "الطوال",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مستشفى الطوال العام‭",
+    "text": "مستشفى الطوال العام‭"
+  },
+  "raw_operation": "nearest_category",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

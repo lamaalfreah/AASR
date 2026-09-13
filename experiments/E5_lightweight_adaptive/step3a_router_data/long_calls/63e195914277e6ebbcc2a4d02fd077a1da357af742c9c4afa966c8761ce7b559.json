@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "63e195914277e6ebbcc2a4d02fd077a1da357af742c9c4afa966c8761ce7b559",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"خليص\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"محطة المزروعي للمحروقات\",\"source\":\"unspecified\"},{\"name\":\"صالح ابن عريمط المزروعي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1695,
+  "output_tokens": 93,
+  "generation_ms": 4965.842126000098,
+  "inference_ms": 4973.743411000214,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6727.468749973923,
+  "case_id": "router-7b1627d0d1d91a234ab5"
+}

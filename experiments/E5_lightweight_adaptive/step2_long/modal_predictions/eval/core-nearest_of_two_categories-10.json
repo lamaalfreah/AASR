@@ -1,0 +1,54 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-10",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "natural_msa",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "ambiguous",
+  "long_reason": "referenced_entity_ambiguous",
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "success",
+  "short_confidence": 0.7733896374702454,
+  "short_pipeline_ms": 0.801041999999974,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4661,
+  "output_tokens": 229,
+  "long_inference_ms": 10529.505402999916,
+  "long_roundtrip_ms": 12379.858291009441,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الحجرة النبوية (المسجد النبوي)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "البنك العربي الوطني",
+        "source": "unspecified"
+      },
+      {
+        "name": "مصرف الراجحي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": null,
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "reference_schema"
+  ],
+  "raw_operation_correct": false
+}

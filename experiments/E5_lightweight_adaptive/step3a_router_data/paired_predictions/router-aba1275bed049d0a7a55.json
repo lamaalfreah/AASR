@@ -1,0 +1,68 @@
+{
+  "id": "router-aba1275bed049d0a7a55",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.6332646012306213,
+    "short_entropy": 1.0579658117797641,
+    "short_top1_top2_margin": 0.3899695575237274,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 88,
+    "question_length_words": 16,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "محافظة الغاط",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "بنك",
+        "مدرسة"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "محافظة الغاط",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "بنك الراجحي",
+          "source": "unspecified"
+        },
+        {
+          "name": "جامع الغاط الاوسط",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8479.324397999335
+  }
+}

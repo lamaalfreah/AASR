@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "7d1ba1ae63b6e1989519d27a431b6b29801b009988635b19edc08f5de47e6b5e",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"ذات عرق\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مسجد ميقات ذات عرق\",\"source\":\"unspecified\"},{\"name\":\"مدرسة ابو عشر بنين\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1653,
+  "output_tokens": 87,
+  "generation_ms": 4665.211879000708,
+  "inference_ms": 4673.540599000262,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8534.031750023132,
+  "case_id": "router-341ea302e0751bc5a90e"
+}

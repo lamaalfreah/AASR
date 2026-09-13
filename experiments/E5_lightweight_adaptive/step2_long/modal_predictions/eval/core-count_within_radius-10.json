@@ -1,0 +1,37 @@
+{
+  "challenge_id": "core-count_within_radius-10",
+  "task_type": "count_within_radius",
+  "language_register": "natural_msa",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "invalid_output",
+  "long_reason": "strict_json_validation_failed",
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.8223993182182312,
+  "short_pipeline_ms": 0.45691700000016766,
+  "llm_calls": 2,
+  "invalid_responses": 2,
+  "input_tokens": 3295,
+  "output_tokens": 161,
+  "long_inference_ms": 7196.5062909999915,
+  "long_roundtrip_ms": 8906.881540984614,
+  "predicted_query": null,
+  "predicted_answer": null,
+  "raw_operation": "nearest_category",
+  "invented_entity_names": [
+    "محطة نسيم Kuwait",
+    "محطة نسيم Kuwait"
+  ],
+  "invented_entity_count": 2,
+  "validation_errors": [
+    "unexpected_radius",
+    "unexpected_radius"
+  ],
+  "raw_operation_correct": false
+}

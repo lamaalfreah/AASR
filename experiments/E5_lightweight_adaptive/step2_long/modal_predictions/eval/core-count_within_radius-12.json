@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-count_within_radius-12",
+  "task_type": "count_within_radius",
+  "language_register": "natural_msa",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.7075904607772827,
+  "short_pipeline_ms": 0.40491700000000463,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1997,
+  "output_tokens": 100,
+  "long_inference_ms": 4544.47555899992,
+  "long_roundtrip_ms": 5405.036167008802,
+  "predicted_query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "مسجد أم مطلق",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "integer",
+    "value": 2,
+    "text": "2"
+  },
+  "raw_operation": "count_within_radius",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

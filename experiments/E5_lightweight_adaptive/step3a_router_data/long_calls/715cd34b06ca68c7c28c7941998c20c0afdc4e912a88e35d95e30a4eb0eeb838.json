@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "715cd34b06ca68c7c28c7941998c20c0afdc4e912a88e35d95e30a4eb0eeb838",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"واحة الأحساء\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مطعم\", \"مطعم وجبات سريعة\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is asking for the nearest entity of two categories (mطعم and مطعم وجبات سريعة) from the origin 'واحة الأحساء'.\"\n}",
+  "input_tokens": 2257,
+  "output_tokens": 145,
+  "generation_ms": 8159.145404000014,
+  "inference_ms": 8169.414210000014,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11147.22258297843,
+  "case_id": "router-2a7f4000a63a17c1d313"
+}

@@ -1,0 +1,58 @@
+{
+  "challenge_id": "core-closer_of_two-14",
+  "task_type": "closer_of_two",
+  "language_register": "natural_msa",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.8507296442985535,
+  "short_pipeline_ms": 0.6810000000001537,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4381,
+  "output_tokens": 219,
+  "long_inference_ms": 9953.107201000024,
+  "long_roundtrip_ms": 12028.241541003808,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "محطة المتحف الوطني (مترو الرياض)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صيدلية شمس",
+        "source": "unspecified"
+      },
+      {
+        "name": "Al Rajhi pharmacy",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "Al Rajhi pharmacy",
+    "text": "Al Rajhi pharmacy"
+  },
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "reference_schema"
+  ],
+  "raw_operation_correct": true
+}

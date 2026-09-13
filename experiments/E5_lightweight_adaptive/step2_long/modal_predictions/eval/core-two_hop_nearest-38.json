@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-two_hop_nearest-38",
+  "task_type": "two_hop_nearest",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.7647495269775391,
+  "short_pipeline_ms": 0.962208000000242,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2291,
+  "output_tokens": 102,
+  "long_inference_ms": 4733.309759999997,
+  "long_roundtrip_ms": 5700.975749990903,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مكتبة المسجد النبوي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مدرسة",
+    "second_hop_category": "مستشفى"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مستشفی صفا المدینة",
+    "text": "مستشفی صفا المدینة"
+  },
+  "raw_operation": "two_hop_nearest",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

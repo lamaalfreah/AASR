@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "84672be494cc528b0b2635327f3350a2cefff1ea6922fe87428a3315a9eca9e8",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"سدود الحائر\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"بنك\", \"بنك\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"بنك\"\n  },\n  \"message\": \"The query is about finding the nearest bank from the origin 'سدود الحائر'. The operation is 'nearest_of_two_categories' as it compares two categories (both 'بنك') for the nearest entity.\"\n}",
+  "input_tokens": 2200,
+  "output_tokens": 149,
+  "generation_ms": 8134.477072999999,
+  "inference_ms": 8146.68051999999,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10763.063040998532,
+  "case_id": "router-c4e5f9d3583c65f64391"
+}

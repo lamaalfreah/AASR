@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "75dcbc591864006101818efafc6036c8061b5150d036afb2f71faa003ba4508e",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"مسجد بني خطمة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\",\"مسجد\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2472,
+  "output_tokens": 63,
+  "generation_ms": 3793.6514929999703,
+  "inference_ms": 3804.4990099999723,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6558.446707989788,
+  "case_id": "router-302ee49b188db55bf7f0"
+}

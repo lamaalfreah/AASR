@@ -1,0 +1,59 @@
+{
+  "id": "router-75b510a40b6e32a45b9c",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7298101782798767,
+    "short_entropy": 0.7308615611144275,
+    "short_top1_top2_margin": 0.49380771815776825,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 90,
+    "question_length_words": 17,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "جمعية البر بالمدينة المنورة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مقهى",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "جمعية البر بالمدينة المنورة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مقهى",
+        "مطعم"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8017.141497000011
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "018a35af27f6f9185446f6fb1354d4154837999c0e8383c07776755f1376a4ce",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"سد وادي جازان\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"عيادة\",\n      \"مدرسة\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"عيادة\",\n    \"second_hop_category\": \"مدرسة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1779,
+  "output_tokens": 112,
+  "generation_ms": 6156.469881000703,
+  "inference_ms": 6165.342639999835,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7509.468000003835,
+  "case_id": "router-33c8a90debdd575af837"
+}

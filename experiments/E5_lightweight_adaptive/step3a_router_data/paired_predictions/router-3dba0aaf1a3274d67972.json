@@ -1,0 +1,55 @@
+{
+  "id": "router-3dba0aaf1a3274d67972",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.5760011672973633,
+    "short_entropy": 1.3285076579818011,
+    "short_top1_top2_margin": 0.3817177414894104,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 65,
+    "question_length_words": 12,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "حي الربوة (الرياض)",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "كلية المجتمع الجديده",
+          "source": "unspecified"
+        },
+        {
+          "name": "كلية التقنية بنات",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8399.020355000004
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6ba25220b7cfa2952fe9ccb67d2cb3bf10c0912c946baedb05e07804479e0860",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"حادثة انهيار فندق لؤلؤة الخير 2006\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"عيادة\",\"عيادة\"],\"radius_km\":8,\"direction\":null,\"first_hop_category\":\"عيادة\",\"second_hop_category\":\"عيادة\"},\"message\":\"\"}",
+  "input_tokens": 2459,
+  "output_tokens": 81,
+  "generation_ms": 3936.883693000027,
+  "inference_ms": 3943.787909999969,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5841.396291012643,
+  "case_id": "router-b835793c1ea9925bf312"
+}

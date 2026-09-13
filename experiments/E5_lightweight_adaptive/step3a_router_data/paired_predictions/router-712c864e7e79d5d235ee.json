@@ -1,0 +1,46 @@
+{
+  "id": "router-712c864e7e79d5d235ee",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7739207744598389,
+    "short_entropy": 0.7080434516767291,
+    "short_top1_top2_margin": 0.5906107872724533,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 83,
+    "question_length_words": 19,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "باب العنبرية",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مقهى"
+      ],
+      "radius_km": 3.0,
+      "direction": "شرق",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_output",
+    "reason": "strict_json_validation_failed",
+    "llm_calls": 2,
+    "invalid_responses": 2,
+    "inference_ms": 7625.904284999933
+  }
+}

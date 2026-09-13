@@ -1,0 +1,38 @@
+{
+  "n": 16,
+  "full_validation_pass": 16,
+  "operation_correct": 15,
+  "query_exact": 15,
+  "answer_correct": 16,
+  "generation_calls": 20,
+  "invalid_responses": 4,
+  "invented_entity_references": [],
+  "uninspectable_raw_responses": [],
+  "failures_by_operation": {
+    "nearest_of_two_categories": 1
+  },
+  "runtime": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "model_loaded": true,
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "precision": "torch.bfloat16",
+    "model_load_seconds": 7.618463624,
+    "container_session": "eca56fee0e21444b9766113dd09681c1",
+    "torch_version": "2.6.0+cu124",
+    "transformers_version": "4.57.1"
+  },
+  "resume_verification": {
+    "examples": 16,
+    "local_generation_replay": true,
+    "prediction_replay": true,
+    "remote_committed_checkpoints": true,
+    "extra_generations": 0
+  },
+  "core_eval_completed": 0,
+  "frozen_hashes_verified": 18,
+  "status": "smoke_failed"
+}
