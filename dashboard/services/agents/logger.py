@@ -1,4 +1,4 @@
-"""Logging agent: persists every question/answer/verification to the DB.
+"""Optional DB logging, enabled only by AASR_LOG_REQUESTS.
 
 Runs after the verifier. Never raises — a logging failure must not break
 the API response the user sees.
@@ -15,7 +15,7 @@ def log_result(result: dict):
         verification = result.get("verification") or {}
         QueryLog.objects.create(
             question=result.get("question", ""),
-            task_type=result.get("task_type", ""),
+            task_type=result.get("task_type") or "",
             result_json=result,
             verification_passed=verification.get("passed"),
             verification_json=verification,

@@ -1,0 +1,406 @@
+{
+  "scope": "Synthetic catalog production smoke only; no research evaluation",
+  "long_response": {
+    "request_id": "fdf34977935240a39137c8ea6a09ae88",
+    "question": "ما أقرب صيدلية إلى أقرب مستشفى من «مركز الحي»؟",
+    "status": "success",
+    "route": "LONG",
+    "task_type": "nearest_of_two_categories",
+    "structured_query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "مركز الحي",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "صيدلية",
+        "مستشفى"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "answer": {
+      "kind": "entity",
+      "value": "صيدلية الندى",
+      "text": "صيدلية الندى"
+    },
+    "execution": {
+      "status": "success",
+      "operation": "nearest_of_two_categories",
+      "answer": {
+        "kind": "entity",
+        "value": "صيدلية الندى",
+        "text": "صيدلية الندى"
+      },
+      "reason": null,
+      "stage": "executor",
+      "trace": {
+        "parsed_arguments": {
+          "operation": "nearest_of_two_categories",
+          "origin": {
+            "name": "مركز الحي",
+            "source": "context_anchor"
+          },
+          "targets": [],
+          "categories": [
+            "صيدلية",
+            "مستشفى"
+          ],
+          "radius_km": null,
+          "direction": null,
+          "first_hop_category": null,
+          "second_hop_category": null
+        },
+        "resolved_origin": {
+          "identity": "anchor",
+          "name": "مركز الحي",
+          "latitude": 24.7136,
+          "longitude": 46.6753,
+          "category": null
+        },
+        "identity_resolutions": [
+          {
+            "reference": {
+              "name": "مركز الحي",
+              "source": "context_anchor"
+            },
+            "status": "UNIQUE",
+            "matches": [
+              {
+                "identity": "anchor",
+                "name": "مركز الحي",
+                "latitude": 24.7136,
+                "longitude": 46.6753,
+                "category": null
+              }
+            ],
+            "message": "One visible location matches",
+            "candidate_count": 1
+          }
+        ],
+        "steps": [
+          {
+            "step": "category_1",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 0.29262270063089263,
+            "distances_km": {
+              "candidate:2": 1.635035403433049,
+              "candidate:3": 0.29262270063089263
+            },
+            "selected": [
+              {
+                "identity": "candidate:3",
+                "name": "صيدلية الندى",
+                "latitude": 24.712,
+                "longitude": 46.673,
+                "category": "صيدلية"
+              }
+            ]
+          },
+          {
+            "step": "category_2",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 1.3398912139087624,
+            "distances_km": {
+              "candidate:0": 1.3398912139087624,
+              "candidate:1": 2.119421471366451
+            },
+            "selected": [
+              {
+                "identity": "candidate:0",
+                "name": "مستشفى النخيل",
+                "latitude": 24.724,
+                "longitude": 46.682,
+                "category": "مستشفى"
+              }
+            ]
+          },
+          {
+            "step": "compare_categories",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 0.29262270063089263,
+            "distances_km": {
+              "candidate:0": 1.3398912139087624,
+              "candidate:3": 0.29262270063089263
+            },
+            "selected": [
+              {
+                "identity": "candidate:3",
+                "name": "صيدلية الندى",
+                "latitude": 24.712,
+                "longitude": 46.673,
+                "category": "صيدلية"
+              }
+            ]
+          }
+        ],
+        "selected_candidates": [
+          {
+            "identity": "candidate:3",
+            "name": "صيدلية الندى",
+            "latitude": 24.712,
+            "longitude": 46.673,
+            "category": "صيدلية"
+          }
+        ],
+        "diagnostics": [],
+        "operation": "nearest_of_two_categories",
+        "radius_km": null,
+        "direction": null,
+        "selected_identity_unique": true,
+        "execution_status": "success",
+        "final_answer": {
+          "kind": "entity",
+          "value": "صيدلية الندى",
+          "text": "صيدلية الندى"
+        }
+      }
+    },
+    "validation": {
+      "status": "valid",
+      "resolutions": [
+        {
+          "reference": {
+            "name": "مركز الحي",
+            "source": "context_anchor"
+          },
+          "status": "UNIQUE",
+          "matches": [
+            {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            }
+          ],
+          "message": "One visible location matches"
+        }
+      ]
+    },
+    "anchor": {
+      "identity": "anchor",
+      "name": "مركز الحي",
+      "category": null,
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "role": "anchor"
+    },
+    "locations": [
+      {
+        "identity": "anchor",
+        "name": "مركز الحي",
+        "category": null,
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "role": "anchor"
+      },
+      {
+        "identity": "candidate:3",
+        "name": "صيدلية الندى",
+        "category": "صيدلية",
+        "lat": 24.712,
+        "lng": 46.673,
+        "role": "answer"
+      }
+    ],
+    "metrics": {
+      "distance_km": 0.293
+    },
+    "evidence": [
+      {
+        "label": "category_1",
+        "value": "0.293 كم"
+      },
+      {
+        "label": "category_2",
+        "value": "1.340 كم"
+      },
+      {
+        "label": "compare_categories",
+        "value": "0.293 كم"
+      },
+      {
+        "label": "التحقق",
+        "value": "هويات المواقع والحسابات من المحرك الحتمي"
+      }
+    ],
+    "comparison": [],
+    "constraints": [],
+    "trace": [
+      {
+        "stage": "short",
+        "status": "invalid_query",
+        "operation": "closer_of_two",
+        "confidence": 0.5159415006637573
+      },
+      {
+        "stage": "router",
+        "route": "LONG",
+        "long_probability": 0.9995630977794031,
+        "threshold": 0.91
+      },
+      {
+        "stage": "long",
+        "status": "success",
+        "generation_calls": 1
+      },
+      {
+        "stage": "identity",
+        "status": "valid"
+      },
+      {
+        "stage": "geo_engine",
+        "status": "success",
+        "steps": [
+          {
+            "step": "category_1",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 0.29262270063089263,
+            "distances_km": {
+              "candidate:2": 1.635035403433049,
+              "candidate:3": 0.29262270063089263
+            },
+            "selected": [
+              {
+                "identity": "candidate:3",
+                "name": "صيدلية الندى",
+                "latitude": 24.712,
+                "longitude": 46.673,
+                "category": "صيدلية"
+              }
+            ]
+          },
+          {
+            "step": "category_2",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 1.3398912139087624,
+            "distances_km": {
+              "candidate:0": 1.3398912139087624,
+              "candidate:1": 2.119421471366451
+            },
+            "selected": [
+              {
+                "identity": "candidate:0",
+                "name": "مستشفى النخيل",
+                "latitude": 24.724,
+                "longitude": 46.682,
+                "category": "مستشفى"
+              }
+            ]
+          },
+          {
+            "step": "compare_categories",
+            "reference": {
+              "identity": "anchor",
+              "name": "مركز الحي",
+              "latitude": 24.7136,
+              "longitude": 46.6753,
+              "category": null
+            },
+            "candidate_count": 2,
+            "distance_km": 0.29262270063089263,
+            "distances_km": {
+              "candidate:0": 1.3398912139087624,
+              "candidate:3": 0.29262270063089263
+            },
+            "selected": [
+              {
+                "identity": "candidate:3",
+                "name": "صيدلية الندى",
+                "latitude": 24.712,
+                "longitude": 46.673,
+                "category": "صيدلية"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "routing": {
+      "long_probability": 0.9995630977794031,
+      "threshold": 0.91
+    },
+    "visualization": "category_comparison",
+    "latency": {
+      "load_ms": 1024.1494579822756,
+      "short_ms": 0.8174160029739141,
+      "router_ms": 9.045750019140542,
+      "long_ms": 31089.08762500505,
+      "validation_geo_ms": 0.596166995819658,
+      "total_ms": 32123.80391699844
+    },
+    "message": "تم تنفيذ الحساب المكاني على الكتالوج المتاح.",
+    "reasoning": "فهم اللغة ثم التحقق من الهوية؛ جميع الحسابات من المحرك الجغرافي الحتمي.",
+    "verification": {
+      "passed": true,
+      "checks": [
+        {
+          "check": "identity",
+          "passed": true
+        }
+      ]
+    }
+  },
+  "long_backend": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "model_loaded": true,
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "precision": "torch.bfloat16",
+    "model_load_seconds": 9.842456668,
+    "container_session": "15d5b3eab22e4b50a60199b37cb1270b",
+    "torch_version": "2.6.0+cu124",
+    "transformers_version": "4.57.1"
+  },
+  "assessment": {
+    "transport_and_execution": "passed",
+    "intended_operation": "two_hop_nearest",
+    "observed_operation": "nearest_of_two_categories",
+    "semantic_correctness": "failed",
+    "expected_synthetic_catalog_answer": "صيدلية النور",
+    "frozen_components_changed": false,
+    "generation_calls": 1
+  }
+}

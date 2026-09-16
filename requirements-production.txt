@@ -1,0 +1,10 @@
+# Python 3.12; frozen model/runtime dependencies (no training needed).
+Django>=5.2,<5.3
+torch==2.6.0
+scikit-learn==1.7.2
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.6.0
+modal==1.3.5
+gunicorn>=23,<24
