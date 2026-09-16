@@ -1,0 +1,27 @@
+{
+  "id": "7e74138b1db130f1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مسجد السجدة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": 3,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2273,
+  "output_tokens": 102,
+  "inference_ms": 6536.495120999916,
+  "roundtrip_ms": 8136.681928000144
+}

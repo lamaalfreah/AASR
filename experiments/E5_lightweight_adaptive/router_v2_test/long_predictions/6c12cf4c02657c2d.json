@@ -1,0 +1,25 @@
+{
+  "id": "6c12cf4c02657c2d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مطار عنيزة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "بنك",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2132,
+  "output_tokens": 100,
+  "inference_ms": 5571.65556200016,
+  "roundtrip_ms": 7238.752404000024
+}

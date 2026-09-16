@@ -1,0 +1,28 @@
+{
+  "id": "a608e7f3095b3c3e",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "مسجد بني عبد الأشهل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2367,
+  "output_tokens": 105,
+  "inference_ms": 5794.381715999862,
+  "roundtrip_ms": 6833.77762499731
+}

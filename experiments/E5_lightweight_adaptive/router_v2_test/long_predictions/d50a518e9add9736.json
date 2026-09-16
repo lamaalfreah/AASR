@@ -1,0 +1,30 @@
+{
+  "id": "d50a518e9add9736",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "كلية العلوم الصحية بجامعة الملك عبد العزيز",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "ملك المندي و المضغوط",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2355,
+  "output_tokens": 131,
+  "inference_ms": 7048.360894000098,
+  "roundtrip_ms": 8072.145000999853
+}

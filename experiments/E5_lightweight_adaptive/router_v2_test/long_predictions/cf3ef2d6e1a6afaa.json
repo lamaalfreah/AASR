@@ -1,0 +1,30 @@
+{
+  "id": "cf3ef2d6e1a6afaa",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "حلة دخنة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "latifa hospital ",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4429,
+  "output_tokens": 179,
+  "inference_ms": 9875.530742000365,
+  "roundtrip_ms": 11889.857957000004
+}

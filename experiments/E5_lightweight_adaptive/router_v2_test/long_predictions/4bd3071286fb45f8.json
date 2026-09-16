@@ -1,0 +1,28 @@
+{
+  "id": "4bd3071286fb45f8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "أحد رفيدة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "كلية",
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3513,
+  "output_tokens": 192,
+  "inference_ms": 10561.521249999714,
+  "roundtrip_ms": 12736.24455800018
+}

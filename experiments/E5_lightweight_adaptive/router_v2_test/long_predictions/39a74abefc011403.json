@@ -1,0 +1,34 @@
+{
+  "id": "39a74abefc011403",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "مسجد قباء",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "بروكلي بيتزا\nوباستا",
+        "source": "unspecified"
+      },
+      {
+        "name": "مطعم الباب العالي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4715,
+  "output_tokens": 221,
+  "inference_ms": 12102.460522999536,
+  "roundtrip_ms": 17638.059657001577
+}

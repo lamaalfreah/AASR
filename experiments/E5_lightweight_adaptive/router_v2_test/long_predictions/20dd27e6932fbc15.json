@@ -1,0 +1,30 @@
+{
+  "id": "20dd27e6932fbc15",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "أحد رفيدة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "معهد سلاح المدفعية",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3499,
+  "output_tokens": 194,
+  "inference_ms": 10659.727741000097,
+  "roundtrip_ms": 16257.754191000458
+}

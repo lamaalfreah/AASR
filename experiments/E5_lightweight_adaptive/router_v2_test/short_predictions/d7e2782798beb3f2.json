@@ -1,0 +1,46 @@
+{
+  "id": "d7e2782798beb3f2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "دار العباس بن عبد المطلب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 2.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999325275421143,
+    "short_entropy": 0.0008189530729587571,
+    "short_top1_top2_margin": 0.9999073243725434,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 100,
+    "question_length_words": 20,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 2.520316957088653e-05,
+      "cardinal_direction": 7.423177976306761e-06,
+      "within_radius_yes_no": 0.9999325275421143,
+      "closer_of_two": 4.180472217285569e-07,
+      "count_within_radius": 1.733057615638245e-05,
+      "nearest_of_two_categories": 2.293554871357628e-06,
+      "two_hop_nearest": 1.1755331797758117e-05,
+      "spatial_multi_constraint": 2.951995611510938e-06
+    }
+  },
+  "parser_ms": 2.208999999993466,
+  "short_with_features_ms": 2.315189000000828
+}

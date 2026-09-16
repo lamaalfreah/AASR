@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e8761a178671de151d865be21bfc9f6dca73e0568759d042adb83cd80fe0208c",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"الفناتير\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مدرسة\", \"عيادة\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يطلب أقرب مدرسة من بين المعالم الواردة في السياق، مع تجاهل المعالم غير المدرسة. تم تحديد الفئة 'مدرسة' كالفئة المطلوبة.\"\n}",
+  "input_tokens": 1879,
+  "output_tokens": 149,
+  "generation_ms": 8143.918077999956,
+  "inference_ms": 8153.044335000004,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11036.748697999996,
+  "case_id": "41caf87dc0237e87"
+}

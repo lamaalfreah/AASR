@@ -1,0 +1,34 @@
+{
+  "id": "1a652d909fb95e2b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "حي العود",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "كلية المجتمع الجديده",
+        "source": "unspecified"
+      },
+      {
+        "name": "Chkn",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2140,
+  "output_tokens": 141,
+  "inference_ms": 7621.88185100058,
+  "roundtrip_ms": 10058.55991700082
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c3c48adbd6cb95183fe13864205a3d0af9df4cfee2f9800c9757e304984dc3fa",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"رفاع السيح الشمالي\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"بترونت\",\"source\":\"unspecified\"},{\"name\":\"دجاج كنتاكي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1687,
+  "output_tokens": 86,
+  "generation_ms": 4537.832243000139,
+  "inference_ms": 4545.632815000317,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6440.050250006607,
+  "case_id": "router-319c3b1df8f69822a1b2"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "767105f824fe80f1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مطار الأمير سلطان بن عبد العزيز الإقليمي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 5.0,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999412298202515,
+    "short_entropy": 0.0007374252638683899,
+    "short_top1_top2_margin": 0.9999247785490297,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 102,
+    "question_length_words": 20,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 6.65030665913946e-06,
+      "cardinal_direction": 6.30811655355501e-06,
+      "within_radius_yes_no": 3.4022175441350555e-06,
+      "closer_of_two": 1.1299625839455985e-05,
+      "count_within_radius": 1.645127122174017e-05,
+      "nearest_of_two_categories": 1.1015743439202197e-05,
+      "two_hop_nearest": 3.617751190176932e-06,
+      "spatial_multi_constraint": 0.9999412298202515
+    }
+  },
+  "parser_ms": 2.316910000217831,
+  "short_with_features_ms": 2.4249699999927543
+}

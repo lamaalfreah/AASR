@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f51c77c4f3b9c148b9a72ca5d23bfb899078391eeac60df37bd0da0445c10f62",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"متحف بريدة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مطعم\",\n    \"second_hop_category\": \"كلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2321,
+  "output_tokens": 102,
+  "generation_ms": 5842.1649109996,
+  "inference_ms": 5852.645707999727,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7340.194209013134,
+  "case_id": "router-afe339368ac2f11d6d50"
+}

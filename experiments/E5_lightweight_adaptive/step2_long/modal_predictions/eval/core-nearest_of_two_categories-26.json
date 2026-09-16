@@ -1,0 +1,50 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-26",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "conversational",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "success",
+  "short_confidence": 0.34884387254714966,
+  "short_pipeline_ms": 0.7596249999997085,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2336,
+  "output_tokens": 105,
+  "long_inference_ms": 4876.25698599993,
+  "long_roundtrip_ms": 5821.324416989228,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "بئر عذق",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم",
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "اسطنبول شيش كباب",
+    "text": "اسطنبول شيش كباب"
+  },
+  "raw_operation": "nearest_of_two_categories",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

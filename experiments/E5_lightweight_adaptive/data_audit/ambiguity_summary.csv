@@ -1,0 +1,37 @@
+split,task_type,status,count,percent_of_task_split
+test,cardinal_direction,AMBIGUOUS,45,11.335013
+test,cardinal_direction,UNIQUE,352,88.664987
+test,closer_of_two,AMBIGUOUS,58,21.969697
+test,closer_of_two,UNIQUE,206,78.030303
+test,count_within_radius,AMBIGUOUS,4,4.494382
+test,count_within_radius,NOT APPLICABLE,3,3.370787
+test,count_within_radius,UNIQUE,82,92.134831
+test,nearest_category,NOT APPLICABLE,759,100.0
+test,nearest_of_two_categories,NOT APPLICABLE,186,100.0
+test,spatial_multi_constraint,NOT APPLICABLE,173,100.0
+test,two_hop_nearest,NOT APPLICABLE,188,100.0
+test,within_radius_yes_no,NOT APPLICABLE,276,100.0
+train,cardinal_direction,AMBIGUOUS,307,9.397
+train,cardinal_direction,UNIQUE,2960,90.603
+train,closer_of_two,AMBIGUOUS,493,22.750346
+train,closer_of_two,UNIQUE,1674,77.249654
+train,count_within_radius,AMBIGUOUS,56,7.988588
+train,count_within_radius,NOT APPLICABLE,17,2.425107
+train,count_within_radius,UNIQUE,628,89.586305
+train,nearest_category,NOT APPLICABLE,6588,100.0
+train,nearest_of_two_categories,NOT APPLICABLE,1591,100.0
+train,spatial_multi_constraint,NOT APPLICABLE,1478,100.0
+train,two_hop_nearest,NOT APPLICABLE,1603,100.0
+train,within_radius_yes_no,NOT APPLICABLE,2202,100.0
+validation,cardinal_direction,AMBIGUOUS,30,7.334963
+validation,cardinal_direction,UNIQUE,379,92.665037
+validation,closer_of_two,AMBIGUOUS,71,25.088339
+validation,closer_of_two,UNIQUE,212,74.911661
+validation,count_within_radius,AMBIGUOUS,10,10.309278
+validation,count_within_radius,NOT APPLICABLE,3,3.092784
+validation,count_within_radius,UNIQUE,84,86.597938
+validation,nearest_category,NOT APPLICABLE,827,100.0
+validation,nearest_of_two_categories,NOT APPLICABLE,205,100.0
+validation,spatial_multi_constraint,NOT APPLICABLE,191,100.0
+validation,two_hop_nearest,NOT APPLICABLE,210,100.0
+validation,within_radius_yes_no,NOT APPLICABLE,280,100.0

@@ -1,0 +1,27 @@
+{
+  "id": "09c6f9eae441f8e6",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "كأس الملك فهد 1995",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "The query has been parsed successfully. The operation is to find the nearest hospital to 'كأس الملك فهد 1995'.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2310,
+  "output_tokens": 131,
+  "inference_ms": 7182.455868999568,
+  "roundtrip_ms": 10297.404160999577
+}

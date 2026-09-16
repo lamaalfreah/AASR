@@ -1,0 +1,55 @@
+{
+  "id": "router-87f9dcaf9df7318bd6ed",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8545475006103516,
+    "short_entropy": 0.538215608808152,
+    "short_top1_top2_margin": 0.7476118728518486,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 95,
+    "question_length_words": 18,
+    "predicted_operation": "nearest_category",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "قلعة تبوك",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "البستان ( حديقة و مطعم)",
+          "source": "unspecified"
+        },
+        {
+          "name": "محطة الدريس",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 9560.347776000071
+  }
+}

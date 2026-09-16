@@ -1,0 +1,30 @@
+{
+  "id": "3d33f29752ed940a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "تربة (حائل)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة الغيثي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3351,
+  "output_tokens": 192,
+  "inference_ms": 10352.09159499982,
+  "roundtrip_ms": 12271.426863000215
+}

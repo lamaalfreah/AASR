@@ -1,0 +1,59 @@
+{
+  "id": "router-000c1b663ce770c9beb3",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7558529376983643,
+    "short_entropy": 0.9631480069921445,
+    "short_top1_top2_margin": 0.6692629158496857,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 91,
+    "question_length_words": 19,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "السيح",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "جامعة",
+      "second_hop_category": "محطة وقود"
+    },
+    "status": "ambiguous"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "السيح",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "جامعة",
+        "محطة وقود"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5914.12151600025
+  }
+}

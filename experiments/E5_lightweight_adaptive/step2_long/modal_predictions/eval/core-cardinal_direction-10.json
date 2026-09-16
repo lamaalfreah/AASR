@@ -1,0 +1,54 @@
+{
+  "challenge_id": "core-cardinal_direction-10",
+  "task_type": "cardinal_direction",
+  "language_register": "natural_msa",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.49907591938972473,
+  "short_pipeline_ms": 0.3876659999999532,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3227,
+  "output_tokens": 186,
+  "long_inference_ms": 8846.403446000011,
+  "long_roundtrip_ms": 10963.850542000728,
+  "predicted_query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "هضبة أبو رخم",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "direction",
+    "value": "جنوب",
+    "text": "جنوب"
+  },
+  "raw_operation": "cardinal_direction",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "target_source_must_remain_unspecified"
+  ],
+  "raw_operation_correct": true
+}

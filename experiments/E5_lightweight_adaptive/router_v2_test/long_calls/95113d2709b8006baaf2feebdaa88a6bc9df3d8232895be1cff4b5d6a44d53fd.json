@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "95113d2709b8006baaf2feebdaa88a6bc9df3d8232895be1cff4b5d6a44d53fd",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"الكعبة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2469,
+  "output_tokens": 60,
+  "generation_ms": 3372.681859000295,
+  "inference_ms": 3383.6211029993137,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5159.603080999659,
+  "case_id": "de950bedb6076ca2"
+}

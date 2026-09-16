@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f1b0b3ab45c5a57cc6074d941736e41b10e8c0fa0abe634de20ddfd8a896ac31",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مدرسة المواهب الأهلية للبنين\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2371,
+  "output_tokens": 66,
+  "generation_ms": 3841.939857999023,
+  "inference_ms": 3852.524722999078,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5524.912834000133,
+  "case_id": "3683e1f484898b8c"
+}

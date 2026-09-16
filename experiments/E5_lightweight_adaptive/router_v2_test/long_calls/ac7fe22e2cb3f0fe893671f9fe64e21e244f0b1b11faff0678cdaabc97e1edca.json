@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ac7fe22e2cb3f0fe893671f9fe64e21e244f0b1b11faff0678cdaabc97e1edca",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"مدينة المجمعة الرياضية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مطعم ابوسليمان\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"المعهد العلمي بالمجمعة\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to compare the distances of two specific named entities from the origin.\"\n}",
+  "input_tokens": 1829,
+  "output_tokens": 167,
+  "generation_ms": 9042.223105000176,
+  "inference_ms": 9053.184983000392,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10155.256993002695,
+  "case_id": "f8275223c934c41f"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "98c4ebae7a324b81",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "closer_of_two",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الفناتير",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Al Rajhi Bank",
+        "source": "unspecified"
+      },
+      {
+        "name": "ستاربكس",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999943733215332,
+    "short_entropy": 0.0007058684542740224,
+    "short_top1_top2_margin": 0.9999300079316527,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 62,
+    "question_length_words": 10,
+    "predicted_operation": "closer_of_two",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 9.654640962253325e-06,
+      "cardinal_direction": 1.3725283679377753e-05,
+      "within_radius_yes_no": 2.628433435347688e-07,
+      "closer_of_two": 0.999943733215332,
+      "count_within_radius": 6.1169962464191485e-06,
+      "nearest_of_two_categories": 1.0674713848857209e-05,
+      "two_hop_nearest": 7.995875421329401e-06,
+      "spatial_multi_constraint": 7.729578101134393e-06
+    }
+  },
+  "parser_ms": 1.948119999951814,
+  "short_with_features_ms": 2.0707900000616064
+}

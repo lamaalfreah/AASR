@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "dfddd9374afd7101f6fe99186914911ce9433d1f3374c238afa1254b5995e131",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"وادي البلدة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"الفايدي\",\"source\":\"unspecified\"},{\"name\":\"الدريس\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1662,
+  "output_tokens": 81,
+  "generation_ms": 4357.178580999971,
+  "inference_ms": 4364.938085000176,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6009.683457989013,
+  "case_id": "router-6cc0d9585965ef2bc8f0"
+}

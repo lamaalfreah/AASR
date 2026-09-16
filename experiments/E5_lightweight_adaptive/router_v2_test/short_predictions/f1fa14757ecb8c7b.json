@@ -1,0 +1,46 @@
+{
+  "id": "f1fa14757ecb8c7b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "بئر ذروان",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 3.0,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999465942382812,
+    "short_entropy": 0.0006771368895857915,
+    "short_top1_top2_margin": 0.9999338675652325,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 71,
+    "question_length_words": 15,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 8.162784979504067e-06,
+      "cardinal_direction": 7.4992835834564175e-06,
+      "within_radius_yes_no": 2.8388542432367103e-06,
+      "closer_of_two": 8.633062861918006e-06,
+      "count_within_radius": 1.2726673048746306e-05,
+      "nearest_of_two_categories": 1.0381938409409486e-05,
+      "two_hop_nearest": 3.166092028550338e-06,
+      "spatial_multi_constraint": 0.9999465942382812
+    }
+  },
+  "parser_ms": 2.1710500000153843,
+  "short_with_features_ms": 2.28082000012364
+}

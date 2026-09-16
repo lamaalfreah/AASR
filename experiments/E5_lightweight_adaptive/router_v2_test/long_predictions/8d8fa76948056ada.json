@@ -1,0 +1,27 @@
+{
+  "id": "8d8fa76948056ada",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "المدرسة الهندية العالمية (الجبيل)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 1,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مستشفى ضمن مسافة 1 كم من المدرسة الهندية العالمية (الجبيل).",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2022,
+  "output_tokens": 135,
+  "inference_ms": 7050.836823000282,
+  "roundtrip_ms": 8703.69434300028
+}

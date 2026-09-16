@@ -1,0 +1,27 @@
+{
+  "id": "bd4fca7cb8c33dba",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "وادي صفار",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2206,
+  "output_tokens": 97,
+  "inference_ms": 5365.8614269998,
+  "roundtrip_ms": 7802.464293999947
+}

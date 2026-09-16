@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.618463624,
+  "container_session": "eca56fee0e21444b9766113dd09681c1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "57adb00e33a0f2657705a818ff0c8e048a7b283089d1eb157c53eaa9ed3f65dc",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"الصالة الخضراء (الدمام)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 2,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2407,
+  "output_tokens": 105,
+  "generation_ms": 5793.897889999997,
+  "inference_ms": 5803.238504999996,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10272.822583006928,
+  "case_id": "core-within_radius_yes_no-02"
+}

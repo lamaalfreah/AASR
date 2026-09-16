@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "bfcb22fc6faefba5322eb900952b2937383d9079e96062f7d05a07a796088221",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"مطار عباس بن فرناس (جدة)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"جامع الملك سعود بقصر خزام\",\"source\":\"unspecified\"},{\"name\":\"Naft Station\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2438,
+  "output_tokens": 92,
+  "generation_ms": 5061.332795999988,
+  "inference_ms": 5071.385301000191,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7654.639082989888,
+  "case_id": "router-f6e945f7a6b48fedbef2"
+}

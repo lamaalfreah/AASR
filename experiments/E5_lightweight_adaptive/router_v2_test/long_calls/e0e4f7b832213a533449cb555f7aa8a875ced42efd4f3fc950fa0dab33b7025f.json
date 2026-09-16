@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e0e4f7b832213a533449cb555f7aa8a875ced42efd4f3fc950fa0dab33b7025f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"قصر الدرعية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يسأل عن وجود مستشفى ضمن مسافة 5 كم من قصر الدرعية، مما يناسب عملية within_radius_yes_no.\"\n}",
+  "input_tokens": 2304,
+  "output_tokens": 133,
+  "generation_ms": 7222.0219170003475,
+  "inference_ms": 7232.555512000545,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9046.188895000341,
+  "case_id": "8a3ead1eb60be1cf"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f8f3e0259d27108984f5cf91b82098f11764d2b45ecba836e673b0339b6fcc66",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"سد فروان\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"مقهى\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1668,
+  "output_tokens": 65,
+  "generation_ms": 3881.6273309998905,
+  "inference_ms": 3890.6752560001223,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5257.951417006552,
+  "case_id": "router-ef9184b3ede301054d42"
+}

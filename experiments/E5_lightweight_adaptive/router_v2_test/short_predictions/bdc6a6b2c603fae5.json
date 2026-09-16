@@ -1,0 +1,46 @@
+{
+  "id": "bdc6a6b2c603fae5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "دار سبرة بن أبي رهم",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية"
+    ],
+    "radius_km": 3.0,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999469518661499,
+    "short_entropy": 0.0006714045309172649,
+    "short_top1_top2_margin": 0.9999330927839765,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 82,
+    "question_length_words": 18,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 6.914604909979971e-06,
+      "cardinal_direction": 6.401108748832485e-06,
+      "within_radius_yes_no": 2.6534273729339475e-06,
+      "closer_of_two": 9.877350748865865e-06,
+      "count_within_radius": 1.3859082173439674e-05,
+      "nearest_of_two_categories": 1.0452847163833212e-05,
+      "two_hop_nearest": 2.8870003916381393e-06,
+      "spatial_multi_constraint": 0.9999469518661499
+    }
+  },
+  "parser_ms": 2.229370000122799,
+  "short_with_features_ms": 2.3397400000249036
+}

@@ -1,0 +1,30 @@
+{
+  "app_id": "ap-Nn6d1vn4biwurWwNB1SmLn",
+  "started_unix": 1789250803.96561,
+  "primary_correctness": "exact_and_answer",
+  "cache": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "weight_preparation_seconds": 0.004433257000000079
+  },
+  "runtime": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "model_loaded": true,
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "precision": "torch.bfloat16",
+    "model_load_seconds": 6.739874762000001,
+    "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+    "torch_version": "2.6.0+cu124",
+    "transformers_version": "4.57.1"
+  },
+  "status": "stopped",
+  "error": "AuthError: failed to parse auth token",
+  "wall_seconds": 9276.183181625005,
+  "long_wall_seconds": 9276.094490166986
+}

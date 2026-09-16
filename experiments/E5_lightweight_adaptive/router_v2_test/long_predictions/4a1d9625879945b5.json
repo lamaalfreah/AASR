@@ -1,0 +1,13 @@
+{
+  "id": "4a1d9625879945b5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": null,
+  "status": "invalid_output",
+  "message": "strict_json_validation_failed",
+  "llm_calls": 2,
+  "invalid_responses": 2,
+  "input_tokens": 4511,
+  "output_tokens": 171,
+  "inference_ms": 9716.53707600035,
+  "roundtrip_ms": 16271.218578999651
+}

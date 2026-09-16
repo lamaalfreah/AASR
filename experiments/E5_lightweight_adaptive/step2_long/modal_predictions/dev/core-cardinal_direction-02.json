@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-cardinal_direction-02",
+  "task_type": "cardinal_direction",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.9863357543945312,
+  "short_pipeline_ms": 0.351084000000057,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3233,
+  "output_tokens": 198,
+  "long_inference_ms": 10756.056208000005,
+  "long_roundtrip_ms": 14302.838125033304,
+  "predicted_query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الحدقة (رفحاء)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة وقود الحدقة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "direction",
+    "value": "جنوب",
+    "text": "جنوب"
+  }
+}

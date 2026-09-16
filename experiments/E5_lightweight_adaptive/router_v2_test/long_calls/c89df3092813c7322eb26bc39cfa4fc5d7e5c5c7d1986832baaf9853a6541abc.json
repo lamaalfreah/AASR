@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c89df3092813c7322eb26bc39cfa4fc5d7e5c5c7d1986832baaf9853a6541abc",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"كأس الملك فهد 1995\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"جامعة\", \"مسجد\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is asking for the nearest university to 'كأس الملك فهد 1995' among the landmarks mentioned in the context. The operation 'nearest_of_two_categories' is used to compare the nearest entity from the 'جامعة' category with the nearest entity from the 'مسجد' category, using the same origin.\"\n}",
+  "input_tokens": 2308,
+  "output_tokens": 175,
+  "generation_ms": 9429.088505000436,
+  "inference_ms": 9439.406793000671,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 12017.268753999815,
+  "case_id": "24115d08f3eff61a"
+}

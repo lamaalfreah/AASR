@@ -1,0 +1,27 @@
+{
+  "id": "1ffda562ad4705a1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مسجد علي بن أبي طالب (المدينة المنورة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 3,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2266,
+  "output_tokens": 109,
+  "inference_ms": 5886.129785999856,
+  "roundtrip_ms": 7163.817533999918
+}

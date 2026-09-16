@@ -1,0 +1,46 @@
+{
+  "id": "1ffda562ad4705a1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مسجد علي بن أبي طالب (المدينة المنورة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 3.0,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999411106109619,
+    "short_entropy": 0.0007391797813224346,
+    "short_top1_top2_margin": 0.9999237047541101,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 101,
+    "question_length_words": 20,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 6.065500656404765e-06,
+      "cardinal_direction": 6.038311312295264e-06,
+      "within_radius_yes_no": 3.5777411540038884e-06,
+      "closer_of_two": 1.1382407137716655e-05,
+      "count_within_radius": 1.7405856851837598e-05,
+      "nearest_of_two_categories": 1.0655849109753035e-05,
+      "two_hop_nearest": 3.821773134404793e-06,
+      "spatial_multi_constraint": 0.9999411106109619
+    }
+  },
+  "parser_ms": 2.6436599998760357,
+  "short_with_features_ms": 2.755429999979242
+}

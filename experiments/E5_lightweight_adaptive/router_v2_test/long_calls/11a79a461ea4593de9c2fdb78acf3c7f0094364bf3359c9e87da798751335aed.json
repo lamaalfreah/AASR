@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "11a79a461ea4593de9c2fdb78acf3c7f0094364bf3359c9e87da798751335aed",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مسجد الفرقان\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2428,
+  "output_tokens": 61,
+  "generation_ms": 3535.2452809999877,
+  "inference_ms": 3545.3620279999996,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5581.556446999457,
+  "case_id": "0c3e9b35ed9ac765"
+}

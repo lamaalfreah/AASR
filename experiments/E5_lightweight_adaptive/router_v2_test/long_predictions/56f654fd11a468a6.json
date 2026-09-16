@@ -1,0 +1,30 @@
+{
+  "id": "56f654fd11a468a6",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "كنيسة الجبيل",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Al-Dawaa Pharmacy",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4155,
+  "output_tokens": 188,
+  "inference_ms": 10548.466900000221,
+  "roundtrip_ms": 15648.084340999958
+}

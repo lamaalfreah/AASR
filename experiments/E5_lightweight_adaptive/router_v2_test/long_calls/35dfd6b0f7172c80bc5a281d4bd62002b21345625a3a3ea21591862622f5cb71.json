@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "35dfd6b0f7172c80bc5a281d4bd62002b21345625a3a3ea21591862622f5cb71",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"المدرسة الهندية العالمية (الجبيل)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب مطعم\",\"source\":\"unspecified\"},{\"name\":\"أقرب بنك\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2046,
+  "output_tokens": 89,
+  "generation_ms": 4982.150679999904,
+  "inference_ms": 4991.211709000254,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5968.075180997403,
+  "case_id": "da9fb0a7363d717d"
+}

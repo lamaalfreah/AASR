@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0b899854f7d26ddbb362f678eec15b78afb8abd2fb403264b67c5a5211104c14",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"جامعة الملك فيصل\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مجمع عيادات هجر الطبي\",\"source\":\"unspecified\"},{\"name\":\"مجمع عيادات الملحم الطبي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2144,
+  "output_tokens": 94,
+  "generation_ms": 5120.098850999057,
+  "inference_ms": 5130.00405099956,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9867.031075998966,
+  "case_id": "120e4487ddee3b6c"
+}

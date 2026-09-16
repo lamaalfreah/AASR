@@ -1,0 +1,46 @@
+{
+  "id": "c0bb86890fb75142",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "الرياض (مقر الإمارة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 3.0,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999417066574097,
+    "short_entropy": 0.0007348447595790309,
+    "short_top1_top2_margin": 0.9999299165820048,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 81,
+    "question_length_words": 16,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 9.526455869490746e-06,
+      "cardinal_direction": 1.074412193702301e-05,
+      "within_radius_yes_no": 2.834633733073133e-06,
+      "closer_of_two": 8.981057362689171e-06,
+      "count_within_radius": 1.0630926226440351e-05,
+      "nearest_of_two_categories": 1.1790075404860545e-05,
+      "two_hop_nearest": 3.795753627855447e-06,
+      "spatial_multi_constraint": 0.9999417066574097
+    }
+  },
+  "parser_ms": 2.4767899999460496,
+  "short_with_features_ms": 2.6147399998990295
+}

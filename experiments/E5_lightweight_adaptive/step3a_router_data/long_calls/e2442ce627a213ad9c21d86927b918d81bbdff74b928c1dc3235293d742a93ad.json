@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e2442ce627a213ad9c21d86927b918d81bbdff74b928c1dc3235293d742a93ad",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"مسجد أبي بكر الصديق\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"البحث متصل: أقرب صيدلية إلى مسجد أبي بكر الصديق هي صيدلية النهدي، ثم أقرب محطة وقود إليها هي محطة الكردي.\"\n}",
+  "input_tokens": 2253,
+  "output_tokens": 149,
+  "generation_ms": 8645.96124200034,
+  "inference_ms": 8657.151078000425,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10707.346582988976,
+  "case_id": "router-b61636149ac70e41d55a"
+}

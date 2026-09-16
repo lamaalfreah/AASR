@@ -1,0 +1,17 @@
+split,task_type,total,parse_success,parse_success_percent,executor_success,executor_success_percent,correct,accuracy_percent,answered_accuracy_percent,identity_ambiguous,identity_ambiguity_percent,ambiguous,ambiguity_percent,abstentions,abstention_percent,reconstructable_total,reconstructable_correct,reconstructable_accuracy_percent
+validation,cardinal_direction,409,409,100.0,376,91.93154,376,91.93154,100.0,33,8.06846,33,8.06846,33,8.06846,376,376,100.0
+validation,closer_of_two,283,283,100.0,210,74.204947,210,74.204947,100.0,73,25.795053,73,25.795053,73,25.795053,210,210,100.0
+validation,count_within_radius,97,97,100.0,84,86.597938,84,86.597938,100.0,13,13.402062,13,13.402062,13,13.402062,84,84,100.0
+validation,nearest_category,827,827,100.0,827,100.0,827,100.0,100.0,0,0.0,0,0.0,0,0.0,827,827,100.0
+validation,nearest_of_two_categories,205,205,100.0,205,100.0,205,100.0,100.0,0,0.0,0,0.0,0,0.0,205,205,100.0
+validation,spatial_multi_constraint,191,191,100.0,191,100.0,191,100.0,100.0,0,0.0,0,0.0,0,0.0,191,191,100.0
+validation,two_hop_nearest,210,210,100.0,210,100.0,210,100.0,100.0,0,0.0,0,0.0,0,0.0,210,210,100.0
+validation,within_radius_yes_no,280,280,100.0,280,100.0,280,100.0,100.0,0,0.0,0,0.0,0,0.0,280,280,100.0
+train,cardinal_direction,3267,3267,100.0,2930,89.684726,2930,89.684726,100.0,337,10.315274,337,10.315274,337,10.315274,2930,2930,100.0
+train,closer_of_two,2167,2167,100.0,1665,76.834333,1665,76.834333,100.0,502,23.165667,502,23.165667,502,23.165667,1665,1665,100.0
+train,count_within_radius,701,701,100.0,628,89.586305,628,89.586305,100.0,73,10.413695,73,10.413695,73,10.413695,628,628,100.0
+train,nearest_category,6588,6588,100.0,6583,99.924104,6583,99.924104,100.0,0,0.0,5,0.075896,5,0.075896,6583,6583,100.0
+train,nearest_of_two_categories,1591,1591,100.0,1591,100.0,1591,100.0,100.0,0,0.0,0,0.0,0,0.0,1591,1591,100.0
+train,spatial_multi_constraint,1478,1478,100.0,1478,100.0,1478,100.0,100.0,0,0.0,0,0.0,0,0.0,1478,1478,100.0
+train,two_hop_nearest,1603,1603,100.0,1603,100.0,1603,100.0,100.0,0,0.0,0,0.0,0,0.0,1603,1603,100.0
+train,within_radius_yes_no,2202,2202,100.0,2202,100.0,2201,99.954587,99.954587,0,0.0,0,0.0,0,0.0,2201,2201,100.0

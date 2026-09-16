@@ -1,0 +1,55 @@
+{
+  "id": "router-962f66856feaae825e8a",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.4291313886642456,
+    "short_entropy": 1.551044441381351,
+    "short_top1_top2_margin": 0.14651542901992798,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 79,
+    "question_length_words": 14,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "وادي حنيفة",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "مطعم السبيعي",
+          "source": "unspecified"
+        },
+        {
+          "name": "مستشفى الفلاح",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7791.020439000022
+  }
+}

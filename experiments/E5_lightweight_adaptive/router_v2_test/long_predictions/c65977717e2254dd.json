@@ -1,0 +1,30 @@
+{
+  "id": "c65977717e2254dd",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "سد وادي ليه",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مركز الرعاية الصحية بالوشحاء",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4265,
+  "output_tokens": 200,
+  "inference_ms": 11095.219833999636,
+  "roundtrip_ms": 15025.905823999892
+}

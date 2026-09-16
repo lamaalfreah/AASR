@@ -1,0 +1,30 @@
+{
+  "id": "15cde8f8d43cb4a8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "قلعة أبو عريش",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد عز الدين",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2247,
+  "output_tokens": 121,
+  "inference_ms": 6550.652847000038,
+  "roundtrip_ms": 7347.453577999659
+}

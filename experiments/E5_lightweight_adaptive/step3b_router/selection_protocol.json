@@ -1,0 +1,118 @@
+{
+  "seed": 20260913,
+  "primary_label": "Step 3A exact_and_answer SHORT/LONG",
+  "fit_scope": "Router TRAIN excluding FAILURE; preprocessing fitted on the same rows",
+  "selection_scope": "all Router DEV final-answer outcomes, including separately analyzed FAILURE",
+  "binary_metrics_scope": "Router DEV excluding FAILURE",
+  "objective": [
+    "maximize adaptive final-answer correct count",
+    "minimize unnecessary Long calls (Short answer correct)",
+    "minimize Long regressions (Short answer correct, Long answer wrong)",
+    "minimize total Long calls"
+  ],
+  "model_tie_break": [
+    "logistic_regression",
+    "hist_gradient_boosting",
+    "small_mlp"
+  ],
+  "threshold_rule": "LONG iff probability >= threshold; search each distinct DEV probability plus all-Long/all-Short",
+  "imbalance": "inverse class-frequency sample weights, n/(2*class_n), for every model",
+  "feature_keys": [
+    "constraint_count",
+    "entity_ambiguity_count",
+    "missing_slots",
+    "predicted_operation",
+    "query_valid",
+    "question_length_chars",
+    "question_length_words",
+    "short_confidence",
+    "short_entropy",
+    "short_top1_top2_margin"
+  ],
+  "preprocessing": "TRAIN-only DictVectorizer, median imputation with missingness indicators, StandardScaler; unknown categories ignored",
+  "model_parameters": {
+    "logistic_regression": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 1000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 20260913,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "hist_gradient_boosting": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.08,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": 3,
+      "max_features": 1.0,
+      "max_iter": 150,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 20260913,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "small_mlp": {
+      "activation": "relu",
+      "alpha": 0.01,
+      "batch_size": "auto",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        16,
+        8
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 25000,
+      "max_iter": 1000,
+      "momentum": 0.9,
+      "n_iter_no_change": 10,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 20260913,
+      "shuffle": true,
+      "solver": "lbfgs",
+      "tol": 1e-05,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  },
+  "train_binary_counts": {
+    "LONG": 1196,
+    "SHORT": 440
+  },
+  "train_failure_excluded": 284,
+  "dev_counts": {
+    "LONG": 303,
+    "FAILURE": 67,
+    "SHORT": 110
+  },
+  "train_anchors": 618,
+  "dev_anchors": 150,
+  "excluded_core_anchors": 320,
+  "refit_on_dev": false,
+  "parser_generation_calls": 0
+}

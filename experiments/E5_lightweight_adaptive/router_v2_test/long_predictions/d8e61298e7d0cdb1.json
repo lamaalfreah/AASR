@@ -1,0 +1,34 @@
+{
+  "id": "d8e61298e7d0cdb1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "شعب الخرابة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صيدلية الدواء",
+        "source": "unspecified"
+      },
+      {
+        "name": "مركز دياڤيرم للكلى",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1725,
+  "output_tokens": 148,
+  "inference_ms": 7672.080700000151,
+  "roundtrip_ms": 10843.238264998945
+}

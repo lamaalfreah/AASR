@@ -1,0 +1,27 @@
+{
+  "id": "8f076c0ffe06b912",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "مؤتمر الاستثمار الثقافي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 3,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مستشفى ضمن مسافة 3 كم من «مؤتمر الاستثمار الثقافي»، مما يناسب عملية within_radius_yes_no.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2331,
+  "output_tokens": 132,
+  "inference_ms": 7211.064578000332,
+  "roundtrip_ms": 9126.773006999429
+}

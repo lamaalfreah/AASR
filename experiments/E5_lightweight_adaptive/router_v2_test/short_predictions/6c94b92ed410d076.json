@@ -1,0 +1,46 @@
+{
+  "id": "6c94b92ed410d076",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مسجد قباء",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 3.0,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999436140060425,
+    "short_entropy": 0.0007132740798507992,
+    "short_top1_top2_margin": 0.9999318705004043,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 70,
+    "question_length_words": 15,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 7.729717253823765e-06,
+      "cardinal_direction": 9.872580449155066e-06,
+      "within_radius_yes_no": 2.6036382223537657e-06,
+      "closer_of_two": 8.987312867247965e-06,
+      "count_within_radius": 1.1743505638150964e-05,
+      "nearest_of_two_categories": 1.1463812370493542e-05,
+      "two_hop_nearest": 4.066726887685945e-06,
+      "spatial_multi_constraint": 0.9999436140060425
+    }
+  },
+  "parser_ms": 2.636729999949239,
+  "short_with_features_ms": 2.771749999965323
+}

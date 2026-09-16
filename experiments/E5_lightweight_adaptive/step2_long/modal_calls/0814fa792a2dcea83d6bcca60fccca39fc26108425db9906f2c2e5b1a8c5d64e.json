@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.230696337000001,
+  "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0814fa792a2dcea83d6bcca60fccca39fc26108425db9906f2c2e5b1a8c5d64e",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"الكامل\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مستشفى الكامل العام\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1713,
+  "output_tokens": 68,
+  "generation_ms": 3080.406654000001,
+  "inference_ms": 3085.749706999991,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 3902.8325419931207,
+  "case_id": "core-cardinal_direction-19"
+}

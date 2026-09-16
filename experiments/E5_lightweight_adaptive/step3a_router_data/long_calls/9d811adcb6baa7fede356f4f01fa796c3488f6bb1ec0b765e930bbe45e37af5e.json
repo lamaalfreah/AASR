@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "9d811adcb6baa7fede356f4f01fa796c3488f6bb1ec0b765e930bbe45e37af5e",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مسجد الخضر\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2216,
+  "output_tokens": 60,
+  "generation_ms": 3356.509907000145,
+  "inference_ms": 3365.9125989997847,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4999.427417002153,
+  "case_id": "router-a886c8e5085909da0b43"
+}

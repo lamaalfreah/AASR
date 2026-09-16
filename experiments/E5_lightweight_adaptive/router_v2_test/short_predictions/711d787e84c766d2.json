@@ -1,0 +1,44 @@
+{
+  "id": "711d787e84c766d2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "كلية علوم البحار بجامعة الملك عبد العزيز",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999934196472168,
+    "short_entropy": 0.0008155081000520522,
+    "short_top1_top2_margin": 0.9999156906251301,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 159,
+    "question_length_words": 27,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.7543525195360417e-06,
+      "cardinal_direction": 1.850584703788627e-05,
+      "within_radius_yes_no": 6.30191470918362e-06,
+      "closer_of_two": 8.122419785649981e-06,
+      "count_within_radius": 1.0414266398584004e-05,
+      "nearest_of_two_categories": 1.5845822417759337e-05,
+      "two_hop_nearest": 0.999934196472168,
+      "spatial_multi_constraint": 2.8050769742549164e-06
+    }
+  },
+  "parser_ms": 2.5955000000976725,
+  "short_with_features_ms": 2.710709999973915
+}

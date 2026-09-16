@@ -1,0 +1,30 @@
+{
+  "id": "f3405b66f3719d94",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "محمية الملك خالد الملكية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطعم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1623,
+  "output_tokens": 122,
+  "inference_ms": 5177.810149999999,
+  "roundtrip_ms": 6578.579690000026
+}

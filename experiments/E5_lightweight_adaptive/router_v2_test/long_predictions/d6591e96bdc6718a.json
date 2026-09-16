@@ -1,0 +1,25 @@
+{
+  "id": "d6591e96bdc6718a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "هجوم الخبر",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "عيادة",
+    "second_hop_category": "جامعة"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2229,
+  "output_tokens": 98,
+  "inference_ms": 5522.460621999926,
+  "roundtrip_ms": 7591.92786299991
+}

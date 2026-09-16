@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d6ebf8d32bd7ac019c75f956b5497ebaa9e327e66868a92c1a39e0f2f520771b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"متحف سعود بن سعد بن هريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"كلية\",\n      \"بنك\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"كلية\",\n    \"second_hop_category\": \"بنك\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2182,
+  "output_tokens": 119,
+  "generation_ms": 6858.750084999997,
+  "inference_ms": 6868.606044000103,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8389.580017000071,
+  "case_id": "ccdd2413394729eb"
+}

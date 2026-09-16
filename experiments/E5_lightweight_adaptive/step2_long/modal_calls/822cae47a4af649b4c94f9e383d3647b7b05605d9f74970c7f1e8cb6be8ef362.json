@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.618463624,
+  "container_session": "eca56fee0e21444b9766113dd09681c1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "822cae47a4af649b4c94f9e383d3647b7b05605d9f74970c7f1e8cb6be8ef362",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"الفوارة (القصيم)\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\"],\"radius_km\":3,\"direction\":\"شمال\",\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1937,
+  "output_tokens": 64,
+  "generation_ms": 3647.7890559999933,
+  "inference_ms": 3655.578810999998,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5368.831208004849,
+  "case_id": "core-spatial_multi_constraint-01"
+}

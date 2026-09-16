@@ -1,0 +1,55 @@
+{
+  "id": "router-89af7506fc644ab6a089",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.781989574432373,
+    "short_entropy": 0.9055912026031134,
+    "short_top1_top2_margin": 0.7048043459653854,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 82,
+    "question_length_words": 15,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "مدينة الأمير سعود بن جلوي الرياضية",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "British International School Of Al Khobar المدرسة البريطانية الدولية الخبر",
+          "source": "unspecified"
+        },
+        {
+          "name": "New World International School",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8726.01178800005
+  }
+}

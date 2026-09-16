@@ -1,0 +1,27 @@
+{
+  "id": "5ce9d4bb3dc40dc7",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "مسجد بني عبد الأشهل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 3,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2370,
+  "output_tokens": 104,
+  "inference_ms": 6582.917351000106,
+  "roundtrip_ms": 8121.212657999877
+}

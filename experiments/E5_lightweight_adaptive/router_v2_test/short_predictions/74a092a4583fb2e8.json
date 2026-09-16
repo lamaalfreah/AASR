@@ -1,0 +1,44 @@
+{
+  "id": "74a092a4583fb2e8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "وادي المغمس",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مستشفى",
+    "second_hop_category": "محطة وقود"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999337196350098,
+    "short_entropy": 0.000821501319855537,
+    "short_top1_top2_margin": 0.9999156042395043,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 135,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.7736558624601457e-06,
+      "cardinal_direction": 1.811539550544694e-05,
+      "within_radius_yes_no": 6.636515081481775e-06,
+      "closer_of_two": 8.482705197820906e-06,
+      "count_within_radius": 1.0641055268933997e-05,
+      "nearest_of_two_categories": 1.576091926835943e-05,
+      "two_hop_nearest": 0.9999337196350098,
+      "spatial_multi_constraint": 2.815796733557363e-06
+    }
+  },
+  "parser_ms": 3.0495200001041667,
+  "short_with_features_ms": 3.198889000032068
+}

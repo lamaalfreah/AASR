@@ -1,0 +1,492 @@
+{
+  "anchor_coordinates": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 227,
+          "train": 244
+        },
+        "example_keys": [
+          "[24.629444444, 46.713888888]",
+          "[24.6825851, 46.7378998]",
+          "[21.4225, 39.826111111]",
+          "[16.966502, 42.829621]",
+          "[24.733333333, 46.575555555]"
+        ],
+        "shared_distinct_values": 11
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 250,
+          "validation": 188
+        },
+        "example_keys": [
+          "[24.733333, 46.575556]",
+          "[25.409992, 49.688549]",
+          "[24.645, 46.712222222]",
+          "[20.0, 41.45]",
+          "[23.5036, 40.8597]"
+        ],
+        "shared_distinct_values": 9
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1489,
+    "within_split_extra_records": {
+      "test": 2178,
+      "train": 18395,
+      "validation": 2349
+    },
+    "within_split_repeated_values": {
+      "test": 152,
+      "train": 1174,
+      "validation": 152
+    }
+  },
+  "anchor_place": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1545,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18361,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1208,
+      "validation": 153
+    }
+  },
+  "article_normalized": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 23,
+          "validation": 24
+        },
+        "example_keys": [
+          "0b03ccd1e137da5d1c7832f8ee67ea1bd6161af4cce360470d35223d1ae81d86"
+        ],
+        "shared_distinct_values": 1
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1540,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18365,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1204,
+      "validation": 153
+    }
+  },
+  "context_exact": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1545,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18361,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1208,
+      "validation": 153
+    }
+  },
+  "context_whitespace_normalized": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1545,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18361,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1208,
+      "validation": 153
+    }
+  },
+  "id": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 24431,
+    "within_split_extra_records": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "within_split_repeated_values": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    }
+  },
+  "question_context_exact": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 24431,
+    "within_split_extra_records": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "within_split_repeated_values": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    }
+  },
+  "question_exact": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 39,
+          "train": 68
+        },
+        "example_keys": [
+          "751ab40b9cadb7feff1cfa7a56e4d5dc96b5020327f9c074676bb6ae6eca8f73",
+          "569e64214d74f1a2d2489a2caf91d8ff9e006232b5b0971a8de1a4723f07b28c",
+          "6ec4d70501ebc3dfac8c13b85ca6eafa17e5e9adc320d39fd99d1412ae6685b8",
+          "c0d70994c1cbb5762775617a395094552621e8b4d1ce0835915587fdf107ab12",
+          "ddd36f192d14c0fe5a3b4e94e88b3a13dafd541c53f950d6230949c97909f54d"
+        ],
+        "shared_distinct_values": 33
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 43,
+          "validation": 29
+        },
+        "example_keys": [
+          "b723fe46c6658b669f153aa9e9828e1f256e2d6bc5ec00e05eea3d87f402de6a",
+          "01d7fc8a21b83b59fd370ebfc5e7dd55ed55a1cd2d3db87db26c7d189d888a7a",
+          "41a92ba23e3fa0927afc90c2bead30b41ca1c22739cdb0a96f6681c19e3040ac",
+          "0da0d9a1d559e1f2103b7abb010e244367f7d0ec3ab8c2712baf84b762a542c1",
+          "987e8bfba15c2a8358bf293965a2acad279f492e9b3b9b937c1cc500a2ce7116"
+        ],
+        "shared_distinct_values": 28
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 7,
+          "validation": 5
+        },
+        "example_keys": [
+          "f826abbb1735e18a71884af74dc4e7f3b4c592e7d4325767028ce5b35002164e",
+          "fb0c9432197e7b65b987bbbd87ed99b49c753ed26f9b327b9dff571776c04a16",
+          "da469a6b34281c69a46e9ac95088d016444d27afbd6263adc8927fc8abdd5778",
+          "175a55f15571dd7e67a5ad6747c5f98b2d975e3b796668347b06237a4dc02cb6",
+          "f5f45c2d57ea3762fc006d03163bf85a977f99528b1edbaf07eb525ec182368d"
+        ],
+        "shared_distinct_values": 5
+      }
+    },
+    "distinct_values": 24212,
+    "within_split_extra_records": {
+      "test": 6,
+      "train": 148,
+      "validation": 3
+    },
+    "within_split_repeated_values": {
+      "test": 4,
+      "train": 95,
+      "validation": 3
+    }
+  },
+  "registry_exact": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 32,
+          "train": 42
+        },
+        "example_keys": [
+          "e6a60fbbd060720e5b98c5e63bb883b04e7350241a849ccec5ce71ddb29b5674",
+          "fcca9acaa7aad15f147635bef938c2c44db0b38e8e965d72a26612687bb81ea4",
+          "ebbaef543e763f92544aaa31b41df382d7667a2bcaefcc05318bc25e27e6351f",
+          "5029d0705a550d8886d0c6e30152be33de4468cd5696760f421cc15240b5224d",
+          "345e6803f41b73bdd919048a60be38848933f8395507d11d1296ee2c7345ef0a"
+        ],
+        "shared_distinct_values": 10
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 28,
+          "validation": 20
+        },
+        "example_keys": [
+          "9a65f663ae02e557f351767d4121a3c84baca4c2f647e1c031bf335e34a9b41d",
+          "98996268a57386b6078152421c68f84bdc6133f2525b7ea9b593c0459303bf2a",
+          "227b3ce02a6601b2eab48e426d370b12108a2b4ffab236be0cdaf5fd621e0648",
+          "811bb09ab0f201c71023286c44d2e5f3adac7d2f4fa3ea64c64d9056a717c9dc",
+          "97fdb6ae1ff3c38ae303686c474b55dc6ce143c193dd30fa3524ea9300ada6a9"
+        ],
+        "shared_distinct_values": 6
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 6,
+          "validation": 6
+        },
+        "example_keys": [
+          "0bd6dfc1c1b827ac01db2478768ef2fab21751b1abf67b2deaa48cb97bad27bb"
+        ],
+        "shared_distinct_values": 1
+      }
+    },
+    "distinct_values": 1496,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18393,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1185,
+      "validation": 153
+    }
+  },
+  "visible_anchor_coordinates": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 269,
+          "train": 311
+        },
+        "example_keys": [
+          "(24.733333, 46.575556)",
+          "(24.629444, 46.713889)",
+          "(24.682585, 46.7379)",
+          "(21.4225, 39.826111)",
+          "(16.966502, 42.829621)"
+        ],
+        "shared_distinct_values": 12
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 342,
+          "validation": 231
+        },
+        "example_keys": [
+          "(24.733333, 46.575556)",
+          "(25.409992, 49.688549)",
+          "(24.645, 46.712222)",
+          "(20.0, 41.45)",
+          "(23.5036, 40.8597)"
+        ],
+        "shared_distinct_values": 12
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 74,
+          "validation": 49
+        },
+        "example_keys": [
+          "(24.733333, 46.575556)",
+          "(24.667715, 46.633481)"
+        ],
+        "shared_distinct_values": 2
+      }
+    },
+    "distinct_values": 1469,
+    "within_split_extra_records": {
+      "test": 2179,
+      "train": 18409,
+      "validation": 2349
+    },
+    "within_split_repeated_values": {
+      "test": 151,
+      "train": 1160,
+      "validation": 152
+    }
+  },
+  "wikidata_id": {
+    "cross_split": {
+      "train__test": {
+        "affected_records": {
+          "test": 0,
+          "train": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "train__validation": {
+        "affected_records": {
+          "train": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      },
+      "validation__test": {
+        "affected_records": {
+          "test": 0,
+          "validation": 0
+        },
+        "example_keys": [],
+        "shared_distinct_values": 0
+      }
+    },
+    "distinct_values": 1545,
+    "within_split_extra_records": {
+      "test": 2177,
+      "train": 18361,
+      "validation": 2348
+    },
+    "within_split_repeated_values": {
+      "test": 153,
+      "train": 1208,
+      "validation": 153
+    }
+  }
+}

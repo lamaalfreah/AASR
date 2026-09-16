@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "19879f5f7fb57154a5367e23b1cbcf53f9905bfa81d60247e13272a91c3b711d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"هجوم الخبر\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"جامعة\",\"مطعم وجبات سريعة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2235,
+  "output_tokens": 68,
+  "generation_ms": 3891.767517000517,
+  "inference_ms": 3902.2548910006662,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6794.927951999853,
+  "case_id": "4832a8e260de522b"
+}

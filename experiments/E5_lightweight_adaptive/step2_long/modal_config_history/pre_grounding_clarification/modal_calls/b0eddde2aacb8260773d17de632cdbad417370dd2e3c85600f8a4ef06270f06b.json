@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.896417524,
+  "container_session": "689960898ff440ac9e0db9e6f9a6370c",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b0eddde2aacb8260773d17de632cdbad417370dd2e3c85600f8a4ef06270f06b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"مسجد عبدالله مفوز\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"Query successfully parsed for counting hospitals within 1.5 km of the context anchor.\"\n}",
+  "input_tokens": 2004,
+  "output_tokens": 117,
+  "generation_ms": 6421.677498999998,
+  "inference_ms": 6431.0391389999995,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7516.537582996534,
+  "case_id": "core-count_within_radius-01"
+}

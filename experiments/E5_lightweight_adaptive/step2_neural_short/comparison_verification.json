@@ -1,0 +1,12 @@
+{
+  "saved_results_reused": true,
+  "evaluation_rerun": false,
+  "training_rerun": false,
+  "challenge_regenerated": false,
+  "frozen_hashes_match": true,
+  "checkpoint_hash_matches": true,
+  "challenge_hashes_match": true,
+  "provider_calls_this_turn": 0,
+  "tests_previously_passed": 66,
+  "rule_original_query_em_is_reference_identity": true
+}

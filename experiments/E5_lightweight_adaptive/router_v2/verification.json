@@ -1,0 +1,10 @@
+{
+  "frozen_inputs_unchanged": true,
+  "all_2400_rows_scored_out_of_fold": true,
+  "anchor_disjoint_at_every_cv_and_calibration_level": true,
+  "no_failure_rows_fitted": true,
+  "preprocessing_fit_within_training_folds": true,
+  "calibration_unweighted_and_out_of_fit": true,
+  "serialized_model_probability_parity": true,
+  "core_eval_or_test_accessed": false
+}

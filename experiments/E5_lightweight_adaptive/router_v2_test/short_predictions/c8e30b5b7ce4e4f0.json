@@ -1,0 +1,47 @@
+{
+  "id": "c8e30b5b7ce4e4f0",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "منتدى تورايز",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "جامعة",
+      "صيدلية"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999260902404785,
+    "short_entropy": 0.0009091969967479556,
+    "short_top1_top2_margin": 0.9999062881852296,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 81,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.113521557272179e-05,
+      "cardinal_direction": 5.934393357165391e-06,
+      "within_radius_yes_no": 3.4254533147759503e-06,
+      "closer_of_two": 1.61904299602611e-05,
+      "count_within_radius": 4.3641330194077455e-06,
+      "nearest_of_two_categories": 0.9999260902404785,
+      "two_hop_nearest": 1.980205524887424e-05,
+      "spatial_multi_constraint": 1.3057951946393587e-05
+    }
+  },
+  "parser_ms": 2.244929999960732,
+  "short_with_features_ms": 2.3664699999699224
+}

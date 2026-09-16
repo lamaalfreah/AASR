@@ -1,0 +1,27 @@
+{
+  "id": "26d3a80db9c59205",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مسجد التوبة (تبوك)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1797,
+  "output_tokens": 99,
+  "inference_ms": 5480.65637200034,
+  "roundtrip_ms": 8628.272708000623
+}

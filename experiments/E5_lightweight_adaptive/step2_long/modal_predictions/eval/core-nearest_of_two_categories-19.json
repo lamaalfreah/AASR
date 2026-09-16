@@ -1,0 +1,50 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-19",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "conversational",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.30656376481056213,
+  "short_pipeline_ms": 0.5147910000000699,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1635,
+  "output_tokens": 102,
+  "long_inference_ms": 4469.939691999912,
+  "long_roundtrip_ms": 5254.997958021704,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "اليتمة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة",
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "وقود المغير",
+    "text": "وقود المغير"
+  },
+  "raw_operation": "nearest_of_two_categories",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

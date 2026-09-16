@@ -1,0 +1,30 @@
+{
+  "id": "8b6e18dfa8ce9bde",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "أبو شعيب",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "الجموم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3479,
+  "output_tokens": 188,
+  "inference_ms": 10236.259906999749,
+  "roundtrip_ms": 14459.353057000044
+}

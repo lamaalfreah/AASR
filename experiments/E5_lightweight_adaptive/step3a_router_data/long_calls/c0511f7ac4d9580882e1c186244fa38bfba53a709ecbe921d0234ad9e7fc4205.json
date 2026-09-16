@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c0511f7ac4d9580882e1c186244fa38bfba53a709ecbe921d0234ad9e7fc4205",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"الرونة (صامطة)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"محطة وقود\",\n      \"عيادة\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"محطة وقود\",\n    \"second_hop_category\": \"عيادة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1669,
+  "output_tokens": 117,
+  "generation_ms": 6649.970224000754,
+  "inference_ms": 6658.386930000233,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8229.165083001135,
+  "case_id": "router-e6537e828c7009804a00"
+}

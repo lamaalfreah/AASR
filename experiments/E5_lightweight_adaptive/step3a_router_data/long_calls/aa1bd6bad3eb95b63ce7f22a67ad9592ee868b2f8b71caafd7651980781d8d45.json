@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "aa1bd6bad3eb95b63ce7f22a67ad9592ee868b2f8b71caafd7651980781d8d45",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"بيت البيعة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"عيادة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"عيادة\"},\"message\":\"\"}",
+  "input_tokens": 2267,
+  "output_tokens": 68,
+  "generation_ms": 4038.835176000248,
+  "inference_ms": 4049.308428000586,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5691.440875001717,
+  "case_id": "router-1e89c6a65388988a0a08"
+}

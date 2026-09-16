@@ -1,0 +1,27 @@
+{
+  "id": "b999478dd746b474",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "ينبع",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 5,
+    "direction": "شرق",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2153,
+  "output_tokens": 98,
+  "inference_ms": 5422.846701999788,
+  "roundtrip_ms": 6604.56274299986
+}

@@ -1,0 +1,48 @@
+{
+  "id": "router-2c5979e8662cba8af3a3",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.3865252137184143,
+    "short_entropy": 1.546228772138105,
+    "short_top1_top2_margin": 0.16566608846187592,
+    "query_valid": false,
+    "missing_slots": [
+      "origin"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 100,
+    "question_length_words": 18,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "count_within_radius",
+      "origin": {
+        "name": "Cinnabon/ Seattles Best Coffee",
+        "source": "candidate"
+      },
+      "targets": [],
+      "categories": [
+        "عيادة"
+      ],
+      "radius_km": 1.5,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5960.267767999994
+  }
+}

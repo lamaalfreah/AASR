@@ -1,0 +1,46 @@
+{
+  "id": "02c10030cade0f00",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مسجد قباء",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "جامعة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999417066574097,
+    "short_entropy": 0.0007154309822207805,
+    "short_top1_top2_margin": 0.9999163820175454,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 63,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999417066574097,
+      "cardinal_direction": 1.4963798093958758e-05,
+      "within_radius_yes_no": 2.532463986426592e-05,
+      "closer_of_two": 6.459800260927295e-06,
+      "count_within_radius": 1.83421161636943e-06,
+      "nearest_of_two_categories": 3.4361537473159842e-06,
+      "two_hop_nearest": 1.053924165717035e-06,
+      "spatial_multi_constraint": 5.239293841441395e-06
+    }
+  },
+  "parser_ms": 2.3703600000430924,
+  "short_with_features_ms": 2.4876500000345914
+}

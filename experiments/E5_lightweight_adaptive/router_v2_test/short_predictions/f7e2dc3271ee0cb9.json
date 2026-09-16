@@ -1,0 +1,44 @@
+{
+  "id": "f7e2dc3271ee0cb9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "جبل القاعد",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "محطة وقود",
+    "second_hop_category": "مقهى"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999297857284546,
+    "short_entropy": 0.0008657215719986406,
+    "short_top1_top2_margin": 0.999910691560217,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 132,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 4.099679699720582e-06,
+      "cardinal_direction": 1.9094168237643316e-05,
+      "within_radius_yes_no": 6.636210400756681e-06,
+      "closer_of_two": 8.366417205252219e-06,
+      "count_within_radius": 1.1649056432361249e-05,
+      "nearest_of_two_categories": 1.7187938283313997e-05,
+      "two_hop_nearest": 0.9999297857284546,
+      "spatial_multi_constraint": 3.100538151556975e-06
+    }
+  },
+  "parser_ms": 2.6392700001451885,
+  "short_with_features_ms": 2.7597099999638885
+}

@@ -1,0 +1,10 @@
+scope,group,n,intent_correct,intent_accuracy_percent,query_exact_correct,structured_query_exact_match_percent,answer_correct,end_to_end_accuracy_percent,query_produced,query_produced_percent,abstentions,abstention_percent,reconstructable_n,reconstructable_accuracy_percent
+original_validation,original_template,2502,2502,100.0,2500,99.920064,2382,95.203837,2500,99.920064,120,4.796163,2383,99.958036
+core_dev,L1,72,20,27.777778,19,26.388889,22,30.555556,27,37.5,45,62.5,72,30.555556
+core_dev,L2,56,10,17.857143,10,17.857143,11,19.642857,18,32.142857,38,67.857143,56,19.642857
+core_dev,L3,32,5,15.625,5,15.625,5,15.625,9,28.125,23,71.875,32,15.625
+core_dev,L4,32,8,25.0,6,18.75,6,18.75,10,31.25,22,68.75,32,18.75
+core_eval,L1,24,7,29.166667,7,29.166667,7,29.166667,9,37.5,15,62.5,24,29.166667
+core_eval,L2,40,7,17.5,7,17.5,8,20.0,12,30.0,28,70.0,40,20.0
+core_eval,L3,32,11,34.375,9,28.125,10,31.25,15,46.875,17,53.125,32,31.25
+core_eval,L4,32,5,15.625,3,9.375,5,15.625,10,31.25,22,68.75,32,15.625

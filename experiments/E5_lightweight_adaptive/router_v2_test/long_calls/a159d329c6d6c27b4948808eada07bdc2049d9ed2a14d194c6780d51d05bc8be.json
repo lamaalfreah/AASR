@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a159d329c6d6c27b4948808eada07bdc2049d9ed2a14d194c6780d51d05bc8be",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"أبو عريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"جامعة\"],\n    \"radius_km\": 5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يسأل عن وجود جامعة ضمن مسافة 5 كم من «أبو عريش»، مما يناسب عملية within_radius_yes_no.\"\n}",
+  "input_tokens": 2209,
+  "output_tokens": 135,
+  "generation_ms": 7296.5155880001475,
+  "inference_ms": 7306.8676190005135,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 13818.110958999569,
+  "case_id": "4d211196faad5736"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "99b93812febedc8a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "هجوم الخبر",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999309778213501,
+    "short_entropy": 0.0008306676884672553,
+    "short_top1_top2_margin": 0.9999003681041359,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 63,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999309778213501,
+      "cardinal_direction": 1.9920820705010556e-05,
+      "within_radius_yes_no": 3.060971721424721e-05,
+      "closer_of_two": 5.6197718549810816e-06,
+      "count_within_radius": 2.011332753681927e-06,
+      "nearest_of_two_categories": 3.508472445901134e-06,
+      "two_hop_nearest": 1.3081753422738984e-06,
+      "spatial_multi_constraint": 5.965011951047927e-06
+    }
+  },
+  "parser_ms": 2.003150000007281,
+  "short_with_features_ms": 2.1103600000174083
+}

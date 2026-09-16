@@ -1,0 +1,27 @@
+{
+  "id": "14f4677bfb8966ba",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "دار عثمان بن عفان الصغرى",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": 3,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2313,
+  "output_tokens": 108,
+  "inference_ms": 6904.217520999737,
+  "roundtrip_ms": 8173.571377999906
+}

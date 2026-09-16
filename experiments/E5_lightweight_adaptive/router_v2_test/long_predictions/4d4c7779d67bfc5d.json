@@ -1,0 +1,25 @@
+{
+  "id": "4d4c7779d67bfc5d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "منجم مهد الذهب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "محطة وقود"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1689,
+  "output_tokens": 102,
+  "inference_ms": 5802.446009999983,
+  "roundtrip_ms": 7053.783414999998
+}

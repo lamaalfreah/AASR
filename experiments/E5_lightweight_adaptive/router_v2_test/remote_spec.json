@@ -1,0 +1,9 @@
+{
+  "public_sha256": "eae62508e73a66fb1374d179c867b08e32574de4398f241142e9b6d1914e090a",
+  "config_sha256": "b96230676a31ac1324569af57a448848e07816275c15e9136144f8eef327cae6",
+  "remote_namespace": "router_v2_test_f159c749364ad724",
+  "short_artifact_hashes": {
+    "intent_bigru.pt": "2971ce28a720e45cf3b98fcfce92293eef9daf0202913e3f146a74361b6770d7",
+    "model_config.json": "08f19e75c3413b597d69bcf7a67b94c7026175ec17498b3601366ad2861a778e"
+  }
+}

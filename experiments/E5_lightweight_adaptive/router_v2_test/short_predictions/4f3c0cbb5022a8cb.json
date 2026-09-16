@@ -1,0 +1,46 @@
+{
+  "id": "4f3c0cbb5022a8cb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "إكسبو 2030",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 5.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999382495880127,
+    "short_entropy": 0.0007563678920644813,
+    "short_top1_top2_margin": 0.9999156389476411,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 87,
+    "question_length_words": 17,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 2.261064037156757e-05,
+      "cardinal_direction": 6.79775030221208e-06,
+      "within_radius_yes_no": 0.9999382495880127,
+      "closer_of_two": 3.961790469020343e-07,
+      "count_within_radius": 1.6575349945924245e-05,
+      "nearest_of_two_categories": 2.191250814576051e-06,
+      "two_hop_nearest": 1.0386635949544143e-05,
+      "spatial_multi_constraint": 2.8024760467815213e-06
+    }
+  },
+  "parser_ms": 2.528108999968026,
+  "short_with_features_ms": 2.688778999981878
+}

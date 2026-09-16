@@ -1,0 +1,27 @@
+{
+  "id": "7ca1dbae0ed78af9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "فندير كافيه",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2132,
+  "output_tokens": 101,
+  "inference_ms": 5644.45015900003,
+  "roundtrip_ms": 6784.674414999245
+}

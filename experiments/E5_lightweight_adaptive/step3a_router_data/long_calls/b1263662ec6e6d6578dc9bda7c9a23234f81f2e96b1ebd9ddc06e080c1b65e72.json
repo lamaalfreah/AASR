@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b1263662ec6e6d6578dc9bda7c9a23234f81f2e96b1ebd9ddc06e080c1b65e72",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"جبل مكيمن\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"مستشفى\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"مستشفى\"},\"message\":\"\"}",
+  "input_tokens": 2178,
+  "output_tokens": 67,
+  "generation_ms": 4004.7991740002544,
+  "inference_ms": 4014.861765000205,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5909.102499979781,
+  "case_id": "router-979e783737e97e555455"
+}

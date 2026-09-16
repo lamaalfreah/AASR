@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b265728b2b961d5cc430f2e238c9bebb575b0511e205aea2dd7cb94b35ee8f7b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"بريمان\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"كلية\",\n      \"مستشفى\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"كلية\",\n    \"second_hop_category\": \"مستشفى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2160,
+  "output_tokens": 113,
+  "generation_ms": 6403.414262000297,
+  "inference_ms": 6412.958888000503,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7780.850334005663,
+  "case_id": "router-b7062f53e67b4be17faf"
+}

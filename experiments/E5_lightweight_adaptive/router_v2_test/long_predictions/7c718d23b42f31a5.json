@@ -1,0 +1,30 @@
+{
+  "id": "7c718d23b42f31a5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جبل مقلة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة المحرق",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3237,
+  "output_tokens": 190,
+  "inference_ms": 10276.008870000056,
+  "roundtrip_ms": 14104.032977000088
+}

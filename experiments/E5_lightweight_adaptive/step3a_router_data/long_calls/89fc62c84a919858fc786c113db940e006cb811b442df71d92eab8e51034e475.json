@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "89fc62c84a919858fc786c113db940e006cb811b442df71d92eab8e51034e475",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"ثول\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"صيدلية\",\n      \"مقهى\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"مقهى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1873,
+  "output_tokens": 112,
+  "generation_ms": 6486.944202999439,
+  "inference_ms": 6497.006519999559,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8456.994834006764,
+  "case_id": "router-fa26140557df45ecd5ed"
+}

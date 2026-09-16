@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "4e466c4604e2461c5ba57275a85a9bd9cd24f26014b070902ec6ca7b2a41a881",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"دار عبد الله بن عمر\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"البنك العربي الوطني\",\"source\":\"unspecified\"},{\"name\":\"Arabian Bank\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2336,
+  "output_tokens": 85,
+  "generation_ms": 4782.524829999602,
+  "inference_ms": 4793.218560000241,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6972.274250001647,
+  "case_id": "router-8cfdcbdf80d09a3d1655"
+}

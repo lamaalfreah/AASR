@@ -1,0 +1,47 @@
+{
+  "id": "4e774c9259483d6c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "قصر الدرعية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى",
+      "مدرسة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999266862869263,
+    "short_entropy": 0.0009022004869813946,
+    "short_top1_top2_margin": 0.9999069822879392,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 78,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0515655048948247e-05,
+      "cardinal_direction": 5.815165877720574e-06,
+      "within_radius_yes_no": 3.5680943710758584e-06,
+      "closer_of_two": 1.4471276699623559e-05,
+      "count_within_radius": 4.275886567484122e-06,
+      "nearest_of_two_categories": 0.9999266862869263,
+      "two_hop_nearest": 1.9703998987097293e-05,
+      "spatial_multi_constraint": 1.4928396012692247e-05
+    }
+  },
+  "parser_ms": 2.126459999999497,
+  "short_with_features_ms": 2.232670000012149
+}

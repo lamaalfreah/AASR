@@ -1,0 +1,47 @@
+{
+  "id": "2b2c2f740cfe4faf",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "سارية جدة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999925971031189,
+    "short_entropy": 0.0009111096778094662,
+    "short_top1_top2_margin": 0.9999060840400489,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 76,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0103401109518018e-05,
+      "cardinal_direction": 5.8708455981104635e-06,
+      "within_radius_yes_no": 3.689031018438982e-06,
+      "closer_of_two": 1.4444008229475003e-05,
+      "count_within_radius": 4.375542630441487e-06,
+      "nearest_of_two_categories": 0.999925971031189,
+      "two_hop_nearest": 1.988699114008341e-05,
+      "spatial_multi_constraint": 1.5706929843872786e-05
+    }
+  },
+  "parser_ms": 2.3822499999823776,
+  "short_with_features_ms": 2.5184300000091753
+}

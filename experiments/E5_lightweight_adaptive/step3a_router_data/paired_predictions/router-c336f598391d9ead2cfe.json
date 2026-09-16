@@ -1,0 +1,59 @@
+{
+  "id": "router-c336f598391d9ead2cfe",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.5723668336868286,
+    "short_entropy": 0.9795877325272753,
+    "short_top1_top2_margin": 0.22212544083595276,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 134,
+    "question_length_words": 22,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "كلية الطب بعنيزة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مدرسة",
+        "محطة وقود"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "كلية الطب بعنيزة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مدرسة",
+      "second_hop_category": "محطة وقود"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5710.99392799988
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "109c84f9d87dcd87",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "جامع الحرجة",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1706,
+  "output_tokens": 97,
+  "inference_ms": 5214.114671000005,
+  "roundtrip_ms": 6974.759142000039
+}

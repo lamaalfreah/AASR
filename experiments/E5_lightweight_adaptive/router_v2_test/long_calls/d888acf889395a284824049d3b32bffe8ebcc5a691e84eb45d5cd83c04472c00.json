@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d888acf889395a284824049d3b32bffe8ebcc5a691e84eb45d5cd83c04472c00",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"عفيف\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"وقود عفيفه\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1672,
+  "output_tokens": 71,
+  "generation_ms": 3813.1848820003142,
+  "inference_ms": 3821.6193999996904,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5819.501478999882,
+  "case_id": "451e3456c669c18c"
+}

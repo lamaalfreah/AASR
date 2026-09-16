@@ -1,0 +1,30 @@
+{
+  "id": "351f82ca8d630abe",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "رغبة (ثادق)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "رغبة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3309,
+  "output_tokens": 181,
+  "inference_ms": 9709.509841999876,
+  "roundtrip_ms": 12027.996583000004
+}

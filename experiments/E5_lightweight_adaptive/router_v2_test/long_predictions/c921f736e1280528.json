@@ -1,0 +1,27 @@
+{
+  "id": "c921f736e1280528",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "PICK",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4651,
+  "output_tokens": 156,
+  "inference_ms": 8797.933100000024,
+  "roundtrip_ms": 11129.913777000183
+}

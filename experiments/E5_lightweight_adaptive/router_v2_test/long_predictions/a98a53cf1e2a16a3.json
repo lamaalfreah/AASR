@@ -1,0 +1,27 @@
+{
+  "id": "a98a53cf1e2a16a3",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "متحف صقر الجزيرة للطيران",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2232,
+  "output_tokens": 103,
+  "inference_ms": 5581.830000000082,
+  "roundtrip_ms": 8222.799941000176
+}

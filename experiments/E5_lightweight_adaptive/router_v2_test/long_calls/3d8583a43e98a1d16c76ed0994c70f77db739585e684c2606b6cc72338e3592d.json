@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3d8583a43e98a1d16c76ed0994c70f77db739585e684c2606b6cc72338e3592d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مركز الرعاية الصحية الأولية\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1879,
+  "output_tokens": 64,
+  "generation_ms": 3522.7451409991772,
+  "inference_ms": 3531.6944450005394,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6701.234946000113,
+  "case_id": "ac570655e31734c8"
+}

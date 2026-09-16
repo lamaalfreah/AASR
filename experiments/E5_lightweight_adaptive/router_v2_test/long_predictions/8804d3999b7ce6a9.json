@@ -1,0 +1,30 @@
+{
+  "id": "8804d3999b7ce6a9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "أبو عريش",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صيدلية التفاح الاخضر",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2202,
+  "output_tokens": 124,
+  "inference_ms": 6867.941067000174,
+  "roundtrip_ms": 9158.94892400047
+}

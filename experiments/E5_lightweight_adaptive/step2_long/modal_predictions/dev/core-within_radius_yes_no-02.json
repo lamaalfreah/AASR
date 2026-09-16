@@ -1,0 +1,44 @@
+{
+  "challenge_id": "core-within_radius_yes_no-02",
+  "task_type": "within_radius_yes_no",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.5060397386550903,
+  "short_pipeline_ms": 0.6927079999998753,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2407,
+  "output_tokens": 105,
+  "long_inference_ms": 5803.238504999996,
+  "long_roundtrip_ms": 10272.822583006928,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "الصالة الخضراء (الدمام)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  }
+}

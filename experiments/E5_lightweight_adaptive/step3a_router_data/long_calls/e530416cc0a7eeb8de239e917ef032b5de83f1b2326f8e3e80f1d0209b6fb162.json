@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e530416cc0a7eeb8de239e917ef032b5de83f1b2326f8e3e80f1d0209b6fb162",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"راضى\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"صيدلية\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1763,
+  "output_tokens": 61,
+  "generation_ms": 3302.5153319995297,
+  "inference_ms": 3310.5407629991532,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5202.165291004349,
+  "case_id": "router-9da3011f6286bde841c9"
+}

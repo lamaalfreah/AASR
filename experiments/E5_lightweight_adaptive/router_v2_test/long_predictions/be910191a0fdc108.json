@@ -1,0 +1,30 @@
+{
+  "id": "be910191a0fdc108",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "دار عثمان بن عفان الصغرى",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "المسجد النبوي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2301,
+  "output_tokens": 126,
+  "inference_ms": 6886.5320590000465,
+  "roundtrip_ms": 9335.566897000035
+}

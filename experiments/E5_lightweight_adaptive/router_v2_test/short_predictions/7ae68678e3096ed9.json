@@ -1,0 +1,46 @@
+{
+  "id": "7ae68678e3096ed9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مسجد بني عبد الأشهل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999374151229858,
+    "short_entropy": 0.0007626997852129037,
+    "short_top1_top2_margin": 0.9999108349693415,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 71,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999374151229858,
+      "cardinal_direction": 1.7063715858967043e-05,
+      "within_radius_yes_no": 2.658015364431776e-05,
+      "closer_of_two": 6.577142812602688e-06,
+      "count_within_radius": 2.0344903077784693e-06,
+      "nearest_of_two_categories": 3.4416618746035965e-06,
+      "two_hop_nearest": 1.1570263040994178e-06,
+      "spatial_multi_constraint": 5.670381597155938e-06
+    }
+  },
+  "parser_ms": 2.075149999996029,
+  "short_with_features_ms": 2.212339999971391
+}

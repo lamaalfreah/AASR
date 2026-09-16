@@ -1,0 +1,46 @@
+{
+  "id": "e78d901221452462",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "محافظة مرات",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": 3.0,
+    "direction": "شرق",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999940037727356,
+    "short_entropy": 0.0007509228933533178,
+    "short_top1_top2_margin": 0.9999268684014169,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 76,
+    "question_length_words": 16,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 9.931413842423353e-06,
+      "cardinal_direction": 7.222453859867528e-06,
+      "within_radius_yes_no": 2.5309495867986698e-06,
+      "closer_of_two": 1.1541095773281995e-05,
+      "count_within_radius": 1.2813213288609404e-05,
+      "nearest_of_two_categories": 1.3169325939088594e-05,
+      "two_hop_nearest": 2.7224871246289695e-06,
+      "spatial_multi_constraint": 0.999940037727356
+    }
+  },
+  "parser_ms": 2.2892399999818736,
+  "short_with_features_ms": 2.399599999989732
+}

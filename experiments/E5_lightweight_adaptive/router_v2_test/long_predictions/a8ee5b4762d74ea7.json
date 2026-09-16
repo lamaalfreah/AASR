@@ -1,0 +1,30 @@
+{
+  "id": "a8ee5b4762d74ea7",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "السويق",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "المرزوقي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1624,
+  "output_tokens": 119,
+  "inference_ms": 6448.374239999794,
+  "roundtrip_ms": 9140.839985999719
+}

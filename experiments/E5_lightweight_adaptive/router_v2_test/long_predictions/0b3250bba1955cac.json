@@ -1,0 +1,30 @@
+{
+  "id": "0b3250bba1955cac",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مكتبة عارف حكمت",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "لايدر كاف",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2293,
+  "output_tokens": 125,
+  "inference_ms": 7206.243458000017,
+  "roundtrip_ms": 8461.205029999974
+}

@@ -1,0 +1,47 @@
+{
+  "id": "da9fb0a7363d717d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "المدرسة الهندية العالمية (الجبيل)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم",
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999279975891113,
+    "short_entropy": 0.0008866740938541526,
+    "short_top1_top2_margin": 0.9999083354996401,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 98,
+    "question_length_words": 16,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 9.524981578579172e-06,
+      "cardinal_direction": 6.044742804078851e-06,
+      "within_radius_yes_no": 3.3379851629433688e-06,
+      "closer_of_two": 1.4856082088954281e-05,
+      "count_within_radius": 4.159422132943291e-06,
+      "nearest_of_two_categories": 0.9999279975891113,
+      "two_hop_nearest": 1.9662089471239597e-05,
+      "spatial_multi_constraint": 1.4352724065247457e-05
+    }
+  },
+  "parser_ms": 2.3779100001775078,
+  "short_with_features_ms": 2.488950000042678
+}

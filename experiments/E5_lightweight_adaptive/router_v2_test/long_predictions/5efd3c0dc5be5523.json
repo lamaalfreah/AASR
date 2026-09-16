@@ -1,0 +1,27 @@
+{
+  "id": "5efd3c0dc5be5523",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "المدرسة الهندية العالمية (الجبيل)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 3,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مدرسة ضمن مسافة 3 كم من المدرسة الهندية العالمية (الجبيل)، مما يناسب عملية within_radius_yes_no.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2022,
+  "output_tokens": 144,
+  "inference_ms": 7537.600641000608,
+  "roundtrip_ms": 9290.192485000262
+}

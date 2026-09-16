@@ -1,0 +1,30 @@
+{
+  "id": "68a17545417c70e7",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مسجد قباء",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد قباء",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "الاتجاه غير محدد لأن المكان نفسه تم تكراره.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2329,
+  "output_tokens": 134,
+  "inference_ms": 7282.939237000164,
+  "roundtrip_ms": 11503.507162999995
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "7417a77a89f53b3982c1d7b4462eebf93c3d0b9c280414c32a7281849c07ef15",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"جزيرة البينة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مقهى\",\n    \"second_hop_category\": \"مطعم\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1654,
+  "output_tokens": 99,
+  "generation_ms": 5582.101725999564,
+  "inference_ms": 5590.636132999862,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7141.149542003404,
+  "case_id": "router-a21e8f23135666ef03b5"
+}

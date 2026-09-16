@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "7d7d646e5f7bd364b20d10e57fa8f57ea798ae3876e8ca19ad19e5f4e63358ca",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"برج صندوق الاستثمارات العامة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"بنك\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2463,
+  "output_tokens": 66,
+  "generation_ms": 3983.289630999934,
+  "inference_ms": 3995.078340999953,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5535.104959009914,
+  "case_id": "router-be9b09d8aa952ba11160"
+}

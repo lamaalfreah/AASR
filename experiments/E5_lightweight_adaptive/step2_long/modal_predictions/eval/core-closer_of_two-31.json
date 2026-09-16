@@ -1,0 +1,52 @@
+{
+  "challenge_id": "core-closer_of_two-31",
+  "task_type": "closer_of_two",
+  "language_register": "light_saudi",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.32790881395339966,
+  "short_pipeline_ms": 0.3812919999997,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3349,
+  "output_tokens": 170,
+  "long_inference_ms": 7568.009601999961,
+  "long_roundtrip_ms": 9281.686750007793,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "الديحمة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود",
+      "مكان عبادة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "محطة الساحل",
+    "text": "محطة الساحل"
+  },
+  "raw_operation": "nearest_of_two_categories",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "unknown_category"
+  ],
+  "raw_operation_correct": false
+}

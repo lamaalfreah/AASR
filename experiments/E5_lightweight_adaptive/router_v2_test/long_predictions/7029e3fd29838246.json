@@ -1,0 +1,34 @@
+{
+  "id": "7029e3fd29838246",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "سد وادي ليه",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "الطازج",
+        "source": "unspecified"
+      },
+      {
+        "name": "صيدلية خالد",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2122,
+  "output_tokens": 144,
+  "inference_ms": 8017.533508999804,
+  "roundtrip_ms": 9224.80045300108
+}

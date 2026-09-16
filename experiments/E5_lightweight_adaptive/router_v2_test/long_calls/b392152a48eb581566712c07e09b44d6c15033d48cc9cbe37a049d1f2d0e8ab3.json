@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b392152a48eb581566712c07e09b44d6c15033d48cc9cbe37a049d1f2d0e8ab3",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"جبل نديفة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\",\"متوسطة الامام الشعبي و ثانوية النابغة الجعدي\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1661,
+  "output_tokens": 83,
+  "generation_ms": 4509.716956000006,
+  "inference_ms": 4520.275272999981,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7451.562840999997,
+  "case_id": "09a5d15bb9db111a"
+}

@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-two_hop_nearest-36",
+  "task_type": "two_hop_nearest",
+  "language_register": "light_saudi",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.939145028591156,
+  "short_pipeline_ms": 0.7833329999997751,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2197,
+  "output_tokens": 101,
+  "long_inference_ms": 4661.261190000005,
+  "long_roundtrip_ms": 5813.451916998019,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "حلة الأجناب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "صيدلية"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "صيدلية المتحدة",
+    "text": "صيدلية المتحدة"
+  },
+  "raw_operation": "two_hop_nearest",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0f04002700f1aa363d836927a167c56ad3595cebb7e4b76a21ec22d9019dfd16",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"مسجد الفضيخ\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"جامعة\",\n    \"second_hop_category\": \"مستشفى\"\n  },\n  \"message\": \"النتائج المترابطة تم تعيينها بناءً على الطلب.\"\n}",
+  "input_tokens": 2445,
+  "output_tokens": 119,
+  "generation_ms": 6621.9741299992165,
+  "inference_ms": 6634.252744999685,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8226.484791986877,
+  "case_id": "router-89e605693341e8b02ea3"
+}

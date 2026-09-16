@@ -1,0 +1,55 @@
+{
+  "id": "router-d3f5f99a152424843b26",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.4163706302642822,
+    "short_entropy": 1.610002133342747,
+    "short_top1_top2_margin": 0.16250747442245483,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 77,
+    "question_length_words": 14,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "شعب عامر",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "ستاربكس",
+          "source": "unspecified"
+        },
+        {
+          "name": "مستشفى الشفاء الطبي",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "ambiguous",
+    "reason": "referenced_entity_ambiguous",
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7846.80235299993
+  }
+}

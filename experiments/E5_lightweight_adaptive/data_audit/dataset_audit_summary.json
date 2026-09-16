@@ -1,0 +1,67 @@
+{
+  "audit_version": 1,
+  "integrity_checks": {
+    "blank_line": 0,
+    "candidate_count_mismatch": 0,
+    "context_chars_mismatch": 0,
+    "duplicate_id_extra_records": 0,
+    "invalid_text_input": 0,
+    "malformed_json": 0,
+    "missing_id": 0,
+    "non_object_json": 0,
+    "schema_key_set_mismatch": 0,
+    "split_field_mismatch": 0,
+    "unexpected_field_type": 0,
+    "unexpected_task": 0
+  },
+  "issues": {
+    "answer_edge_whitespace": 50,
+    "answer_position_mismatch": 4,
+    "article_chars_mismatch": 62,
+    "candidate_name_edge_whitespace": 1604,
+    "count_origin_name_collides_with_context_anchor": 23,
+    "count_would_change_if_names_deduplicated": 121,
+    "duplicate_candidate_coordinates": 573,
+    "duplicate_candidate_names": 20776,
+    "duplicate_candidate_rows": 427,
+    "exact_nearest_tie": 15,
+    "intermediate_name_repeated_but_geometry_resolves": 226,
+    "multi_constraint_four_sector_answer_differs": 188,
+    "multi_constraint_four_sector_count_differs": 575,
+    "multiline_candidate_names": 2056,
+    "named_identity_ambiguous": 1074,
+    "nearest_gap_within_0_2m": 35,
+    "query_origin_differs_from_context_anchor": 864,
+    "radius_boundary_within_0_2m": 3,
+    "reconstructability_B": 1036,
+    "reconstructability_F": 1,
+    "repeated_name_gold_answer": 2028,
+    "same_name_multiple_coordinates": 20776,
+    "target_name_collides_with_context_anchor": 54
+  },
+  "limitations": [
+    "No TEST answer/semantic evaluation.",
+    "No neural model or tokenizer loaded.",
+    "Reconstructability is conditional on fixed visible-input semantic hypotheses, not proof of source-generator correctness.",
+    "Raw coordinates may have more precision than visible context coordinates; no gold evidence IDs used for disambiguation.",
+    "Near-duplicate audit uses exact normalized text and candidate-set similarity proxies."
+  ],
+  "raw_sha256": {
+    "test": "f159c749364ad7244661a80409cb7d40948ba2d75daa978d6601ecd122f19469",
+    "train": "e7d8d578a216ce452166f3b0cb85a4c9d4159f26b43fabea0c9046a859f562ba",
+    "validation": "2b530c47d70d9356a9564e7cb99bcaee67b3b474e112e6ec9b8c6a1ec1c67f99"
+  },
+  "raw_unchanged": true,
+  "task_imbalance_max_min": {
+    "test": 8.52808988764045,
+    "train": 9.398002853067046,
+    "validation": 8.525773195876289
+  },
+  "test_gold_locked": true,
+  "total": 24431,
+  "valid_record_counts": {
+    "test": 2332,
+    "train": 19597,
+    "validation": 2502
+  }
+}

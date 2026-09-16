@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e4ec6db6f18e78d254b0b9357e10571c641d3ba4ce9432657c295ff9e4441a20",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"مسجد الجفالي\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب مستشفى\",\"source\":\"unspecified\"},{\"name\":\"أقرب محطة وقود\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2409,
+  "output_tokens": 86,
+  "generation_ms": 4948.37642199991,
+  "inference_ms": 4960.6208329998935,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6561.030417011352,
+  "case_id": "router-188b13e859ebd5d00f41"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "4f3c0cbb5022a8cb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "إكسبو 2030",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مستشفى ضمن مسافة 5 كم من «إكسبو 2030»، مما يناسب عملية within_radius_yes_no.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2261,
+  "output_tokens": 142,
+  "inference_ms": 7716.6422210002565,
+  "roundtrip_ms": 9299.398547000237
+}

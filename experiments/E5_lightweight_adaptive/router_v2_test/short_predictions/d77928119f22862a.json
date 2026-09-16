@@ -1,0 +1,47 @@
+{
+  "id": "d77928119f22862a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "إمارة الدرعية الأولى",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999268054962158,
+    "short_entropy": 0.0009000614025121254,
+    "short_top1_top2_margin": 0.9999068526467454,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 86,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0038541404355783e-05,
+      "cardinal_direction": 5.946884812146891e-06,
+      "within_radius_yes_no": 3.5502614537108457e-06,
+      "closer_of_two": 1.4462159015238285e-05,
+      "count_within_radius": 4.118630386074074e-06,
+      "nearest_of_two_categories": 0.9999268054962158,
+      "two_hop_nearest": 1.995284947042819e-05,
+      "spatial_multi_constraint": 1.5044204701553099e-05
+    }
+  },
+  "parser_ms": 2.136629999995421,
+  "short_with_features_ms": 2.250459999913801
+}

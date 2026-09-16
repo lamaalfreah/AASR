@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5848bde97dc556028d5bb0d1483d1075351c389d151dd87d1f8de9ca1da7bb02",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"وادي صفار\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Burger King\",\"source\":\"unspecified\"},{\"name\":\"Shawarma Avenue\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2238,
+  "output_tokens": 82,
+  "generation_ms": 4522.3675279994495,
+  "inference_ms": 4532.717539999794,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7617.754576000152,
+  "case_id": "3c661fc941ae2687"
+}

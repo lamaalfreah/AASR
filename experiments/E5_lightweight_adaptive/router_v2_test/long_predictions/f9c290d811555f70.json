@@ -1,0 +1,27 @@
+{
+  "id": "f9c290d811555f70",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "هجوم الخبر",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مستشفى ضمن مسافة 2 كم من «هجوم الخبر»، مما يناسب عملية within_radius_yes_no.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2218,
+  "output_tokens": 130,
+  "inference_ms": 7091.608177000126,
+  "roundtrip_ms": 9066.180234000058
+}

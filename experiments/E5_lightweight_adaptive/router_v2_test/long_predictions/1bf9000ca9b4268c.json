@@ -1,0 +1,30 @@
+{
+  "id": "1bf9000ca9b4268c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "السويق",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "بنك الرياض",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3275,
+  "output_tokens": 186,
+  "inference_ms": 10397.819732000244,
+  "roundtrip_ms": 14608.575007000127
+}

@@ -1,0 +1,30 @@
+{
+  "id": "84a12a586fedd1a5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جبل ذباب",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطعم ميراج للأكلات الهندية والصينية",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2231,
+  "output_tokens": 129,
+  "inference_ms": 6983.757318000016,
+  "roundtrip_ms": 7938.76188299987
+}

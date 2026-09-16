@@ -1,0 +1,44 @@
+{
+  "id": "9d36cecf65e5cf05",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "برج مياه (الخرج)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "مقهى"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999319314956665,
+    "short_entropy": 0.0008424830548572051,
+    "short_top1_top2_margin": 0.9999124563237274,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 133,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.8005846363375895e-06,
+      "cardinal_direction": 1.9475171939120628e-05,
+      "within_radius_yes_no": 6.565750936715631e-06,
+      "closer_of_two": 7.741090485069435e-06,
+      "count_within_radius": 1.1016764801752288e-05,
+      "nearest_of_two_categories": 1.6532761947019026e-05,
+      "two_hop_nearest": 0.9999319314956665,
+      "spatial_multi_constraint": 3.0293506370071555e-06
+    }
+  },
+  "parser_ms": 2.571369999941453,
+  "short_with_features_ms": 2.67877999999655
+}

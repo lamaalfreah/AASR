@@ -1,0 +1,27 @@
+{
+  "id": "e56e3dc2cdf1e0fb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "جبل ذباب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 3,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2234,
+  "output_tokens": 100,
+  "inference_ms": 5552.406943000278,
+  "roundtrip_ms": 9555.939154000043
+}

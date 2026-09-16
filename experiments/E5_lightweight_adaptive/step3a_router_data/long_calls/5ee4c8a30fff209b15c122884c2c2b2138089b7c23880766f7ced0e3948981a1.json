@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5ee4c8a30fff209b15c122884c2c2b2138089b7c23880766f7ced0e3948981a1",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"الخرادلة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مستشفى\",\n    \"second_hop_category\": \"مطعم\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2106,
+  "output_tokens": 99,
+  "generation_ms": 5681.1768370007485,
+  "inference_ms": 5691.315155999291,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7572.993042005692,
+  "case_id": "router-a0894b8d09ebd46a42cd"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.230696337000001,
+  "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "15789562a4a626d939035d74b759aab276fc13c3352ef6b352fdecb6c06719c0",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"بئر البوصة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"صيدلية صديق الفلاح البيطرية\",\"source\":\"unspecified\"},{\"name\":\"مستشفى الرحمة\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2401,
+  "output_tokens": 91,
+  "generation_ms": 4306.678480000073,
+  "inference_ms": 4314.6266749999995,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5505.697709013475,
+  "case_id": "core-nearest_of_two_categories-24"
+}

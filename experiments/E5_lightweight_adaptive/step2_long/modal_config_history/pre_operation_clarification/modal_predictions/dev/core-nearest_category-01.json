@@ -1,0 +1,44 @@
+{
+  "challenge_id": "core-nearest_category-01",
+  "task_type": "nearest_category",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "055595ac441b1f5405ad8cb3fcdb43dd6e6d04a4f313e2f3b0b63a40ac84928c",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.636778712272644,
+  "short_pipeline_ms": 0.6805000000000838,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1586,
+  "output_tokens": 98,
+  "long_inference_ms": 6254.663693000001,
+  "long_roundtrip_ms": 7498.055833013495,
+  "predicted_query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "محطة قطار الشمال بالرياض",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مستشفى الملك عبدالله الجامعي",
+    "text": "مستشفى الملك عبدالله الجامعي"
+  }
+}

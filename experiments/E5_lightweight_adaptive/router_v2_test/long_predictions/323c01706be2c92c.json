@@ -1,0 +1,27 @@
+{
+  "id": "323c01706be2c92c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "ستاربكس",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1895,
+  "output_tokens": 100,
+  "inference_ms": 5314.5430970016605,
+  "roundtrip_ms": 7704.0787510013615
+}

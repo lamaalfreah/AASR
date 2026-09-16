@@ -1,0 +1,30 @@
+{
+  "id": "9cb237e6dc6b0123",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "المركز الوطني لتنمية الغطاء النباتي ومكافحة التصحر",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "بياتو",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2438,
+  "output_tokens": 132,
+  "inference_ms": 7091.170140000031,
+  "roundtrip_ms": 8774.974864999876
+}

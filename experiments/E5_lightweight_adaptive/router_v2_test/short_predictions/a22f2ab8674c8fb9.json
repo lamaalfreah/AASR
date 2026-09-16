@@ -1,0 +1,47 @@
+{
+  "id": "a22f2ab8674c8fb9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "مسجد المنارتين",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999925971031189,
+    "short_entropy": 0.0009113007168562676,
+    "short_top1_top2_margin": 0.999906148383161,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 82,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0435845069878269e-05,
+      "cardinal_direction": 5.880220214748988e-06,
+      "within_radius_yes_no": 3.581988949008519e-06,
+      "closer_of_two": 1.5115769201656803e-05,
+      "count_within_radius": 4.358799742476549e-06,
+      "nearest_of_two_categories": 0.999925971031189,
+      "two_hop_nearest": 1.9822648027911782e-05,
+      "spatial_multi_constraint": 1.4899738744134083e-05
+    }
+  },
+  "parser_ms": 2.050820000022213,
+  "short_with_features_ms": 2.164660000062213
+}

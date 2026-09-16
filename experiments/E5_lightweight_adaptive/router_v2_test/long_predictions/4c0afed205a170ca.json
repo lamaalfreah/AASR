@@ -1,0 +1,27 @@
+{
+  "id": "4c0afed205a170ca",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مكتبة عارف حكمت",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2294,
+  "output_tokens": 102,
+  "inference_ms": 5560.005521999983,
+  "roundtrip_ms": 8232.074910999927
+}

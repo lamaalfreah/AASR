@@ -1,0 +1,30 @@
+{
+  "id": "7572a0ed9d629d25",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مطار الأمير سلطان بن عبد العزيز الإقليمي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "KKAFH Work",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1748,
+  "output_tokens": 129,
+  "inference_ms": 7075.755538000067,
+  "roundtrip_ms": 8950.82939100007
+}

@@ -1,0 +1,30 @@
+{
+  "id": "893bb5f08477e741",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "أبا الورود",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد مفرق ابا الورود - قبة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1708,
+  "output_tokens": 127,
+  "inference_ms": 7077.21341100023,
+  "roundtrip_ms": 9028.039815000284
+}

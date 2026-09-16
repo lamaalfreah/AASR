@@ -1,0 +1,28 @@
+{
+  "id": "0d9125e1fffa62eb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "الحج في الإسلام",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك",
+      "جامعة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2425,
+  "output_tokens": 103,
+  "inference_ms": 5767.58350900036,
+  "roundtrip_ms": 8810.962169999584
+}

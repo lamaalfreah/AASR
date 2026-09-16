@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-spatial_multi_constraint-16",
+  "task_type": "spatial_multi_constraint",
+  "language_register": "natural_msa",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.865781843662262,
+  "short_pipeline_ms": 0.8706249999996807,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2535,
+  "output_tokens": 107,
+  "long_inference_ms": 5116.260082000053,
+  "long_roundtrip_ms": 6182.254542014562,
+  "predicted_query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "الأكاديمية السعودية الرقمية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية"
+    ],
+    "radius_km": 3,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "صيدلية انوڤا",
+    "text": "صيدلية انوڤا"
+  },
+  "raw_operation": "spatial_multi_constraint",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

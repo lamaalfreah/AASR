@@ -1,0 +1,40 @@
+{
+  "input_keys": [
+    "constraint_count",
+    "entity_ambiguity_count",
+    "missing_slots",
+    "predicted_operation",
+    "query_valid",
+    "question_length_chars",
+    "question_length_words",
+    "short_confidence",
+    "short_entropy",
+    "short_top1_top2_margin"
+  ],
+  "encoded_names": [
+    "constraint_count",
+    "entity_ambiguity_count",
+    "missing_slots=__none__",
+    "missing_slots=categories",
+    "missing_slots=direction",
+    "missing_slots=origin",
+    "missing_slots=radius_km",
+    "missing_slots=targets",
+    "predicted_operation=cardinal_direction",
+    "predicted_operation=closer_of_two",
+    "predicted_operation=count_within_radius",
+    "predicted_operation=nearest_category",
+    "predicted_operation=nearest_of_two_categories",
+    "predicted_operation=spatial_multi_constraint",
+    "predicted_operation=two_hop_nearest",
+    "predicted_operation=within_radius_yes_no",
+    "query_valid",
+    "question_length_chars",
+    "question_length_words",
+    "short_confidence",
+    "short_entropy",
+    "short_top1_top2_margin"
+  ],
+  "transformed_dimensions": 23,
+  "train_fit_rows": 1636
+}

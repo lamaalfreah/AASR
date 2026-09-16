@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6304f8c10087e35b598c841ffa69e3b193979e7f0838074b9dee2994ab168ba8",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"Pizza Hut\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مقهى\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2262,
+  "output_tokens": 60,
+  "generation_ms": 3482.122352000033,
+  "inference_ms": 3492.038483999977,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4639.640141998825,
+  "case_id": "69f2a35a59e52926"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "aa789ba0c37e0c5ffc3b83a30f3acec175f7c335968f87459085ad9a0181c24d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"سارية جدة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Naft Station\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2356,
+  "output_tokens": 69,
+  "generation_ms": 3916.622295000252,
+  "inference_ms": 3926.0442999998304,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4915.2445240001725,
+  "case_id": "6875f345ee402270"
+}

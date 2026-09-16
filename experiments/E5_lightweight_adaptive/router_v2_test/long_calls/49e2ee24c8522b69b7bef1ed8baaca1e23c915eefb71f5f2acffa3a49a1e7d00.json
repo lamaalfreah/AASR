@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "49e2ee24c8522b69b7bef1ed8baaca1e23c915eefb71f5f2acffa3a49a1e7d00",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"حي الملز (الرياض)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مقهى\",\n    \"second_hop_category\": \"بنك\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2296,
+  "output_tokens": 102,
+  "generation_ms": 5645.175243000267,
+  "inference_ms": 5655.538219999926,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6762.061428002198,
+  "case_id": "c7ad2b0ef77e61b6"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "router-3d90be6c9135254cf29b",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.9052579402923584,
+    "short_entropy": 0.4577473167735576,
+    "short_top1_top2_margin": 0.8666891418397427,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 60,
+    "question_length_words": 11,
+    "predicted_operation": "closer_of_two",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "أم الساهك",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "محطة وقود",
+        "مطعم"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5753.175215000283
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d0eeac93131e54f50ef71cbe1a8048edfd94bf3237eefeb2fe67fd94692bc7c3",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"جامعة الملك سعود بن عبد العزيز للعلوم الصحية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"جامعة نايف العربية للعلوم الأمنية\",\n        \"source\": \"candidate\"\n      },\n      {\n        \"name\": \"محطة محروقات البابطين\",\n        \"source\": \"candidate\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2089,
+  "output_tokens": 158,
+  "generation_ms": 8382.536745999914,
+  "inference_ms": 8392.466012999648,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9614.23890199876,
+  "case_id": "9614d5e6806d118f"
+}

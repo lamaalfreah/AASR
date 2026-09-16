@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f7b9b8ad95ac9f14f6321b329cea8e5d5eaef40c471f4663ac0b3f844f9dafea",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"مدرسة عبدالحميد الكاتب الابتدائية\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مطعم\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2190,
+  "output_tokens": 69,
+  "generation_ms": 4020.510293000001,
+  "inference_ms": 4030.3221389999917,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5539.8557810003695,
+  "case_id": "54e91ee23aae1b2e"
+}

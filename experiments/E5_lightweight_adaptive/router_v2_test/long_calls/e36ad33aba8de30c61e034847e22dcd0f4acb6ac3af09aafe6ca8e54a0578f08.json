@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e36ad33aba8de30c61e034847e22dcd0f4acb6ac3af09aafe6ca8e54a0578f08",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"كرسبي كريم\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2380,
+  "output_tokens": 64,
+  "generation_ms": 3705.6112259999736,
+  "inference_ms": 3716.002411999966,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4795.153155999287,
+  "case_id": "ee4e1b3191fbb6fa"
+}

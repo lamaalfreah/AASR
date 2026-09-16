@@ -1,0 +1,49 @@
+{
+  "selected_model": "small_mlp",
+  "threshold": 0.91,
+  "input_freeze_sha256": "b09e6441be15099c9bda61afcb95d1a4acb0158e12ad524b6c76bc6dcb07a3d4",
+  "code_sha256": {
+    "language/router_v2.py": "f5e29cec4ebd10abda5615e476eeb273fa180822018718b7837b81ee16ee19f9",
+    "evaluation/router_v2_data.py": "57bc4897801a854891f88cf799010cab4ed51f823fb92a1af0a668c7e741cdd3",
+    "evaluation/modal_router_v2_features.py": "3f72e6326c549058d33e4f7059d9ad3ac6e42e36c95ac0e9128d8c7e770e8b0e",
+    "evaluation/train_router_v2.py": "de2723bdd0e27454c37e25642d8c105a69f61b1259545908d8aff97bd25611f1"
+  },
+  "output_sha256": {
+    "summary.json": "a50e89b3a6df304eaee910c7eefa6c90e53ab1337a1715191734fb248529e956",
+    "final_threshold_selection.json": "ebcdcebe967535c2bef7f7fffb9eaa8c455c92cd40267c2495a7466201fdff72",
+    "outer_fold_assignment.json": "888063d123ef020e3390e11070e1d968322293ba50fc7c9b9472e120ece4f41c",
+    "requirements.txt": "1e7a10a50e89c17650a7f89b41dc2417560e33c536f596975b9fa08805eb7f0d",
+    "short_probability_vectors.json": "52d314fce040b5109d9f72ea8b25a6a19d73dede54ebc1f164ca9cbfcdb8bef6",
+    "REPORT.md": "b453e225b353fd5802e6eb8e6f5c39f2a4d4dabdab07570d826e4408a8395814",
+    "cv_protocol.json": "f152f4ba030e3b5116f36c65bf6ea91c7b269f138fe2c133a5b39b9815ab55d4",
+    "cv_progress.json": "cc1f93acc7df4a745860f391ef67f0970349893052e7e57db52f990bd489ffb0",
+    "oof_predictions.jsonl": "bcdf71d80cf1e0b9ab57a157adb337fdddd7aad02beeb98dfb8fb4d387ccbcfe",
+    "input_freeze.json": "b09e6441be15099c9bda61afcb95d1a4acb0158e12ad524b6c76bc6dcb07a3d4",
+    "router_v2.joblib": "c75a291f11acffcc0a72612b03213c49536ce8ea29677364b9e5df7a713edbda",
+    "verification.json": "e20eee3187f42cd1e71bfc221bdfae4d86d1f6dd23080c2738c223b7ed7f6a59",
+    "feature_schema.json": "8f2b5d58d31040991ee9a415fb522377a9fb96f45d4a15a88183bc62c91ab7f8",
+    "final_fit_audit.json": "c28e22dc07a84b4a38f7af240a7b879d8ae65f3493a89288ce1334d04123060f",
+    "folds/logistic_regression-3.joblib": "1fd9abc8eca5a3882780a6200fc4458dab35fb76c2bd30f91e8d44f6ed94477b",
+    "folds/hist_gradient_boosting-3.joblib": "5752c131fe8bafbb12f5d75b182d4b5aea63e392e147b4615fec25ecc0c4f18a",
+    "folds/logistic_regression-1.joblib": "ff01355726d4967f6ba50c2393f2b060ac14d5b7578a174466a78dd500edb74b",
+    "folds/hist_gradient_boosting-1.joblib": "cae70a96b1c2cda569c8a293d242986170d846505cb14b6716117d38408573d8",
+    "folds/small_mlp-4.joblib": "c0cdb6fa0408536385b30ccd8a28cc8623278d2dd8bd624bed063ef0bbcbb64c",
+    "folds/small_mlp-0.joblib": "fead13d7b715efc6a192b83a3dc0420d0e2b1457192169b4871fe819509022b2",
+    "folds/small_mlp-2.joblib": "8c7318b4ddd2406e3d3813d126432bf11a4b06a2457b50fa48eb36d06bf1bc30",
+    "folds/hist_gradient_boosting-2.joblib": "1f76828ffcb98fbc45d0c6f8937da8b40443f41394189c46ff84d7082852ff8d",
+    "folds/logistic_regression-2.joblib": "ce3c13d0cbb09bab493d6db7c6c5e9ed9a3c460ff36574509ea36c06085d42af",
+    "folds/hist_gradient_boosting-0.joblib": "4fb4e17816014d5f98ba2c960fa1610fae4f2560491931fcd7d2fd48fc7c929b",
+    "folds/logistic_regression-0.joblib": "40732dcd3f6a5fcd2168662858e332deeecf3c6f90191e7a9a245ed1b610ce48",
+    "folds/logistic_regression-4.joblib": "65b203d7219ce13179f92bfd7a4c523cbfb61327cfd568bf23825db06ddf344b",
+    "folds/small_mlp-1.joblib": "6626e55ce07d798db6eae6511d1fff4f139797dc5659914d057de8f9763a1bad",
+    "folds/hist_gradient_boosting-4.joblib": "bec3cbc3fc6ad1ffb3a231cedae5b20a1088eeb287f6659be205fa03f3791989",
+    "folds/small_mlp-3.joblib": "7e2b369bdc6bb18957b3e2a4254c88a5046b4228e19e2c09bc9b984c242a9d6f"
+  },
+  "dependencies": {
+    "scikit-learn": "1.7.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0"
+  }
+}

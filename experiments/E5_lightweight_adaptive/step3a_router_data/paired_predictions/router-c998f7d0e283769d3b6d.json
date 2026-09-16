@@ -1,0 +1,49 @@
+{
+  "id": "router-c998f7d0e283769d3b6d",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8323035836219788,
+    "short_entropy": 0.7413950713682351,
+    "short_top1_top2_margin": 0.7729656100273132,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 56,
+    "question_length_words": 11,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "محطة المجمعة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "كلية",
+        "جامعة"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5719.297099999949
+  }
+}

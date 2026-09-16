@@ -1,0 +1,34 @@
+{
+  "id": "ae1d2ccbab35b1a4",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "كلية الجبيل الصناعية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "الخنيني KPS 7",
+        "source": "unspecified"
+      },
+      {
+        "name": "Royal Commission Hospital",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1909,
+  "output_tokens": 149,
+  "inference_ms": 7942.554106999523,
+  "roundtrip_ms": 11368.921188999593
+}

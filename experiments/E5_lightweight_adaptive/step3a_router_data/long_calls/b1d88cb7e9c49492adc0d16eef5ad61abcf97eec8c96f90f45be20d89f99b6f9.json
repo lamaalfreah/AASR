@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b1d88cb7e9c49492adc0d16eef5ad61abcf97eec8c96f90f45be20d89f99b6f9",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"المدرسة الفلبينية العالمية (جدة)\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"صيدلية\",\"مقهى\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"صيدلية\",\"second_hop_category\":\"مقهى\"},\"message\":\"\"}",
+  "input_tokens": 2397,
+  "output_tokens": 74,
+  "generation_ms": 4357.499691000157,
+  "inference_ms": 4368.010105999929,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5866.928083007224,
+  "case_id": "router-01a865219714ff11deca"
+}

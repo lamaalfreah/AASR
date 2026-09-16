@@ -1,0 +1,34 @@
+{
+  "id": "508b6ecacdaa0440",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الخشيبي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مركز صحي الخشيبي",
+        "source": "unspecified"
+      },
+      {
+        "name": "مطعم بخاري",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3337,
+  "output_tokens": 229,
+  "inference_ms": 12341.422622999744,
+  "roundtrip_ms": 18752.579800000603
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "generation": {
+    "max_new_tokens": 900,
+    "do_sample": false,
+    "enable_thinking": false,
+    "precision": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1
+  },
+  "code": {
+    "language/long_parser.py": "203b6004c393079ae9105fff797b3da3897c065079e12331f02f2fcb5324afda",
+    "language/modal_long_backend.py": "50dde6fccc71257056c02840ef849e242e784ef2cc4bd6fb7626a574d91a024c",
+    "language/modal_checkpoint.py": "d9ead7db2883847332d9adc7c90fd8f8c09ed003bc843a4e284ce4129abc43a6"
+  },
+  "smoke_tasks": [
+    "nearest_category",
+    "cardinal_direction",
+    "two_hop_nearest"
+  ],
+  "frozen_manifest_sha256": "5511ea49932121ca3cf954dd5dfac6334667048c2fd8384ba15b09ab5c889742"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "router-247c95e73ec70b3c0f7b",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7454946637153625,
+    "short_entropy": 0.656322093307197,
+    "short_top1_top2_margin": 0.508411169052124,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 97,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "سجن المباحث العامة بذهبان",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "كفاءة الاداء",
+          "source": "unspecified"
+        },
+        {
+          "name": "Nahdi Pharmacy",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7524.926933000188
+  }
+}

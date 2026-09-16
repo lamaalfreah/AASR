@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "33b97254e83abe7a706047c6027153481fd2185311b82edea163173443e3e0ae",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"سد الحريق\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"صيدلية\",\n      \"كلية\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"كلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2215,
+  "output_tokens": 113,
+  "generation_ms": 6514.066272000491,
+  "inference_ms": 6523.85261299969,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7952.197542006616,
+  "case_id": "router-229e6a1fc5dfd2566cd3"
+}

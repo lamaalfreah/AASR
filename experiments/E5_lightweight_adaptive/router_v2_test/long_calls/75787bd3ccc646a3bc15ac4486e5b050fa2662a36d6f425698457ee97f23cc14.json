@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "75787bd3ccc646a3bc15ac4486e5b050fa2662a36d6f425698457ee97f23cc14",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"دار عثمان بن عفان الصغرى\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب بنك\",\"source\":\"unspecified\"},{\"name\":\"أقرب صيدلية\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2339,
+  "output_tokens": 91,
+  "generation_ms": 5210.572028000115,
+  "inference_ms": 5221.103165999921,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6451.640269002382,
+  "case_id": "226233461ca7cf31"
+}

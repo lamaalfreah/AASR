@@ -1,0 +1,55 @@
+{
+  "id": "router-341ea302e0751bc5a90e",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7202333211898804,
+    "short_entropy": 0.8548417196298522,
+    "short_top1_top2_margin": 0.5659795105457306,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 82,
+    "question_length_words": 16,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "ذات عرق",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "مسجد ميقات ذات عرق",
+          "source": "unspecified"
+        },
+        {
+          "name": "مدرسة ابو عشر بنين",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 2,
+    "invalid_responses": 1,
+    "inference_ms": 12253.961177000747
+  }
+}

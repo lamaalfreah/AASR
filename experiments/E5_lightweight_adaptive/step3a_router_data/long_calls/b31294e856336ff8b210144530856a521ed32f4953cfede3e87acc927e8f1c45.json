@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b31294e856336ff8b210144530856a521ed32f4953cfede3e87acc927e8f1c45",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"المدرسة اليابانية في جدة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"المدرسة السابعة والثمانون الابتدائيه\",\"source\":\"unspecified\"},{\"name\":\"البنك السعودي البريطاني\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2288,
+  "output_tokens": 98,
+  "generation_ms": 5726.840476000234,
+  "inference_ms": 5737.4759829999675,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7657.682541990653,
+  "case_id": "router-69a68df02f4d0f866007"
+}

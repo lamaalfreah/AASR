@@ -1,0 +1,27 @@
+{
+  "id": "5ef6a3ffeda80b0f",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "المركز الوطني لتنمية الغطاء النباتي ومكافحة التصحر",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 8,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2453,
+  "output_tokens": 115,
+  "inference_ms": 6308.179220000056,
+  "roundtrip_ms": 7564.064357999996
+}

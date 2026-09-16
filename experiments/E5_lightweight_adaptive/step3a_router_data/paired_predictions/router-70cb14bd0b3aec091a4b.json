@@ -1,0 +1,51 @@
+{
+  "id": "router-70cb14bd0b3aec091a4b",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.6191316843032837,
+    "short_entropy": 1.0692946233211473,
+    "short_top1_top2_margin": 0.4245119094848633,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 54,
+    "question_length_words": 10,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "cardinal_direction",
+      "origin": {
+        "name": "مقبرة العدل",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "Masjid Bin Turky",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 6459.045428000081
+  }
+}

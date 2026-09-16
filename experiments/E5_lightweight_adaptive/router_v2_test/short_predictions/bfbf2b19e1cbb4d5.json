@@ -1,0 +1,46 @@
+{
+  "id": "bfbf2b19e1cbb4d5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مسجد المنارتين",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999312162399292,
+    "short_entropy": 0.0008301084082471924,
+    "short_top1_top2_margin": 0.9998999064955569,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 68,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999312162399292,
+      "cardinal_direction": 1.769802111084573e-05,
+      "within_radius_yes_no": 3.1309744372265413e-05,
+      "closer_of_two": 6.663686690444592e-06,
+      "count_within_radius": 2.135416934834211e-06,
+      "nearest_of_two_categories": 3.6726746657222975e-06,
+      "two_hop_nearest": 1.3673929970536847e-06,
+      "spatial_multi_constraint": 5.9156527640880086e-06
+    }
+  },
+  "parser_ms": 2.0140599999933784,
+  "short_with_features_ms": 2.126719999992588
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f9ee5b57e3c1165936727da6e4f1db9d3d5d83106de33b38f8def1ea1308de3f",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"برج مياه (الخرج)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"فور توينز\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1867,
+  "output_tokens": 72,
+  "generation_ms": 3844.935427999985,
+  "inference_ms": 3854.0889750000815,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7987.214408,
+  "case_id": "9167fc2d0f1c0c76"
+}

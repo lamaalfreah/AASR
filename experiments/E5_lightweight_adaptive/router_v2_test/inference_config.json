@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "generation": {
+    "max_new_tokens": 900,
+    "do_sample": false,
+    "enable_thinking": false,
+    "precision": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1
+  },
+  "stage": "frozen_router_v2_final_test",
+  "test_sha256": "f159c749364ad7244661a80409cb7d40948ba2d75daa978d6601ecd122f19469",
+  "prompt_sha256": "534ff0b7bd98455bb5820e3bec369af76c4aa7d58b57b012c67a2420d8159d4b"
+}

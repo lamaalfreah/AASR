@@ -1,0 +1,34 @@
+{
+  "id": "716dfa8cd676122e",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الثليمة (بركة)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة وقود",
+        "source": "unspecified"
+      },
+      {
+        "name": "مجمع الشفاء الطبي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3441,
+  "output_tokens": 217,
+  "inference_ms": 11464.73922900077,
+  "roundtrip_ms": 16911.13378099908
+}

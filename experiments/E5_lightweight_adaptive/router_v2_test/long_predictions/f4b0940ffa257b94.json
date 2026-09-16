@@ -1,0 +1,34 @@
+{
+  "id": "f4b0940ffa257b94",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "صيرفي ميغا مول",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Rahma Restaurent",
+        "source": "unspecified"
+      },
+      {
+        "name": "مطعم الخيال",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2341,
+  "output_tokens": 147,
+  "inference_ms": 7829.263379999247,
+  "roundtrip_ms": 9959.577827999965
+}

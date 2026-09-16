@@ -1,0 +1,25 @@
+{
+  "id": "5f2c8487b4c65512",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "جامعة الملك فيصل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2125,
+  "output_tokens": 102,
+  "inference_ms": 5780.15282299998,
+  "roundtrip_ms": 9938.707957999895
+}

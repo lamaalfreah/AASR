@@ -1,0 +1,46 @@
+{
+  "id": "e708dd43676c0fc2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "متحف رضوى للتراث",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية"
+    ],
+    "radius_km": 1.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999208450317383,
+    "short_entropy": 0.0009462832536810848,
+    "short_top1_top2_margin": 0.9998862591892248,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 93,
+    "question_length_words": 18,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.458584251347929e-05,
+      "cardinal_direction": 8.225220881286077e-06,
+      "within_radius_yes_no": 0.9999208450317383,
+      "closer_of_two": 4.469320913358388e-07,
+      "count_within_radius": 1.8963139154948294e-05,
+      "nearest_of_two_categories": 2.6279133180651115e-06,
+      "two_hop_nearest": 1.0405996363260783e-05,
+      "spatial_multi_constraint": 3.9970132093003485e-06
+    }
+  },
+  "parser_ms": 2.3209799999222014,
+  "short_with_features_ms": 2.4295299999721465
+}

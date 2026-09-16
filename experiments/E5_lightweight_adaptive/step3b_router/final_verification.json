@@ -1,0 +1,10 @@
+{
+  "freeze_manifest_sha256": "33720b27d72f6f36add1c339b5bdade29eb1119332740d6d98dcaaafdae7ca2e",
+  "all_manifest_hashes_verified": true,
+  "dev_rows_verified": 480,
+  "adaptive_correct": 419,
+  "long_calls": 375,
+  "independent_route_metrics_verified": true,
+  "threshold_and_model_selection_verified": true,
+  "no_refit": true
+}

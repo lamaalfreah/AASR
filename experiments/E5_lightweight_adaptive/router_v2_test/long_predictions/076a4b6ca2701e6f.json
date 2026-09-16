@@ -1,0 +1,34 @@
+{
+  "id": "076a4b6ca2701e6f",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "محافظة النماص",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "فورتين | قهوة مختصة",
+        "source": "unspecified"
+      },
+      {
+        "name": "مزايا",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1712,
+  "output_tokens": 147,
+  "inference_ms": 7597.74821999963,
+  "roundtrip_ms": 9325.213663998511
+}

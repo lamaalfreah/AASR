@@ -1,0 +1,54 @@
+{
+  "challenge_id": "core-cardinal_direction-07",
+  "task_type": "cardinal_direction",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.6950864791870117,
+  "short_pipeline_ms": 0.22033400000021075,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3219,
+  "output_tokens": 186,
+  "long_inference_ms": 8783.441717999991,
+  "long_roundtrip_ms": 10836.944915994536,
+  "predicted_query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "زهوة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة زهوة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "direction",
+    "value": "غرب",
+    "text": "غرب"
+  },
+  "raw_operation": "cardinal_direction",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "target_source_must_remain_unspecified"
+  ],
+  "raw_operation_correct": true
+}

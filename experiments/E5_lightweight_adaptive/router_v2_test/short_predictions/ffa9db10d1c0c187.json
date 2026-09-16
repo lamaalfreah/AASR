@@ -1,0 +1,46 @@
+{
+  "id": "ffa9db10d1c0c187",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "عرعر (مدينة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "كلية"
+    ],
+    "radius_km": 3.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999167919158936,
+    "short_entropy": 0.0009870197596403502,
+    "short_top1_top2_margin": 0.9998804242204642,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 87,
+    "question_length_words": 17,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.636769542936236e-05,
+      "cardinal_direction": 7.703649316681549e-06,
+      "within_radius_yes_no": 0.9999167919158936,
+      "closer_of_two": 5.280816139929811e-07,
+      "count_within_radius": 1.9627133951871656e-05,
+      "nearest_of_two_categories": 2.8478643798734993e-06,
+      "two_hop_nearest": 1.2824028090108186e-05,
+      "spatial_multi_constraint": 3.1744207262818236e-06
+    }
+  },
+  "parser_ms": 2.1577999998498854,
+  "short_with_features_ms": 2.2990999998455663
+}

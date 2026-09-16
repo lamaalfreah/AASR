@@ -1,0 +1,46 @@
+{
+  "id": "adb271d8d3e1fb60",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "رماح",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999321699142456,
+    "short_entropy": 0.0008209745039194745,
+    "short_top1_top2_margin": 0.9999025810957392,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 62,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999321699142456,
+      "cardinal_direction": 1.8023520169663243e-05,
+      "within_radius_yes_no": 2.9588818506454118e-05,
+      "closer_of_two": 6.729112556058681e-06,
+      "count_within_radius": 2.3243262603500625e-06,
+      "nearest_of_two_categories": 3.7340487324399874e-06,
+      "two_hop_nearest": 9.996974768000655e-07,
+      "spatial_multi_constraint": 6.436291187128518e-06
+    }
+  },
+  "parser_ms": 1.8234599999686907,
+  "short_with_features_ms": 1.9259189999729642
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d3f8177cb213dc24",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "قصف مطار أبها الدولي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم",
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3503,
+  "output_tokens": 198,
+  "inference_ms": 10640.37111700054,
+  "roundtrip_ms": 12912.924832999124
+}

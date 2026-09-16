@@ -1,0 +1,47 @@
+{
+  "id": "7574b1258d568dcf",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "ميناء الرياض الجاف",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "عيادة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999262094497681,
+    "short_entropy": 0.0009067238081306678,
+    "short_top1_top2_margin": 0.9999062977094582,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 87,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0699140148062725e-05,
+      "cardinal_direction": 5.91674597671954e-06,
+      "within_radius_yes_no": 3.5364516861591255e-06,
+      "closer_of_two": 1.5214899576676544e-05,
+      "count_within_radius": 4.32840033681714e-06,
+      "nearest_of_two_categories": 0.9999262094497681,
+      "two_hop_nearest": 1.9911740309908055e-05,
+      "spatial_multi_constraint": 1.4061622096050996e-05
+    }
+  },
+  "parser_ms": 2.513570000019172,
+  "short_with_features_ms": 2.6185399999576475
+}

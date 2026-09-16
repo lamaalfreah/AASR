@@ -1,0 +1,27 @@
+{
+  "id": "3ab0db83f5314855",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "سد وادي ليه",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود مستشفى ضمن مسافة 2 كم من «سد وادي ليه»، مما يناسب الطلب.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2126,
+  "output_tokens": 133,
+  "inference_ms": 7244.244120000076,
+  "roundtrip_ms": 9385.524865000662
+}

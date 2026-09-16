@@ -1,0 +1,46 @@
+{
+  "id": "da0a743139f11236",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "سوق القيصرية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999937891960144,
+    "short_entropy": 0.0007584804659846728,
+    "short_top1_top2_margin": 0.9999123378638615,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 67,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.999937891960144,
+      "cardinal_direction": 1.762199644872453e-05,
+      "within_radius_yes_no": 2.555409628257621e-05,
+      "closer_of_two": 6.544079042214435e-06,
+      "count_within_radius": 2.217462451881147e-06,
+      "nearest_of_two_categories": 3.468805516604334e-06,
+      "two_hop_nearest": 1.0369177516622585e-06,
+      "spatial_multi_constraint": 5.6584835874673445e-06
+    }
+  },
+  "parser_ms": 2.0446499999877688,
+  "short_with_features_ms": 2.1562100000096507
+}

@@ -1,0 +1,28 @@
+{
+  "id": "046756722724ac3e",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "جامعة الملك فيصل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "كلية",
+      "جامعة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2101,
+  "output_tokens": 104,
+  "inference_ms": 5651.594920999742,
+  "roundtrip_ms": 8087.093073000688
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a7989fbaff7353fcad3bfe96b87c2eb7634ad4d9606d2835b8bcaeda475d9b80",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"سارية جدة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"وندرلست كافيه\",\"source\":\"unspecified\"},{\"name\":\"Istanbul kebab\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2366,
+  "output_tokens": 86,
+  "generation_ms": 4804.426447999504,
+  "inference_ms": 4815.423070998804,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10961.964735000947,
+  "case_id": "fe0d83b791f7b1ca"
+}

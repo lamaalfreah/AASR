@@ -1,0 +1,221 @@
+{
+  "test|context_length_bin_chars": {
+    "\"long\"": 699,
+    "\"medium\"": 933,
+    "\"short\"": 598,
+    "\"very_long\"": 102
+  },
+  "test|country": {
+    "\"المملكة العربية السعودية\"": 2332
+  },
+  "test|difficulty": {
+    "\"easy\"": 1432,
+    "\"hard\"": 361,
+    "\"medium\"": 539
+  },
+  "test|difficulty_score": {
+    "0.25": 1432,
+    "0.45": 264,
+    "0.52": 89,
+    "0.55": 186,
+    "0.78": 188,
+    "0.82": 173
+  },
+  "test|language": {
+    "\"ar\"": 2332
+  },
+  "test|recommended_reasoning": {
+    "\"long\"": 361,
+    "\"mixed\"": 539,
+    "\"short\"": 1432
+  },
+  "test|sources": {
+    "[\"OpenStreetMap\", \"Arabic Wikipedia\", \"Wikidata\"]": 2332
+  },
+  "train|answer_position": {
+    "\"first\"": 1072,
+    "\"second\"": 1095,
+    "null": 17430
+  },
+  "train|context_length_bin_chars": {
+    "\"long\"": 5754,
+    "\"medium\"": 8255,
+    "\"short\"": 4620,
+    "\"very_long\"": 968
+  },
+  "train|country": {
+    "\"المملكة العربية السعودية\"": 19597
+  },
+  "train|difficulty": {
+    "\"easy\"": 12057,
+    "\"hard\"": 3081,
+    "\"medium\"": 4459
+  },
+  "train|difficulty_score": {
+    "0.25": 12057,
+    "0.45": 2167,
+    "0.52": 701,
+    "0.55": 1591,
+    "0.78": 1603,
+    "0.82": 1478
+  },
+  "train|direction_constraint": {
+    "\"جنوب\"": 413,
+    "\"شرق\"": 367,
+    "\"شمال\"": 444,
+    "\"غرب\"": 254,
+    "null": 18119
+  },
+  "train|first_hop_category": {
+    "\"bank\"": 142,
+    "\"cafe\"": 204,
+    "\"clinic\"": 102,
+    "\"college\"": 53,
+    "\"fuel\"": 308,
+    "\"hospital\"": 191,
+    "\"pharmacy\"": 177,
+    "\"restaurant\"": 166,
+    "\"school\"": 203,
+    "\"university\"": 57,
+    "null": 17994
+  },
+  "train|language": {
+    "\"ar\"": 19597
+  },
+  "train|radius_constraint_km": {
+    "3.0": 530,
+    "5.0": 403,
+    "8.0": 545,
+    "null": 18119
+  },
+  "train|recommended_reasoning": {
+    "\"long\"": 3081,
+    "\"mixed\"": 4459,
+    "\"short\"": 12057
+  },
+  "train|router_target_alpha": {
+    "null": 19597
+  },
+  "train|second_hop_category": {
+    "\"bank\"": 152,
+    "\"cafe\"": 209,
+    "\"clinic\"": 101,
+    "\"college\"": 93,
+    "\"fuel\"": 279,
+    "\"hospital\"": 165,
+    "\"pharmacy\"": 169,
+    "\"restaurant\"": 247,
+    "\"school\"": 149,
+    "\"university\"": 39,
+    "null": 17994
+  },
+  "train|sources": {
+    "[\"OpenStreetMap\", \"Arabic Wikipedia\", \"Wikidata\"]": 19597
+  },
+  "train|target_category": {
+    "\"bank\"": 145,
+    "\"cafe\"": 174,
+    "\"clinic\"": 157,
+    "\"college\"": 35,
+    "\"fuel\"": 222,
+    "\"hospital\"": 192,
+    "\"pharmacy\"": 162,
+    "\"restaurant\"": 270,
+    "\"school\"": 97,
+    "\"university\"": 24,
+    "null": 18119
+  },
+  "validation|answer_position": {
+    "\"first\"": 139,
+    "\"second\"": 144,
+    "null": 2219
+  },
+  "validation|context_length_bin_chars": {
+    "\"long\"": 678,
+    "\"medium\"": 910,
+    "\"short\"": 755,
+    "\"very_long\"": 159
+  },
+  "validation|country": {
+    "\"المملكة العربية السعودية\"": 2502
+  },
+  "validation|difficulty": {
+    "\"easy\"": 1516,
+    "\"hard\"": 401,
+    "\"medium\"": 585
+  },
+  "validation|difficulty_score": {
+    "0.25": 1516,
+    "0.45": 283,
+    "0.52": 97,
+    "0.55": 205,
+    "0.78": 210,
+    "0.82": 191
+  },
+  "validation|direction_constraint": {
+    "\"جنوب\"": 35,
+    "\"شرق\"": 59,
+    "\"شمال\"": 58,
+    "\"غرب\"": 39,
+    "null": 2311
+  },
+  "validation|first_hop_category": {
+    "\"bank\"": 14,
+    "\"cafe\"": 23,
+    "\"clinic\"": 19,
+    "\"college\"": 3,
+    "\"fuel\"": 48,
+    "\"hospital\"": 38,
+    "\"pharmacy\"": 20,
+    "\"restaurant\"": 21,
+    "\"school\"": 18,
+    "\"university\"": 6,
+    "null": 2292
+  },
+  "validation|language": {
+    "\"ar\"": 2502
+  },
+  "validation|radius_constraint_km": {
+    "3.0": 59,
+    "5.0": 59,
+    "8.0": 73,
+    "null": 2311
+  },
+  "validation|recommended_reasoning": {
+    "\"long\"": 401,
+    "\"mixed\"": 585,
+    "\"short\"": 1516
+  },
+  "validation|router_target_alpha": {
+    "null": 2502
+  },
+  "validation|second_hop_category": {
+    "\"bank\"": 24,
+    "\"cafe\"": 32,
+    "\"clinic\"": 17,
+    "\"college\"": 11,
+    "\"fuel\"": 28,
+    "\"hospital\"": 18,
+    "\"pharmacy\"": 22,
+    "\"restaurant\"": 26,
+    "\"school\"": 18,
+    "\"university\"": 14,
+    "null": 2292
+  },
+  "validation|sources": {
+    "[\"OpenStreetMap\", \"Arabic Wikipedia\", \"Wikidata\"]": 2502
+  },
+  "validation|target_category": {
+    "\"bank\"": 12,
+    "\"cafe\"": 30,
+    "\"clinic\"": 20,
+    "\"college\"": 6,
+    "\"fuel\"": 32,
+    "\"hospital\"": 26,
+    "\"pharmacy\"": 17,
+    "\"restaurant\"": 35,
+    "\"school\"": 10,
+    "\"university\"": 3,
+    "null": 2311
+  }
+}

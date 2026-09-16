@@ -1,0 +1,296 @@
+{
+  "n": 128,
+  "short_query_exact_count": 26,
+  "short_query_exact_percent": 20.3125,
+  "short_answer_correct_count": 30,
+  "short_answer_correct_percent": 23.4375,
+  "long_intent_correct_count": 97,
+  "long_intent_correct_percent": 75.78125,
+  "long_query_exact_count": 93,
+  "long_query_exact_percent": 72.65625,
+  "long_answer_correct_count": 95,
+  "long_answer_correct_percent": 74.21875,
+  "query_exact_paired": {
+    "both_correct": 19,
+    "short_only": 7,
+    "long_only": 74,
+    "both_wrong": 28,
+    "rescue_percent": 72.54901960784314,
+    "regression_percent": 26.923076923076923
+  },
+  "answer_correct_paired": {
+    "both_correct": 22,
+    "short_only": 8,
+    "long_only": 73,
+    "both_wrong": 25,
+    "rescue_percent": 74.48979591836735,
+    "regression_percent": 26.666666666666668
+  },
+  "schema_valid_count": 108,
+  "schema_valid_percent": 84.375,
+  "retried_examples_count": 34,
+  "retried_examples_percent": 26.5625,
+  "invalid_output_count": 20,
+  "invalid_output_percent": 15.625,
+  "abstention_or_failure_count": 23,
+  "abstention_or_failure_percent": 17.96875,
+  "retry_calls": 34,
+  "invented_entity_count": 8,
+  "invented_entity_examples": 3,
+  "raw_operation_correct_count": 102,
+  "raw_operation_correct_percent": 79.6875,
+  "provider": "Modal",
+  "model": "Qwen/Qwen3-4B",
+  "status": "complete",
+  "reason": null,
+  "eval_expected": 128,
+  "completed_examples": 128,
+  "generation_calls": 182,
+  "eval_generation_calls": 162,
+  "input_tokens": 362639,
+  "output_tokens": 18917,
+  "eval_input_tokens": 323924,
+  "eval_output_tokens": 16853,
+  "inference_latency": {
+    "mean_ms": 5979.564963124998,
+    "p50_ms": 5038.459706000026,
+    "p95_ms": 9993.796627700047
+  },
+  "remote_roundtrip_latency": {
+    "mean_ms": 7275.116862609821,
+    "p50_ms": 6194.398833496962,
+    "p95_ms": 11938.418958331747
+  },
+  "generation_call_latency": {
+    "mean_ms": 4828.215039752746,
+    "p50_ms": 4735.215820999997,
+    "p95_ms": 6643.498784850001
+  },
+  "sessions": [
+    {
+      "app_id": "ap-NgIbLOjnBuyRrhdxiNFxcl",
+      "started_unix": 1789214937.185737,
+      "authentication_verified": true,
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.007829049000000143
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 7.098056089,
+        "container_session": "f327fc50875242408b15296279cc43c7",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "wall_seconds": 40.58040862501366,
+      "status": "smoke_failed",
+      "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched"
+    },
+    {
+      "app_id": "ap-fEGA57H7lFLtKJtTH0m1vW",
+      "started_unix": 1789217881.8881862,
+      "authentication_verified": true,
+      "mode": "eval",
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.00792372100000005
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 5.230696337000001,
+        "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "wall_seconds": 965.20635295799,
+      "status": "complete",
+      "reason": null
+    },
+    {
+      "app_id": "ap-iSASOv23CJh48a4tvnFdC5",
+      "started_unix": 1789217131.9414852,
+      "authentication_verified": true,
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.006740871000000093
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 7.618463624,
+        "container_session": "eca56fee0e21444b9766113dd09681c1",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "resume_verification": {
+        "examples": 16,
+        "local_generation_replay": true,
+        "prediction_replay": true,
+        "remote_committed_checkpoints": true,
+        "extra_generations": 0
+      },
+      "wall_seconds": 187.16608370799804,
+      "status": "smoke_failed",
+      "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched"
+    },
+    {
+      "app_id": "ap-j2AONJj3EIiBEvIvYgzNaS",
+      "started_unix": 1789216544.631525,
+      "authentication_verified": true,
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.007155518999999888
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 7.896417524,
+        "container_session": "689960898ff440ac9e0db9e6f9a6370c",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "resume_verification": {
+        "examples": 8,
+        "local_generation_replay": true,
+        "prediction_replay": true,
+        "remote_committed_checkpoints": true,
+        "extra_generations": 0
+      },
+      "wall_seconds": 167.6358505419921,
+      "status": "smoke_failed",
+      "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched"
+    },
+    {
+      "app_id": "ap-lyZ2tpjcw9VFzUPVISljbb",
+      "started_unix": 1789214612.18828,
+      "authentication_verified": true,
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.023146443999999988
+      },
+      "wall_seconds": 33.62333212498925,
+      "status": "resource_stop",
+      "reason": "DeserializationError: Deserialization failed because the 'torch' module is not available in the local environment."
+    },
+    {
+      "app_id": "ap-qJouBk0RxJTyrDc6ZPQifh",
+      "started_unix": 1789215691.6482,
+      "authentication_verified": true,
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.008379643000000048
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 8.215370312,
+        "container_session": "433da381235249719316413a5a4b29ac",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "wall_seconds": 47.93220075001591,
+      "status": "smoke_failed",
+      "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched"
+    }
+  ],
+  "actual_provider_cost": null,
+  "cost_note": "Monetary cost and billable GPU duration are not supplied by these inference responses; no estimate.",
+  "gpu_types": [
+    "NVIDIA L4"
+  ],
+  "total_session_wall_seconds": 1442.144228707999,
+  "eval_session_wall_seconds": 965.20635295799,
+  "eval_sessions": [
+    {
+      "app_id": "ap-fEGA57H7lFLtKJtTH0m1vW",
+      "started_unix": 1789217881.8881862,
+      "authentication_verified": true,
+      "mode": "eval",
+      "preparation": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "weight_preparation_seconds": 0.00792372100000005
+      },
+      "runtime": {
+        "model": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+        "model_loaded": true,
+        "cache_only": true,
+        "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+        "gpu": "NVIDIA L4",
+        "gpu_count": 1,
+        "precision": "torch.bfloat16",
+        "model_load_seconds": 5.230696337000001,
+        "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+        "torch_version": "2.6.0+cu124",
+        "transformers_version": "4.57.1"
+      },
+      "wall_seconds": 965.20635295799,
+      "status": "complete",
+      "reason": null
+    }
+  ],
+  "invalid_responses": 54,
+  "status_counts": {
+    "success": 105,
+    "invalid_output": 20,
+    "ambiguous": 3
+  },
+  "verdict": "ROUTER PROMISING BUT NEEDS MORE DATA",
+  "frozen_short_mean_ms": 0.5772744374999937,
+  "long_inference_to_short_pipeline_ratio": 10358.270823528475,
+  "answer_matches_with_wrong_query": 2,
+  "frozen_files_verified": 18
+}

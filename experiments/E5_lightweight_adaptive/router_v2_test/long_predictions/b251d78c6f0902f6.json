@@ -1,0 +1,30 @@
+{
+  "id": "b251d78c6f0902f6",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جامعة الملك سعود بن عبد العزيز للعلوم الصحية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Medical City",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2078,
+  "output_tokens": 125,
+  "inference_ms": 6658.1886680000935,
+  "roundtrip_ms": 8765.886960999978
+}

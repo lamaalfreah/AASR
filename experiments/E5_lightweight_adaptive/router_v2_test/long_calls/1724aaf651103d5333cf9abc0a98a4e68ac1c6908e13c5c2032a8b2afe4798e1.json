@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "1724aaf651103d5333cf9abc0a98a4e68ac1c6908e13c5c2032a8b2afe4798e1",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"حصاة النصلة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مصرف الراجحي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1657,
+  "output_tokens": 72,
+  "generation_ms": 3906.131263000134,
+  "inference_ms": 3913.9685370000734,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4953.746979000243,
+  "case_id": "df51f8c18baae75a"
+}
