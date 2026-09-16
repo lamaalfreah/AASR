@@ -1,6 +1,6 @@
 # Arabic Adaptive Spatial Reasoning (AASR)
 
-AASR is an adaptive reasoning framework for Arabic spatial questions over long-context data.
+AASR is an adaptive reasoning framework for Arabic spatial questions over long-context Spatial data.
 
 The current system uses **Router V2** to dynamically route each query between a lightweight **BiGRU-based Short path** and a **Qwen3-4B Long-context path**.
 
