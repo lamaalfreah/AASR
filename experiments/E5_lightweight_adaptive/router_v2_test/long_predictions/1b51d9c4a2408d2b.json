@@ -1,0 +1,27 @@
+{
+  "id": "1b51d9c4a2408d2b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "كنيسة الجبيل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": 5,
+    "direction": "شمال",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2075,
+  "output_tokens": 102,
+  "inference_ms": 5608.466305000093,
+  "roundtrip_ms": 6978.726398000163
+}

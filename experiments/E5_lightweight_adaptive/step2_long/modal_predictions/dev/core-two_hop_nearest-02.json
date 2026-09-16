@@ -1,0 +1,42 @@
+{
+  "challenge_id": "core-two_hop_nearest-02",
+  "task_type": "two_hop_nearest",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.9680942296981812,
+  "short_pipeline_ms": 0.7667919999998496,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2007,
+  "output_tokens": 103,
+  "long_inference_ms": 5639.703249000007,
+  "long_roundtrip_ms": 7305.801583017455,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "كلية الملك خالد العسكرية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "بنك"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مصرف الراجحي",
+    "text": "مصرف الراجحي"
+  }
+}

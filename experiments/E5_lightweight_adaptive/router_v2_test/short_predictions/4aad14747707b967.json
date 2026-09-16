@@ -1,0 +1,46 @@
+{
+  "id": "4aad14747707b967",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "ملعب الصائغ",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": 3.0,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999449253082275,
+    "short_entropy": 0.000695091835413338,
+    "short_top1_top2_margin": 0.9999319903854484,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 70,
+    "question_length_words": 15,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 7.614731202920666e-06,
+      "cardinal_direction": 7.1965059760259464e-06,
+      "within_radius_yes_no": 2.611806166896713e-06,
+      "closer_of_two": 1.0094943718286231e-05,
+      "count_within_radius": 1.2934922779095359e-05,
+      "nearest_of_two_categories": 1.1429398000473157e-05,
+      "two_hop_nearest": 3.1327838314609835e-06,
+      "spatial_multi_constraint": 0.9999449253082275
+    }
+  },
+  "parser_ms": 2.7062300000579853,
+  "short_with_features_ms": 2.822030000061204
+}

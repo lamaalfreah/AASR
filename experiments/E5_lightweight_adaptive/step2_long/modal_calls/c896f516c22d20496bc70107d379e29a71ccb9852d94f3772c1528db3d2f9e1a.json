@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.230696337000001,
+  "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c896f516c22d20496bc70107d379e29a71ccb9852d94f3772c1528db3d2f9e1a",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"قلعة شnell\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\"],\"radius_km\":3,\"direction\":\"شرق\",\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1697,
+  "output_tokens": 62,
+  "generation_ms": 2855.0109389999534,
+  "inference_ms": 2860.736115999998,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 3732.7133340004366,
+  "case_id": "core-spatial_multi_constraint-10"
+}

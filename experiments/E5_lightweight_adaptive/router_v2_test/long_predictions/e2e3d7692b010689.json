@@ -1,0 +1,30 @@
+{
+  "id": "e2e3d7692b010689",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "محطة قطار الرياض",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "آبار الذهب",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2181,
+  "output_tokens": 118,
+  "inference_ms": 6495.896377999998,
+  "roundtrip_ms": 9048.16439299998
+}

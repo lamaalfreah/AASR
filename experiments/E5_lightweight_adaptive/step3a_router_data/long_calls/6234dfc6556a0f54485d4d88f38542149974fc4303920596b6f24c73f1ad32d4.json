@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6234dfc6556a0f54485d4d88f38542149974fc4303920596b6f24c73f1ad32d4",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"مسجد ذي الحليفة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"صيدلية\"],\"radius_km\":8,\"direction\":\"شرق\",\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2157,
+  "output_tokens": 64,
+  "generation_ms": 3915.284516000611,
+  "inference_ms": 3925.2895050003644,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5504.018999985419,
+  "case_id": "router-2e41a640365349953137"
+}

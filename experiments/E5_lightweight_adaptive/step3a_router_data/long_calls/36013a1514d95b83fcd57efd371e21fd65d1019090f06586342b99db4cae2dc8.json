@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "36013a1514d95b83fcd57efd371e21fd65d1019090f06586342b99db4cae2dc8",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"قاعدة الملك سلمان الجوية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مقهى\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2294,
+  "output_tokens": 104,
+  "generation_ms": 5556.503755000449,
+  "inference_ms": 5566.2727259996245,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7610.715874994639,
+  "case_id": "router-a1e9b9644ef3d0bc1aa0"
+}

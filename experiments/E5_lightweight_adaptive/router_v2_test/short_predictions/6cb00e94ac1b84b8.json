@@ -1,0 +1,46 @@
+{
+  "id": "6cb00e94ac1b84b8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "مستشفى الملك فهد",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "جامعة"
+    ],
+    "radius_km": 3.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999223947525024,
+    "short_entropy": 0.0009280724358217763,
+    "short_top1_top2_margin": 0.9998884294836898,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 92,
+    "question_length_words": 18,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.3965268812607974e-05,
+      "cardinal_direction": 7.898664989625104e-06,
+      "within_radius_yes_no": 0.9999223947525024,
+      "closer_of_two": 5.096622430755815e-07,
+      "count_within_radius": 1.7880680388770998e-05,
+      "nearest_of_two_categories": 2.5361769075971097e-06,
+      "two_hop_nearest": 1.1420629562053364e-05,
+      "spatial_multi_constraint": 3.3871674531837925e-06
+    }
+  },
+  "parser_ms": 2.613239999845973,
+  "short_with_features_ms": 2.7364999998553685
+}

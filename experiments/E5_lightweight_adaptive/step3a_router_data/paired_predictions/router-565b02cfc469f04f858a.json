@@ -1,0 +1,55 @@
+{
+  "id": "router-565b02cfc469f04f858a",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7202333211898804,
+    "short_entropy": 0.8548417196298522,
+    "short_top1_top2_margin": 0.5659795105457306,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 73,
+    "question_length_words": 11,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "المواريد (السعودية)",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "بترومين",
+          "source": "unspecified"
+        },
+        {
+          "name": "فيول واي",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 7592.320470999766
+  }
+}

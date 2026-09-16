@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "9bbca256b4bb0e581f6aa3b1cda0ffea76a916528794c957458e6b5df368abc7",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"مسجد الرحمن\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2359,
+  "output_tokens": 98,
+  "generation_ms": 5315.841419000208,
+  "inference_ms": 5326.306388999001,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8183.9499050001905,
+  "case_id": "369072731f540c76"
+}

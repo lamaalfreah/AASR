@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-cardinal_direction-01",
+  "task_type": "cardinal_direction",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.9968844056129456,
+  "short_pipeline_ms": 0.34779100000026375,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3221,
+  "output_tokens": 192,
+  "long_inference_ms": 10486.892763,
+  "long_roundtrip_ms": 13746.311750001041,
+  "predicted_query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الحدق (رفحاء)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة وقود",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "direction",
+    "value": "شرق",
+    "text": "شرق"
+  }
+}

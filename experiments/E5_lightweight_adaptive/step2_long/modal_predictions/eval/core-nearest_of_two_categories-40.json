@@ -1,0 +1,39 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-40",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "invalid_output",
+  "long_reason": "strict_json_validation_failed",
+  "short_query_exact": false,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.9481157660484314,
+  "short_pipeline_ms": 0.7842920000000753,
+  "llm_calls": 2,
+  "invalid_responses": 2,
+  "input_tokens": 4281,
+  "output_tokens": 251,
+  "long_inference_ms": 11345.340841999929,
+  "long_roundtrip_ms": 13066.10158298281,
+  "predicted_query": null,
+  "predicted_answer": null,
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [
+    "عيادة",
+    "محطة وقود",
+    "عيادة",
+    "محطة وقود"
+  ],
+  "invented_entity_count": 4,
+  "validation_errors": [
+    "reference_schema",
+    "invented_entity_name"
+  ],
+  "raw_operation_correct": false
+}

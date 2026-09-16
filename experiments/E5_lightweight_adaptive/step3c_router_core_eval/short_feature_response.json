@@ -1,0 +1,3390 @@
+{
+  "predictions": [
+    {
+      "id": "core-nearest_category-04",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.9448449015617371,
+        "short_entropy": 0.27084208726593595,
+        "short_top1_top2_margin": 0.9062187075614929,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 39,
+        "question_length_words": 7,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 6.184270000000325
+    },
+    {
+      "id": "core-nearest_category-07",
+      "operation": "nearest_category",
+      "query": {
+        "operation": "nearest_category",
+        "origin": {
+          "name": "سلوى (محافظة العديد)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "مقهى"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.32644617557525635,
+        "short_entropy": 1.4352468583087477,
+        "short_top1_top2_margin": 0.0092734694480896,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 43,
+        "question_length_words": 8,
+        "predicted_operation": "nearest_category",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 7.777840000000147
+    },
+    {
+      "id": "core-nearest_category-10",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5606269240379333,
+        "short_entropy": 1.4067669853215463,
+        "short_top1_top2_margin": 0.4063931107521057,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 50,
+        "question_length_words": 9,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 3.710419999999992
+    },
+    {
+      "id": "core-nearest_category-12",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8559122085571289,
+        "short_entropy": 0.6627223640491755,
+        "short_top1_top2_margin": 0.804311029613018,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 54,
+        "question_length_words": 9,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.5935100000005207
+    },
+    {
+      "id": "core-nearest_category-14",
+      "operation": "nearest_of_two_categories",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4507372975349426,
+        "short_entropy": 1.3667806037744952,
+        "short_top1_top2_margin": 0.1260148584842682,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 50,
+        "question_length_words": 8,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.5761900000006435
+    },
+    {
+      "id": "core-nearest_category-16",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.737479031085968,
+        "short_entropy": 0.9437063950531397,
+        "short_top1_top2_margin": 0.6300366073846817,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 83,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.87373000000013
+    },
+    {
+      "id": "core-nearest_category-19",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6469793915748596,
+        "short_entropy": 1.1839098116844116,
+        "short_top1_top2_margin": 0.5055656731128693,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 57,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.201150000000318
+    },
+    {
+      "id": "core-nearest_category-22",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8695108890533447,
+        "short_entropy": 0.5863742044779852,
+        "short_top1_top2_margin": 0.823076393455267,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 74,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.5332199999992255
+    },
+    {
+      "id": "core-nearest_category-24",
+      "operation": "nearest_of_two_categories",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7453899383544922,
+        "short_entropy": 0.9411079382790146,
+        "short_top1_top2_margin": 0.6203827410936356,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 62,
+        "question_length_words": 11,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.565730000000599
+    },
+    {
+      "id": "core-nearest_category-26",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4923572838306427,
+        "short_entropy": 1.5125361804255422,
+        "short_top1_top2_margin": 0.26705336570739746,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 66,
+        "question_length_words": 11,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.4301700000002313
+    },
+    {
+      "id": "core-nearest_category-28",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8150562644004822,
+        "short_entropy": 0.7257832054402301,
+        "short_top1_top2_margin": 0.7021255046129227,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 61,
+        "question_length_words": 10,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9783399999999673
+    },
+    {
+      "id": "core-nearest_category-31",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.3819868862628937,
+        "short_entropy": 1.62387317435967,
+        "short_top1_top2_margin": 0.12477347254753113,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 37,
+        "question_length_words": 7,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.3748500000003716
+    },
+    {
+      "id": "core-nearest_category-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5040068030357361,
+        "short_entropy": 0.900919537449701,
+        "short_top1_top2_margin": 0.049670517444610596,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 51,
+        "question_length_words": 10,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9238200000000205
+    },
+    {
+      "id": "core-nearest_category-36",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8331262469291687,
+        "short_entropy": 0.6669086282716067,
+        "short_top1_top2_margin": 0.7354616671800613,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 50,
+        "question_length_words": 10,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.6008399999994936
+    },
+    {
+      "id": "core-nearest_category-38",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8198260068893433,
+        "short_entropy": 0.7721460251338567,
+        "short_top1_top2_margin": 0.746026448905468,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 88,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.508340000000331
+    },
+    {
+      "id": "core-nearest_category-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.37668949365615845,
+        "short_entropy": 1.5849811225967327,
+        "short_top1_top2_margin": 0.07048299908638,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 117,
+        "question_length_words": 20,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.286200000000349
+    },
+    {
+      "id": "core-cardinal_direction-04",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.3773607313632965,
+        "short_entropy": 1.2664764181197419,
+        "short_top1_top2_margin": 0.04406416416168213,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 83,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.7019600000001134
+    },
+    {
+      "id": "core-cardinal_direction-07",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.6950864195823669,
+        "short_entropy": 1.016302448907235,
+        "short_top1_top2_margin": 0.5729646012187004,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 60,
+        "question_length_words": 10,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.171160000000171
+    },
+    {
+      "id": "core-cardinal_direction-10",
+      "operation": "cardinal_direction",
+      "query": {
+        "operation": "cardinal_direction",
+        "origin": {
+          "name": "هضبة أبو رخم",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "محطة",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.49907591938972473,
+        "short_entropy": 1.350192337773379,
+        "short_top1_top2_margin": 0.25273852050304413,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 49,
+        "question_length_words": 9,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 1.7233599999997296
+    },
+    {
+      "id": "core-cardinal_direction-12",
+      "operation": "cardinal_direction",
+      "query": {
+        "operation": "cardinal_direction",
+        "origin": {
+          "name": "ملعب نادي التعاون",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "كليات البنات الجامعية",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.551367461681366,
+        "short_entropy": 1.1805236326204733,
+        "short_top1_top2_margin": 0.2879743278026581,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 95,
+        "question_length_words": 15,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 1.836299999999902
+    },
+    {
+      "id": "core-cardinal_direction-14",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4730578362941742,
+        "short_entropy": 1.2166840787346291,
+        "short_top1_top2_margin": 0.1470394730567932,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 81,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.1516999999997566
+    },
+    {
+      "id": "core-cardinal_direction-16",
+      "operation": "cardinal_direction",
+      "query": {
+        "operation": "cardinal_direction",
+        "origin": {
+          "name": "بيت الجشي",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "MEED GAS STATION",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.5423658490180969,
+        "short_entropy": 1.1131184435187518,
+        "short_top1_top2_margin": 0.19854655861854553,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 94,
+        "question_length_words": 16,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 3.316680000000183
+    },
+    {
+      "id": "core-cardinal_direction-19",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6209735870361328,
+        "short_entropy": 1.1454402413786997,
+        "short_top1_top2_margin": 0.4401519000530243,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 77,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.195429999999554
+    },
+    {
+      "id": "core-cardinal_direction-22",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5334575176239014,
+        "short_entropy": 1.067866376581911,
+        "short_top1_top2_margin": 0.17474722862243652,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 58,
+        "question_length_words": 10,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.5723300000001217
+    },
+    {
+      "id": "core-cardinal_direction-24",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.710959255695343,
+        "short_entropy": 1.063408309903989,
+        "short_top1_top2_margin": 0.6006869524717331,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 62,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.659000000000077
+    },
+    {
+      "id": "core-cardinal_direction-26",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7914953231811523,
+        "short_entropy": 0.8554353683809911,
+        "short_top1_top2_margin": 0.7041408643126488,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 100,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 3.4960299999999833
+    },
+    {
+      "id": "core-cardinal_direction-28",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6304914355278015,
+        "short_entropy": 1.1398748236575302,
+        "short_top1_top2_margin": 0.478965699672699,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 67,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.0473500000006695
+    },
+    {
+      "id": "core-cardinal_direction-31",
+      "operation": "cardinal_direction",
+      "query": {
+        "operation": "cardinal_direction",
+        "origin": {
+          "name": "سكاكا (مقر الإمارة)",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "مدرسة الطوير الابتدائية",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7230914235115051,
+        "short_entropy": 0.8191002118421452,
+        "short_top1_top2_margin": 0.5276466459035873,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 65,
+        "question_length_words": 9,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 1.6860999999996906
+    },
+    {
+      "id": "core-cardinal_direction-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5135467648506165,
+        "short_entropy": 1.1974273771789294,
+        "short_top1_top2_margin": 0.2212637960910797,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 77,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.721359999999784
+    },
+    {
+      "id": "core-cardinal_direction-36",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5978820323944092,
+        "short_entropy": 1.0531912773964052,
+        "short_top1_top2_margin": 0.3076150715351105,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 69,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.5612600000002317
+    },
+    {
+      "id": "core-cardinal_direction-38",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.3724294602870941,
+        "short_entropy": 1.4640018720406163,
+        "short_top1_top2_margin": 0.051187336444854736,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 109,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 3.504289000000327
+    },
+    {
+      "id": "core-cardinal_direction-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5967515110969543,
+        "short_entropy": 1.1273014170777387,
+        "short_top1_top2_margin": 0.4119099825620651,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 102,
+        "question_length_words": 18,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.2879910000002113
+    },
+    {
+      "id": "core-within_radius_yes_no-04",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6833216547966003,
+        "short_entropy": 1.1509328513244736,
+        "short_top1_top2_margin": 0.5724665895104408,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 78,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.7544489999998802
+    },
+    {
+      "id": "core-within_radius_yes_no-07",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.9044609665870667,
+        "short_entropy": 0.4756109824352467,
+        "short_top1_top2_margin": 0.8789315912872553,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 51,
+        "question_length_words": 10,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9528910000001787
+    },
+    {
+      "id": "core-within_radius_yes_no-10",
+      "operation": "within_radius_yes_no",
+      "query": {
+        "operation": "within_radius_yes_no",
+        "origin": {
+          "name": "مركز الحكامية",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "عيادة"
+        ],
+        "radius_km": 5.0,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6316101551055908,
+        "short_entropy": 1.1887776046450018,
+        "short_top1_top2_margin": 0.485136479139328,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 78,
+        "question_length_words": 14,
+        "predicted_operation": "within_radius_yes_no",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.4626690000001403
+    },
+    {
+      "id": "core-within_radius_yes_no-12",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "direction_slot_count",
+      "features": {
+        "short_confidence": 0.5553427934646606,
+        "short_entropy": 1.2133065444077533,
+        "short_top1_top2_margin": 0.28080838918685913,
+        "query_valid": false,
+        "missing_slots": [
+          "direction"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 89,
+        "question_length_words": 15,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 3.1065009999995397
+    },
+    {
+      "id": "core-within_radius_yes_no-14",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4785771667957306,
+        "short_entropy": 1.456959192023646,
+        "short_top1_top2_margin": 0.2037995159626007,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 80,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.398999999999596
+    },
+    {
+      "id": "core-within_radius_yes_no-16",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7975153923034668,
+        "short_entropy": 0.881447328165478,
+        "short_top1_top2_margin": 0.754011694341898,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 96,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.7089200000004467
+    },
+    {
+      "id": "core-within_radius_yes_no-19",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "direction_slot_count",
+      "features": {
+        "short_confidence": 0.446572482585907,
+        "short_entropy": 1.4799966729051532,
+        "short_top1_top2_margin": 0.20564566552639008,
+        "query_valid": false,
+        "missing_slots": [
+          "direction"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 42,
+        "question_length_words": 9,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9031500000004087
+    },
+    {
+      "id": "core-within_radius_yes_no-22",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.5027223825454712,
+        "short_entropy": 1.256233210064128,
+        "short_top1_top2_margin": 0.18349942564964294,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 59,
+        "question_length_words": 11,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.6467399999999799
+    },
+    {
+      "id": "core-within_radius_yes_no-24",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.601801872253418,
+        "short_entropy": 1.3286779280626106,
+        "short_top1_top2_margin": 0.4828604608774185,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 73,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.295240000000476
+    },
+    {
+      "id": "core-within_radius_yes_no-26",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5596430897712708,
+        "short_entropy": 1.2691785927092267,
+        "short_top1_top2_margin": 0.33916111290454865,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 71,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.3383100000007317
+    },
+    {
+      "id": "core-within_radius_yes_no-28",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.768442690372467,
+        "short_entropy": 0.9161481111391897,
+        "short_top1_top2_margin": 0.6833373010158539,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 83,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.453990000000239
+    },
+    {
+      "id": "core-within_radius_yes_no-31",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "direction_slot_count",
+      "features": {
+        "short_confidence": 0.3863318860530853,
+        "short_entropy": 1.500136652061966,
+        "short_top1_top2_margin": 0.0650617778301239,
+        "query_valid": false,
+        "missing_slots": [
+          "direction"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 37,
+        "question_length_words": 9,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.499750000000134
+    },
+    {
+      "id": "core-within_radius_yes_no-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.41496166586875916,
+        "short_entropy": 1.60175259943696,
+        "short_top1_top2_margin": 0.21728305518627167,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 70,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.1575900000003756
+    },
+    {
+      "id": "core-within_radius_yes_no-36",
+      "operation": "nearest_category",
+      "query": {
+        "operation": "nearest_category",
+        "origin": {
+          "name": "قلعة العرفاء",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "صيدلية"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.5548493266105652,
+        "short_entropy": 1.2295732372847077,
+        "short_top1_top2_margin": 0.2854393720626831,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 73,
+        "question_length_words": 14,
+        "predicted_operation": "nearest_category",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 1.7075600000007185
+    },
+    {
+      "id": "core-within_radius_yes_no-38",
+      "operation": "count_within_radius",
+      "query": {
+        "operation": "count_within_radius",
+        "origin": {
+          "name": "مبنى المالية (أملج)",
+          "source": "unspecified"
+        },
+        "targets": [],
+        "categories": [
+          "مستشفى"
+        ],
+        "radius_km": 2.0,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.42938971519470215,
+        "short_entropy": 1.5725431927783218,
+        "short_top1_top2_margin": 0.23719918727874756,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 108,
+        "question_length_words": 20,
+        "predicted_operation": "count_within_radius",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.0077399999998136
+    },
+    {
+      "id": "core-within_radius_yes_no-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7265082597732544,
+        "short_entropy": 0.9928508595467418,
+        "short_top1_top2_margin": 0.5932203233242035,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 95,
+        "question_length_words": 18,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.027250000000258
+    },
+    {
+      "id": "core-closer_of_two-04",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "متحف العالية",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "ايتي برسينت كافيه 80% COFFEE",
+            "source": "unspecified"
+          },
+          {
+            "name": "Tahina",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6924232244491577,
+        "short_entropy": 0.772938156664503,
+        "short_top1_top2_margin": 0.4294734001159668,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 89,
+        "question_length_words": 15,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.861439999999881
+    },
+    {
+      "id": "core-closer_of_two-07",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "متحف الأستاذ إبراهيم مفتاح",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "مركز الرعاية الصحية الأولية",
+            "source": "unspecified"
+          },
+          {
+            "name": "محطة التاج",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8481143116950989,
+        "short_entropy": 0.5798875623212019,
+        "short_top1_top2_margin": 0.7694925293326378,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 109,
+        "question_length_words": 17,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.8795999999996482
+    },
+    {
+      "id": "core-closer_of_two-10",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "سوق الهجلة",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "بنك الرياض",
+            "source": "unspecified"
+          },
+          {
+            "name": "الطازج",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6960618495941162,
+        "short_entropy": 0.8459558415457116,
+        "short_top1_top2_margin": 0.4602786898612976,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 12,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.164250000000756
+    },
+    {
+      "id": "core-closer_of_two-12",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "برج ساعة الصفاة",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "بنك انجاز",
+            "source": "unspecified"
+          },
+          {
+            "name": "المدرسة الاثيوبية العالمية بالرياض",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.46355894207954407,
+        "short_entropy": 1.3128668753156836,
+        "short_top1_top2_margin": 0.20063990354537964,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 100,
+        "question_length_words": 15,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.2511100000004447
+    },
+    {
+      "id": "core-closer_of_two-14",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8507296442985535,
+        "short_entropy": 0.6520716790325327,
+        "short_top1_top2_margin": 0.7904796861112118,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 120,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.2534200000006166
+    },
+    {
+      "id": "core-closer_of_two-16",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "قصر الحكم (مترو الرياض)",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "بنك الرياض",
+            "source": "unspecified"
+          },
+          {
+            "name": "مدينة الملك سعود الطبية",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.4261970818042755,
+        "short_entropy": 1.1926832787195434,
+        "short_top1_top2_margin": 0.11466997861862183,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 116,
+        "question_length_words": 19,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.520679999999942
+    },
+    {
+      "id": "core-closer_of_two-19",
+      "operation": "cardinal_direction",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.4632725715637207,
+        "short_entropy": 1.1445762363269674,
+        "short_top1_top2_margin": 0.045028358697891235,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 82,
+        "question_length_words": 14,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.5897499999999454
+    },
+    {
+      "id": "core-closer_of_two-22",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.5035542845726013,
+        "short_entropy": 1.068611746853734,
+        "short_top1_top2_margin": 0.12445780634880066,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 82,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.238969999999618
+    },
+    {
+      "id": "core-closer_of_two-24",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "البطالية",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "الغانم",
+            "source": "unspecified"
+          },
+          {
+            "name": "TEA MAP",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6238822340965271,
+        "short_entropy": 1.0412679021722484,
+        "short_top1_top2_margin": 0.4147801846265793,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 11,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.1026400000003775
+    },
+    {
+      "id": "core-closer_of_two-26",
+      "operation": "closer_of_two",
+      "query": {
+        "operation": "closer_of_two",
+        "origin": {
+          "name": "الحائط",
+          "source": "context_anchor"
+        },
+        "targets": [
+          {
+            "name": "مسجد",
+            "source": "unspecified"
+          },
+          {
+            "name": "سارا",
+            "source": "unspecified"
+          }
+        ],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.4641885757446289,
+        "short_entropy": 1.041410329722902,
+        "short_top1_top2_margin": 0.06007075309753418,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 57,
+        "question_length_words": 10,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.6782900000000822
+    },
+    {
+      "id": "core-closer_of_two-28",
+      "operation": "cardinal_direction",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.4449813961982727,
+        "short_entropy": 1.3748680853134074,
+        "short_top1_top2_margin": 0.17186135053634644,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 98,
+        "question_length_words": 15,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.6788999999999277
+    },
+    {
+      "id": "core-closer_of_two-31",
+      "operation": "nearest_of_two_categories",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.3279087543487549,
+        "short_entropy": 1.446799617767802,
+        "short_top1_top2_margin": 0.07180336117744446,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 71,
+        "question_length_words": 11,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.4976600000000673
+    },
+    {
+      "id": "core-closer_of_two-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.36657434701919556,
+        "short_entropy": 1.4010420412991451,
+        "short_top1_top2_margin": 0.03595665097236633,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 57,
+        "question_length_words": 9,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.7589300000002694
+    },
+    {
+      "id": "core-closer_of_two-36",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8313573002815247,
+        "short_entropy": 0.6893929000260339,
+        "short_top1_top2_margin": 0.7527161464095116,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 111,
+        "question_length_words": 16,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.450789999999259
+    },
+    {
+      "id": "core-closer_of_two-38",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7638715505599976,
+        "short_entropy": 0.8233886160962807,
+        "short_top1_top2_margin": 0.6091543883085251,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 124,
+        "question_length_words": 21,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.1585200000000526
+    },
+    {
+      "id": "core-closer_of_two-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7576102614402771,
+        "short_entropy": 0.810224875795271,
+        "short_top1_top2_margin": 0.5874057859182358,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 104,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.952099999999568
+    },
+    {
+      "id": "core-count_within_radius-04",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.550766110420227,
+        "short_entropy": 1.2127167394328535,
+        "short_top1_top2_margin": 0.30450500547885895,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 57,
+        "question_length_words": 9,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.121850000000535
+    },
+    {
+      "id": "core-count_within_radius-07",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.5654827952384949,
+        "short_entropy": 1.064680090957371,
+        "short_top1_top2_margin": 0.24859651923179626,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 42,
+        "question_length_words": 10,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.0117300000000995
+    },
+    {
+      "id": "core-count_within_radius-10",
+      "operation": "count_within_radius",
+      "query": {
+        "operation": "count_within_radius",
+        "origin": {
+          "name": "محطة نسيم الكويت",
+          "source": "candidate"
+        },
+        "targets": [],
+        "categories": [
+          "بنك"
+        ],
+        "radius_km": 1.5,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8223993182182312,
+        "short_entropy": 0.7349933486863242,
+        "short_top1_top2_margin": 0.7598405480384827,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 68,
+        "question_length_words": 13,
+        "predicted_operation": "count_within_radius",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.3785000000003933
+    },
+    {
+      "id": "core-count_within_radius-12",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.7075904607772827,
+        "short_entropy": 1.0368034965763626,
+        "short_top1_top2_margin": 0.597792886197567,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 72,
+        "question_length_words": 14,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.3228600000001478
+    },
+    {
+      "id": "core-count_within_radius-14",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.32616350054740906,
+        "short_entropy": 1.6452912242995914,
+        "short_top1_top2_margin": 0.04385372996330261,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 72,
+        "question_length_words": 14,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.1740199999996648
+    },
+    {
+      "id": "core-count_within_radius-16",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.617308497428894,
+        "short_entropy": 1.2113590594677184,
+        "short_top1_top2_margin": 0.47204165160655975,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 77,
+        "question_length_words": 14,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.321479999999653
+    },
+    {
+      "id": "core-count_within_radius-19",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.4383697211742401,
+        "short_entropy": 1.2516507129895427,
+        "short_top1_top2_margin": 0.05716302990913391,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 67,
+        "question_length_words": 14,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.4070100000003194
+    },
+    {
+      "id": "core-count_within_radius-22",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.400968998670578,
+        "short_entropy": 1.3965490329650863,
+        "short_top1_top2_margin": 0.04438433051109314,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 55,
+        "question_length_words": 10,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.4627999999996533
+    },
+    {
+      "id": "core-count_within_radius-24",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.7566550970077515,
+        "short_entropy": 0.9259821976182877,
+        "short_top1_top2_margin": 0.6534113958477974,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.3677000000003048
+    },
+    {
+      "id": "core-count_within_radius-26",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.8384076952934265,
+        "short_entropy": 0.6717808886736711,
+        "short_top1_top2_margin": 0.7567910328507423,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 80,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.1610900000000868
+    },
+    {
+      "id": "core-count_within_radius-28",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.8415741920471191,
+        "short_entropy": 0.6745939322531009,
+        "short_top1_top2_margin": 0.7852640673518181,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 73,
+        "question_length_words": 11,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.4839900000005457
+    },
+    {
+      "id": "core-count_within_radius-31",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.7382044792175293,
+        "short_entropy": 0.8709943160523874,
+        "short_top1_top2_margin": 0.5767921954393387,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 67,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.136760000000514
+    },
+    {
+      "id": "core-count_within_radius-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.7421413660049438,
+        "short_entropy": 0.9599028909329019,
+        "short_top1_top2_margin": 0.6369166150689125,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 65,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.4603900000000891
+    },
+    {
+      "id": "core-count_within_radius-36",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.4014378488063812,
+        "short_entropy": 1.5742727712583076,
+        "short_top1_top2_margin": 0.1779211312532425,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 75,
+        "question_length_words": 13,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.692849999999524
+    },
+    {
+      "id": "core-count_within_radius-38",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.7981044054031372,
+        "short_entropy": 0.8470003151521461,
+        "short_top1_top2_margin": 0.7355666607618332,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 93,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 3.1219000000000108
+    },
+    {
+      "id": "core-count_within_radius-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "origin_not_explicit",
+      "features": {
+        "short_confidence": 0.6788796782493591,
+        "short_entropy": 1.0918063204866884,
+        "short_top1_top2_margin": 0.5177139937877655,
+        "query_valid": false,
+        "missing_slots": [
+          "origin"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 110,
+        "question_length_words": 18,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.3460600000003708
+    },
+    {
+      "id": "core-nearest_of_two_categories-04",
+      "operation": "nearest_of_two_categories",
+      "query": {
+        "operation": "nearest_of_two_categories",
+        "origin": {
+          "name": "غدير البنات",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "بنك",
+          "صيدلية"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.9000706672668457,
+        "short_entropy": 0.4581976763188854,
+        "short_top1_top2_margin": 0.8565022796392441,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 68,
+        "question_length_words": 12,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.8861600000006362
+    },
+    {
+      "id": "core-nearest_of_two_categories-07",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "المحطة الغربية (مترو الرياض)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "بنك",
+        "second_hop_category": "مدرسة"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8325747847557068,
+        "short_entropy": 0.691687460421015,
+        "short_top1_top2_margin": 0.7621913328766823,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 84,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.092410999999906
+    },
+    {
+      "id": "core-nearest_of_two_categories-10",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "الحجرة النبوية (المسجد النبوي)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مقهى",
+        "second_hop_category": "بنك"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7733896374702454,
+        "short_entropy": 0.912254537576114,
+        "short_top1_top2_margin": 0.6809330657124519,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 88,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.0680289999995836
+    },
+    {
+      "id": "core-nearest_of_two_categories-12",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "مركز السهي",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مستشفى",
+        "second_hop_category": "عيادة"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.4240165650844574,
+        "short_entropy": 1.2689321666462456,
+        "short_top1_top2_margin": 0.058081358671188354,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 70,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.6375110000002024
+    },
+    {
+      "id": "core-nearest_of_two_categories-14",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "المعهد العلمي السعودي",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "كلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7627060413360596,
+        "short_entropy": 0.967586741450845,
+        "short_top1_top2_margin": 0.6866782307624817,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 83,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.214810999999983
+    },
+    {
+      "id": "core-nearest_of_two_categories-16",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "المهدج",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "كلية",
+        "second_hop_category": "محطة وقود"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7970266342163086,
+        "short_entropy": 0.6270539652006065,
+        "short_top1_top2_margin": 0.6222314983606339,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 86,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.1105600000002056
+    },
+    {
+      "id": "core-nearest_of_two_categories-19",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "اليتمة",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مدرسة",
+        "second_hop_category": "محطة وقود"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.3065638244152069,
+        "short_entropy": 1.678255463643951,
+        "short_top1_top2_margin": 0.013692259788513184,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.465860000000042
+    },
+    {
+      "id": "core-nearest_of_two_categories-22",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "بئر أهاب",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8159866333007812,
+        "short_entropy": 0.8055447531035663,
+        "short_top1_top2_margin": 0.7678174413740635,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 58,
+        "question_length_words": 11,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.6604600000004197
+    },
+    {
+      "id": "core-nearest_of_two_categories-24",
+      "operation": "nearest_of_two_categories",
+      "query": {
+        "operation": "nearest_of_two_categories",
+        "origin": {
+          "name": "بئر البوصة",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "صيدلية",
+          "مستشفى"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6715826392173767,
+        "short_entropy": 1.09124030968904,
+        "short_top1_top2_margin": 0.5157048851251602,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 87,
+        "question_length_words": 16,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.444708999999712
+    },
+    {
+      "id": "core-nearest_of_two_categories-26",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "بئر عذق",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "مقهى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.34884390234947205,
+        "short_entropy": 1.4442962020380419,
+        "short_top1_top2_margin": 0.08530080318450928,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 59,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.069791000000265
+    },
+    {
+      "id": "core-nearest_of_two_categories-28",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "الشقة (بريدة)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مستشفى",
+        "second_hop_category": "كلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8867064118385315,
+        "short_entropy": 0.5095580837069736,
+        "short_top1_top2_margin": 0.8213423043489456,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 80,
+        "question_length_words": 16,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.3976809999997073
+    },
+    {
+      "id": "core-nearest_of_two_categories-31",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "جامع حسن عناني",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "محطة وقود",
+        "second_hop_category": "مقهى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.6014636754989624,
+        "short_entropy": 1.3081294025594927,
+        "short_top1_top2_margin": 0.466824933886528,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 61,
+        "question_length_words": 11,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.227880000000404
+    },
+    {
+      "id": "core-nearest_of_two_categories-34",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "جامعة نايف العربية للعلوم الأمنية",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7786982655525208,
+        "short_entropy": 0.8688481254412483,
+        "short_top1_top2_margin": 0.6720782443881035,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 83,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.9371599999997713
+    },
+    {
+      "id": "core-nearest_of_two_categories-36",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "category_slot_count",
+      "features": {
+        "short_confidence": 0.5847158432006836,
+        "short_entropy": 1.208341894199453,
+        "short_top1_top2_margin": 0.3421389162540436,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 11,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9532099999999275
+    },
+    {
+      "id": "core-nearest_of_two_categories-38",
+      "operation": "closer_of_two",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.5329822301864624,
+        "short_entropy": 1.1381270946820152,
+        "short_top1_top2_margin": 0.213412344455719,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 131,
+        "question_length_words": 23,
+        "predicted_operation": "closer_of_two",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.3831599999999398
+    },
+    {
+      "id": "core-nearest_of_two_categories-40",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "جبل رأس القارة",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "عيادة",
+        "second_hop_category": "محطة وقود"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.948115885257721,
+        "short_entropy": 0.2985091756482706,
+        "short_top1_top2_margin": 0.9338488364592195,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 107,
+        "question_length_words": 20,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.159000000000134
+    },
+    {
+      "id": "core-two_hop_nearest-04",
+      "operation": "cardinal_direction",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "wrong_named_target_count",
+      "features": {
+        "short_confidence": 0.44556725025177,
+        "short_entropy": 1.2824525895074874,
+        "short_top1_top2_margin": 0.07045572996139526,
+        "query_valid": false,
+        "missing_slots": [
+          "targets"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 76,
+        "question_length_words": 13,
+        "predicted_operation": "cardinal_direction",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.6424799999992246
+    },
+    {
+      "id": "core-two_hop_nearest-07",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "حلي (مدينة)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "محطة وقود",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7690450549125671,
+        "short_entropy": 0.922337350323201,
+        "short_top1_top2_margin": 0.6945858523249626,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 96,
+        "question_length_words": 18,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.0322300000001903
+    },
+    {
+      "id": "core-two_hop_nearest-10",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "سد عكرمة",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مستشفى",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.43641355633735657,
+        "short_entropy": 1.5241139051887418,
+        "short_top1_top2_margin": 0.23223213851451874,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 107,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.254699999999943
+    },
+    {
+      "id": "core-two_hop_nearest-12",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "صندوق التنمية الصناعية السعودي",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "بنك",
+        "second_hop_category": "مدرسة"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7510579228401184,
+        "short_entropy": 0.9514677245614453,
+        "short_top1_top2_margin": 0.6506026983261108,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 97,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.3721899999999962
+    },
+    {
+      "id": "core-two_hop_nearest-14",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "مدينة الأمير هذلول بن عبد العزيز الرياضية",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "محطة وقود",
+        "second_hop_category": "مقهى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.608995258808136,
+        "short_entropy": 1.0378159192271177,
+        "short_top1_top2_margin": 0.31476813554763794,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 160,
+        "question_length_words": 28,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.342020000000389
+    },
+    {
+      "id": "core-two_hop_nearest-16",
+      "operation": "spatial_multi_constraint",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "category_slot_count",
+      "features": {
+        "short_confidence": 0.3932107985019684,
+        "short_entropy": 1.5029675824211115,
+        "short_top1_top2_margin": 0.15167608857154846,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 79,
+        "question_length_words": 15,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.8593100000003915
+    },
+    {
+      "id": "core-two_hop_nearest-19",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "قرية قيار",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مستشفى",
+        "second_hop_category": "كلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.5623837113380432,
+        "short_entropy": 1.3012585363257323,
+        "short_top1_top2_margin": 0.3291205018758774,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 89,
+        "question_length_words": 16,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.0204499999998404
+    },
+    {
+      "id": "core-two_hop_nearest-22",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "قصر إبراهيم",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مستشفى",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8526161313056946,
+        "short_entropy": 0.647209570223219,
+        "short_top1_top2_margin": 0.8041848056018353,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 82,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.025739999999999
+    },
+    {
+      "id": "core-two_hop_nearest-24",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "قصر محمد بن عبد الوهاب الفيحاني",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "صيدلية",
+        "second_hop_category": "مقهى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7895545363426208,
+        "short_entropy": 0.8853593595328485,
+        "short_top1_top2_margin": 0.7304153777658939,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 95,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.8225700000001908
+    },
+    {
+      "id": "core-two_hop_nearest-26",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "قصر صاهود",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.853653609752655,
+        "short_entropy": 0.6427691418632059,
+        "short_top1_top2_margin": 0.7839616909623146,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 96,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.423720000000685
+    },
+    {
+      "id": "core-two_hop_nearest-28",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "قلعة المرقب (السعودية)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "محطة وقود",
+        "second_hop_category": "كلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.4209670126438141,
+        "short_entropy": 1.4331322457977274,
+        "short_top1_top2_margin": 0.09312358498573303,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 119,
+        "question_length_words": 21,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.7714100000002517
+    },
+    {
+      "id": "core-two_hop_nearest-31",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "كلية العلوم الطبية التطبيقية (جامعة الملك سعود)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "جامعة",
+        "second_hop_category": "مقهى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7151517271995544,
+        "short_entropy": 1.1296153737066144,
+        "short_top1_top2_margin": 0.6558230146765709,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 92,
+        "question_length_words": 17,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.8589400000003096
+    },
+    {
+      "id": "core-two_hop_nearest-34",
+      "operation": "nearest_of_two_categories",
+      "query": {
+        "operation": "nearest_of_two_categories",
+        "origin": {
+          "name": "قبة (محافظة الأسياح)",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "مقهى",
+          "محطة وقود"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.5725799202919006,
+        "short_entropy": 1.266572620024859,
+        "short_top1_top2_margin": 0.37208014726638794,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 64,
+        "question_length_words": 12,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 1.7867699999998266
+    },
+    {
+      "id": "core-two_hop_nearest-36",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "حلة الأجناب",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.939145028591156,
+        "short_entropy": 0.32059677517601803,
+        "short_top1_top2_margin": 0.9155780170112848,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 76,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 2.114200000000288
+    },
+    {
+      "id": "core-two_hop_nearest-38",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "مكتبة المسجد النبوي",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مدرسة",
+        "second_hop_category": "مستشفى"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.7647495269775391,
+        "short_entropy": 0.8897275844232533,
+        "short_top1_top2_margin": 0.6427723988890648,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 134,
+        "question_length_words": 23,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.1400299999999604
+    },
+    {
+      "id": "core-two_hop_nearest-40",
+      "operation": "two_hop_nearest",
+      "query": {
+        "operation": "two_hop_nearest",
+        "origin": {
+          "name": "وزارة الحج والعمرة",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": "مطعم",
+        "second_hop_category": "صيدلية"
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8192723393440247,
+        "short_entropy": 0.7384470490795305,
+        "short_top1_top2_margin": 0.7212949842214584,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 101,
+        "question_length_words": 19,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": 2
+      },
+      "short_with_feature_ms": 3.032939999999762
+    },
+    {
+      "id": "core-spatial_multi_constraint-04",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4505558907985687,
+        "short_entropy": 1.4383637748844167,
+        "short_top1_top2_margin": 0.2112124115228653,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 78,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.7602899999999977
+    },
+    {
+      "id": "core-spatial_multi_constraint-07",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6333817839622498,
+        "short_entropy": 0.9560853071168997,
+        "short_top1_top2_margin": 0.3446260988712311,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 54,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.593010000000561
+    },
+    {
+      "id": "core-spatial_multi_constraint-10",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.9546193480491638,
+        "short_entropy": 0.25919467078780456,
+        "short_top1_top2_margin": 0.9399664606899023,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 80,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.9501499999998728
+    },
+    {
+      "id": "core-spatial_multi_constraint-12",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.903506875038147,
+        "short_entropy": 0.4772898891545385,
+        "short_top1_top2_margin": 0.872347554191947,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 1,
+        "question_length_chars": 82,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 1.8828900000000814
+    },
+    {
+      "id": "core-spatial_multi_constraint-14",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6088128089904785,
+        "short_entropy": 1.3318013545477816,
+        "short_top1_top2_margin": 0.45759041607379913,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 100,
+        "question_length_words": 18,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.6255800000001273
+    },
+    {
+      "id": "core-spatial_multi_constraint-16",
+      "operation": "nearest_category",
+      "query": {
+        "operation": "nearest_category",
+        "origin": {
+          "name": "الأكاديمية السعودية الرقمية",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "صيدلية"
+        ],
+        "radius_km": null,
+        "direction": null,
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.8657817840576172,
+        "short_entropy": 0.557799879289471,
+        "short_top1_top2_margin": 0.7939329370856285,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 113,
+        "question_length_words": 20,
+        "predicted_operation": "nearest_category",
+        "constraint_count": 1
+      },
+      "short_with_feature_ms": 2.5844199999998096
+    },
+    {
+      "id": "core-spatial_multi_constraint-19",
+      "operation": "spatial_multi_constraint",
+      "query": {
+        "operation": "spatial_multi_constraint",
+        "origin": {
+          "name": "جامع مطار الملك خالد",
+          "source": "context_anchor"
+        },
+        "targets": [],
+        "categories": [
+          "محطة وقود"
+        ],
+        "radius_km": 8.0,
+        "direction": "جنوب",
+        "first_hop_category": null,
+        "second_hop_category": null
+      },
+      "status": "success",
+      "reason": null,
+      "features": {
+        "short_confidence": 0.3308228552341461,
+        "short_entropy": 1.470245689937397,
+        "short_top1_top2_margin": 0.018898814916610718,
+        "query_valid": true,
+        "missing_slots": [],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 72,
+        "question_length_words": 16,
+        "predicted_operation": "spatial_multi_constraint",
+        "constraint_count": 3
+      },
+      "short_with_feature_ms": 1.7517399999995575
+    },
+    {
+      "id": "core-spatial_multi_constraint-22",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.9114795327186584,
+        "short_entropy": 0.4456856610629847,
+        "short_top1_top2_margin": 0.882304135710001,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 82,
+        "question_length_words": 14,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.1191099999997576
+    },
+    {
+      "id": "core-spatial_multi_constraint-24",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6982823610305786,
+        "short_entropy": 1.1101090510345115,
+        "short_top1_top2_margin": 0.5959239453077316,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 76,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.04691999999973
+    },
+    {
+      "id": "core-spatial_multi_constraint-26",
+      "operation": "nearest_of_two_categories",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.4383062720298767,
+        "short_entropy": 1.1618989788357217,
+        "short_top1_top2_margin": 0.00028020143508911133,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 104,
+        "question_length_words": 21,
+        "predicted_operation": "nearest_of_two_categories",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.355790000000191
+    },
+    {
+      "id": "core-spatial_multi_constraint-28",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.868594229221344,
+        "short_entropy": 0.5964266334043362,
+        "short_top1_top2_margin": 0.8061965219676495,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 88,
+        "question_length_words": 16,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.0826399999993583
+    },
+    {
+      "id": "core-spatial_multi_constraint-31",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.48632171750068665,
+        "short_entropy": 0.9750669275397036,
+        "short_top1_top2_margin": 0.03909602761268616,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 61,
+        "question_length_words": 12,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.5998700000000596
+    },
+    {
+      "id": "core-spatial_multi_constraint-34",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.9072188138961792,
+        "short_entropy": 0.46092599654136857,
+        "short_top1_top2_margin": 0.876094862818718,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 67,
+        "question_length_words": 13,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.920519999999982
+    },
+    {
+      "id": "core-spatial_multi_constraint-36",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.7890482544898987,
+        "short_entropy": 0.8537760187912689,
+        "short_top1_top2_margin": 0.7084794119000435,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 86,
+        "question_length_words": 15,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.7760299999997073
+    },
+    {
+      "id": "core-spatial_multi_constraint-38",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.6650831699371338,
+        "short_entropy": 1.1753122915990293,
+        "short_top1_top2_margin": 0.5111223459243774,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 121,
+        "question_length_words": 22,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.444139999999706
+    },
+    {
+      "id": "core-spatial_multi_constraint-40",
+      "operation": "two_hop_nearest",
+      "query": null,
+      "status": "invalid_query",
+      "reason": "two_category_slot_count",
+      "features": {
+        "short_confidence": 0.8190240263938904,
+        "short_entropy": 0.7950429059236399,
+        "short_top1_top2_margin": 0.7691711038351059,
+        "query_valid": false,
+        "missing_slots": [
+          "categories"
+        ],
+        "entity_ambiguity_count": 0,
+        "question_length_chars": 129,
+        "question_length_words": 23,
+        "predicted_operation": "two_hop_nearest",
+        "constraint_count": null
+      },
+      "short_with_feature_ms": 2.6667310000005884
+    }
+  ],
+  "load_seconds": 0.017286930000000034,
+  "wall_seconds": 0.30446178199999974,
+  "torch_version": "2.6.0+cu124",
+  "device": "cpu"
+}

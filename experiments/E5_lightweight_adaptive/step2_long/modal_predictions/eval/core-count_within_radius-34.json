@@ -1,0 +1,51 @@
+{
+  "challenge_id": "core-count_within_radius-34",
+  "task_type": "count_within_radius",
+  "language_register": "light_saudi",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.7421412467956543,
+  "short_pipeline_ms": 0.4702919999997057,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4393,
+  "output_tokens": 175,
+  "long_inference_ms": 8201.528437999856,
+  "long_roundtrip_ms": 10513.502792047802,
+  "predicted_query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "Coarse Grind",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "integer",
+    "value": 2,
+    "text": "2"
+  },
+  "raw_operation": "count_within_radius",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "wrong_argument_count"
+  ],
+  "raw_operation_correct": true
+}

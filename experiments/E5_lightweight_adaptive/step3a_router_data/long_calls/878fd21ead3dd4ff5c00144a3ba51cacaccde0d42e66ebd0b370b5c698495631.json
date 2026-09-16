@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "878fd21ead3dd4ff5c00144a3ba51cacaccde0d42e66ebd0b370b5c698495631",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"برج السبيعي\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"بنك\", \"بنك\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is about finding the nearest bank from the origin 'برج السبيعي'. The operation is 'nearest_of_two_categories' as it compares two categories (banks) to find the nearest one.\"\n}",
+  "input_tokens": 2104,
+  "output_tokens": 141,
+  "generation_ms": 7765.263003999962,
+  "inference_ms": 7779.758549000007,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10241.42908299109,
+  "case_id": "router-3a125e6af660911b5f87"
+}

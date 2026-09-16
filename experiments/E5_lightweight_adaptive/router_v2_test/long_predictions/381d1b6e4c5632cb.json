@@ -1,0 +1,30 @@
+{
+  "id": "381d1b6e4c5632cb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الواصلي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مركز الرعاية الصحية الأولية",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1832,
+  "output_tokens": 122,
+  "inference_ms": 6650.568262999968,
+  "roundtrip_ms": 8936.291600999994
+}

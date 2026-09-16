@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "84aa3d538bba624f7047f1c652ab532f9d30b2c224ebe6ccabaedc6c74c7d189",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"أبا الورود\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مطعم\",\"محطة وقود\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"مطعم\",\"second_hop_category\":\"محطة وقود\"},\"message\":\"\"}",
+  "input_tokens": 1756,
+  "output_tokens": 69,
+  "generation_ms": 3988.2802260001426,
+  "inference_ms": 3997.3448029998053,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5338.416081999867,
+  "case_id": "35133ad939daa28b"
+}

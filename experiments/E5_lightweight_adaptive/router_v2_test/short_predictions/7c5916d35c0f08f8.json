@@ -1,0 +1,44 @@
+{
+  "id": "7c5916d35c0f08f8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "دار عثمان بن عفان الصغرى",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مدرسة",
+    "second_hop_category": "مستشفى"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999336004257202,
+    "short_entropy": 0.0008222533541639252,
+    "short_top1_top2_margin": 0.9999151673509914,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 144,
+    "question_length_words": 25,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.490606559353182e-06,
+      "cardinal_direction": 1.843307472881861e-05,
+      "within_radius_yes_no": 6.172687790240161e-06,
+      "closer_of_two": 8.051984877965879e-06,
+      "count_within_radius": 1.0918330190179404e-05,
+      "nearest_of_two_categories": 1.622135278012138e-05,
+      "two_hop_nearest": 0.9999336004257202,
+      "spatial_multi_constraint": 3.0647111088910606e-06
+    }
+  },
+  "parser_ms": 3.439378999928522,
+  "short_with_features_ms": 3.5563489998367004
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "857d853531aed4f8bc8c4a87bbf2e2b190530189ce16371f596f22e3e22a4489",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"قاعدة الملك عبد العزيز الجوية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مدرسة\", \"مستوصف\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is asking for the nearest school or pharmacy to the origin, but the operation is set to 'nearest_of_two_categories' which is appropriate for comparing two categories.\"\n}",
+  "input_tokens": 2039,
+  "output_tokens": 140,
+  "generation_ms": 7482.411529000274,
+  "inference_ms": 7491.174255999795,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9991.97272299989,
+  "case_id": "c0be6d5f2d3d90b9"
+}

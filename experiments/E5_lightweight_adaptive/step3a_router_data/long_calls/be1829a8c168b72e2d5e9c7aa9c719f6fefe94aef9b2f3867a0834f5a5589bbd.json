@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "be1829a8c168b72e2d5e9c7aa9c719f6fefe94aef9b2f3867a0834f5a5589bbd",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"البقيع\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"محطة وقود\", \"مقهى\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2343,
+  "output_tokens": 104,
+  "generation_ms": 6086.492646999886,
+  "inference_ms": 6098.751665000236,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7564.003499981482,
+  "case_id": "router-30550e0d3ed8675d2fa3"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "63084b7e0d591f9a2bbf9f7ae7b8de50a321432233f4643178183ed5a01e1a32",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"حلة دخنة\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مركز الصحي عسير\",\"source\":\"unspecified\"},{\"name\":\"دوران الخليج كافية\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2237,
+  "output_tokens": 84,
+  "generation_ms": 4690.56178000028,
+  "inference_ms": 4700.83145100034,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8387.563473001137,
+  "case_id": "8f51aa31e228b1e9"
+}

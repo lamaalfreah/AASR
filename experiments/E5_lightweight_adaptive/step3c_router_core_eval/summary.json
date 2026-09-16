@@ -1,0 +1,108 @@
+{
+  "model": "small_mlp",
+  "threshold": 0.30140149024077767,
+  "metrics": {
+    "n": 128,
+    "binary_n": 100,
+    "failure_n": 28,
+    "routing_accuracy": 0.88,
+    "long_precision": 0.9558823529411765,
+    "long_recall": 0.8783783783783784,
+    "binary_confusion": {
+      "short_to_short": 23,
+      "short_to_long": 3,
+      "long_to_short": 9,
+      "long_to_long": 65
+    },
+    "short_route_count": 37,
+    "long_route_count": 91,
+    "short_route_rate": 0.2890625,
+    "long_route_rate": 0.7109375,
+    "short_inference_call_rate": 1.0,
+    "adaptive_answer_correct": 93,
+    "adaptive_answer_accuracy": 0.7265625,
+    "always_short_correct": 30,
+    "always_short_accuracy": 0.234375,
+    "always_long_correct": 95,
+    "always_long_accuracy": 0.7421875,
+    "oracle_correct": 103,
+    "oracle_accuracy": 0.8046875,
+    "unnecessary_long_calls": 6,
+    "long_regressions": 2,
+    "long_regression_rate_among_short_correct": 0.06666666666666667,
+    "long_rescues": 65,
+    "failure_analysis": {
+      "n": 28,
+      "long_calls": 23,
+      "adaptive_answer_correct": 2,
+      "always_short_correct": 2,
+      "always_long_correct": 2,
+      "oracle_correct": 3
+    }
+  },
+  "performance": {
+    "router_load_ms": 0.7606669969391078,
+    "router_observed": {
+      "mean_ms": 0.25629063338783453,
+      "p50_ms": 0.24277101329062134,
+      "p95_ms": 0.3017879455001093,
+      "sum_ms": 32.80520107364282
+    },
+    "frozen_short": {
+      "mean_ms": 0.5772744374999937,
+      "p50_ms": 0.5594995000000047,
+      "p95_ms": 0.8619437500000382,
+      "sum_ms": 73.8911279999992
+    },
+    "saved_long_inference": {
+      "mean_ms": 5979.564963124998,
+      "p50_ms": 5038.459706000026,
+      "p95_ms": 9993.796627700047,
+      "sum_ms": 765384.3152799997
+    },
+    "projected_adaptive": {
+      "mean_ms": 4192.06638383651,
+      "p50_ms": 4598.726192001566,
+      "p95_ms": 8381.640199690748,
+      "sum_ms": 536584.4971310733
+    },
+    "projected_adaptive_with_remote_roundtrip": {
+      "mean_ms": 5128.1973681265745,
+      "p50_ms": 5596.834313498071,
+      "p95_ms": 10598.754462318382,
+      "sum_ms": 656409.2631202015
+    },
+    "observed_cpu_short_with_features": {
+      "mean_ms": 2.2386612031250754,
+      "p50_ms": 2.135404999999757,
+      "p95_ms": 3.3862560000005084,
+      "sum_ms": 286.54863400000966
+    },
+    "projected_adaptive_using_observed_feature_time": {
+      "mean_ms": 4193.727770602135,
+      "p50_ms": 4600.298459501566,
+      "p95_ms": 8382.964205340748,
+      "sum_ms": 536797.1546370733
+    },
+    "saved_long_generation_calls": 162,
+    "projected_adaptive_long_generation_calls": 116,
+    "avoided_long_inference_seconds": 228.906514478,
+    "avoided_long_inference_fraction": 0.29907395527730324,
+    "new_long_generations": 0,
+    "new_gpu_calls": 0,
+    "new_cpu_short_feature_passes": 128,
+    "actual_monetary_cost": null,
+    "limitation": "Latency projection from saved CPU Short and L4 Long timings plus local Router timings, not a measured deployed service. Excludes Long cold-start, idle billing, and full orchestration; currencies unavailable."
+  },
+  "verification": {
+    "all_frozen_hashes_unchanged": true,
+    "n": 128,
+    "short_feature_prediction_parity": true,
+    "max_short_confidence_difference": 1.7881393432617188e-07,
+    "gold_not_used_as_router_features": true,
+    "eval_runs": 1,
+    "refit": false,
+    "threshold_search": false,
+    "test_not_accessed": true
+  }
+}

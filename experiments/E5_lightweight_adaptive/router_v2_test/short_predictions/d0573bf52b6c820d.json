@@ -1,0 +1,44 @@
+{
+  "id": "d0573bf52b6c820d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "متحف صقر الجزيرة للطيران",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "صيدلية"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999338388442993,
+    "short_entropy": 0.000818165765140376,
+    "short_top1_top2_margin": 0.999914391863058,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 143,
+    "question_length_words": 24,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.441826720518293e-06,
+      "cardinal_direction": 1.9446981241344474e-05,
+      "within_radius_yes_no": 5.967566721665207e-06,
+      "closer_of_two": 7.88954730523983e-06,
+      "count_within_radius": 1.0571688108029775e-05,
+      "nearest_of_two_categories": 1.5869756680331193e-05,
+      "two_hop_nearest": 0.9999338388442993,
+      "spatial_multi_constraint": 2.8819038107030792e-06
+    }
+  },
+  "parser_ms": 2.8187100001559884,
+  "short_with_features_ms": 2.9270990000895836
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a8e4c81652f424e5c9c367fb813610f69de215882b8799bb615a328c589c2845",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"مسجد ذي الحليفة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"صيدلية\", \"صيدلية\"],\n    \"radius_km\": 8,\n    \"direction\": \"شرق\",\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"صيدلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2128,
+  "output_tokens": 115,
+  "generation_ms": 6542.839042999731,
+  "inference_ms": 6556.110663000254,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8250.957125012064,
+  "case_id": "router-2e41a640365349953137"
+}

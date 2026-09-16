@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3e0abdfee830c68cd312e35151bb34c27e9c76335f0e9b7597cbbc226a84dc67",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_category\",\n    \"origin\": {\n      \"name\": \"المدرسة الألمانية الدولية (الرياض)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"عيادة\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2478,
+  "output_tokens": 102,
+  "generation_ms": 5577.043834000051,
+  "inference_ms": 5587.796757999968,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7980.282874000295,
+  "case_id": "4450e4cff11d4cb2"
+}

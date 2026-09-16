@@ -1,0 +1,30 @@
+{
+  "id": "4dc4dbfd4b09df92",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جبل ذباب",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد الراية",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2221,
+  "output_tokens": 119,
+  "inference_ms": 6980.716039000072,
+  "roundtrip_ms": 8093.100847999949
+}

@@ -1,0 +1,30 @@
+{
+  "id": "9fe5f98a7c2dd864",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الثليمة (بركة)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "المعهد الصناعي الثانوي برفحاء",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1708,
+  "output_tokens": 131,
+  "inference_ms": 6830.056971999966,
+  "roundtrip_ms": 8658.885772999838
+}

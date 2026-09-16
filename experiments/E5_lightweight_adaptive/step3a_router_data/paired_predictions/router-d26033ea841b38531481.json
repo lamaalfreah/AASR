@@ -1,0 +1,55 @@
+{
+  "id": "router-d26033ea841b38531481",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.562467098236084,
+    "short_entropy": 1.1756228861563403,
+    "short_top1_top2_margin": 0.33463169634342194,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 117,
+    "question_length_words": 19,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "مسجد الأمير منصور",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "مدرسة ابن الهيثم الابتدائية",
+          "source": "unspecified"
+        },
+        {
+          "name": "البنك الأهلي التجاري",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 8178.7178299991865
+  }
+}

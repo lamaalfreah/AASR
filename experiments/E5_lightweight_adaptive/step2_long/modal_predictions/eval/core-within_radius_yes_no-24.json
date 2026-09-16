@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-within_radius_yes_no-24",
+  "task_type": "within_radius_yes_no",
+  "language_register": "conversational",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.6018019318580627,
+  "short_pipeline_ms": 0.5147080000003079,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1941,
+  "output_tokens": 101,
+  "long_inference_ms": 4547.049924000021,
+  "long_roundtrip_ms": 5715.29166700202,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "مقصورة القنون",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  },
+  "raw_operation": "within_radius_yes_no",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

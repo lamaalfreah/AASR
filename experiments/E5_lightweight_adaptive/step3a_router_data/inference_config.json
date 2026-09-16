@@ -1,0 +1,31 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "generation": {
+    "max_new_tokens": 900,
+    "do_sample": false,
+    "enable_thinking": false,
+    "precision": "bfloat16",
+    "attention": "sdpa",
+    "batch_size": 1
+  },
+  "code": {
+    "language/long_parser.py": "534ff0b7bd98455bb5820e3bec369af76c4aa7d58b57b012c67a2420d8159d4b",
+    "language/modal_long_backend.py": "50dde6fccc71257056c02840ef849e242e784ef2cc4bd6fb7626a574d91a024c",
+    "language/modal_checkpoint.py": "d9ead7db2883847332d9adc7c90fd8f8c09ed003bc843a4e284ce4129abc43a6"
+  },
+  "smoke_tasks": [
+    "nearest_category",
+    "cardinal_direction",
+    "within_radius_yes_no",
+    "closer_of_two",
+    "count_within_radius",
+    "nearest_of_two_categories",
+    "two_hop_nearest",
+    "spatial_multi_constraint"
+  ],
+  "frozen_manifest_sha256": "ae87a7cde3e0405ca1c2d59f6e943b64ebe445eeb60f3f04989e7f0c96c38de2",
+  "smoke_per_task": 2,
+  "stage": "3A",
+  "dataset_sha256": "1dc0985483c5c893494a48678b11452268f7934877adfc570dc5d347a6677092"
+}

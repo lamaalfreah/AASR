@@ -1,0 +1,25 @@
+{
+  "id": "23176fff109fa53b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "محافظة صامطة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "مدرسة"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3719,
+  "output_tokens": 211,
+  "inference_ms": 11769.409031000123,
+  "roundtrip_ms": 14647.870294000086
+}

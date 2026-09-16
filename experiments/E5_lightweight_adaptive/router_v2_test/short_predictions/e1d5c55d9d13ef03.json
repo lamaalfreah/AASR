@@ -1,0 +1,44 @@
+{
+  "id": "e1d5c55d9d13ef03",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "جبل ذباب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "عيادة"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999934196472168,
+    "short_entropy": 0.0008158822487014382,
+    "short_top1_top2_margin": 0.9999147515791265,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 128,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.8140024116728455e-06,
+      "cardinal_direction": 1.9444893041509204e-05,
+      "within_radius_yes_no": 6.33289391771541e-06,
+      "closer_of_two": 8.224460543715395e-06,
+      "count_within_radius": 1.0001376722357236e-05,
+      "nearest_of_two_categories": 1.5412555512739345e-05,
+      "two_hop_nearest": 0.999934196472168,
+      "spatial_multi_constraint": 2.6086966045113513e-06
+    }
+  },
+  "parser_ms": 2.958149999813031,
+  "short_with_features_ms": 3.0690199998844037
+}

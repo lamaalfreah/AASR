@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8589c0aa7e26941de39c28fb0273626db6c24f0c317845ae34324536c447a613",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"مسجد الخضر (القطيف)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"مقهى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2196,
+  "output_tokens": 104,
+  "generation_ms": 6019.29815099993,
+  "inference_ms": 6029.708688999563,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7927.567209000699,
+  "case_id": "router-9f8bcf1ea86d40de22b5"
+}

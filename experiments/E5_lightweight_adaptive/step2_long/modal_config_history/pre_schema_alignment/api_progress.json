@@ -1,0 +1,12 @@
+{
+  "provider": "Modal",
+  "model": "Qwen/Qwen3-4B",
+  "status": "smoke_failed",
+  "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched",
+  "smoke_completed": 1,
+  "eval_completed": 0,
+  "eval_total": 128,
+  "eval_remaining": 128,
+  "durable_generation_checkpoints": 2,
+  "updated_unix": 1789214977.767113
+}

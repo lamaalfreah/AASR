@@ -1,0 +1,27 @@
+{
+  "id": "ef2c339316e62c06",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "تربة (حائل)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": 3,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1674,
+  "output_tokens": 105,
+  "inference_ms": 6414.452533999793,
+  "roundtrip_ms": 7802.5993470000685
+}

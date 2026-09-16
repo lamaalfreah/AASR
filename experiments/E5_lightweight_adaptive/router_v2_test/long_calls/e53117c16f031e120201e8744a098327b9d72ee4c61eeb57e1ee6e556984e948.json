@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e53117c16f031e120201e8744a098327b9d72ee4c61eeb57e1ee6e556984e948",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"كلية علوم البحار بجامعة الملك عبد العزيز\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مطعم\",\n    \"second_hop_category\": \"صيدلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2034,
+  "output_tokens": 112,
+  "generation_ms": 6450.247008000019,
+  "inference_ms": 6459.809362000015,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8062.768102000007,
+  "case_id": "03d50b1cf384e3a5"
+}

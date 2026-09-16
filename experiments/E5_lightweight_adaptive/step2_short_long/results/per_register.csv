@@ -1,0 +1,9 @@
+split,group,n,short_accuracy,long_accuracy,short_parse,long_parse,short_query_exact,long_query_exact,short_abstention,long_abstention,paired_evaluated,short_wrong_long_correct,opportunity_percent,long_rescue_percent,long_regression_percent,long_regression_denominator
+dev,conversational,56,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,indirect_compositional,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,light_saudi,40,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,natural_msa,80,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,conversational,40,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,indirect_compositional,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,light_saudi,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,natural_msa,48,0.0,,0.0,,0.0,,100.0,,0,,,,,0

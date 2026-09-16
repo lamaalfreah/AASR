@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c484fd875905c007303ed58cae7bdc611bef2f1525e033a0aba47ef4c1e4a250",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"منطقة نجران\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"طوارئ النساء والولادة\",\"source\":\"unspecified\"},{\"name\":\"إسو\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1919,
+  "output_tokens": 85,
+  "generation_ms": 4619.815858999573,
+  "inference_ms": 4628.702824999891,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6655.654500005767,
+  "case_id": "router-8ee8fc75bb26e3341a97"
+}

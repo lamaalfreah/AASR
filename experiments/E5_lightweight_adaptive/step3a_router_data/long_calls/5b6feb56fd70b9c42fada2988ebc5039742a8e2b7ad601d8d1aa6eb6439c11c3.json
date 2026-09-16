@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5b6feb56fd70b9c42fada2988ebc5039742a8e2b7ad601d8d1aa6eb6439c11c3",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"كليات الرؤية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"عيادات رويال\"\n      },\n      {\n        \"name\": \"عيادات النهدي\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to find the closer of two specific entities: 'عيادات رويال' and 'عيادات النهدي' from the origin 'كليات الرؤية'.\"\n}",
+  "input_tokens": 2135,
+  "output_tokens": 171,
+  "generation_ms": 9288.962617999687,
+  "inference_ms": 9298.412582000083,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 12054.036667017499,
+  "case_id": "router-a07004ce2c32f8057343"
+}

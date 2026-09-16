@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5280ae542dda7b79489f6a3b6a9d1b55141022a5909e65c2dfe6e3fd00c288c4",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"برج مياه (الخرج)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"للقهوة عنوان\"\n      },\n      {\n        \"name\": \"بنك ساب\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1846,
+  "output_tokens": 129,
+  "generation_ms": 7202.827520000028,
+  "inference_ms": 7212.238686000092,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8620.508645999507,
+  "case_id": "d45d1f93042a101f"
+}

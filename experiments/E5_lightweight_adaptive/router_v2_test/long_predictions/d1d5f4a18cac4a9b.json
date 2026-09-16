@@ -1,0 +1,27 @@
+{
+  "id": "d1d5f4a18cac4a9b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "حلة دخنة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "The query has been parsed to find the nearest bank to 'حلة دخنة'.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2203,
+  "output_tokens": 115,
+  "inference_ms": 6128.042902000288,
+  "roundtrip_ms": 8565.119673000027
+}

@@ -1,0 +1,44 @@
+{
+  "id": "453654ff394550bf",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "جامعة الأمير سطام بن عبد العزيز",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999345541000366,
+    "short_entropy": 0.0008115281250722245,
+    "short_top1_top2_margin": 0.999915637934464,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 148,
+    "question_length_words": 26,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.6368808196129976e-06,
+      "cardinal_direction": 1.8916165572591126e-05,
+      "within_radius_yes_no": 6.270006906561321e-06,
+      "closer_of_two": 7.806603207427543e-06,
+      "count_within_radius": 1.0185633982473519e-05,
+      "nearest_of_two_categories": 1.582218101248145e-05,
+      "two_hop_nearest": 0.9999345541000366,
+      "spatial_multi_constraint": 2.8093024866393534e-06
+    }
+  },
+  "parser_ms": 2.473450000024968,
+  "short_with_features_ms": 2.586580000070171
+}

@@ -1,0 +1,44 @@
+{
+  "id": "56b4003d4f85a2ae",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "جامعة القصيم",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مستشفى",
+    "second_hop_category": "جامعة"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999345541000366,
+    "short_entropy": 0.0008125589817774017,
+    "short_top1_top2_margin": 0.9999162477906793,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 132,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.6908186302753165e-06,
+      "cardinal_direction": 1.83063093572855e-05,
+      "within_radius_yes_no": 6.484096502390457e-06,
+      "closer_of_two": 8.516683919879142e-06,
+      "count_within_radius": 1.0449020010128152e-05,
+      "nearest_of_two_categories": 1.5328641893574968e-05,
+      "two_hop_nearest": 0.9999345541000366,
+      "spatial_multi_constraint": 2.6987183900928358e-06
+    }
+  },
+  "parser_ms": 2.593329000092126,
+  "short_with_features_ms": 2.7032590000999335
+}

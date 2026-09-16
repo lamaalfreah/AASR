@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "624ad2b6c18dd2ca2b2faafe59637ee17270fcb548b9d2f1b1c010158da8ce95",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"المركز الطبي الدولي\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مستشفى\",\"بنك\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"مستشفى\",\"second_hop_category\":\"بنك\"},\"message\":\"\"}",
+  "input_tokens": 2380,
+  "output_tokens": 65,
+  "generation_ms": 4040.361578000102,
+  "inference_ms": 4051.0452969999733,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5458.773791993735,
+  "case_id": "router-457d21129caef7d03549"
+}

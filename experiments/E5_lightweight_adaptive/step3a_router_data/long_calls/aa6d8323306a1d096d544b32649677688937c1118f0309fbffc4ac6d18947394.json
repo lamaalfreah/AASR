@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "aa6d8323306a1d096d544b32649677688937c1118f0309fbffc4ac6d18947394",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"الكلية التقنية بالطائف\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مطعم الزيتوني\",\n        \"source\": \"candidate\"\n      },\n      {\n        \"name\": \"مدرسة ثانوية قرطبة بنين\",\n        \"source\": \"candidate\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"البحث عن أقرب مطعم وقرب مدرسة من الكلية التقنية بالطائف تم تحليله.\"\n}",
+  "input_tokens": 2071,
+  "output_tokens": 178,
+  "generation_ms": 9378.003569999237,
+  "inference_ms": 9387.015293999866,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11042.41200000979,
+  "case_id": "router-f14ac7f195e3aa117312"
+}

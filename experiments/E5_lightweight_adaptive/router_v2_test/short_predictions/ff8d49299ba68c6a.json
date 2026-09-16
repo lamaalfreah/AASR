@@ -1,0 +1,47 @@
+{
+  "id": "ff8d49299ba68c6a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "كأس الملك فهد 1995",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود",
+      "صيدلية"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999265670776367,
+    "short_entropy": 0.0009039557732410383,
+    "short_top1_top2_margin": 0.999907766290562,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 91,
+    "question_length_words": 17,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.1027271284547169e-05,
+      "cardinal_direction": 5.808858077216428e-06,
+      "within_radius_yes_no": 3.427376441322849e-06,
+      "closer_of_two": 1.5687732229707763e-05,
+      "count_within_radius": 4.455543148651486e-06,
+      "nearest_of_two_categories": 0.9999265670776367,
+      "two_hop_nearest": 1.8800787074724212e-05,
+      "spatial_multi_constraint": 1.419539603375597e-05
+    }
+  },
+  "parser_ms": 2.5450699999964854,
+  "short_with_features_ms": 2.662410000084492
+}

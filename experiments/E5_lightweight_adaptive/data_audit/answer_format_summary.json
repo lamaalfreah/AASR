@@ -1,0 +1,129 @@
+{
+  "by_split_task": {
+    "train|cardinal_direction": {
+      "distribution": {
+        "جنوب": 849,
+        "شرق": 787,
+        "شمال": 782,
+        "غرب": 849
+      },
+      "empty_answers": 0,
+      "n": 3267,
+      "unique_answers": 4
+    },
+    "train|closer_of_two": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 2167,
+      "unique_answers": 1261
+    },
+    "train|count_within_radius": {
+      "distribution": {
+        "2": 153,
+        "3": 158,
+        "4": 160,
+        "5": 140,
+        "6": 90
+      },
+      "empty_answers": 0,
+      "n": 701,
+      "unique_answers": 5
+    },
+    "train|nearest_category": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 6588,
+      "unique_answers": 2097
+    },
+    "train|nearest_of_two_categories": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 1591,
+      "unique_answers": 840
+    },
+    "train|spatial_multi_constraint": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 1478,
+      "unique_answers": 763
+    },
+    "train|two_hop_nearest": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 1603,
+      "unique_answers": 724
+    },
+    "train|within_radius_yes_no": {
+      "distribution": {
+        "لا": 1152,
+        "نعم": 1050
+      },
+      "empty_answers": 0,
+      "n": 2202,
+      "unique_answers": 2
+    },
+    "validation|cardinal_direction": {
+      "distribution": {
+        "جنوب": 81,
+        "شرق": 108,
+        "شمال": 97,
+        "غرب": 123
+      },
+      "empty_answers": 0,
+      "n": 409,
+      "unique_answers": 4
+    },
+    "validation|closer_of_two": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 283,
+      "unique_answers": 236
+    },
+    "validation|count_within_radius": {
+      "distribution": {
+        "2": 29,
+        "3": 25,
+        "4": 21,
+        "5": 14,
+        "6": 8
+      },
+      "empty_answers": 0,
+      "n": 97,
+      "unique_answers": 5
+    },
+    "validation|nearest_category": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 827,
+      "unique_answers": 510
+    },
+    "validation|nearest_of_two_categories": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 205,
+      "unique_answers": 147
+    },
+    "validation|spatial_multi_constraint": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 191,
+      "unique_answers": 156
+    },
+    "validation|two_hop_nearest": {
+      "distribution": null,
+      "empty_answers": 0,
+      "n": 210,
+      "unique_answers": 154
+    },
+    "validation|within_radius_yes_no": {
+      "distribution": {
+        "لا": 144,
+        "نعم": 136
+      },
+      "empty_answers": 0,
+      "n": 280,
+      "unique_answers": 2
+    }
+  },
+  "scope": "TRAIN AND VALIDATION ONLY; TEST GOLD LOCKED"
+}

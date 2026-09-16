@@ -1,0 +1,68 @@
+{
+  "id": "router-e96960e6e38ee8a03ea9",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.50303053855896,
+    "short_entropy": 0.9404252425562205,
+    "short_top1_top2_margin": 0.060861736536026,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 139,
+    "question_length_words": 25,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "أم الساهك",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "محطة وقود",
+        "مستشفى"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "أم الساهك",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "محطة الغانم للمحروقات",
+          "source": "unspecified"
+        },
+        {
+          "name": "مستشفى المواساة",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 10004.88092500018
+  }
+}

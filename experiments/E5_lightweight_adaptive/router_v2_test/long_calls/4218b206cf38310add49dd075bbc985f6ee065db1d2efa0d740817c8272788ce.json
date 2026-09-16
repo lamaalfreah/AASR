@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.37894614,
+  "container_session": "6abbbe462e774a00ac6ccf15cc703424",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "4218b206cf38310add49dd075bbc985f6ee065db1d2efa0d740817c8272788ce",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"cardinal_direction\",\n    \"origin\": {\n      \"name\": \"محمية الملك خالد الملكية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"الدريس\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1624,
+  "output_tokens": 123,
+  "generation_ms": 5205.040146000002,
+  "inference_ms": 5210.012781000003,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6759.450319999985,
+  "case_id": "879556ad0136833b"
+}

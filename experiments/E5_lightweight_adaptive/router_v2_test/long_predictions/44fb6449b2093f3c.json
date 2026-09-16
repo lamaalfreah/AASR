@@ -1,0 +1,27 @@
+{
+  "id": "44fb6449b2093f3c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "الفناتير",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 1,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1889,
+  "output_tokens": 99,
+  "inference_ms": 5509.35205299993,
+  "roundtrip_ms": 7465.172554000674
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "1d28f25d6433b2667f7516eb47b5fe7a5d1acfb5b9ca8acea71381aeef3be4b2",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"count_within_radius\",\"origin\":{\"name\":\"Indian_Intl_School_Dammam\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"جامعة\"],\"radius_km\":1.5,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2396,
+  "output_tokens": 66,
+  "generation_ms": 3758.9909460002673,
+  "inference_ms": 3768.8917020004737,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5426.967249979498,
+  "case_id": "router-0753f08cc12b10bce6f6"
+}

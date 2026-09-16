@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a880bb4106be084fe143c468c30c797ec0942df5f12a8e15576aa9b644c167b3",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"مسجد الجن\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب بنك\",\"source\":\"unspecified\"},{\"name\":\"أقرب صيدلية\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2354,
+  "output_tokens": 83,
+  "generation_ms": 4585.262411999793,
+  "inference_ms": 4595.393783999953,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6326.2389169831295,
+  "case_id": "router-31eae8811355cf0b3cc9"
+}

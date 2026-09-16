@@ -1,0 +1,48 @@
+{
+  "id": "router-04cf740f2ee65fe7cb4f",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.5208240151405334,
+    "short_entropy": 1.051737757495542,
+    "short_top1_top2_margin": 0.1362360119819641,
+    "query_valid": false,
+    "missing_slots": [
+      "direction"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 49,
+    "question_length_words": 11,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "within_radius_yes_no",
+      "origin": {
+        "name": "الجاضع",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "عيادة"
+      ],
+      "radius_km": 1,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5258.94435400005
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "98ddf73b6e52ceb6",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مسجد الظويهرة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "كلية",
+    "second_hop_category": "بنك"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999340772628784,
+    "short_entropy": 0.0008166923023261881,
+    "short_top1_top2_margin": 0.9999154384004214,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 129,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.4822958241420565e-06,
+      "cardinal_direction": 1.8638862457009964e-05,
+      "within_radius_yes_no": 5.539383437280776e-06,
+      "closer_of_two": 8.142226761265192e-06,
+      "count_within_radius": 1.068961682904046e-05,
+      "nearest_of_two_categories": 1.6415657228208147e-05,
+      "two_hop_nearest": 0.9999340772628784,
+      "spatial_multi_constraint": 3.0172016067808727e-06
+    }
+  },
+  "parser_ms": 2.9243500000575295,
+  "short_with_features_ms": 3.0355300000337593
+}

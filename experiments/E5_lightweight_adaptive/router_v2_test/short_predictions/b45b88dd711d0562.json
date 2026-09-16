@@ -1,0 +1,46 @@
+{
+  "id": "b45b88dd711d0562",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "count_within_radius",
+  "query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "بنك البلاد",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999935507774353,
+    "short_entropy": 0.0008029024923024334,
+    "short_top1_top2_margin": 0.9999183678773989,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 103,
+    "question_length_words": 18,
+    "predicted_operation": "count_within_radius",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 5.783852429885883e-06,
+      "cardinal_direction": 4.306687060307013e-06,
+      "within_radius_yes_no": 1.7139896954176947e-05,
+      "closer_of_two": 9.457456144446041e-06,
+      "count_within_radius": 0.999935507774353,
+      "nearest_of_two_categories": 4.114335752092302e-06,
+      "two_hop_nearest": 1.611039806448389e-05,
+      "spatial_multi_constraint": 7.557311164418934e-06
+    }
+  },
+  "parser_ms": 3.2868800001324416,
+  "short_with_features_ms": 3.4264600001279177
+}

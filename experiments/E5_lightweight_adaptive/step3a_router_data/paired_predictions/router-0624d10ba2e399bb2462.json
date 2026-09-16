@@ -1,0 +1,46 @@
+{
+  "id": "router-0624d10ba2e399bb2462",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8620299100875854,
+    "short_entropy": 0.5218389207417344,
+    "short_top1_top2_margin": 0.76191296428442,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 109,
+    "question_length_words": 19,
+    "predicted_operation": "nearest_category",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "مستشفى الملك خالد (نجران)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مدرسة",
+      "second_hop_category": "صيدلية"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5690.010722999887
+  }
+}

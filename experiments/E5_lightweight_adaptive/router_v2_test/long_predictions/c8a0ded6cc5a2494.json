@@ -1,0 +1,34 @@
+{
+  "id": "c8a0ded6cc5a2494",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "خميس مشيط",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "جود",
+        "source": "unspecified"
+      },
+      {
+        "name": "بيتزا خلا",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3795,
+  "output_tokens": 207,
+  "inference_ms": 11120.903697999893,
+  "roundtrip_ms": 17883.487096001772
+}

@@ -1,0 +1,55 @@
+{
+  "id": "router-b20e1aef41c0438d4720",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.36489129066467285,
+    "short_entropy": 1.6987041012141575,
+    "short_top1_top2_margin": 0.17738719284534454,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 103,
+    "question_length_words": 17,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "حصار المدينة المنورة (1916–1919)",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "Al Rajhi Bank",
+          "source": "unspecified"
+        },
+        {
+          "name": "Naft Station",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "ambiguous",
+    "reason": "referenced_entity_ambiguous",
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 11104.184497999995
+  }
+}

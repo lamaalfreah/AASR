@@ -1,0 +1,46 @@
+{
+  "id": "1d9ad747de1aa16e",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "spatial_multi_constraint",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "بئر ذروان",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": 3.0,
+    "direction": "جنوب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999442100524902,
+    "short_entropy": 0.0007053063716724961,
+    "short_top1_top2_margin": 0.999932645341687,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 70,
+    "question_length_words": 15,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": 3,
+    "operation_probabilities": {
+      "nearest_category": 1.0460806151968427e-05,
+      "cardinal_direction": 8.993816663860343e-06,
+      "within_radius_yes_no": 2.6717227683548117e-06,
+      "closer_of_two": 9.201183274853975e-06,
+      "count_within_radius": 9.903477803163696e-06,
+      "nearest_of_two_categories": 1.156471080321353e-05,
+      "two_hop_nearest": 3.0294081625470426e-06,
+      "spatial_multi_constraint": 0.9999442100524902
+    }
+  },
+  "parser_ms": 2.5934600000709906,
+  "short_with_features_ms": 2.7205690000755567
+}

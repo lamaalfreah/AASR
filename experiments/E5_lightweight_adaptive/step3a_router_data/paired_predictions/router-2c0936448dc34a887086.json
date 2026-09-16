@@ -1,0 +1,48 @@
+{
+  "id": "router-2c0936448dc34a887086",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8272674679756165,
+    "short_entropy": 0.7311960441479644,
+    "short_top1_top2_margin": 0.7554739937186241,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 57,
+    "question_length_words": 10,
+    "predicted_operation": "closer_of_two",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "nearest_category",
+      "origin": {
+        "name": "حارة الشام",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مدرسة"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5386.568936000003
+  }
+}

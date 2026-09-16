@@ -1,0 +1,44 @@
+{
+  "id": "ebeed20c1692deb8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "حلة القديمة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "كلية"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999325275421143,
+    "short_entropy": 0.0008344925799147867,
+    "short_top1_top2_margin": 0.9999132812336029,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 130,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.920228209608467e-06,
+      "cardinal_direction": 1.9246308511355892e-05,
+      "within_radius_yes_no": 6.5144481595780235e-06,
+      "closer_of_two": 8.181256816897076e-06,
+      "count_within_radius": 1.0927641596936155e-05,
+      "nearest_of_two_categories": 1.5846233509364538e-05,
+      "two_hop_nearest": 0.9999325275421143,
+      "spatial_multi_constraint": 2.785688820949872e-06
+    }
+  },
+  "parser_ms": 2.965208999967217,
+  "short_with_features_ms": 3.0701890000273124
+}

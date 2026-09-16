@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c666b4d726082d974fcec893949e0fc4f7d76256ff4b907d3336880713c72b54",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"cardinal_direction\",\n    \"origin\": {\n      \"name\": \"بئر ذروان\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"بنك البلاد\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2313,
+  "output_tokens": 120,
+  "generation_ms": 6524.567509000008,
+  "inference_ms": 6534.010228999932,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9915.432672999941,
+  "case_id": "8f88f3d03327222b"
+}

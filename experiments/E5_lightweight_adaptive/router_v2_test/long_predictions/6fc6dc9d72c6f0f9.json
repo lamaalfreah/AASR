@@ -1,0 +1,30 @@
+{
+  "id": "6fc6dc9d72c6f0f9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جبل القاعد",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطعم العائلة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1703,
+  "output_tokens": 120,
+  "inference_ms": 6332.053865000034,
+  "roundtrip_ms": 7222.10139099991
+}

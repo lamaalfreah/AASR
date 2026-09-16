@@ -1,0 +1,9 @@
+{
+  "frozen_manifest_verified": true,
+  "nested_oof_rows_reconciled": 2400,
+  "model_folds_verified": 15,
+  "calibration_components_audited": 225,
+  "anchor_overlap_violations": 0,
+  "new_fits": 0,
+  "new_core_eval_or_test_reads": 0
+}

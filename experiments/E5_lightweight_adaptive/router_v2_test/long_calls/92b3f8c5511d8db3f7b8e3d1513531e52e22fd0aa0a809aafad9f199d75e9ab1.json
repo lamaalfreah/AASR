@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "92b3f8c5511d8db3f7b8e3d1513531e52e22fd0aa0a809aafad9f199d75e9ab1",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"عرعر (مدينة)\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مطعم\",\"محطة وقود\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"مطعم\",\"second_hop_category\":\"محطة وقود\"},\"message\":\"\"}",
+  "input_tokens": 1851,
+  "output_tokens": 68,
+  "generation_ms": 4112.087342999985,
+  "inference_ms": 4122.402683000018,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5485.770488000071,
+  "case_id": "01dc12f797bdc568"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0234037e6fbafc01324d05a512d8f66a1a74904f9976bf296a7da95d27205bc4",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"الفناتير\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"ستاربكس\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1905,
+  "output_tokens": 70,
+  "generation_ms": 3812.252145000002,
+  "inference_ms": 3819.892688999971,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4710.478154999919,
+  "case_id": "eef8342d692d2d8c"
+}

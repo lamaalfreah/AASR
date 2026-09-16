@@ -1,0 +1,28 @@
+{
+  "id": "e524cbf770b91015",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "جامعة الملك فيصل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2109,
+  "output_tokens": 105,
+  "inference_ms": 5685.428466000303,
+  "roundtrip_ms": 6972.466139999597
+}

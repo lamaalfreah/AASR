@@ -1,0 +1,30 @@
+{
+  "id": "8f15b4d7d05dc8e0",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "إمارة الدرعية الأولى",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Moudi's Sabala Mosque",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2243,
+  "output_tokens": 125,
+  "inference_ms": 6924.014961000012,
+  "roundtrip_ms": 8629.350005000106
+}

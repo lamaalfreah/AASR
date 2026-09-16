@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5a10e9e49c0b1f1da7b40abcba9d3160e14b90180c04bd9b55a4836a0f470556",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"هجوم الخبر\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مستشفى د. سليمان الحبيب\",\"source\":\"unspecified\"},{\"name\":\"ستاربكس\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2244,
+  "output_tokens": 85,
+  "generation_ms": 4622.127153999827,
+  "inference_ms": 4632.322153000132,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8595.537227000023,
+  "case_id": "4b7babd597c8605f"
+}

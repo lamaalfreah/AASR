@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5941cf07b14e0a3a22e130e78a9f3bd8aa8604263b030a6fceb7f9e8148cc89b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"حي الملز (الرياض)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"عيادة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2297,
+  "output_tokens": 102,
+  "generation_ms": 5650.733639999999,
+  "inference_ms": 5661.162157000035,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6622.297433001222,
+  "case_id": "d2bc29e08854d70d"
+}

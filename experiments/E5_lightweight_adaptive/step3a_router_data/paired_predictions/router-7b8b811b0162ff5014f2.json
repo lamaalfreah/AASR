@@ -1,0 +1,44 @@
+{
+  "id": "router-7b8b811b0162ff5014f2",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.44494420289993286,
+    "short_entropy": 1.5508240094904437,
+    "short_top1_top2_margin": 0.21852855384349823,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 110,
+    "question_length_words": 20,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "معركة الطائف (1916)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مقهى",
+      "second_hop_category": "مستشفى"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_output",
+    "reason": "strict_json_validation_failed",
+    "llm_calls": 2,
+    "invalid_responses": 2,
+    "inference_ms": 12479.822284999955
+  }
+}

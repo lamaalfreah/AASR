@@ -1,0 +1,42 @@
+{
+  "challenge_id": "core-two_hop_nearest-01",
+  "task_type": "two_hop_nearest",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.4943230152130127,
+  "short_pipeline_ms": 0.2478329999999751,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1635,
+  "output_tokens": 101,
+  "long_inference_ms": 5385.551085999992,
+  "long_roundtrip_ms": 7398.061292013153,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مسجد الحوزة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "محطة وقود",
+    "second_hop_category": "مقهى"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "Caffeine",
+    "text": "Caffeine"
+  }
+}

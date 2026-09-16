@@ -1,0 +1,27 @@
+{
+  "id": "2fdab07d7e23aadf",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "كأس الملك فهد 1995",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2309,
+  "output_tokens": 103,
+  "inference_ms": 5757.882844000051,
+  "roundtrip_ms": 8269.316238000101
+}

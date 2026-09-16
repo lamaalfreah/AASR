@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3a1ea972f480fb39b29a0338a6715ae633712f6aca6468a1ab57fea0407fd39b",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"الفناتير\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"محطة وقود\",\n    \"second_hop_category\": \"مدرسة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1903,
+  "output_tokens": 100,
+  "generation_ms": 5748.2612639999925,
+  "inference_ms": 5757.387750000006,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7487.907721,
+  "case_id": "3f5b4d706670dfd7"
+}

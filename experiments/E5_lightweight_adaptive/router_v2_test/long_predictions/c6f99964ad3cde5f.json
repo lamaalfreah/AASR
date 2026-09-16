@@ -1,0 +1,28 @@
+{
+  "id": "c6f99964ad3cde5f",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "وسط الرياض",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود",
+      "مدرسة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "The query has been parsed to find the nearest entity of two categories: 'محطة وقود' and 'مدرسة' relative to the origin 'وسط الرياض'.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2157,
+  "output_tokens": 133,
+  "inference_ms": 7068.1635050000295,
+  "roundtrip_ms": 8283.57501299979
+}

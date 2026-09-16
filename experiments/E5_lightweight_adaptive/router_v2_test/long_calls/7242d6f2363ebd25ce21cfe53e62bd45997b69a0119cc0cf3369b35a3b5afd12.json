@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "7242d6f2363ebd25ce21cfe53e62bd45997b69a0119cc0cf3369b35a3b5afd12",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"مسجد الظويهرة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\"],\n    \"radius_km\": 5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يسأل عن وجود مستشفى ضمن مسافة 5 كم من مسجد الظويهرة، مما يناسب عملية within_radius_yes_no.\"\n}",
+  "input_tokens": 2257,
+  "output_tokens": 138,
+  "generation_ms": 7591.951680999955,
+  "inference_ms": 7602.209740000035,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9822.289294000257,
+  "case_id": "9838c4b958386b9d"
+}

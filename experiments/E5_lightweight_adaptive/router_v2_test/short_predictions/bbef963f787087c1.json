@@ -1,0 +1,47 @@
+{
+  "id": "bbef963f787087c1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "موقع دحضة الأثري",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك",
+      "مستشفى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999266862869263,
+    "short_entropy": 0.0009019020485179428,
+    "short_top1_top2_margin": 0.9999076967233123,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 83,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0281018148816656e-05,
+      "cardinal_direction": 5.696379957953468e-06,
+      "within_radius_yes_no": 3.418031838009483e-06,
+      "closer_of_two": 1.5176316082943231e-05,
+      "count_within_radius": 4.413342594489222e-06,
+      "nearest_of_two_categories": 0.9999266862869263,
+      "two_hop_nearest": 1.8989563614013605e-05,
+      "spatial_multi_constraint": 1.5280269508366473e-05
+    }
+  },
+  "parser_ms": 2.3210000001654407,
+  "short_with_features_ms": 2.426570000125139
+}

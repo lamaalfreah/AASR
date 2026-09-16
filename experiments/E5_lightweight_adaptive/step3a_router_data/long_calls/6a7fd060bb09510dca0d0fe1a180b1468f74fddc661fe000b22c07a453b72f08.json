@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6a7fd060bb09510dca0d0fe1a180b1468f74fddc661fe000b22c07a453b72f08",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"فندق وسبا نارسيسوس الرياض\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"مطعم\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2361,
+  "output_tokens": 109,
+  "generation_ms": 6286.05798999979,
+  "inference_ms": 6296.970700999736,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7843.555625004228,
+  "case_id": "router-de533495e65fe698afb3"
+}

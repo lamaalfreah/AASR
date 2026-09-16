@@ -1,0 +1,25 @@
+{
+  "id": "4c317c07314ea900",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مطار الأمير سلطان بن عبد العزيز الإقليمي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1772,
+  "output_tokens": 110,
+  "inference_ms": 6103.462160999925,
+  "roundtrip_ms": 8759.63420800008
+}

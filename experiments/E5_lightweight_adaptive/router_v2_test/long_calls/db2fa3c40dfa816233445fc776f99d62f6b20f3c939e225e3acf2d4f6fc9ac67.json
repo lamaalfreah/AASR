@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "db2fa3c40dfa816233445fc776f99d62f6b20f3c939e225e3acf2d4f6fc9ac67",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"إمارة الدرعية الأولى\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مدرسة\",\"مسجد\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2272,
+  "output_tokens": 65,
+  "generation_ms": 3819.232331999956,
+  "inference_ms": 3829.428951000409,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6890.853985000831,
+  "case_id": "950f01ac8c5f10d4"
+}

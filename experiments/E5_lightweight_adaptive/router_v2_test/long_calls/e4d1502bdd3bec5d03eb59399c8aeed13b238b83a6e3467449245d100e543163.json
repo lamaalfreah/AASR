@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e4d1502bdd3bec5d03eb59399c8aeed13b238b83a6e3467449245d100e543163",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"أبو عريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"صيدلية\"],\n    \"radius_km\": 3,\n    \"direction\": \"شرق\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2212,
+  "output_tokens": 103,
+  "generation_ms": 5678.282599999875,
+  "inference_ms": 5688.731494999956,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7197.488879000048,
+  "case_id": "056da89587c58335"
+}

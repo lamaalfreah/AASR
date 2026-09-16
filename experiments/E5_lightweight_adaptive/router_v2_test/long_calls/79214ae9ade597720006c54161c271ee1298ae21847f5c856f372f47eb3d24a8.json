@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "79214ae9ade597720006c54161c271ee1298ae21847f5c856f372f47eb3d24a8",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"جبل ذباب\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب بنك\",\"source\":\"unspecified\"},{\"name\":\"أقرب مدرسة\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2259,
+  "output_tokens": 84,
+  "generation_ms": 4643.991475999883,
+  "inference_ms": 4653.799726999978,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5842.076713001006,
+  "case_id": "b736c3169bdb42cc"
+}

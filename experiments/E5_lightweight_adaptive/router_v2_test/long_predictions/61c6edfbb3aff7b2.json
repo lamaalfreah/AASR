@@ -1,0 +1,27 @@
+{
+  "id": "61c6edfbb3aff7b2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "الثليمة (بركة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "كلية"
+    ],
+    "radius_km": 8,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1711,
+  "output_tokens": 104,
+  "inference_ms": 5555.471171000136,
+  "roundtrip_ms": 6994.728049000059
+}

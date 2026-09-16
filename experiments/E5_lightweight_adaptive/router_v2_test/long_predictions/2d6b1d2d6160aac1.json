@@ -1,0 +1,28 @@
+{
+  "id": "2d6b1d2d6160aac1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "وسط الرياض",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة",
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2155,
+  "output_tokens": 100,
+  "inference_ms": 5462.085704999936,
+  "roundtrip_ms": 7271.386673000961
+}

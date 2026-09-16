@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "2a63aac7d1d531fa016d9943f837cb78191d395c0c520c4259ed5953058083f4",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"الثليمة (بركة)\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"كلية\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1738,
+  "output_tokens": 68,
+  "generation_ms": 3822.346169999946,
+  "inference_ms": 3830.9457529999236,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4884.460621000471,
+  "case_id": "ad703c36033e1bdc"
+}

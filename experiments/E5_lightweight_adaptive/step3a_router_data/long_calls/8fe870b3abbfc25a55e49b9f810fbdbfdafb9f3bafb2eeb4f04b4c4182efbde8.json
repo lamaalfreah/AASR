@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8fe870b3abbfc25a55e49b9f810fbdbfdafb9f3bafb2eeb4f04b4c4182efbde8",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"قفار\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"بنك\",\n      \"مستشفى\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"مستشفى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1710,
+  "output_tokens": 108,
+  "generation_ms": 6228.068848000021,
+  "inference_ms": 6236.789550999902,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8063.824874989223,
+  "case_id": "router-e5de8f611abd358fcde0"
+}

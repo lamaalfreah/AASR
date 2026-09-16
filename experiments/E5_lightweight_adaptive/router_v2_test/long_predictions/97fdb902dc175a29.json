@@ -1,0 +1,34 @@
+{
+  "id": "97fdb902dc175a29",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "المدرسة الهندية العالمية (الجبيل)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Khonani",
+        "source": "unspecified"
+      },
+      {
+        "name": "Deewan Hyderabadi Restaurant",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4063,
+  "output_tokens": 225,
+  "inference_ms": 12111.633646001792,
+  "roundtrip_ms": 15691.599908999706
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f7d6e4fa4e740de03eaeaac7f4e8bc22591c8856241c078b1cf9631cd3cff26f",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"الفناتير\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"أقرب مطعم\",\"source\":\"unspecified\"},{\"name\":\"أقرب مقهى\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1913,
+  "output_tokens": 83,
+  "generation_ms": 4606.493093999916,
+  "inference_ms": 4615.53655900002,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6145.409135999216,
+  "case_id": "6a6b9afa329eab4c"
+}

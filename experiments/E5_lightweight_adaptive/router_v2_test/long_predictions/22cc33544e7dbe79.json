@@ -1,0 +1,28 @@
+{
+  "id": "22cc33544e7dbe79",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "حديقة الشلال الترفيهية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم",
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4489,
+  "output_tokens": 198,
+  "inference_ms": 11500.382976999845,
+  "roundtrip_ms": 13922.85710300348
+}

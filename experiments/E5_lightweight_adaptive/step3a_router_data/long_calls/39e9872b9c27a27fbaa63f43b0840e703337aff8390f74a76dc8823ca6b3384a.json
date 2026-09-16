@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "39e9872b9c27a27fbaa63f43b0840e703337aff8390f74a76dc8823ca6b3384a",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"محافظة رماح\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"محطة وقود\"],\n    \"radius_km\": 5,\n    \"direction\": \"غرب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1739,
+  "output_tokens": 103,
+  "generation_ms": 4571.873635999964,
+  "inference_ms": 4577.186697000002,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6780.946792016039,
+  "case_id": "router-fb20fa322672455eea26"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "938e710c8727fa2bd8383b4e8726b76699cd4f419ba90c0a19cf37ea4df4e89f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"العسيلة (جازان)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"عيادة\"],\n    \"radius_km\": 8,\n    \"direction\": \"شمال\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1931,
+  "output_tokens": 105,
+  "generation_ms": 4753.32780499997,
+  "inference_ms": 4758.795279999958,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6724.485374987125,
+  "case_id": "router-f91116fd76af01cf3b79"
+}

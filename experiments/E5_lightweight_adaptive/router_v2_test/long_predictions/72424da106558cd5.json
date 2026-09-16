@@ -1,0 +1,30 @@
+{
+  "id": "72424da106558cd5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "قصر الدرعية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Starbucks",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4607,
+  "output_tokens": 184,
+  "inference_ms": 10245.379190000021,
+  "roundtrip_ms": 12319.691754999894
+}

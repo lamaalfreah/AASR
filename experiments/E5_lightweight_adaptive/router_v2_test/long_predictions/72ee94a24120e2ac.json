@@ -1,0 +1,28 @@
+{
+  "id": "72ee94a24120e2ac",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "ملعب الصائغ",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2242,
+  "output_tokens": 105,
+  "inference_ms": 5837.221110999963,
+  "roundtrip_ms": 6936.478645999159
+}

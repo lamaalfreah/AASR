@@ -1,0 +1,56 @@
+{
+  "id": "router-0af50e153c0e159fc7f6",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8255971074104309,
+    "short_entropy": 0.7096892689390669,
+    "short_top1_top2_margin": 0.7559024319052696,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 113,
+    "question_length_words": 19,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "مسجد ذي الحليفة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "عيادة",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "مسجد ذي الحليفة",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "عيادة",
+      "second_hop_category": "مطعم"
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5916.159657999742
+  }
+}

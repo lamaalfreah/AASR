@@ -1,0 +1,27 @@
+{
+  "id": "e25b0a186bf5b2bf",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "متحف رضوى للتراث",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 3,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2136,
+  "output_tokens": 105,
+  "inference_ms": 6561.795579999853,
+  "roundtrip_ms": 8031.765852999797
+}

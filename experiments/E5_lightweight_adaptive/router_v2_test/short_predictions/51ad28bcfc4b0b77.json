@@ -1,0 +1,44 @@
+{
+  "id": "51ad28bcfc4b0b77",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "بئر ذروان",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "بنك"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999340772628784,
+    "short_entropy": 0.0008158380756243866,
+    "short_top1_top2_margin": 0.9999152583241084,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 125,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.2811251458042534e-06,
+      "cardinal_direction": 1.8818938769982196e-05,
+      "within_radius_yes_no": 5.726090421376284e-06,
+      "closer_of_two": 7.879729309934191e-06,
+      "count_within_radius": 1.0738703167589847e-05,
+      "nearest_of_two_categories": 1.629594225960318e-05,
+      "two_hop_nearest": 0.9999340772628784,
+      "spatial_multi_constraint": 3.114121000180603e-06
+    }
+  },
+  "parser_ms": 3.3647499999460706,
+  "short_with_features_ms": 3.527840000060678
+}

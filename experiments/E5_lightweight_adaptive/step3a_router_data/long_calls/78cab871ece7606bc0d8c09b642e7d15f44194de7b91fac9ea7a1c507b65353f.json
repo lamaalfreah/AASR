@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "78cab871ece7606bc0d8c09b642e7d15f44194de7b91fac9ea7a1c507b65353f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"الجامع الكبير (الدرعية)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مقهى\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2342,
+  "output_tokens": 105,
+  "generation_ms": 6214.903501000663,
+  "inference_ms": 6226.265006000176,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7926.463874988258,
+  "case_id": "router-39da5886b9fea03e64f9"
+}

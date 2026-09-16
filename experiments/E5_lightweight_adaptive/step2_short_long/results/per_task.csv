@@ -1,0 +1,17 @@
+split,group,n,short_accuracy,long_accuracy,short_parse,long_parse,short_query_exact,long_query_exact,short_abstention,long_abstention,paired_evaluated,short_wrong_long_correct,opportunity_percent,long_rescue_percent,long_regression_percent,long_regression_denominator
+dev,cardinal_direction,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,closer_of_two,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,count_within_radius,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,nearest_category,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,nearest_of_two_categories,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,spatial_multi_constraint,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,two_hop_nearest,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+dev,within_radius_yes_no,24,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,cardinal_direction,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,closer_of_two,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,count_within_radius,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,nearest_category,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,nearest_of_two_categories,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,spatial_multi_constraint,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,two_hop_nearest,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0
+eval,within_radius_yes_no,16,0.0,,0.0,,0.0,,100.0,,0,,,,,0

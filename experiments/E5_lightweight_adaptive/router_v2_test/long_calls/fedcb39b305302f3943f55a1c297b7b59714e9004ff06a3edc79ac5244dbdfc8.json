@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "fedcb39b305302f3943f55a1c297b7b59714e9004ff06a3edc79ac5244dbdfc8",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"حي العود\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"Ulb\"\n      },\n      {\n        \"name\": \"ارببكا\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2138,
+  "output_tokens": 123,
+  "generation_ms": 6689.696465000452,
+  "inference_ms": 6699.0492419990915,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10755.425174000266,
+  "case_id": "0b2c5fa971a36fbb"
+}

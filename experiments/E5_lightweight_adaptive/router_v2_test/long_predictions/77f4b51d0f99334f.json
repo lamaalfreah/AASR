@@ -1,0 +1,34 @@
+{
+  "id": "77f4b51d0f99334f",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "جامعة الملك سعود بن عبد العزيز للعلوم الصحية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Kudu",
+        "source": "unspecified"
+      },
+      {
+        "name": "Krispy Kreme",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4199,
+  "output_tokens": 237,
+  "inference_ms": 12721.123298999373,
+  "roundtrip_ms": 19428.434622999703
+}

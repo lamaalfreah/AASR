@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "675285bfdd5c71d0398284e36fb7dbde5697cd15649c5b7fc0a34e40bc7717d2",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"جامعة القصيم\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"جامعة\", \"كلية\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1790,
+  "output_tokens": 104,
+  "generation_ms": 5627.639979999913,
+  "inference_ms": 5635.808222999913,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8256.282377000389,
+  "case_id": "d17af5a00b8fd9fc"
+}

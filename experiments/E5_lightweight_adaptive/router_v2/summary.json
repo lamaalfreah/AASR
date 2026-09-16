@@ -1,0 +1,924 @@
+{
+  "selected_model": "small_mlp",
+  "selected_threshold": 0.91,
+  "models": {
+    "logistic_regression": {
+      "nested_cv": {
+        "n": 2400,
+        "binary_n": 2049,
+        "failure_n": 351,
+        "routing_accuracy": 0.936066373840898,
+        "long_precision": 0.9710743801652892,
+        "long_recall": 0.9406270847231488,
+        "binary_confusion": {
+          "short_to_short": 508,
+          "short_to_long": 42,
+          "long_to_short": 89,
+          "long_to_long": 1410
+        },
+        "short_route_count": 606,
+        "long_route_count": 1794,
+        "short_route_rate": 0.2525,
+        "long_route_rate": 0.7475,
+        "short_inference_call_rate": 1.0,
+        "adaptive_answer_correct": 2023,
+        "adaptive_answer_accuracy": 0.8429166666666666,
+        "always_short_correct": 602,
+        "always_short_accuracy": 0.25083333333333335,
+        "always_long_correct": 1984,
+        "always_long_accuracy": 0.8266666666666667,
+        "oracle_correct": 2104,
+        "oracle_accuracy": 0.8766666666666667,
+        "unnecessary_long_calls": 67,
+        "long_regressions": 15,
+        "long_regression_rate_among_short_correct": 0.024916943521594685,
+        "long_rescues": 1436,
+        "failure_analysis": {
+          "n": 351,
+          "long_calls": 342,
+          "adaptive_answer_correct": 52,
+          "always_short_correct": 9,
+          "always_long_correct": 49,
+          "oracle_correct": 55
+        },
+        "fold_accuracy_standard_error": 0.012073920481167021
+      },
+      "fold_results": [
+        {
+          "fold": 0,
+          "threshold": 0.46,
+          "metrics": {
+            "n": 489,
+            "binary_n": 404,
+            "failure_n": 85,
+            "routing_accuracy": 0.9405940594059405,
+            "long_precision": 0.9928571428571429,
+            "long_recall": 0.9266666666666666,
+            "binary_confusion": {
+              "short_to_short": 102,
+              "short_to_long": 2,
+              "long_to_short": 22,
+              "long_to_long": 278
+            },
+            "short_route_count": 127,
+            "long_route_count": 362,
+            "short_route_rate": 0.25971370143149286,
+            "long_route_rate": 0.7402862985685071,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 394,
+            "adaptive_answer_accuracy": 0.8057259713701431,
+            "always_short_correct": 120,
+            "always_short_accuracy": 0.24539877300613497,
+            "always_long_correct": 391,
+            "always_long_accuracy": 0.7995910020449898,
+            "oracle_correct": 414,
+            "oracle_accuracy": 0.8466257668711656,
+            "unnecessary_long_calls": 12,
+            "long_regressions": 3,
+            "long_regression_rate_among_short_correct": 0.025,
+            "long_rescues": 277,
+            "failure_analysis": {
+              "n": 85,
+              "long_calls": 82,
+              "adaptive_answer_correct": 8,
+              "always_short_correct": 3,
+              "always_long_correct": 8,
+              "oracle_correct": 10
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "threshold": 0.5700000000000001,
+          "metrics": {
+            "n": 480,
+            "binary_n": 411,
+            "failure_n": 69,
+            "routing_accuracy": 0.9562043795620438,
+            "long_precision": 0.9964539007092199,
+            "long_recall": 0.9429530201342282,
+            "binary_confusion": {
+              "short_to_short": 112,
+              "short_to_long": 1,
+              "long_to_short": 17,
+              "long_to_long": 281
+            },
+            "short_route_count": 130,
+            "long_route_count": 350,
+            "short_route_rate": 0.2708333333333333,
+            "long_route_rate": 0.7291666666666666,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 409,
+            "adaptive_answer_accuracy": 0.8520833333333333,
+            "always_short_correct": 119,
+            "always_short_accuracy": 0.24791666666666667,
+            "always_long_correct": 396,
+            "always_long_accuracy": 0.825,
+            "oracle_correct": 425,
+            "oracle_accuracy": 0.8854166666666666,
+            "unnecessary_long_calls": 5,
+            "long_regressions": 0,
+            "long_regression_rate_among_short_correct": 0.0,
+            "long_rescues": 290,
+            "failure_analysis": {
+              "n": 69,
+              "long_calls": 68,
+              "adaptive_answer_correct": 14,
+              "always_short_correct": 2,
+              "always_long_correct": 13,
+              "oracle_correct": 14
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "threshold": 0.42,
+          "metrics": {
+            "n": 516,
+            "binary_n": 446,
+            "failure_n": 70,
+            "routing_accuracy": 0.9260089686098655,
+            "long_precision": 0.9627329192546584,
+            "long_recall": 0.9365558912386707,
+            "binary_confusion": {
+              "short_to_short": 103,
+              "short_to_long": 12,
+              "long_to_short": 21,
+              "long_to_long": 310
+            },
+            "short_route_count": 125,
+            "long_route_count": 391,
+            "short_route_rate": 0.24224806201550386,
+            "long_route_rate": 0.7577519379844961,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 441,
+            "adaptive_answer_accuracy": 0.8546511627906976,
+            "always_short_correct": 129,
+            "always_short_accuracy": 0.25,
+            "always_long_correct": 431,
+            "always_long_accuracy": 0.8352713178294574,
+            "oracle_correct": 457,
+            "oracle_accuracy": 0.8856589147286822,
+            "unnecessary_long_calls": 17,
+            "long_regressions": 4,
+            "long_regression_rate_among_short_correct": 0.031007751937984496,
+            "long_rescues": 316,
+            "failure_analysis": {
+              "n": 70,
+              "long_calls": 69,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 1,
+              "always_long_correct": 10,
+              "oracle_correct": 11
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "threshold": 0.4,
+          "metrics": {
+            "n": 465,
+            "binary_n": 411,
+            "failure_n": 54,
+            "routing_accuracy": 0.9148418491484185,
+            "long_precision": 0.9139072847682119,
+            "long_recall": 0.968421052631579,
+            "binary_confusion": {
+              "short_to_short": 100,
+              "short_to_long": 26,
+              "long_to_short": 9,
+              "long_to_long": 276
+            },
+            "short_route_count": 110,
+            "long_route_count": 355,
+            "short_route_rate": 0.23655913978494625,
+            "long_route_rate": 0.7634408602150538,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 407,
+            "adaptive_answer_accuracy": 0.875268817204301,
+            "always_short_correct": 133,
+            "always_short_accuracy": 0.2860215053763441,
+            "always_long_correct": 395,
+            "always_long_accuracy": 0.8494623655913979,
+            "oracle_correct": 420,
+            "oracle_accuracy": 0.9032258064516129,
+            "unnecessary_long_calls": 30,
+            "long_regressions": 7,
+            "long_regression_rate_among_short_correct": 0.05263157894736842,
+            "long_rescues": 281,
+            "failure_analysis": {
+              "n": 54,
+              "long_calls": 53,
+              "adaptive_answer_correct": 9,
+              "always_short_correct": 0,
+              "always_long_correct": 9,
+              "oracle_correct": 9
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "threshold": 0.54,
+          "metrics": {
+            "n": 450,
+            "binary_n": 377,
+            "failure_n": 73,
+            "routing_accuracy": 0.9442970822281167,
+            "long_precision": 0.9962406015037594,
+            "long_recall": 0.9298245614035088,
+            "binary_confusion": {
+              "short_to_short": 91,
+              "short_to_long": 1,
+              "long_to_short": 20,
+              "long_to_long": 265
+            },
+            "short_route_count": 114,
+            "long_route_count": 336,
+            "short_route_rate": 0.25333333333333335,
+            "long_route_rate": 0.7466666666666667,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 372,
+            "adaptive_answer_accuracy": 0.8266666666666667,
+            "always_short_correct": 101,
+            "always_short_accuracy": 0.22444444444444445,
+            "always_long_correct": 371,
+            "always_long_accuracy": 0.8244444444444444,
+            "oracle_correct": 388,
+            "oracle_accuracy": 0.8622222222222222,
+            "unnecessary_long_calls": 3,
+            "long_regressions": 1,
+            "long_regression_rate_among_short_correct": 0.009900990099009901,
+            "long_rescues": 272,
+            "failure_analysis": {
+              "n": 73,
+              "long_calls": 70,
+              "adaptive_answer_correct": 11,
+              "always_short_correct": 3,
+              "always_long_correct": 9,
+              "oracle_correct": 11
+            }
+          }
+        }
+      ],
+      "calibration": {
+        "n": 2049,
+        "brier": 0.04252790580589238,
+        "log_loss": 0.12477922898668257,
+        "ece_10_bins": 0.007968289007929891
+      },
+      "uncalibrated": {
+        "n": 2049,
+        "brier": 0.05073833593536289,
+        "log_loss": 0.14713380699761,
+        "ece_10_bins": 0.038129592956435546
+      }
+    },
+    "hist_gradient_boosting": {
+      "nested_cv": {
+        "n": 2400,
+        "binary_n": 2049,
+        "failure_n": 351,
+        "routing_accuracy": 0.9882869692532943,
+        "long_precision": 0.9979743416610398,
+        "long_recall": 0.9859906604402935,
+        "binary_confusion": {
+          "short_to_short": 547,
+          "short_to_long": 3,
+          "long_to_short": 21,
+          "long_to_long": 1478
+        },
+        "short_route_count": 580,
+        "long_route_count": 1820,
+        "short_route_rate": 0.24166666666666667,
+        "long_route_rate": 0.7583333333333333,
+        "short_inference_call_rate": 1.0,
+        "adaptive_answer_correct": 2084,
+        "adaptive_answer_accuracy": 0.8683333333333333,
+        "always_short_correct": 602,
+        "always_short_accuracy": 0.25083333333333335,
+        "always_long_correct": 1984,
+        "always_long_accuracy": 0.8266666666666667,
+        "oracle_correct": 2104,
+        "oracle_accuracy": 0.8766666666666667,
+        "unnecessary_long_calls": 46,
+        "long_regressions": 5,
+        "long_regression_rate_among_short_correct": 0.008305647840531562,
+        "long_rescues": 1487,
+        "failure_analysis": {
+          "n": 351,
+          "long_calls": 339,
+          "adaptive_answer_correct": 52,
+          "always_short_correct": 9,
+          "always_long_correct": 49,
+          "oracle_correct": 55
+        },
+        "fold_accuracy_standard_error": 0.011243985890941485
+      },
+      "fold_results": [
+        {
+          "fold": 0,
+          "threshold": 0.92,
+          "metrics": {
+            "n": 489,
+            "binary_n": 404,
+            "failure_n": 85,
+            "routing_accuracy": 0.9777227722772277,
+            "long_precision": 1.0,
+            "long_recall": 0.97,
+            "binary_confusion": {
+              "short_to_short": 104,
+              "short_to_long": 0,
+              "long_to_short": 9,
+              "long_to_long": 291
+            },
+            "short_route_count": 116,
+            "long_route_count": 373,
+            "short_route_rate": 0.23721881390593047,
+            "long_route_rate": 0.7627811860940695,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 408,
+            "adaptive_answer_accuracy": 0.8343558282208589,
+            "always_short_correct": 120,
+            "always_short_accuracy": 0.24539877300613497,
+            "always_long_correct": 391,
+            "always_long_accuracy": 0.7995910020449898,
+            "oracle_correct": 414,
+            "oracle_accuracy": 0.8466257668711656,
+            "unnecessary_long_calls": 11,
+            "long_regressions": 0,
+            "long_regression_rate_among_short_correct": 0.0,
+            "long_rescues": 288,
+            "failure_analysis": {
+              "n": 85,
+              "long_calls": 82,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 3,
+              "always_long_correct": 8,
+              "oracle_correct": 10
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "threshold": 0.9400000000000001,
+          "metrics": {
+            "n": 480,
+            "binary_n": 411,
+            "failure_n": 69,
+            "routing_accuracy": 0.9805352798053528,
+            "long_precision": 0.9898648648648649,
+            "long_recall": 0.9832214765100671,
+            "binary_confusion": {
+              "short_to_short": 110,
+              "short_to_long": 3,
+              "long_to_short": 5,
+              "long_to_long": 293
+            },
+            "short_route_count": 118,
+            "long_route_count": 362,
+            "short_route_rate": 0.24583333333333332,
+            "long_route_rate": 0.7541666666666667,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 418,
+            "adaptive_answer_accuracy": 0.8708333333333333,
+            "always_short_correct": 119,
+            "always_short_accuracy": 0.24791666666666667,
+            "always_long_correct": 396,
+            "always_long_accuracy": 0.825,
+            "oracle_correct": 425,
+            "oracle_accuracy": 0.8854166666666666,
+            "unnecessary_long_calls": 8,
+            "long_regressions": 3,
+            "long_regression_rate_among_short_correct": 0.025210084033613446,
+            "long_rescues": 302,
+            "failure_analysis": {
+              "n": 69,
+              "long_calls": 66,
+              "adaptive_answer_correct": 13,
+              "always_short_correct": 2,
+              "always_long_correct": 13,
+              "oracle_correct": 14
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "threshold": 0.92,
+          "metrics": {
+            "n": 516,
+            "binary_n": 446,
+            "failure_n": 70,
+            "routing_accuracy": 0.9955156950672646,
+            "long_precision": 1.0,
+            "long_recall": 0.9939577039274925,
+            "binary_confusion": {
+              "short_to_short": 115,
+              "short_to_long": 0,
+              "long_to_short": 2,
+              "long_to_long": 329
+            },
+            "short_route_count": 118,
+            "long_route_count": 398,
+            "short_route_rate": 0.22868217054263565,
+            "long_route_rate": 0.7713178294573644,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 454,
+            "adaptive_answer_accuracy": 0.8798449612403101,
+            "always_short_correct": 129,
+            "always_short_accuracy": 0.25,
+            "always_long_correct": 431,
+            "always_long_accuracy": 0.8352713178294574,
+            "oracle_correct": 457,
+            "oracle_accuracy": 0.8856589147286822,
+            "unnecessary_long_calls": 14,
+            "long_regressions": 1,
+            "long_regression_rate_among_short_correct": 0.007751937984496124,
+            "long_rescues": 326,
+            "failure_analysis": {
+              "n": 70,
+              "long_calls": 69,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 1,
+              "always_long_correct": 10,
+              "oracle_correct": 11
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "threshold": 0.93,
+          "metrics": {
+            "n": 465,
+            "binary_n": 411,
+            "failure_n": 54,
+            "routing_accuracy": 0.9951338199513382,
+            "long_precision": 1.0,
+            "long_recall": 0.9929824561403509,
+            "binary_confusion": {
+              "short_to_short": 126,
+              "short_to_long": 0,
+              "long_to_short": 2,
+              "long_to_long": 283
+            },
+            "short_route_count": 130,
+            "long_route_count": 335,
+            "short_route_rate": 0.27956989247311825,
+            "long_route_rate": 0.7204301075268817,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 419,
+            "adaptive_answer_accuracy": 0.9010752688172043,
+            "always_short_correct": 133,
+            "always_short_accuracy": 0.2860215053763441,
+            "always_long_correct": 395,
+            "always_long_accuracy": 0.8494623655913979,
+            "oracle_correct": 420,
+            "oracle_accuracy": 0.9032258064516129,
+            "unnecessary_long_calls": 6,
+            "long_regressions": 0,
+            "long_regression_rate_among_short_correct": 0.0,
+            "long_rescues": 286,
+            "failure_analysis": {
+              "n": 54,
+              "long_calls": 52,
+              "adaptive_answer_correct": 9,
+              "always_short_correct": 0,
+              "always_long_correct": 9,
+              "oracle_correct": 9
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "threshold": 0.92,
+          "metrics": {
+            "n": 450,
+            "binary_n": 377,
+            "failure_n": 73,
+            "routing_accuracy": 0.9920424403183024,
+            "long_precision": 1.0,
+            "long_recall": 0.9894736842105263,
+            "binary_confusion": {
+              "short_to_short": 92,
+              "short_to_long": 0,
+              "long_to_short": 3,
+              "long_to_long": 282
+            },
+            "short_route_count": 98,
+            "long_route_count": 352,
+            "short_route_rate": 0.21777777777777776,
+            "long_route_rate": 0.7822222222222223,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 385,
+            "adaptive_answer_accuracy": 0.8555555555555555,
+            "always_short_correct": 101,
+            "always_short_accuracy": 0.22444444444444445,
+            "always_long_correct": 371,
+            "always_long_accuracy": 0.8244444444444444,
+            "oracle_correct": 388,
+            "oracle_accuracy": 0.8622222222222222,
+            "unnecessary_long_calls": 7,
+            "long_regressions": 1,
+            "long_regression_rate_among_short_correct": 0.009900990099009901,
+            "long_rescues": 285,
+            "failure_analysis": {
+              "n": 73,
+              "long_calls": 70,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 3,
+              "always_long_correct": 9,
+              "oracle_correct": 11
+            }
+          }
+        }
+      ],
+      "calibration": {
+        "n": 2049,
+        "brier": 0.0050368764872650565,
+        "log_loss": 0.019113656473148742,
+        "ece_10_bins": 0.005374068397352539
+      },
+      "uncalibrated": {
+        "n": 2049,
+        "brier": 0.006395028835159981,
+        "log_loss": 0.02659341157665226,
+        "ece_10_bins": 0.012592124602553026
+      }
+    },
+    "small_mlp": {
+      "nested_cv": {
+        "n": 2400,
+        "binary_n": 2049,
+        "failure_n": 351,
+        "routing_accuracy": 0.9902391410444119,
+        "long_precision": 0.9993247805536799,
+        "long_recall": 0.9873248832555037,
+        "binary_confusion": {
+          "short_to_short": 549,
+          "short_to_long": 1,
+          "long_to_short": 19,
+          "long_to_long": 1480
+        },
+        "short_route_count": 583,
+        "long_route_count": 1817,
+        "short_route_rate": 0.24291666666666667,
+        "long_route_rate": 0.7570833333333333,
+        "short_inference_call_rate": 1.0,
+        "adaptive_answer_correct": 2084,
+        "adaptive_answer_accuracy": 0.8683333333333333,
+        "always_short_correct": 602,
+        "always_short_accuracy": 0.25083333333333335,
+        "always_long_correct": 1984,
+        "always_long_accuracy": 0.8266666666666667,
+        "oracle_correct": 2104,
+        "oracle_accuracy": 0.8766666666666667,
+        "unnecessary_long_calls": 48,
+        "long_regressions": 4,
+        "long_regression_rate_among_short_correct": 0.006644518272425249,
+        "long_rescues": 1486,
+        "failure_analysis": {
+          "n": 351,
+          "long_calls": 336,
+          "adaptive_answer_correct": 51,
+          "always_short_correct": 9,
+          "always_long_correct": 49,
+          "oracle_correct": 55
+        },
+        "fold_accuracy_standard_error": 0.01171524253511952
+      },
+      "fold_results": [
+        {
+          "fold": 0,
+          "threshold": 0.8,
+          "metrics": {
+            "n": 489,
+            "binary_n": 404,
+            "failure_n": 85,
+            "routing_accuracy": 0.9900990099009901,
+            "long_precision": 1.0,
+            "long_recall": 0.9866666666666667,
+            "binary_confusion": {
+              "short_to_short": 104,
+              "short_to_long": 0,
+              "long_to_short": 4,
+              "long_to_long": 296
+            },
+            "short_route_count": 114,
+            "long_route_count": 375,
+            "short_route_rate": 0.2331288343558282,
+            "long_route_rate": 0.7668711656441718,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 410,
+            "adaptive_answer_accuracy": 0.8384458077709611,
+            "always_short_correct": 120,
+            "always_short_accuracy": 0.24539877300613497,
+            "always_long_correct": 391,
+            "always_long_accuracy": 0.7995910020449898,
+            "oracle_correct": 414,
+            "oracle_accuracy": 0.8466257668711656,
+            "unnecessary_long_calls": 14,
+            "long_regressions": 0,
+            "long_regression_rate_among_short_correct": 0.0,
+            "long_rescues": 290,
+            "failure_analysis": {
+              "n": 85,
+              "long_calls": 79,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 3,
+              "always_long_correct": 8,
+              "oracle_correct": 10
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "threshold": 0.89,
+          "metrics": {
+            "n": 480,
+            "binary_n": 411,
+            "failure_n": 69,
+            "routing_accuracy": 0.9902676399026764,
+            "long_precision": 0.9966216216216216,
+            "long_recall": 0.9899328859060402,
+            "binary_confusion": {
+              "short_to_short": 112,
+              "short_to_long": 1,
+              "long_to_short": 3,
+              "long_to_long": 295
+            },
+            "short_route_count": 117,
+            "long_route_count": 363,
+            "short_route_rate": 0.24375,
+            "long_route_rate": 0.75625,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 421,
+            "adaptive_answer_accuracy": 0.8770833333333333,
+            "always_short_correct": 119,
+            "always_short_accuracy": 0.24791666666666667,
+            "always_long_correct": 396,
+            "always_long_accuracy": 0.825,
+            "oracle_correct": 425,
+            "oracle_accuracy": 0.8854166666666666,
+            "unnecessary_long_calls": 7,
+            "long_regressions": 1,
+            "long_regression_rate_among_short_correct": 0.008403361344537815,
+            "long_rescues": 303,
+            "failure_analysis": {
+              "n": 69,
+              "long_calls": 67,
+              "adaptive_answer_correct": 13,
+              "always_short_correct": 2,
+              "always_long_correct": 13,
+              "oracle_correct": 14
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "threshold": 0.71,
+          "metrics": {
+            "n": 516,
+            "binary_n": 446,
+            "failure_n": 70,
+            "routing_accuracy": 0.9932735426008968,
+            "long_precision": 1.0,
+            "long_recall": 0.9909365558912386,
+            "binary_confusion": {
+              "short_to_short": 115,
+              "short_to_long": 0,
+              "long_to_short": 3,
+              "long_to_long": 328
+            },
+            "short_route_count": 120,
+            "long_route_count": 396,
+            "short_route_rate": 0.23255813953488372,
+            "long_route_rate": 0.7674418604651163,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 454,
+            "adaptive_answer_accuracy": 0.8798449612403101,
+            "always_short_correct": 129,
+            "always_short_accuracy": 0.25,
+            "always_long_correct": 431,
+            "always_long_accuracy": 0.8352713178294574,
+            "oracle_correct": 457,
+            "oracle_accuracy": 0.8856589147286822,
+            "unnecessary_long_calls": 13,
+            "long_regressions": 1,
+            "long_regression_rate_among_short_correct": 0.007751937984496124,
+            "long_rescues": 326,
+            "failure_analysis": {
+              "n": 70,
+              "long_calls": 68,
+              "adaptive_answer_correct": 10,
+              "always_short_correct": 1,
+              "always_long_correct": 10,
+              "oracle_correct": 11
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "threshold": 0.84,
+          "metrics": {
+            "n": 465,
+            "binary_n": 411,
+            "failure_n": 54,
+            "routing_accuracy": 0.9975669099756691,
+            "long_precision": 1.0,
+            "long_recall": 0.9964912280701754,
+            "binary_confusion": {
+              "short_to_short": 126,
+              "short_to_long": 0,
+              "long_to_short": 1,
+              "long_to_long": 284
+            },
+            "short_route_count": 129,
+            "long_route_count": 336,
+            "short_route_rate": 0.27741935483870966,
+            "long_route_rate": 0.7225806451612903,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 419,
+            "adaptive_answer_accuracy": 0.9010752688172043,
+            "always_short_correct": 133,
+            "always_short_accuracy": 0.2860215053763441,
+            "always_long_correct": 395,
+            "always_long_accuracy": 0.8494623655913979,
+            "oracle_correct": 420,
+            "oracle_accuracy": 0.9032258064516129,
+            "unnecessary_long_calls": 7,
+            "long_regressions": 0,
+            "long_regression_rate_among_short_correct": 0.0,
+            "long_rescues": 286,
+            "failure_analysis": {
+              "n": 54,
+              "long_calls": 52,
+              "adaptive_answer_correct": 9,
+              "always_short_correct": 0,
+              "always_long_correct": 9,
+              "oracle_correct": 9
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "threshold": 0.92,
+          "metrics": {
+            "n": 450,
+            "binary_n": 377,
+            "failure_n": 73,
+            "routing_accuracy": 0.9787798408488063,
+            "long_precision": 1.0,
+            "long_recall": 0.9719298245614035,
+            "binary_confusion": {
+              "short_to_short": 92,
+              "short_to_long": 0,
+              "long_to_short": 8,
+              "long_to_long": 277
+            },
+            "short_route_count": 103,
+            "long_route_count": 347,
+            "short_route_rate": 0.2288888888888889,
+            "long_route_rate": 0.7711111111111111,
+            "short_inference_call_rate": 1.0,
+            "adaptive_answer_correct": 380,
+            "adaptive_answer_accuracy": 0.8444444444444444,
+            "always_short_correct": 101,
+            "always_short_accuracy": 0.22444444444444445,
+            "always_long_correct": 371,
+            "always_long_accuracy": 0.8244444444444444,
+            "oracle_correct": 388,
+            "oracle_accuracy": 0.8622222222222222,
+            "unnecessary_long_calls": 7,
+            "long_regressions": 2,
+            "long_regression_rate_among_short_correct": 0.019801980198019802,
+            "long_rescues": 281,
+            "failure_analysis": {
+              "n": 73,
+              "long_calls": 70,
+              "adaptive_answer_correct": 9,
+              "always_short_correct": 3,
+              "always_long_correct": 9,
+              "oracle_correct": 11
+            }
+          }
+        }
+      ],
+      "calibration": {
+        "n": 2049,
+        "brier": 0.004063563596358478,
+        "log_loss": 0.017716288441015138,
+        "ece_10_bins": 0.007463844121676033
+      },
+      "uncalibrated": {
+        "n": 2049,
+        "brier": 0.0036855678107548906,
+        "log_loss": 0.014263887385323143,
+        "ece_10_bins": 0.002895424298027035
+      }
+    }
+  },
+  "model_selection": {
+    "best_accuracy_model": "hist_gradient_boosting",
+    "one_se_accuracy_floor": 0.8570893474423918,
+    "eligible_models": [
+      "hist_gradient_boosting",
+      "small_mlp"
+    ]
+  },
+  "selected_nested_cv": {
+    "n": 2400,
+    "binary_n": 2049,
+    "failure_n": 351,
+    "routing_accuracy": 0.9902391410444119,
+    "long_precision": 0.9993247805536799,
+    "long_recall": 0.9873248832555037,
+    "binary_confusion": {
+      "short_to_short": 549,
+      "short_to_long": 1,
+      "long_to_short": 19,
+      "long_to_long": 1480
+    },
+    "short_route_count": 583,
+    "long_route_count": 1817,
+    "short_route_rate": 0.24291666666666667,
+    "long_route_rate": 0.7570833333333333,
+    "short_inference_call_rate": 1.0,
+    "adaptive_answer_correct": 2084,
+    "adaptive_answer_accuracy": 0.8683333333333333,
+    "always_short_correct": 602,
+    "always_short_accuracy": 0.25083333333333335,
+    "always_long_correct": 1984,
+    "always_long_accuracy": 0.8266666666666667,
+    "oracle_correct": 2104,
+    "oracle_accuracy": 0.8766666666666667,
+    "unnecessary_long_calls": 48,
+    "long_regressions": 4,
+    "long_regression_rate_among_short_correct": 0.006644518272425249,
+    "long_rescues": 1486,
+    "failure_analysis": {
+      "n": 351,
+      "long_calls": 336,
+      "adaptive_answer_correct": 51,
+      "always_short_correct": 9,
+      "always_long_correct": 49,
+      "oracle_correct": 55
+    },
+    "fold_accuracy_standard_error": 0.01171524253511952
+  },
+  "selected_threshold_pooled_oof": {
+    "n": 2400,
+    "binary_n": 2049,
+    "failure_n": 351,
+    "routing_accuracy": 0.9838945827232797,
+    "long_precision": 0.9993188010899182,
+    "long_recall": 0.9786524349566378,
+    "binary_confusion": {
+      "short_to_short": 549,
+      "short_to_long": 1,
+      "long_to_short": 32,
+      "long_to_long": 1467
+    },
+    "short_route_count": 598,
+    "long_route_count": 1802,
+    "short_route_rate": 0.24916666666666668,
+    "long_route_rate": 0.7508333333333334,
+    "short_inference_call_rate": 1.0,
+    "adaptive_answer_correct": 2073,
+    "adaptive_answer_accuracy": 0.86375,
+    "always_short_correct": 602,
+    "always_short_accuracy": 0.25083333333333335,
+    "always_long_correct": 1984,
+    "always_long_accuracy": 0.8266666666666667,
+    "oracle_correct": 2104,
+    "oracle_accuracy": 0.8766666666666667,
+    "unnecessary_long_calls": 45,
+    "long_regressions": 4,
+    "long_regression_rate_among_short_correct": 0.006644518272425249,
+    "long_rescues": 1475,
+    "failure_analysis": {
+      "n": 351,
+      "long_calls": 334,
+      "adaptive_answer_correct": 50,
+      "always_short_correct": 9,
+      "always_long_correct": 49,
+      "oracle_correct": 55
+    },
+    "fold_accuracy_standard_error": 0.012755463671065857
+  },
+  "selected_threshold_note": "Pooled OOF threshold-selection score is descriptive, not a nested held-out estimate.",
+  "label_counts": {
+    "LONG": 1499,
+    "FAILURE": 351,
+    "SHORT": 550
+  },
+  "anchors": 768,
+  "fit_warnings": {
+    "Could not find the number of physical cores for the following reason:": 1
+  },
+  "final_fit_warnings": [],
+  "wall_seconds": 27.492364583013114,
+  "final_calibrated_components": 3,
+  "new_questions": 0,
+  "new_long_calls": 0,
+  "new_cpu_short_feature_passes": 2400,
+  "core_eval_or_test_accessed": false
+}

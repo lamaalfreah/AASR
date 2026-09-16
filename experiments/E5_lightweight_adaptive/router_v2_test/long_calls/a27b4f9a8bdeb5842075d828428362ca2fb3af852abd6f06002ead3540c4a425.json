@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a27b4f9a8bdeb5842075d828428362ca2fb3af852abd6f06002ead3540c4a425",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"إمارة الدرعية الأولى\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مسجد الشيخ محمد بن عبد الوهاب\"\n      },\n      {\n        \"name\": \"ولو\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2248,
+  "output_tokens": 131,
+  "generation_ms": 7031.662043000324,
+  "inference_ms": 7041.967559000113,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11006.042772,
+  "case_id": "9ddf45cc105e7712"
+}

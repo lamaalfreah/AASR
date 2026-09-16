@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0fc99211e5fee81bc40a0206ca9803319748279de99f6ce93cde3a6b48fe424e",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"cardinal_direction\",\n    \"origin\": {\n      \"name\": \"محافظة الطوال\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مركز الرعاية الصحية الأولية\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1795,
+  "output_tokens": 122,
+  "generation_ms": 6877.253827000004,
+  "inference_ms": 6886.289889999716,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10975.823259999743,
+  "case_id": "780ed19b217bb9ff"
+}

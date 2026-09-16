@@ -1,0 +1,18 @@
+{
+  "n": 2400,
+  "source_records_verified": 2400,
+  "questions_unique": true,
+  "all_source_semantics_and_gold_preserved": true,
+  "train_only": true,
+  "excluded_core_anchors": 320,
+  "anchor_disjoint": true,
+  "local_generation_replay_verified": 2400,
+  "replay_new_generations": 0,
+  "replay_unique_calls": 2941,
+  "generation_checkpoints_unchanged": true,
+  "label_precedence_verified": true,
+  "features_from_short_and_public_inputs_only": true,
+  "frozen_components_verified": true,
+  "core_eval_and_test_not_read": true,
+  "router_trained": false
+}

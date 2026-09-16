@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b84cc0e7550afc1b0f98bdf41c35efa6f1219ada8c83dfad9a8bbc890edcf2ab",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"حي الملك فيصل\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"صيدلية\",\"صيدلية\"],\"radius_km\":3,\"direction\":null,\"first_hop_category\":\"صيدلية\",\"second_hop_category\":\"صيدلية\"},\"message\":\"\"}",
+  "input_tokens": 2297,
+  "output_tokens": 70,
+  "generation_ms": 4145.607530999769,
+  "inference_ms": 4156.076045000191,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5508.626124996226,
+  "case_id": "router-4e32d28910eb5747508b"
+}

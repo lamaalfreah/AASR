@@ -1,0 +1,30 @@
+{
+  "id": "95cd696f0ff9948f",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "ثهران (جبل)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "جامع الثبيت",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1614,
+  "output_tokens": 121,
+  "inference_ms": 6368.898503000082,
+  "roundtrip_ms": 11475.712334000036
+}

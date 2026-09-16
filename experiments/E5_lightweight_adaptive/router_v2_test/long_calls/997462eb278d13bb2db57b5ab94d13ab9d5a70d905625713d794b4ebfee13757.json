@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "997462eb278d13bb2db57b5ab94d13ab9d5a70d905625713d794b4ebfee13757",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"جامع الشيخ محمد بن إبراهيم آل الشيخ\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مطعم\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2226,
+  "output_tokens": 107,
+  "generation_ms": 5841.089015999955,
+  "inference_ms": 5851.504629000033,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7385.411252998892,
+  "case_id": "185cb9e44266828a"
+}

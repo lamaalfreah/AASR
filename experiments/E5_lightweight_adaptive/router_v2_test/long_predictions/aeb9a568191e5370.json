@@ -1,0 +1,30 @@
+{
+  "id": "aeb9a568191e5370",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جامعة الملك سعود بن عبد العزيز للعلوم الصحية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "King Fahad Hospital",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4189,
+  "output_tokens": 204,
+  "inference_ms": 11286.361112000122,
+  "roundtrip_ms": 15239.973072999874
+}

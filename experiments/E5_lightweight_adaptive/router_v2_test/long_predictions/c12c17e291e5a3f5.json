@@ -1,0 +1,30 @@
+{
+  "id": "c12c17e291e5a3f5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "قاعدة الملك عبد العزيز الجوية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مدارس الجامعة - البنات",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2037,
+  "output_tokens": 124,
+  "inference_ms": 6607.989393000025,
+  "roundtrip_ms": 7554.9241319999965
+}

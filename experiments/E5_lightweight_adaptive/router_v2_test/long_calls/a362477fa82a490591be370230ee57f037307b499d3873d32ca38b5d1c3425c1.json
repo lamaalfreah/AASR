@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a362477fa82a490591be370230ee57f037307b499d3873d32ca38b5d1c3425c1",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"Starbucks\",\n      \"source\": \"candidate\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مطعم\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2233,
+  "output_tokens": 98,
+  "generation_ms": 5391.322975000037,
+  "inference_ms": 5401.596323999967,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6902.1326409983885,
+  "case_id": "e1eebb7f63e3de1f"
+}

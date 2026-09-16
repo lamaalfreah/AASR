@@ -1,0 +1,6 @@
+{
+  "load_seconds": 0.014056773000000078,
+  "wall_seconds": 5.8830546,
+  "torch_version": "2.6.0+cu124",
+  "device": "cpu"
+}

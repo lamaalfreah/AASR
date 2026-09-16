@@ -1,0 +1,34 @@
+{
+  "id": "router-b7062f53e67b4be17faf",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8110247850418091,
+    "short_entropy": 0.7953195800384643,
+    "short_top1_top2_margin": 0.725799486041069,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 59,
+    "question_length_words": 11,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_output",
+    "reason": "strict_json_validation_failed",
+    "llm_calls": 2,
+    "invalid_responses": 2,
+    "inference_ms": 10295.896966999862
+  }
+}

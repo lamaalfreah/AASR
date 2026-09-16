@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-within_radius_yes_no-38",
+  "task_type": "within_radius_yes_no",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "success",
+  "short_confidence": 0.42938974499702454,
+  "short_pipeline_ms": 0.6817090000001969,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1826,
+  "output_tokens": 101,
+  "long_inference_ms": 4518.838447000007,
+  "long_roundtrip_ms": 5510.198874981143,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "مبنى المالية (أملج)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  },
+  "raw_operation": "within_radius_yes_no",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

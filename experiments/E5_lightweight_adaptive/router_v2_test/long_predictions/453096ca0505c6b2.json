@@ -1,0 +1,34 @@
+{
+  "id": "453096ca0505c6b2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "دار سبرة بن أبي رهم",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "البيك",
+        "source": "unspecified"
+      },
+      {
+        "name": "صيدلية النهدي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4627,
+  "output_tokens": 219,
+  "inference_ms": 11570.388328002082,
+  "roundtrip_ms": 19807.342679001522
+}

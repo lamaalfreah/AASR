@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3f514ede384abfdf9cebefb179f766b74d858f4a24332be74133e3cbab649b54",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"العوالي (المدينة المنورة)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"عيادة د. خالد شناوي\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"مطعم الشلال الدمشقي\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"السؤال يطلب مقارنة بين أقرب عيادة ومطعم من المرجع المحدد، ويرجع الناتج إلى أقرب من بينهما.\"\n}",
+  "input_tokens": 2434,
+  "output_tokens": 192,
+  "generation_ms": 10883.216846000323,
+  "inference_ms": 10894.113642999855,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 12381.755666981917,
+  "case_id": "router-7da1e5c2cc7e47b2e4b1"
+}

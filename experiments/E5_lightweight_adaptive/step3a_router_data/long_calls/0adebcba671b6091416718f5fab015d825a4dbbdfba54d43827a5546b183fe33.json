@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0adebcba671b6091416718f5fab015d825a4dbbdfba54d43827a5546b183fe33",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"مدينة الأمير فيصل بن فهد الرياضية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"بنك\"],\n    \"radius_km\": 5,\n    \"direction\": \"شمال\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2277,
+  "output_tokens": 107,
+  "generation_ms": 4977.331098000036,
+  "inference_ms": 4983.604679999985,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6800.032083003316,
+  "case_id": "router-647b9bca5ad9285d4841"
+}

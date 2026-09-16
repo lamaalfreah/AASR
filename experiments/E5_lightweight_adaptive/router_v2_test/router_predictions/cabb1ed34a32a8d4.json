@@ -1,0 +1,9 @@
+{
+  "id": "cabb1ed34a32a8d4",
+  "route": "SHORT",
+  "long_probability": 0.000977298201280255,
+  "threshold": 0.91,
+  "router_ms": 1.0035000159405172,
+  "model_sha256": "c75a291f11acffcc0a72612b03213c49536ce8ea29677364b9e5df7a713edbda",
+  "feature_digest": "5d03139176588eb099d610806ae7254dc2572e9d755078af67fb6fcc9219112b"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ff8d49299ba68c6a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "كأس الملك فهد 1995",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4667,
+  "output_tokens": 208,
+  "inference_ms": 11849.157975000253,
+  "roundtrip_ms": 14016.846493999765
+}

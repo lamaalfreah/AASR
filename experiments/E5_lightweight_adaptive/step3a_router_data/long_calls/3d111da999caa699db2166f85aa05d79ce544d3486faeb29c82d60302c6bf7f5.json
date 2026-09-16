@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "3d111da999caa699db2166f85aa05d79ce544d3486faeb29c82d60302c6bf7f5",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"قلعة عسفان\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"بنك\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1831,
+  "output_tokens": 62,
+  "generation_ms": 3527.6017109999884,
+  "inference_ms": 3537.152236000111,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6095.532250008546,
+  "case_id": "router-458458b4d2a596ab1283"
+}

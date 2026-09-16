@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ce0e621c3ad8862ab3f09fe89e7acac17a860dc6ca4b1366aab99acef1f9ee4f",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"حصار مكة المكرمة (1924)\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"عيادة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"The query is about finding a clinic near 'حصار مكة المكرمة (1924)' with a spatial constraint, but the origin is a historical event, not a physical location. The request cannot be processed as the origin is not a valid physical place.\"}",
+  "input_tokens": 2445,
+  "output_tokens": 124,
+  "generation_ms": 6820.31572599999,
+  "inference_ms": 6830.54843500031,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8581.467624986544,
+  "case_id": "router-6a166206dfbab466f7d4"
+}

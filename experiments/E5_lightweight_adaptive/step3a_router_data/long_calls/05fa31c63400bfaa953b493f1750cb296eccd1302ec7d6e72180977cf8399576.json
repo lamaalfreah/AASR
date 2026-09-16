@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "05fa31c63400bfaa953b493f1750cb296eccd1302ec7d6e72180977cf8399576",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"مستوصف الطب العالمي\",\n      \"source\": \"candidate\"\n    },\n    \"targets\": [],\n    \"categories\": [\"جامعة\"],\n    \"radius_km\": 1.5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1687,
+  "output_tokens": 100,
+  "generation_ms": 5548.199992000036,
+  "inference_ms": 5557.0114280001235,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6890.611249982612,
+  "case_id": "router-bf1ffa84f389955e2a38"
+}

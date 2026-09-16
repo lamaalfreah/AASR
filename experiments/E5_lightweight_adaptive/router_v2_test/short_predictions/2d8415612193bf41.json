@@ -1,0 +1,47 @@
+{
+  "id": "2d8415612193bf41",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "جامعة الملك سعود بن عبد العزيز للعلوم الصحية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى",
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999252557754517,
+    "short_entropy": 0.0009184804379176941,
+    "short_top1_top2_margin": 0.9999055482367112,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 112,
+    "question_length_words": 20,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0580452908470761e-05,
+      "cardinal_direction": 5.6933577070594765e-06,
+      "within_radius_yes_no": 3.6035858101968188e-06,
+      "closer_of_two": 1.4972501048760023e-05,
+      "count_within_radius": 4.413753231347073e-06,
+      "nearest_of_two_categories": 0.9999252557754517,
+      "two_hop_nearest": 1.9707538740476593e-05,
+      "spatial_multi_constraint": 1.576485919940751e-05
+    }
+  },
+  "parser_ms": 2.2397599998384976,
+  "short_with_features_ms": 2.352491000010559
+}

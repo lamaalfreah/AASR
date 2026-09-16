@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ec5543051babd2f9db1f5965439b5fc4dd634c0525aeea6065332fad41de72ba",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"برج رايز\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"مدرسة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2372,
+  "output_tokens": 64,
+  "generation_ms": 3699.6716730000117,
+  "inference_ms": 3710.385204999966,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4658.37550499964,
+  "case_id": "d9771ed6971b35c0"
+}

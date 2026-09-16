@@ -1,0 +1,44 @@
+{
+  "id": "665498c5cb7a28fd",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "مسجد بني عبد الأشهل",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "عيادة",
+    "second_hop_category": "مقهى"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999316930770874,
+    "short_entropy": 0.0008444676985532119,
+    "short_top1_top2_margin": 0.999912889485131,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 137,
+    "question_length_words": 24,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.963856670452515e-06,
+      "cardinal_direction": 1.880359195638448e-05,
+      "within_radius_yes_no": 6.556519565492636e-06,
+      "closer_of_two": 8.06921161711216e-06,
+      "count_within_radius": 1.1257514415774494e-05,
+      "nearest_of_two_categories": 1.6627711374894716e-05,
+      "two_hop_nearest": 0.9999316930770874,
+      "spatial_multi_constraint": 2.99679095405736e-06
+    }
+  },
+  "parser_ms": 2.5663700000677636,
+  "short_with_features_ms": 2.7036900000894093
+}

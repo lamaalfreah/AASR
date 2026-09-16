@@ -1,0 +1,44 @@
+{
+  "id": "a4540b09d8f98c89",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "قائمة سفراء السويد لدى السعودية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "مستشفى"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999334812164307,
+    "short_entropy": 0.0008238681066712579,
+    "short_top1_top2_margin": 0.9999150234634726,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 152,
+    "question_length_words": 25,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.6373071452544536e-06,
+      "cardinal_direction": 1.8457752958056517e-05,
+      "within_radius_yes_no": 6.029713858879404e-06,
+      "closer_of_two": 8.22996207716642e-06,
+      "count_within_radius": 1.0828331141965464e-05,
+      "nearest_of_two_categories": 1.6320505892508663e-05,
+      "two_hop_nearest": 0.9999334812164307,
+      "spatial_multi_constraint": 2.9936568353150506e-06
+    }
+  },
+  "parser_ms": 4.486059999862846,
+  "short_with_features_ms": 4.649149999977453
+}

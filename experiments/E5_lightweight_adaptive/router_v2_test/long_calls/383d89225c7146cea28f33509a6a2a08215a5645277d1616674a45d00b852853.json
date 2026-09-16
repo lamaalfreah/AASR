@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.37894614,
+  "container_session": "6abbbe462e774a00ac6ccf15cc703424",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "383d89225c7146cea28f33509a6a2a08215a5645277d1616674a45d00b852853",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"محمية الملك خالد الملكية\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"صراف\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1652,
+  "output_tokens": 73,
+  "generation_ms": 3214.180653999989,
+  "inference_ms": 3218.891827000007,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4642.001511999979,
+  "case_id": "1ea494073c52c4f1"
+}

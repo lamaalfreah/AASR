@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5719d0dfe4cdfa662a54cf44f05549c5ef1564479d3de6b2d0d0aa65a932209e",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"زمزم\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مقهى\", \"مطعم وجبات سريعة\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2431,
+  "output_tokens": 107,
+  "generation_ms": 6109.660288999976,
+  "inference_ms": 6120.246677000068,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10255.772584001534,
+  "case_id": "router-9db8d3dba0ca046ea53f"
+}

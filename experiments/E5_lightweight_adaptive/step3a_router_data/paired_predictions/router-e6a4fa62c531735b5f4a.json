@@ -1,0 +1,48 @@
+{
+  "id": "router-e6a4fa62c531735b5f4a",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.45187103748321533,
+    "short_entropy": 1.2114097454630526,
+    "short_top1_top2_margin": 0.05650565028190613,
+    "query_valid": false,
+    "missing_slots": [
+      "direction"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 98,
+    "question_length_words": 22,
+    "predicted_operation": "spatial_multi_constraint",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "within_radius_yes_no",
+      "origin": {
+        "name": "قلعة الملك عبد العزيز (ضباء)",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مطعم"
+      ],
+      "radius_km": 2,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5789.291759000207
+  }
+}

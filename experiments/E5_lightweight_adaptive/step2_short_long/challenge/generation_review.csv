@@ -1,0 +1,321 @@
+challenge_id,status,reason,independent_human_review
+core-nearest_category-01,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-02,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-03,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-05,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-06,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-08,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-09,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-11,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-13,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-15,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-17,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-18,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-20,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-21,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-23,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-25,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-27,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-29,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-30,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-32,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-33,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-35,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-37,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-39,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-04,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-07,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-10,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-12,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-14,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-16,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-19,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-22,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-24,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-26,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-28,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-31,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-34,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-36,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-38,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_category-40,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-01,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-02,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-03,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-05,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-06,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-08,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-09,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-11,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-13,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-15,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-17,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-18,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-20,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-21,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-23,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-25,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-27,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-29,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-30,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-32,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-33,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-35,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-37,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-39,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-04,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-07,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-10,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-12,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-14,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-16,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-19,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-22,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-24,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-26,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-28,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-31,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-34,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-36,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-38,accepted,All eight semantic checks pass; author wording review,False
+core-cardinal_direction-40,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-01,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-02,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-03,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-05,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-06,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-08,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-09,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-11,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-13,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-15,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-17,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-18,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-20,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-21,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-23,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-25,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-27,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-29,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-30,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-32,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-33,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-35,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-37,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-39,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-04,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-07,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-10,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-12,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-14,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-16,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-19,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-22,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-24,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-26,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-28,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-31,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-34,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-36,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-38,accepted,All eight semantic checks pass; author wording review,False
+core-within_radius_yes_no-40,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-01,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-02,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-03,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-05,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-06,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-08,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-09,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-11,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-13,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-15,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-17,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-18,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-20,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-21,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-23,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-25,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-27,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-29,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-30,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-32,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-33,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-35,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-37,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-39,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-04,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-07,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-10,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-12,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-14,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-16,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-19,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-22,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-24,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-26,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-28,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-31,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-34,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-36,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-38,accepted,All eight semantic checks pass; author wording review,False
+core-closer_of_two-40,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-01,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-02,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-03,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-05,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-06,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-08,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-09,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-11,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-13,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-15,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-17,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-18,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-20,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-21,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-23,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-25,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-27,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-29,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-30,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-32,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-33,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-35,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-37,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-39,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-04,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-07,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-10,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-12,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-14,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-16,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-19,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-22,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-24,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-26,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-28,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-31,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-34,accepted,All eight semantic checks pass; author wording review,False
+core-count_within_radius-36,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-38,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-count_within_radius-40,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-01,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-02,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-03,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-05,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-06,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-08,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-09,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-11,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-13,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-15,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-17,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-18,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-20,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-21,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-23,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-25,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-27,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-29,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-30,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-32,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-33,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-35,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-37,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-39,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-04,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-07,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-10,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-12,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-14,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-16,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-19,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-22,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-24,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-26,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-28,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-31,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-nearest_of_two_categories-34,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-36,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-38,accepted,All eight semantic checks pass; author wording review,False
+core-nearest_of_two_categories-40,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-two_hop_nearest-01,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-02,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-03,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-05,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-06,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-08,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-09,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-11,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-13,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-15,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-17,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-18,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-20,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-21,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-23,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-25,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-27,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-29,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-30,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-32,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-33,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-35,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-37,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-39,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-04,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-07,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-10,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-12,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-14,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-16,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-19,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-22,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-24,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-26,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-28,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-31,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-34,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-36,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-38,accepted,All eight semantic checks pass; author wording review,False
+core-two_hop_nearest-40,revised_accepted,All eight semantic checks pass; author wording review; plural/phrasing revision logged in revision_history.jsonl,False
+core-spatial_multi_constraint-01,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-02,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-03,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-05,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-06,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-08,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-09,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-11,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-13,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-15,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-17,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-18,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-20,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-21,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-23,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-25,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-27,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-29,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-30,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-32,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-33,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-35,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-37,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-39,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-04,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-07,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-10,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-12,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-14,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-16,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-19,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-22,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-24,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-26,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-28,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-31,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-34,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-36,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-38,accepted,All eight semantic checks pass; author wording review,False
+core-spatial_multi_constraint-40,accepted,All eight semantic checks pass; author wording review,False

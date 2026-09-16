@@ -1,0 +1,27 @@
+{
+  "id": "1d63fcf35bc6120c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "قائمة سفراء السويد لدى السعودية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": 3,
+    "direction": "غرب",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2381,
+  "output_tokens": 107,
+  "inference_ms": 5958.578952999687,
+  "roundtrip_ms": 7310.910950000107
+}

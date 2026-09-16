@@ -1,0 +1,47 @@
+{
+  "id": "794f52e58080e45a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "إكسبو 2030",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "صيدلية",
+      "مدرسة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999254941940308,
+    "short_entropy": 0.0009158153115138634,
+    "short_top1_top2_margin": 0.9999057159111544,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 79,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0883144568651915e-05,
+      "cardinal_direction": 5.784549557574792e-06,
+      "within_radius_yes_no": 3.6245905903342646e-06,
+      "closer_of_two": 1.506192893430125e-05,
+      "count_within_radius": 4.570076725940453e-06,
+      "nearest_of_two_categories": 0.9999254941940308,
+      "two_hop_nearest": 1.97782828763593e-05,
+      "spatial_multi_constraint": 1.4753316463611554e-05
+    }
+  },
+  "parser_ms": 2.2202899999683723,
+  "short_with_features_ms": 2.359640000122454
+}

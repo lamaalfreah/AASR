@@ -1,0 +1,126 @@
+{
+  "cardinal_direction": {
+    "counts": {
+      "A": 3306,
+      "B": 370
+    },
+    "n": 3676,
+    "percentages": {
+      "A": 89.934712,
+      "B": 10.065288
+    }
+  },
+  "closer_of_two": {
+    "counts": {
+      "A": 1875,
+      "B": 575
+    },
+    "n": 2450,
+    "percentages": {
+      "A": 76.530612,
+      "B": 23.469388
+    }
+  },
+  "count_within_radius": {
+    "counts": {
+      "A": 712,
+      "B": 86
+    },
+    "n": 798,
+    "percentages": {
+      "A": 89.223058,
+      "B": 10.776942
+    }
+  },
+  "nearest_category": {
+    "counts": {
+      "A": 7410,
+      "B": 5
+    },
+    "n": 7415,
+    "percentages": {
+      "A": 99.932569,
+      "B": 0.067431
+    }
+  },
+  "nearest_of_two_categories": {
+    "counts": {
+      "A": 1796
+    },
+    "n": 1796,
+    "percentages": {
+      "A": 100.0
+    }
+  },
+  "overall": {
+    "counts": {
+      "A": 21062,
+      "B": 1036,
+      "F": 1
+    },
+    "n": 22099,
+    "percentages": {
+      "A": 95.30748,
+      "B": 4.687995,
+      "F": 0.004525
+    }
+  },
+  "spatial_multi_constraint": {
+    "counts": {
+      "A": 1669
+    },
+    "n": 1669,
+    "percentages": {
+      "A": 100.0
+    }
+  },
+  "test": {
+    "counts": {},
+    "n": 0,
+    "percentages": {}
+  },
+  "train": {
+    "counts": {
+      "A": 18679,
+      "B": 917,
+      "F": 1
+    },
+    "n": 19597,
+    "percentages": {
+      "A": 95.31561,
+      "B": 4.679288,
+      "F": 0.005103
+    }
+  },
+  "two_hop_nearest": {
+    "counts": {
+      "A": 1813
+    },
+    "n": 1813,
+    "percentages": {
+      "A": 100.0
+    }
+  },
+  "validation": {
+    "counts": {
+      "A": 2383,
+      "B": 119
+    },
+    "n": 2502,
+    "percentages": {
+      "A": 95.243805,
+      "B": 4.756195
+    }
+  },
+  "within_radius_yes_no": {
+    "counts": {
+      "A": 2481,
+      "F": 1
+    },
+    "n": 2482,
+    "percentages": {
+      "A": 99.95971,
+      "F": 0.04029
+    }
+  }
+}

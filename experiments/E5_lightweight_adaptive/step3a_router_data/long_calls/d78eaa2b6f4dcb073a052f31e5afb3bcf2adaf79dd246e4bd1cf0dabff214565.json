@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d78eaa2b6f4dcb073a052f31e5afb3bcf2adaf79dd246e4bd1cf0dabff214565",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"برج الحقيط\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"صيدلية الشبلان\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"جامع و مسجد الامام محمد ابن عبدالوهاب\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2406,
+  "output_tokens": 153,
+  "generation_ms": 8056.398134000119,
+  "inference_ms": 8066.39639200057,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 9893.862124998122,
+  "case_id": "router-e4e9697d93cffd4f3d1f"
+}

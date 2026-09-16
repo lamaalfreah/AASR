@@ -1,0 +1,34 @@
+{
+  "id": "4358b76f53a05033",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "المسجد الحرام",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Al Nahdi Pharmacy - 1st Floor",
+        "source": "unspecified"
+      },
+      {
+        "name": "مسجد مير عالم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2435,
+  "output_tokens": 148,
+  "inference_ms": 7843.2781850005995,
+  "roundtrip_ms": 10477.728349000245
+}

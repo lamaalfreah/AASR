@@ -1,0 +1,34 @@
+{
+  "id": "3e67dc582f8b97f2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الثقبة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Riyadh Bank ATM",
+        "source": "unspecified"
+      },
+      {
+        "name": "Operating Rooms",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4055,
+  "output_tokens": 228,
+  "inference_ms": 12742.159039000398,
+  "roundtrip_ms": 14875.337257002684
+}

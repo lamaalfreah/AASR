@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "efa2113f6468f28aedb07f666ebb0291c6209da5f828c6850d1ff58566e7f2f4",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"برج الشنانة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مستشفى\",\n    \"second_hop_category\": \"بنك\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2312,
+  "output_tokens": 99,
+  "generation_ms": 5742.955491999965,
+  "inference_ms": 5753.69893900006,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7267.969708016608,
+  "case_id": "router-8bcadcb2485f100de766"
+}

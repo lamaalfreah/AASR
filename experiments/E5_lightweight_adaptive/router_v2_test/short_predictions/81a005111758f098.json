@@ -1,0 +1,46 @@
+{
+  "id": "81a005111758f098",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "قائمة سفراء السويد لدى السعودية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999300241470337,
+    "short_entropy": 0.0008438902545647037,
+    "short_top1_top2_margin": 0.999899031365203,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 85,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999300241470337,
+      "cardinal_direction": 1.88639805855928e-05,
+      "within_radius_yes_no": 3.099278183071874e-05,
+      "closer_of_two": 6.359551207424374e-06,
+      "count_within_radius": 2.3654495180380763e-06,
+      "nearest_of_two_categories": 3.6382762118591927e-06,
+      "two_hop_nearest": 1.32105344619049e-06,
+      "spatial_multi_constraint": 6.420380941563053e-06
+    }
+  },
+  "parser_ms": 1.9455589999779477,
+  "short_with_features_ms": 2.0575300000018615
+}

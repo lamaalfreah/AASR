@@ -1,0 +1,25 @@
+{
+  "id": "e7ef7ea12ebf3936",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "كأس الملك فهد 1995",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "بنك"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2331,
+  "output_tokens": 106,
+  "inference_ms": 6440.315682999881,
+  "roundtrip_ms": 7821.400621000066
+}

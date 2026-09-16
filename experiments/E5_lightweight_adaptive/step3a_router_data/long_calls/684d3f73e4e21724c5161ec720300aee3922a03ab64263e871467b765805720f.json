@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "684d3f73e4e21724c5161ec720300aee3922a03ab64263e871467b765805720f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"جبل العرضة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"مقهى\",\n      \"محطة وقود\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مقهى\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1793,
+  "output_tokens": 115,
+  "generation_ms": 6702.770818000317,
+  "inference_ms": 6711.406713000542,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8077.903583995067,
+  "case_id": "router-cb66f11ded66cb9269f0"
+}

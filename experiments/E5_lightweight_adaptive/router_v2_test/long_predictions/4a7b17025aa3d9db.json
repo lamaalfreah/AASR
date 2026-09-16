@@ -1,0 +1,30 @@
+{
+  "id": "4a7b17025aa3d9db",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "عفيف",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطابخ الوافي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1643,
+  "output_tokens": 120,
+  "inference_ms": 6195.244102000288,
+  "roundtrip_ms": 8675.888847999886
+}

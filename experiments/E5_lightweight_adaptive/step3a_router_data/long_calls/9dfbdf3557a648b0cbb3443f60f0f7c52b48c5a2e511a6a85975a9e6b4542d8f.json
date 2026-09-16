@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "9dfbdf3557a648b0cbb3443f60f0f7c52b48c5a2e511a6a85975a9e6b4542d8f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"cardinal_direction\",\n    \"origin\": {\n      \"name\": \"جزيرة المسلمية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"الخنيني KPS 29\",\n        \"source\": \"candidate\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1604,
+  "output_tokens": 122,
+  "generation_ms": 6364.489928000012,
+  "inference_ms": 6372.634732000051,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8738.381292001577,
+  "case_id": "router-004c03fc26c16b3e3996"
+}

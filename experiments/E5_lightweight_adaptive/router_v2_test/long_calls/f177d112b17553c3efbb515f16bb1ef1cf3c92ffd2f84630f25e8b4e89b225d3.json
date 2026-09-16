@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f177d112b17553c3efbb515f16bb1ef1cf3c92ffd2f84630f25e8b4e89b225d3",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"الحجفار (جازان)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"محطة البشير\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1720,
+  "output_tokens": 71,
+  "generation_ms": 4180.149771999822,
+  "inference_ms": 4190.635906999887,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6720.723870999791,
+  "case_id": "e779dfbc6d3644d4"
+}

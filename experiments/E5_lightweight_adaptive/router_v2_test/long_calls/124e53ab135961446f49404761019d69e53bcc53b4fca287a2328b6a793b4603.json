@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "124e53ab135961446f49404761019d69e53bcc53b4fca287a2328b6a793b4603",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"جبل ذباب\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"صيدلية\",\n    \"second_hop_category\": \"عيادة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2248,
+  "output_tokens": 101,
+  "generation_ms": 5639.748944000019,
+  "inference_ms": 5650.212449999998,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7254.4988930000045,
+  "case_id": "e1d5c55d9d13ef03"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "e056c17ff6f21c2494fa5daaa74f695398531a41cc768905f5b0600323c713c2",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"مدينة الأمير محمد بن عبد العزيز الرياضية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"عيادة\"],\n    \"radius_km\": 5,\n    \"direction\": \"شرق\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1829,
+  "output_tokens": 107,
+  "generation_ms": 5202.550470999999,
+  "inference_ms": 5224.901756000001,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7503.950959013309,
+  "case_id": "router-a7187803123541534ac5"
+}

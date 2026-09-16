@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8d7830864f3df2a6059b834e3ffcd4ef242f9f3f101fb0f251c7b6cd313e347a",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"متحف مكة المكرمة للآثار والتراث\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"كلية\", \"عيادة\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is asking for the nearest college to the nearest clinic relative to the context anchor, which is 'متحف مكة المكرمة للآثار والتراث'. The operation is set to 'nearest_of_two_categories' to compare the two categories 'كلية' and 'عيادة'.\"\n}",
+  "input_tokens": 2361,
+  "output_tokens": 171,
+  "generation_ms": 9486.331252999662,
+  "inference_ms": 9496.362507000413,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10852.534292003838,
+  "case_id": "router-fdf8e8c4e33ce1d31501"
+}

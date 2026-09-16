@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "21c57f2a627aa3095ffa8b3f7caf8a5905d5dbf1557c2bd7ec8b8970782b1b95",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"الدرعية\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Moudi's Sabala Mosque\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2266,
+  "output_tokens": 73,
+  "generation_ms": 4170.641233000197,
+  "inference_ms": 4182.631055000002,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8679.503556999862,
+  "case_id": "3764c90e06ba106a"
+}

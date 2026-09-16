@@ -1,0 +1,30 @@
+{
+  "id": "95a7c9ee008d61a7",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مطار طريف المحلي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة وقود",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3369,
+  "output_tokens": 179,
+  "inference_ms": 9471.56222000001,
+  "roundtrip_ms": 17054.36904500016
+}

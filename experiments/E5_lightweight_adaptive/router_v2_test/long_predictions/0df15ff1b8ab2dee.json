@@ -1,0 +1,34 @@
+{
+  "id": "0df15ff1b8ab2dee",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "أبرقية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "عالية نجد",
+        "source": "unspecified"
+      },
+      {
+        "name": "بترول الرياض",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3277,
+  "output_tokens": 223,
+  "inference_ms": 11489.159865001056,
+  "roundtrip_ms": 15773.960094998984
+}

@@ -1,0 +1,30 @@
+{
+  "id": "e1e377ceff9e912c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "جبل القاعد",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Best crepe",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1701,
+  "output_tokens": 118,
+  "inference_ms": 6286.847365999961,
+  "roundtrip_ms": 7375.801446999958
+}

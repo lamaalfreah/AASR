@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6d22932d59b811edaa58dbbaa66101b9a156dad2011562cd068e059b53a9cae6",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"محافظة الزلفي\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"صراف البلاد\",\"source\":\"unspecified\"},{\"name\":\"صراف الراجحي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2139,
+  "output_tokens": 84,
+  "generation_ms": 4621.150639000007,
+  "inference_ms": 4630.329684000571,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6199.516874999972,
+  "case_id": "router-895468969e26ddd8e9c4"
+}

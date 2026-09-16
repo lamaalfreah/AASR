@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-spatial_multi_constraint-38",
+  "task_type": "spatial_multi_constraint",
+  "language_register": "indirect_compositional",
+  "complexity_level": "L4",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.6650832295417786,
+  "short_pipeline_ms": 0.6276249999999095,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1832,
+  "output_tokens": 104,
+  "long_inference_ms": 4770.435391999968,
+  "long_roundtrip_ms": 5905.1822909968905,
+  "predicted_query": {
+    "operation": "spatial_multi_constraint",
+    "origin": {
+      "name": "معركة حريملاء",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": 3,
+    "direction": "شرق",
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مطعم الكوخ للمندي",
+    "text": "مطعم الكوخ للمندي"
+  },
+  "raw_operation": "spatial_multi_constraint",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

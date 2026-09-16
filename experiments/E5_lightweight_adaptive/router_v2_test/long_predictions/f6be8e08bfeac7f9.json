@@ -1,0 +1,34 @@
+{
+  "id": "f6be8e08bfeac7f9",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "الحج في الإسلام",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Tahweel Al Rajhi",
+        "source": "unspecified"
+      },
+      {
+        "name": "Mu'ath Ibn Jabal Mosque",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2435,
+  "output_tokens": 148,
+  "inference_ms": 7620.651422999799,
+  "roundtrip_ms": 10262.132294999901
+}

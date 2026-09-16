@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "b282b7d2b03241cba97030dd58f32b2104fa2ca9078a734b11b01031dbf24ab0",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"الثقبة\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\",\"مدرسة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2044,
+  "output_tokens": 64,
+  "generation_ms": 3772.7133839998714,
+  "inference_ms": 3782.326812000065,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4787.9760039977555,
+  "case_id": "078bae04c6dc7d92"
+}

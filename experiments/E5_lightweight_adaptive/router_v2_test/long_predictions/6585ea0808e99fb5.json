@@ -1,0 +1,27 @@
+{
+  "id": "6585ea0808e99fb5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "وادي المغمس",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1750,
+  "output_tokens": 99,
+  "inference_ms": 5400.489697000012,
+  "roundtrip_ms": 8140.434284000094
+}

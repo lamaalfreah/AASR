@@ -1,0 +1,34 @@
+{
+  "id": "d3d0996806c1b879",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "دار العباس بن عبد المطلب",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صيدلية النهدي",
+        "source": "unspecified"
+      },
+      {
+        "name": "البيك",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4623,
+  "output_tokens": 217,
+  "inference_ms": 11876.201611001306,
+  "roundtrip_ms": 17100.186988998757
+}

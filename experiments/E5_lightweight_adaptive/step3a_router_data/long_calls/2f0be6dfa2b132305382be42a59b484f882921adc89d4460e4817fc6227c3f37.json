@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "2f0be6dfa2b132305382be42a59b484f882921adc89d4460e4817fc6227c3f37",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_category\",\n    \"origin\": {\n      \"name\": \"جبل ثور (المدينة المنورة)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"صيدلية\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"تم تعيين الطلب على اختيار صيدلية قرب جبل ثور (المدينة المنورة).\"\n}",
+  "input_tokens": 2028,
+  "output_tokens": 128,
+  "generation_ms": 7249.017623000327,
+  "inference_ms": 7258.505410999987,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10432.60679100058,
+  "case_id": "router-b4d217cbe243e8c777c3"
+}

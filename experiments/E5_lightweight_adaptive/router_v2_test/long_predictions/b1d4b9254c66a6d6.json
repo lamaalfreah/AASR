@@ -1,0 +1,30 @@
+{
+  "id": "b1d4b9254c66a6d6",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مطار نجران الإقليمي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "(جامعة نجران فرع رئيسي (السوادي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1730,
+  "output_tokens": 134,
+  "inference_ms": 7008.500970999648,
+  "roundtrip_ms": 7912.7647219997925
+}

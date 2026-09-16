@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8af5b4774713686e08b5d4934c804ee270a9b31ed16d0e53789e96e95a467a25",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"أبو عريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"صيدلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2224,
+  "output_tokens": 102,
+  "generation_ms": 5836.791236999943,
+  "inference_ms": 5847.233867000114,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7360.968590000084,
+  "case_id": "3523d4f806a399e4"
+}

@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-count_within_radius-04",
+  "task_type": "count_within_radius",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.550766110420227,
+  "short_pipeline_ms": 0.3059999999996954,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1656,
+  "output_tokens": 97,
+  "long_inference_ms": 4301.263044999985,
+  "long_roundtrip_ms": 5195.033916999819,
+  "predicted_query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "هرفي",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "integer",
+    "value": 2,
+    "text": "2"
+  },
+  "raw_operation": "count_within_radius",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

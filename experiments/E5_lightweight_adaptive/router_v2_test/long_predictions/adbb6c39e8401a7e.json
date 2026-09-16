@@ -1,0 +1,27 @@
+{
+  "id": "adbb6c39e8401a7e",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "حي العزيزية (جدة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "جامعة"
+    ],
+    "radius_km": 3,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "السؤال يسأل عن وجود جامعة ضمن مسافة 3 كم من حي العزيزية (جدة)، مما يناسب عملية within_radius_yes_no.",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2199,
+  "output_tokens": 140,
+  "inference_ms": 7580.33321000039,
+  "roundtrip_ms": 9790.600723999887
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.230696337000001,
+  "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "50e5990632b7b7a1b130d71d3313ab9cadf590a2bb12d878ed49188504f7c30d",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"count_within_radius\",\n    \"origin\": {\n      \"name\": \"عثر\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"محطة وقود\"],\n    \"radius_km\": 5,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1589,
+  "output_tokens": 98,
+  "generation_ms": 4286.12371600002,
+  "inference_ms": 4290.946710000015,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5168.694916006643,
+  "case_id": "core-within_radius_yes_no-31"
+}

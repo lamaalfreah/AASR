@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-two_hop_nearest-31",
+  "task_type": "two_hop_nearest",
+  "language_register": "light_saudi",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.7151517271995544,
+  "short_pipeline_ms": 0.8639999999999759,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2427,
+  "output_tokens": 109,
+  "long_inference_ms": 5088.74433699998,
+  "long_roundtrip_ms": 6235.11808301555,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "كلية العلوم الطبية التطبيقية (جامعة الملك سعود)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مقهى",
+    "second_hop_category": "مقهى"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "Social Cafe & Roastery",
+    "text": "Social Cafe & Roastery"
+  },
+  "raw_operation": "two_hop_nearest",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

@@ -1,0 +1,34 @@
+{
+  "id": "38477d88dd4a25b5",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "قائمة سفراء السويد لدى السعودية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Elementary School",
+        "source": "unspecified"
+      },
+      {
+        "name": "مجمع نون الطبي Noon Medical Clinic",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2379,
+  "output_tokens": 152,
+  "inference_ms": 8163.16840699983,
+  "roundtrip_ms": 9840.420669001105
+}

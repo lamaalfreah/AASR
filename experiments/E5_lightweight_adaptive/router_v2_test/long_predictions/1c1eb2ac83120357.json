@@ -1,0 +1,27 @@
+{
+  "id": "1c1eb2ac83120357",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "أبراج كدي",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 3,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2377,
+  "output_tokens": 100,
+  "inference_ms": 5609.830291000435,
+  "roundtrip_ms": 7458.232368000608
+}

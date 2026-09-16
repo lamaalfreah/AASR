@@ -1,0 +1,25 @@
+{
+  "id": "496d974ad8c74b0d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "الحج في الإسلام",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مدرسة",
+    "second_hop_category": "محطة وقود"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2450,
+  "output_tokens": 100,
+  "inference_ms": 5660.442950999936,
+  "roundtrip_ms": 7014.406156000177
+}

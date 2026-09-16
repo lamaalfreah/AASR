@@ -1,0 +1,27 @@
+{
+  "id": "2450e18fa3a97f00",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "منتدى تورايز",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2298,
+  "output_tokens": 98,
+  "inference_ms": 5383.015164999961,
+  "roundtrip_ms": 8202.04050600023
+}

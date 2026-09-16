@@ -1,0 +1,55 @@
+{
+  "id": "router-a07004ce2c32f8057343",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7220844626426697,
+    "short_entropy": 1.0538730127666072,
+    "short_top1_top2_margin": 0.619282677769661,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 60,
+    "question_length_words": 11,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "كليات الرؤية",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "عيادات رويال",
+          "source": "unspecified"
+        },
+        {
+          "name": "عيادات النهدي",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 2,
+    "invalid_responses": 1,
+    "inference_ms": 14145.101882000063
+  }
+}

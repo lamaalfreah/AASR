@@ -1,0 +1,30 @@
+{
+  "id": "39f648c761aad916",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "موقع دحضة الأثري",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "طوارئ النساء والولادة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1968,
+  "output_tokens": 125,
+  "inference_ms": 6642.13455099997,
+  "roundtrip_ms": 7850.313530999983
+}

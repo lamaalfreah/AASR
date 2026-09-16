@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "55753b218cd6a692edc3b78635f0552b5295ad6622b3771bb76a4ed8e66e2d99",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"الثقبة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مدرسة\",\n    \"second_hop_category\": \"صيدلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2031,
+  "output_tokens": 100,
+  "generation_ms": 5736.979533000067,
+  "inference_ms": 5746.966665999935,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7205.673493999939,
+  "case_id": "6f3cc3bd3caff14c"
+}

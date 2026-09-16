@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "05f37a7b5820b23dcc50f5bf07f332196223f450974e5816b0e42e02032345b2",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"بيت البيعة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"صيدلية\"],\n    \"radius_km\": 5,\n    \"direction\": \"جنوب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"الطلب مُحلل بشكل صحيح، وتم تحديد نوع المكان (صيدلية)، وقيد الاتجاه (جنوب)، وقيد المسافة (5 كم) من «بيت البيعة».\"\n}",
+  "input_tokens": 2250,
+  "output_tokens": 151,
+  "generation_ms": 6753.239080000014,
+  "inference_ms": 6759.454339999991,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8433.287666994147,
+  "case_id": "router-4a7341652f8c18b5dca3"
+}

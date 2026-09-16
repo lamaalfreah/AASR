@@ -1,0 +1,30 @@
+{
+  "id": "a6fef45f52cc605b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "ملعب الصائغ",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Imam University - Scientific Instititute in Malaz",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2239,
+  "output_tokens": 127,
+  "inference_ms": 6797.3630390001745,
+  "roundtrip_ms": 7849.757490999991
+}

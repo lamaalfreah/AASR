@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c4fe4a5fc14ea6e1cf0afc42e359f5e6d62b5ec076450fe743f0e2758dc3f8b4",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"قصر البنت (مدائن صالح)\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"الآثار بالحجر\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1636,
+  "output_tokens": 73,
+  "generation_ms": 3986.6254060002575,
+  "inference_ms": 3994.2970020001667,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 4918.950989000223,
+  "case_id": "ed4b24b66f6979db"
+}

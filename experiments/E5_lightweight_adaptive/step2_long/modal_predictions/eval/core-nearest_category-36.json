@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-nearest_category-36",
+  "task_type": "nearest_category",
+  "language_register": "light_saudi",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.8331262469291687,
+  "short_pipeline_ms": 0.4562500000000469,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1936,
+  "output_tokens": 99,
+  "long_inference_ms": 4383.4218700000065,
+  "long_roundtrip_ms": 5340.977917017881,
+  "predicted_query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مركز ريع مصيدة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "مركز الرعاية الصحية الأولية",
+    "text": "مركز الرعاية الصحية الأولية"
+  },
+  "raw_operation": "nearest_category",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

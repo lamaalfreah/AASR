@@ -1,0 +1,44 @@
+{
+  "challenge_id": "core-count_within_radius-02",
+  "task_type": "count_within_radius",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.632880687713623,
+  "short_pipeline_ms": 0.5781670000000183,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1870,
+  "output_tokens": 101,
+  "long_inference_ms": 5503.933590000002,
+  "long_roundtrip_ms": 7230.862875003368,
+  "predicted_query": {
+    "operation": "count_within_radius",
+    "origin": {
+      "name": "مصلى عيد الحزم",
+      "source": "candidate"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 1.5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "integer",
+    "value": 2,
+    "text": "2"
+  }
+}

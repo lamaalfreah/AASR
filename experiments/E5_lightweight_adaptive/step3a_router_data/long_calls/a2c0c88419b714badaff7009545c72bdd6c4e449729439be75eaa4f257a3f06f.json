@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a2c0c88419b714badaff7009545c72bdd6c4e449729439be75eaa4f257a3f06f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"شرورة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"محطة وقود\",\n    \"second_hop_category\": \"كلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1795,
+  "output_tokens": 99,
+  "generation_ms": 5666.701248999743,
+  "inference_ms": 5675.66298300062,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7087.47429100913,
+  "case_id": "router-4b5fd2aa8907e258e26f"
+}

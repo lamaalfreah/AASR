@@ -1,0 +1,55 @@
+{
+  "id": "router-69b79561dbf3d5742700",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.7454946637153625,
+    "short_entropy": 0.656322093307197,
+    "short_top1_top2_margin": 0.508411169052124,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 86,
+    "question_length_words": 14,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "عين البراحة (الدوادمي)",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "حي الحمد",
+          "source": "unspecified"
+        },
+        {
+          "name": "مصلى العيد",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 2,
+    "invalid_responses": 1,
+    "inference_ms": 12049.970142998973
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "751fa7011d7fe18c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_category",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "ملعب الصائغ",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999326467514038,
+    "short_entropy": 0.0008149163012010345,
+    "short_top1_top2_margin": 0.9999030917060736,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 64,
+    "question_length_words": 12,
+    "predicted_operation": "nearest_category",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 0.9999326467514038,
+      "cardinal_direction": 1.8797978555085137e-05,
+      "within_radius_yes_no": 2.955504533019848e-05,
+      "closer_of_two": 6.296095762081677e-06,
+      "count_within_radius": 1.963011072803056e-06,
+      "nearest_of_two_categories": 3.429748403505073e-06,
+      "two_hop_nearest": 1.2829705156036653e-06,
+      "spatial_multi_constraint": 6.079272679926362e-06
+    }
+  },
+  "parser_ms": 1.8979099999967275,
+  "short_with_features_ms": 2.0108399999969606
+}

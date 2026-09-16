@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a2fd7de208c0a8ee5da6856ad6615f75ed4647f5104cfdba65dd2a008f4c3ad9",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"جامعه نجران\",\n      \"source\": \"candidate\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"جامعة\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1678,
+  "output_tokens": 101,
+  "generation_ms": 5802.208959999916,
+  "inference_ms": 5810.600867000176,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7380.291333014611,
+  "case_id": "router-8bc6671dfa273c18deb9"
+}

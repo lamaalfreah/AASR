@@ -1,0 +1,55 @@
+{
+  "by_split": {
+    "test": {
+      "article_separated_records": 2332,
+      "candidate_blocks": 144147,
+      "candidate_parse_clean_records": 2332,
+      "extra_duplicate_name_occurrences": 13209,
+      "extra_duplicate_row_occurrences": 69,
+      "malformed_candidate_blocks": 0,
+      "multiline_candidate_occurrences": 845,
+      "parsed_candidates": 144147,
+      "questions_with_latin_letters": 208
+    },
+    "train": {
+      "article_separated_records": 19597,
+      "candidate_blocks": 1253945,
+      "candidate_parse_clean_records": 19597,
+      "extra_duplicate_name_occurrences": 111942,
+      "extra_duplicate_row_occurrences": 358,
+      "malformed_candidate_blocks": 0,
+      "multiline_candidate_occurrences": 4383,
+      "parsed_candidates": 1253945,
+      "questions_with_latin_letters": 1625
+    },
+    "validation": {
+      "article_separated_records": 2502,
+      "candidate_blocks": 155061,
+      "candidate_parse_clean_records": 2502,
+      "extra_duplicate_name_occurrences": 13306,
+      "extra_duplicate_row_occurrences": 0,
+      "malformed_candidate_blocks": 0,
+      "multiline_candidate_occurrences": 736,
+      "parsed_candidates": 155061,
+      "questions_with_latin_letters": 196
+    }
+  },
+  "category_distribution_denominator": "Occurrences across records; repeated contexts count repeatedly. Unique registry counts also supplied.",
+  "no_deduplication_applied": true,
+  "unique_registry_category_occurrences": {
+    "بنك": 6143,
+    "جامعة": 2979,
+    "روضة أطفال": 1087,
+    "صراف آلي": 2759,
+    "صيدلية": 6043,
+    "عيادة": 5084,
+    "كلية": 2865,
+    "محطة وقود": 6961,
+    "مدرسة": 4611,
+    "مستشفى": 6777,
+    "مطعم": 7281,
+    "مطعم وجبات سريعة": 6940,
+    "مقهى": 6582,
+    "مكان عبادة": 4606
+  }
+}

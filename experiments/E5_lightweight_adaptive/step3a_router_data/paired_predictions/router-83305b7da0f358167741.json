@@ -1,0 +1,49 @@
+{
+  "id": "router-83305b7da0f358167741",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.8534078001976013,
+    "short_entropy": 0.650989395282417,
+    "short_top1_top2_margin": 0.7844951972365379,
+    "query_valid": false,
+    "missing_slots": [
+      "targets"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 62,
+    "question_length_words": 12,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "nearest_of_two_categories",
+      "origin": {
+        "name": "كليات الرؤية",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "بنك",
+        "مطعم"
+      ],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 5775.103930999649
+  }
+}

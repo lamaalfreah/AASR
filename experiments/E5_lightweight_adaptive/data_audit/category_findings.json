@@ -1,0 +1,92 @@
+{
+  "categories": [
+    "بنك",
+    "جامعة",
+    "روضة أطفال",
+    "صراف آلي",
+    "صيدلية",
+    "عيادة",
+    "كلية",
+    "محطة وقود",
+    "مدرسة",
+    "مستشفى",
+    "مطعم",
+    "مطعم وجبات سريعة",
+    "مقهى",
+    "مكان عبادة"
+  ],
+  "lexically_similar_pairs_not_merged": [],
+  "normalization_proposals": "Preserve exact taxonomy; review restaurant/fast_food, bank/ATM, university/college and school/kindergarten semantically, never merge automatically.",
+  "split_presence": {
+    "بنك": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "جامعة": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "روضة أطفال": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "صراف آلي": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "صيدلية": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "عيادة": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "كلية": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "محطة وقود": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مدرسة": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مستشفى": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مطعم": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مطعم وجبات سريعة": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مقهى": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "مكان عبادة": [
+      "train",
+      "validation",
+      "test"
+    ]
+  }
+}

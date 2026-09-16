@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "8deca80e5f19ad776e291617ec2e4f258eb1c8eed710b668a6644ef0b4b9f535",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"محافظة الطوال\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"عيادة\"},\"message\":\"\"}",
+  "input_tokens": 1848,
+  "output_tokens": 62,
+  "generation_ms": 3659.581173000106,
+  "inference_ms": 3668.6947919999966,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5085.0939439999365,
+  "case_id": "72db3f184fa179b1"
+}

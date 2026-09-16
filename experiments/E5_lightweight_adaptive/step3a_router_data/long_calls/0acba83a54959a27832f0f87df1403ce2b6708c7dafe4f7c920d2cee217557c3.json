@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "0acba83a54959a27832f0f87df1403ce2b6708c7dafe4f7c920d2cee217557c3",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"nearest_of_two_categories\",\"origin\":{\"name\":\"الروغاني\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مطعم\",\"مطعم وجبات سريعة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2149,
+  "output_tokens": 70,
+  "generation_ms": 4134.215015999871,
+  "inference_ms": 4146.573390999947,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 6636.244875000557,
+  "case_id": "router-7324ca7b6d894e6996cb"
+}

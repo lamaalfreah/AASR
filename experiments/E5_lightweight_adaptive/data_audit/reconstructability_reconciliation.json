@@ -1,0 +1,324 @@
+{
+  "previous_interim_counts": {
+    "A": 21106,
+    "B": 992,
+    "F": 1
+  },
+  "final_counts": {
+    "A": 21062,
+    "B": 1036,
+    "F": 1
+  },
+  "additional_conservative_reclassifications": 44,
+  "reason": "Target repeats the context anchor name but refers to candidate coordinates that differ; 46 train/validation collisions, two already counted as ambiguous. No test gold used.",
+  "records": [
+    {
+      "id": "0493c76264be2c10",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "0e802e4b34077080",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "0ff302ee8a22963d",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "1184932a478d51e2",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "13e0667509aaca1a",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "1c15caf5ac1d56b8",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "20a265653f6bcb92",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "2bf5a664e8026765",
+      "split": "validation",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "31e2f17ec4df0cc6",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "320cc5da0504ebab",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "32213761d4969342",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "33513b27a134804c",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "35cd3828e0182a18",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "42d3977d5dffbf9d",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "4e5a6ef0d1fe4771",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "509e3625f0302a8c",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "5446c7e9b3700da7",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "5c19c5733e6197b4",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "6664bf4ada8b2126",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "794042ce8404c37e",
+      "split": "validation",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "81ac55456ff476d9",
+      "split": "validation",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "84fb8248c759e6aa",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "87c5ed1c2a0a81f8",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "8aec133a941cf33f",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "976918741c423e77",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "a3d060e1456ff6f2",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "b551c100eb1c01ce",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "b6a3b8cb2a5dfc08",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "baae8914ac914bb6",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "bbd01df5e94e5f30",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "cf211bd45d90a364",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "d2647f0a0b7b8074",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "d4b5ba34cc53d5d3",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "d7ecf30161d856b2",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "e275107c0a9a5cb1",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "e2f8f921d92cf06f",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "e34228df6350bf1c",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "e59ab1a3728bbfda",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "eb67155ca2be99bd",
+      "split": "validation",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "f0f29edb2139e61b",
+      "split": "validation",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "f54504a073d2ab1b",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "f6d5387bbcbdd3ef",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "fb646e3e324e97b0",
+      "split": "train",
+      "task_type": "cardinal_direction",
+      "previous_class": "A",
+      "final_class": "B"
+    },
+    {
+      "id": "fb708fe8e6fd608f",
+      "split": "train",
+      "task_type": "closer_of_two",
+      "previous_class": "A",
+      "final_class": "B"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "18cb6c50f248eaeed26cc390c303a85a43fc7ffdf60a9b42597bd548ab331bde",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"دار عثمان بن عفان الكبرى\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مدرسة\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2324,
+  "output_tokens": 104,
+  "generation_ms": 6112.820248999924,
+  "inference_ms": 6123.100427000281,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7424.06691701035,
+  "case_id": "router-172877071ce516a3c45b"
+}

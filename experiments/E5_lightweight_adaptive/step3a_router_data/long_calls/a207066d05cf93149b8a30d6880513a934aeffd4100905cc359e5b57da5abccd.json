@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "a207066d05cf93149b8a30d6880513a934aeffd4100905cc359e5b57da5abccd",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"مدرسة الموارد الدولية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"مدرسة\",\n      \"مقهى\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مدرسة\",\n    \"second_hop_category\": \"مقهى\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2275,
+  "output_tokens": 111,
+  "generation_ms": 6201.748053999836,
+  "inference_ms": 6213.629416999538,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7976.601041998947,
+  "case_id": "router-4233f00f4ac31af3508a"
+}

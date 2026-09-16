@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.849329401999999,
+  "container_session": "4098ec1f23304bf793be7237e32dc555",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "1ad57437b740812a550dcd00ab916533bd289726d290486ae6bd4c3f65212a79",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"cardinal_direction\",\n    \"origin\": {\n      \"name\": \"دحل أبا الجرفان\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"ابن مجفل\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1608,
+  "output_tokens": 122,
+  "generation_ms": 6537.454574001458,
+  "inference_ms": 6546.269196000139,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 27587.33834000003,
+  "case_id": "211692018d823e29"
+}

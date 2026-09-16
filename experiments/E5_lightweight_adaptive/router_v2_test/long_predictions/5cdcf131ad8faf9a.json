@@ -1,0 +1,30 @@
+{
+  "id": "5cdcf131ad8faf9a",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الفنون الصخرية في منطقة حائل",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مطعم بخاري",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1632,
+  "output_tokens": 126,
+  "inference_ms": 6457.614766000006,
+  "roundtrip_ms": 9271.914659000004
+}

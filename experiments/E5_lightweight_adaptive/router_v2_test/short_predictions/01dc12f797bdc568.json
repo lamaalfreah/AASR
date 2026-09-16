@@ -1,0 +1,44 @@
+{
+  "id": "01dc12f797bdc568",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "عرعر (مدينة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مطعم",
+    "second_hop_category": "محطة وقود"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999347925186157,
+    "short_entropy": 0.0008088035665138679,
+    "short_top1_top2_margin": 0.9999153185344767,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 134,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.6335848108137725e-06,
+      "cardinal_direction": 1.9473984139040112e-05,
+      "within_radius_yes_no": 6.2419139794656076e-06,
+      "closer_of_two": 7.772099706926383e-06,
+      "count_within_radius": 9.805899935599882e-06,
+      "nearest_of_two_categories": 1.5628622350050136e-05,
+      "two_hop_nearest": 0.9999347925186157,
+      "spatial_multi_constraint": 2.6966738460032502e-06
+    }
+  },
+  "parser_ms": 2.6622699999734323,
+  "short_with_features_ms": 2.7713800000128685
+}

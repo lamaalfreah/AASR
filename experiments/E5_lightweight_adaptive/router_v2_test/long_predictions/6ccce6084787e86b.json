@@ -1,0 +1,30 @@
+{
+  "id": "6ccce6084787e86b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "قائمة سفراء السويد لدى السعودية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Al Safarat Secondary School",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2370,
+  "output_tokens": 126,
+  "inference_ms": 7085.408312000254,
+  "roundtrip_ms": 9560.237506999783
+}

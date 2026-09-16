@@ -1,0 +1,44 @@
+{
+  "id": "cb9dfbd66bc58aeb",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "وادي صفار",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مستشفى",
+    "second_hop_category": "مدرسة"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999933123588562,
+    "short_entropy": 0.0008295852613573571,
+    "short_top1_top2_margin": 0.9999152545296965,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 129,
+    "question_length_words": 22,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.799831802098197e-06,
+      "cardinal_direction": 1.7869058865471743e-05,
+      "within_radius_yes_no": 6.74774901199271e-06,
+      "closer_of_two": 8.263880772574339e-06,
+      "count_within_radius": 1.1253227057750337e-05,
+      "nearest_of_two_categories": 1.6005336874513887e-05,
+      "two_hop_nearest": 0.999933123588562,
+      "spatial_multi_constraint": 2.9792417990393005e-06
+    }
+  },
+  "parser_ms": 3.0115900001419504,
+  "short_with_features_ms": 3.1207200001972524
+}

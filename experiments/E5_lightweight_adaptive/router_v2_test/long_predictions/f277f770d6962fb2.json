@@ -1,0 +1,27 @@
+{
+  "id": "f277f770d6962fb2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "وزارة البلديات والإسكان",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 1,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2479,
+  "output_tokens": 101,
+  "inference_ms": 5764.131672999611,
+  "roundtrip_ms": 7534.032539999316
+}

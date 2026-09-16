@@ -1,0 +1,51 @@
+{
+  "challenge_id": "core-closer_of_two-01",
+  "task_type": "closer_of_two",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "d4eb665144ae92f2915826b05b976c7d3ea49153c0a76a5739567ae2c494cec4",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.4759344160556793,
+  "short_pipeline_ms": 0.4800839999998807,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3635,
+  "output_tokens": 205,
+  "long_inference_ms": 11205.122414000001,
+  "long_roundtrip_ms": 13476.032042002771,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "قلعة قيار",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صراف الرياض",
+        "source": "unspecified"
+      },
+      {
+        "name": "جامع الروضة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "صراف الرياض",
+    "text": "صراف الرياض"
+  }
+}

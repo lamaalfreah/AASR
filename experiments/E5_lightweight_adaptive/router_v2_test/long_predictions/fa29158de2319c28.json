@@ -1,0 +1,27 @@
+{
+  "id": "fa29158de2319c28",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "المسجد الحرام",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2436,
+  "output_tokens": 100,
+  "inference_ms": 5629.831229999581,
+  "roundtrip_ms": 7322.142344000895
+}

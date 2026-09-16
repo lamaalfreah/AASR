@@ -1,0 +1,47 @@
+{
+  "id": "226233461ca7cf31",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "دار عثمان بن عفان الصغرى",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "بنك",
+      "صيدلية"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999271631240845,
+    "short_entropy": 0.000896996494939898,
+    "short_top1_top2_margin": 0.9999082808735693,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 91,
+    "question_length_words": 17,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 1.0525674042582978e-05,
+      "cardinal_direction": 5.962645900581265e-06,
+      "within_radius_yes_no": 3.393297447473742e-06,
+      "closer_of_two": 1.5709869330748916e-05,
+      "count_within_radius": 4.494419954426121e-06,
+      "nearest_of_two_categories": 0.9999271631240845,
+      "two_hop_nearest": 1.8882250515162013e-05,
+      "spatial_multi_constraint": 1.38123104989063e-05
+    }
+  },
+  "parser_ms": 2.3806700000932324,
+  "short_with_features_ms": 2.5211699999090342
+}

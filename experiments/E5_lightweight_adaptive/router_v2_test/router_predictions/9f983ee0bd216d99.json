@@ -1,0 +1,9 @@
+{
+  "id": "9f983ee0bd216d99",
+  "route": "SHORT",
+  "long_probability": 0.000977298201280255,
+  "threshold": 0.91,
+  "router_ms": 2.1740419906564057,
+  "model_sha256": "c75a291f11acffcc0a72612b03213c49536ce8ea29677364b9e5df7a713edbda",
+  "feature_digest": "b5e39d2619da1ecf53d5d913fe623537e592536495fb12309130e8e578c6f9c1"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "996b2c6504142f5b",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "وادي المغمس",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى",
+      "عيادة"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3541,
+  "output_tokens": 204,
+  "inference_ms": 11209.111537999888,
+  "roundtrip_ms": 13897.831276000943
+}

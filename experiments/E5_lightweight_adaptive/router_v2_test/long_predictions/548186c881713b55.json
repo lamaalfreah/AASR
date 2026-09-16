@@ -1,0 +1,25 @@
+{
+  "id": "548186c881713b55",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "المركز الوطني لتنمية الغطاء النباتي ومكافحة التصحر",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "صيدلية",
+    "second_hop_category": "مطعم"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2465,
+  "output_tokens": 115,
+  "inference_ms": 6695.280114999832,
+  "roundtrip_ms": 8145.15416800009
+}

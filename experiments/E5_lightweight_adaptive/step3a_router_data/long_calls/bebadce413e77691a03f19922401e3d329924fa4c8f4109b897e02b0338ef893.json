@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "bebadce413e77691a03f19922401e3d329924fa4c8f4109b897e02b0338ef893",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"مطار الأمير نايف بن عبد العزيز الدولي\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Dunkin' Donuts\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 1990,
+  "output_tokens": 79,
+  "generation_ms": 4661.213219000274,
+  "inference_ms": 4671.061086000009,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7619.3492080201395,
+  "case_id": "router-63383a8719b5911ea6cb"
+}

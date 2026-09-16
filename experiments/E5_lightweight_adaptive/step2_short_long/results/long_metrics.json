@@ -1,0 +1,64 @@
+{
+  "model": "qwen3-4b",
+  "provider_status": {
+    "requested_model": "qwen3-4b",
+    "account_region_verified": false,
+    "status": "blocked",
+    "reason": "Missing DASHSCOPE_API_KEY and/or DASHSCOPE_BASE_URL; account/region access unverified"
+  },
+  "core": {
+    "dev": {
+      "evaluated": 0,
+      "status": "not_run",
+      "accuracy_percent": null,
+      "query_exact_percent": null,
+      "parse_success_percent": null,
+      "abstention_percent": null,
+      "mean_ms": null,
+      "p50_ms": null,
+      "p95_ms": null
+    },
+    "eval": {
+      "evaluated": 0,
+      "status": "not_run",
+      "accuracy_percent": null,
+      "query_exact_percent": null,
+      "parse_success_percent": null,
+      "abstention_percent": null,
+      "mean_ms": null,
+      "p50_ms": null,
+      "p95_ms": null
+    }
+  },
+  "paired": {
+    "dev": {
+      "paired_evaluated": 0,
+      "short_wrong_long_correct": null,
+      "opportunity_percent": null,
+      "long_rescue_percent": null,
+      "long_regression_percent": null,
+      "long_regression_denominator": 0,
+      "outcomes": {}
+    },
+    "eval": {
+      "paired_evaluated": 0,
+      "short_wrong_long_correct": null,
+      "opportunity_percent": null,
+      "long_rescue_percent": null,
+      "long_regression_percent": null,
+      "long_regression_denominator": 0,
+      "outcomes": {}
+    }
+  },
+  "challenge_sha256": "f1efc2ff1fe47c6a9baf751fc0a126124ff230e76f569910aa5ba49151b91ffc",
+  "prompt_sha256": "c6eb3bed1913847160e89550ff155d09aec9c51d6a18cfedccab0a03601ec1af",
+  "code_sha256": "3c35bc98e57fc137d1b980a1cd5cbd687c803b7257a5a47c265e7e13b1235610",
+  "llm_calls": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "actual_provider_cost": null,
+  "estimated_provider_cost": null,
+  "cost_note": "No invented prices; account/region-specific rates and usage required.",
+  "latency_ratio": null,
+  "verdict": "ROUTER NOT YET JUSTIFIED"
+}

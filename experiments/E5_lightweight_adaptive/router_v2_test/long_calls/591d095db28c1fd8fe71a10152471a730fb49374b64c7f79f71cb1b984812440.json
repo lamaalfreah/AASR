@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "591d095db28c1fd8fe71a10152471a730fb49374b64c7f79f71cb1b984812440",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"خليج سلوى\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"مقهى\",\"محطة وقود\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"مقهى\",\"second_hop_category\":\"محطة وقود\"},\"message\":\"\"}",
+  "input_tokens": 1712,
+  "output_tokens": 70,
+  "generation_ms": 4081.464927999832,
+  "inference_ms": 4090.040902000055,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5640.688744000045,
+  "case_id": "753e95e378618014"
+}

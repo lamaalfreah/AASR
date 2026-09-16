@@ -1,0 +1,15 @@
+{
+  "runtime_evaluation_tests_passed": 25,
+  "audit_self_tests_passed": 12,
+  "total_tests_passed": 37,
+  "report_checks": {
+    "validation_totals": true,
+    "validation_all_reconstructable_correct": true,
+    "train_matches_saved_audit": true,
+    "per_task_totals": true,
+    "source_unchanged_during_evaluation": true,
+    "test_gold_locked": true
+  },
+  "audit_rerun": false,
+  "test_evaluated": false
+}

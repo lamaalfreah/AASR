@@ -1,0 +1,44 @@
+{
+  "id": "router-ee1538560a7b41bd4dd8",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.3614479899406433,
+    "short_entropy": 1.699443127370501,
+    "short_top1_top2_margin": 0.16100327670574188,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 136,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "جامعة الملك عبد الله للعلوم والتقنية",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "بنك",
+      "second_hop_category": "صيدلية"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_output",
+    "reason": "strict_json_validation_failed",
+    "llm_calls": 2,
+    "invalid_responses": 2,
+    "inference_ms": 10727.642471999388
+  }
+}

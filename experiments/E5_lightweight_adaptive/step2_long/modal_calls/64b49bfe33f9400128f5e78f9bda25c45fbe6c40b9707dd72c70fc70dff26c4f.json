@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.230696337000001,
+  "container_session": "a594d1a08f454c58b81d989ed3f4ad18",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "64b49bfe33f9400128f5e78f9bda25c45fbe6c40b9707dd72c70fc70dff26c4f",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"nearest_of_two_categories\",\n    \"origin\": {\n      \"name\": \"جبل الرماة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مستشفى\", \"صيدلية\"],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2215,
+  "output_tokens": 104,
+  "generation_ms": 4778.780529000073,
+  "inference_ms": 4784.834265999962,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5613.350208994234,
+  "case_id": "core-nearest_of_two_categories-36"
+}

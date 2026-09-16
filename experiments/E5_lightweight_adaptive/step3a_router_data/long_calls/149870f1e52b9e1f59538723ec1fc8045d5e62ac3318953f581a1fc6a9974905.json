@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "149870f1e52b9e1f59538723ec1fc8045d5e62ac3318953f581a1fc6a9974905",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"كأس القارات 1997\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"بنك الاهلي\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2335,
+  "output_tokens": 76,
+  "generation_ms": 4534.185785999853,
+  "inference_ms": 4544.995663999998,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7758.820999995805,
+  "case_id": "router-b2820427a67f43ac13b7"
+}

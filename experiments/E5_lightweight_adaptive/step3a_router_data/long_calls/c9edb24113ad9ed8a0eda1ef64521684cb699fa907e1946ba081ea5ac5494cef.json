@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "c9edb24113ad9ed8a0eda1ef64521684cb699fa907e1946ba081ea5ac5494cef",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"برج طريق الملك\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"محطة وقود\"],\"radius_km\":5,\"direction\":null,\"first_hop_category\":\"محطة وقود\",\"second_hop_category\":\"محطة وقود\"},\"message\":\"\"}",
+  "input_tokens": 2288,
+  "output_tokens": 65,
+  "generation_ms": 3162.2696090000773,
+  "inference_ms": 3168.585903000121,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5812.258749996545,
+  "case_id": "router-3d96613c09e9a19a5fee"
+}

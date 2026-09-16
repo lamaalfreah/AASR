@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "6bc0bb89bbcc610c9ca3dd711a7f0aed323534146d6b4ecbb472c8adfea7548d",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"spatial_multi_constraint\",\n    \"origin\": {\n      \"name\": \"مدينة الملك عبد العزيز الطبية (الرياض)\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"مطعم\"],\n    \"radius_km\": 8,\n    \"direction\": \"غرب\",\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2087,
+  "output_tokens": 108,
+  "generation_ms": 4936.345546000098,
+  "inference_ms": 4942.158517999928,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7253.192292002495,
+  "case_id": "router-5a135f41c217f916aa3c"
+}

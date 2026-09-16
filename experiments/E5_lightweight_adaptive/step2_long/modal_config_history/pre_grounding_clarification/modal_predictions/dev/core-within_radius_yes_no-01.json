@@ -1,0 +1,44 @@
+{
+  "challenge_id": "core-within_radius_yes_no-01",
+  "task_type": "within_radius_yes_no",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "d4eb665144ae92f2915826b05b976c7d3ea49153c0a76a5739567ae2c494cec4",
+  "split": "dev",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.46977922320365906,
+  "short_pipeline_ms": 0.7412499999999156,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2085,
+  "output_tokens": 103,
+  "long_inference_ms": 5661.1913499999955,
+  "long_roundtrip_ms": 6942.406625021249,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "المجمع الملكي للفنون",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  }
+}

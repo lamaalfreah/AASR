@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.948713295999999,
+  "container_session": "17e6b3fa157148efb074cdd667aab85d",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d494f256d370613bd205ca58424868b1b7344a9192c8db9b2a4f7e4f84bcd78e",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"قلعة أبو عريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مطعم ينابيع المحيط\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"مدرسة\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to compare the distance between the specified origin and the two named entities.\"\n}",
+  "input_tokens": 2256,
+  "output_tokens": 165,
+  "generation_ms": 8937.052175999725,
+  "inference_ms": 8947.338312000284,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 10095.670102997246,
+  "case_id": "c11f0da2d25be3d9"
+}

@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "1ba5f336b46424d4570177e483ff5f514865e7978e07f53a0836705723f6ce49",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"الحضرور\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"مركز الرعاية الصحية الأولية\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"محطة الصبر\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query has been parsed to compare the closest health center and the closest fuel station from the origin 'الحضرور'.\"\n}",
+  "input_tokens": 1756,
+  "output_tokens": 168,
+  "generation_ms": 9639.521763000175,
+  "inference_ms": 9647.995197,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 11527.95408302336,
+  "case_id": "router-f6092dbd80b18836f1c7"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "4e774c9259483d6c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "قصر الدرعية",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Primary School for Girls",
+        "source": "unspecified"
+      },
+      {
+        "name": "Al Safarat Secondary School",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "The query has been parsed to compare the distances of two specific named entities (Primary School for Girls and Al Safarat Secondary School) from the origin (قصر الدرعية).",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2300,
+  "output_tokens": 179,
+  "inference_ms": 9309.844146999922,
+  "roundtrip_ms": 10665.065274999506
+}

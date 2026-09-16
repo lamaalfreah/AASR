@@ -1,0 +1,34 @@
+{
+  "id": "075b5d3bac71e834",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "بئر عار",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد مفرق حزرة",
+        "source": "unspecified"
+      },
+      {
+        "name": "ابتدائية الفريش",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1651,
+  "output_tokens": 147,
+  "inference_ms": 7999.055193999084,
+  "roundtrip_ms": 10355.846510999982
+}

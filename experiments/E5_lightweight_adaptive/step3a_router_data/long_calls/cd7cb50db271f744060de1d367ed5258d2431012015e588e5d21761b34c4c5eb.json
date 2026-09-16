@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "cd7cb50db271f744060de1d367ed5258d2431012015e588e5d21761b34c4c5eb",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"قرية المفتاحة\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"مقهى\",\n    \"second_hop_category\": \"محطة وقود\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1826,
+  "output_tokens": 102,
+  "generation_ms": 5653.252505999262,
+  "inference_ms": 5662.766406000628,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7006.7505420011,
+  "case_id": "router-ec23a01a3e229c0183ed"
+}

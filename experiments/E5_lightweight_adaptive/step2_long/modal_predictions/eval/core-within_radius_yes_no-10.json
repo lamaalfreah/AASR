@@ -1,0 +1,49 @@
+{
+  "challenge_id": "core-within_radius_yes_no-10",
+  "task_type": "within_radius_yes_no",
+  "language_register": "natural_msa",
+  "complexity_level": "L3",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.6316102743148804,
+  "short_pipeline_ms": 0.49199999999993693,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1630,
+  "output_tokens": 100,
+  "long_inference_ms": 4432.68591399999,
+  "long_roundtrip_ms": 5510.924542002613,
+  "predicted_query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "مركز الحكامية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "عيادة"
+    ],
+    "radius_km": 5,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "boolean",
+    "value": true,
+    "text": "نعم"
+  },
+  "raw_operation": "within_radius_yes_no",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

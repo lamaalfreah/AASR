@@ -1,0 +1,34 @@
+{
+  "id": "43e80c7baeff3a5d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "متحف سعود بن سعد بن هريش",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مجمع تداوي الجراحي الطبي العام",
+        "source": "unspecified"
+      },
+      {
+        "name": "مستشفى الملك فيصل",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4371,
+  "output_tokens": 237,
+  "inference_ms": 12877.67286900089,
+  "roundtrip_ms": 19200.516552999034
+}

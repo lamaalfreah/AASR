@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "ce4bc164471dffaeee36ef67d57d07e5e28c61b0dc95969e48067dcf3ddc24ce",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"جامعة الملك سعود بن عبد العزيز للعلوم الصحية\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Kudu\",\"source\":\"unspecified\"},{\"name\":\"Krispy Kreme\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2114,
+  "output_tokens": 90,
+  "generation_ms": 4936.987666000277,
+  "inference_ms": 4946.86703699881,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7531.681896000009,
+  "case_id": "77f4b51d0f99334f"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "697d417db86b1258",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "هجوم الخبر",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "جامعة الملك فهد للبترول والمعادن",
+        "source": "unspecified"
+      },
+      {
+        "name": "Salama Hospital",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2219,
+  "output_tokens": 148,
+  "inference_ms": 7922.011570000905,
+  "roundtrip_ms": 9489.235863999056
+}

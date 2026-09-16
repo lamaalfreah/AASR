@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.832644613999998,
+  "container_session": "555bb56ac09749cd9e5232ac8b877ec1",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "d82cb2241d6a37ada1d6603c14643237c50c89f6aebae25ed0209c5b176e7bb4",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"معركة الدلم\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"صيدلية\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 1766,
+  "output_tokens": 102,
+  "generation_ms": 5956.434446999992,
+  "inference_ms": 5965.865561000101,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7435.619708994636,
+  "case_id": "router-4b7f7087a9b0a2ca4f05"
+}

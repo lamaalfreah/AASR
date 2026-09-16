@@ -1,0 +1,30 @@
+{
+  "id": "3c5ff8f89e0abff2",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "مسجد السجدة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "بنك الجزيرة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2260,
+  "output_tokens": 119,
+  "inference_ms": 6364.981450999949,
+  "roundtrip_ms": 7325.556886999948
+}

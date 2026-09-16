@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "fba2a3681b4f436413288d8f5031142e373558d36981ff4aa9ab932a736a3d09",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"two_hop_nearest\",\"origin\":{\"name\":\"متحف سعود بن سعد بن هريش\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"بنك\",\"مدرسة\"],\"radius_km\":null,\"direction\":null,\"first_hop_category\":\"بنك\",\"second_hop_category\":\"مدرسة\"},\"message\":\"\"}",
+  "input_tokens": 2212,
+  "output_tokens": 71,
+  "generation_ms": 4204.4280640000125,
+  "inference_ms": 4214.166000000091,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5616.664201000049,
+  "case_id": "7cac7e7d7c901fba"
+}

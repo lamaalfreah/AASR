@@ -1,0 +1,27 @@
+{
+  "id": "fc972a2ac8eaeef1",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "كلية الجبيل الصناعية",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مطعم"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1902,
+  "output_tokens": 101,
+  "inference_ms": 5627.108556999701,
+  "roundtrip_ms": 8163.97736899944
+}

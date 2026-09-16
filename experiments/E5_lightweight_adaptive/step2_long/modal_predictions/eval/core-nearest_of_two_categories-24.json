@@ -1,0 +1,58 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-24",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "conversational",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.6715826392173767,
+  "short_pipeline_ms": 0.8479999999999599,
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4773,
+  "output_tokens": 220,
+  "long_inference_ms": 10227.286347000017,
+  "long_roundtrip_ms": 12230.515417002607,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "بئر البوصة",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "صيدلية صديق الفلاح البيطرية",
+        "source": "unspecified"
+      },
+      {
+        "name": "مستشفى الرحمة",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "صيدلية صديق الفلاح البيطرية",
+    "text": "صيدلية صديق الفلاح البيطرية"
+  },
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [
+    "reference_schema"
+  ],
+  "raw_operation_correct": false
+}

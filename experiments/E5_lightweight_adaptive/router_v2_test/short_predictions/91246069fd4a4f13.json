@@ -1,0 +1,46 @@
+{
+  "id": "91246069fd4a4f13",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "within_radius_yes_no",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "وادي لجب",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مدرسة"
+    ],
+    "radius_km": 2.0,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.999923586845398,
+    "short_entropy": 0.0009170510675995722,
+    "short_top1_top2_margin": 0.9998925630061422,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 84,
+    "question_length_words": 17,
+    "predicted_operation": "within_radius_yes_no",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.102383925579488e-05,
+      "cardinal_direction": 8.006015377759468e-06,
+      "within_radius_yes_no": 0.999923586845398,
+      "closer_of_two": 4.1243734472118376e-07,
+      "count_within_radius": 1.9314076780574396e-05,
+      "nearest_of_two_categories": 2.552456408011494e-06,
+      "two_hop_nearest": 1.1511787306517363e-05,
+      "spatial_multi_constraint": 3.6013570934301242e-06
+    }
+  },
+  "parser_ms": 2.189429000054588,
+  "short_with_features_ms": 2.301169000020309
+}

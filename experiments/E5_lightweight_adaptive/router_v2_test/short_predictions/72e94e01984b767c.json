@@ -1,0 +1,44 @@
+{
+  "id": "72e94e01984b767c",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "two_hop_nearest",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "عروة (المدينة المنورة)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "مستشفى",
+    "second_hop_category": "صيدلية"
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999328851699829,
+    "short_entropy": 0.0008319337576660694,
+    "short_top1_top2_margin": 0.9999147975649976,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 143,
+    "question_length_words": 23,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 3.5741209103434812e-06,
+      "cardinal_direction": 1.8087604985339567e-05,
+      "within_radius_yes_no": 6.350618150463561e-06,
+      "closer_of_two": 8.61286298459163e-06,
+      "count_within_radius": 1.1496907063701656e-05,
+      "nearest_of_two_categories": 1.6024301658035256e-05,
+      "two_hop_nearest": 0.9999328851699829,
+      "spatial_multi_constraint": 3.0161995709931944e-06
+    }
+  },
+  "parser_ms": 3.014100000200415,
+  "short_with_features_ms": 3.140300000040952
+}

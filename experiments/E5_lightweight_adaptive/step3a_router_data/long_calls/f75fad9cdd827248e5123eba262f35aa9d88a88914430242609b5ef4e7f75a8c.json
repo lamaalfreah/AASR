@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 5.611194648,
+  "container_session": "330f93fee2f04ae7b058494e19520945",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f75fad9cdd827248e5123eba262f35aa9d88a88914430242609b5ef4e7f75a8c",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"spatial_multi_constraint\",\"origin\":{\"name\":\"مسجد الفضيخ\",\"source\":\"context_anchor\"},\"targets\":[],\"categories\":[\"بنك\"],\"radius_km\":3,\"direction\":\"غرب\",\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2471,
+  "output_tokens": 61,
+  "generation_ms": 3067.396187999975,
+  "inference_ms": 3074.6512339999867,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5300.796208000975,
+  "case_id": "router-0d3cdc15b8a8a2776e59"
+}

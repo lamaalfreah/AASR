@@ -1,0 +1,44 @@
+{
+  "note": "Rules identified from TRAIN only, frozen before validation/test input inspection; eight literal grammatical skeletons with slots. No classifier trained.",
+  "regex_operation_matches": {
+    "test|cardinal_direction|cardinal_direction": 397,
+    "test|closer_of_two|closer_of_two": 264,
+    "test|count_within_radius|count_within_radius": 89,
+    "test|nearest_category|nearest_category": 759,
+    "test|nearest_of_two_categories|nearest_of_two_categories": 186,
+    "test|spatial_multi_constraint|spatial_multi_constraint": 173,
+    "test|two_hop_nearest|two_hop_nearest": 188,
+    "test|within_radius_yes_no|within_radius_yes_no": 276,
+    "train|cardinal_direction|cardinal_direction": 3267,
+    "train|closer_of_two|closer_of_two": 2167,
+    "train|count_within_radius|count_within_radius": 701,
+    "train|nearest_category|nearest_category": 6588,
+    "train|nearest_of_two_categories|nearest_of_two_categories": 1591,
+    "train|spatial_multi_constraint|spatial_multi_constraint": 1478,
+    "train|two_hop_nearest|two_hop_nearest": 1603,
+    "train|within_radius_yes_no|within_radius_yes_no": 2202,
+    "validation|cardinal_direction|cardinal_direction": 409,
+    "validation|closer_of_two|closer_of_two": 283,
+    "validation|count_within_radius|count_within_radius": 97,
+    "validation|nearest_category|nearest_category": 827,
+    "validation|nearest_of_two_categories|nearest_of_two_categories": 205,
+    "validation|spatial_multi_constraint|spatial_multi_constraint": 191,
+    "validation|two_hop_nearest|two_hop_nearest": 210,
+    "validation|within_radius_yes_no|within_radius_yes_no": 280
+  },
+  "slot_masked_pattern_counts": {
+    "test": 185,
+    "train": 242,
+    "validation": 208
+  },
+  "word_tokens": {
+    "test": 35241,
+    "train": 295343,
+    "validation": 37441
+  },
+  "word_types": {
+    "test": 1177,
+    "train": 4567,
+    "validation": 1257
+  }
+}

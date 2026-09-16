@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 6.739874762000001,
+  "container_session": "3a0aef5df5c242aaac0d4a1edd1cd460",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "53c6c3c8ecd4c4e0af0e1edf929a480d8e848edfdac61599aecd0da4e20b8e68",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"تدافع الحجاج 2006\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"مصرف الراجحي\",\"source\":\"unspecified\"},{\"name\":\"مطابخ ومطاعم ريدان\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2397,
+  "output_tokens": 97,
+  "generation_ms": 5357.089931000701,
+  "inference_ms": 5368.129464999583,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7074.843084003078,
+  "case_id": "router-e6ec6b63058f28480079"
+}

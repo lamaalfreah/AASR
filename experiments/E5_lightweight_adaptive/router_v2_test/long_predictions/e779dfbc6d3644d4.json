@@ -1,0 +1,30 @@
+{
+  "id": "e779dfbc6d3644d4",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "الحجفار (جازان)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "محطة البشير",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 3411,
+  "output_tokens": 190,
+  "inference_ms": 10841.988956000023,
+  "roundtrip_ms": 16237.04741199981
+}

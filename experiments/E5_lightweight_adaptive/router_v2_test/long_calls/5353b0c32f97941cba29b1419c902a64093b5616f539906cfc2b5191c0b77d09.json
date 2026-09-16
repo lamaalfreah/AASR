@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.855755688999999,
+  "container_session": "04aa42c01ec6479298531a1724709a81",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "5353b0c32f97941cba29b1419c902a64093b5616f539906cfc2b5191c0b77d09",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"two_hop_nearest\",\n    \"origin\": {\n      \"name\": \"متحف سعود بن سعد بن هريش\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\n      \"بنك\",\n      \"مدرسة\"\n    ],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": \"بنك\",\n    \"second_hop_category\": \"مدرسة\"\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2183,
+  "output_tokens": 117,
+  "generation_ms": 6635.7882769999605,
+  "inference_ms": 6645.956168999987,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8517.136035000021,
+  "case_id": "7cac7e7d7c901fba"
+}

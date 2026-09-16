@@ -1,0 +1,30 @@
+{
+  "id": "ff7d84ffb11b3815",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "عروة (المدينة المنورة)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مسجد وصل الله مانع",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 2,
+  "invalid_responses": 1,
+  "input_tokens": 4375,
+  "output_tokens": 200,
+  "inference_ms": 10983.298115999787,
+  "roundtrip_ms": 15571.83609599997
+}

@@ -1,0 +1,52 @@
+{
+  "challenge_id": "core-nearest_of_two_categories-04",
+  "task_type": "nearest_of_two_categories",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "ambiguous",
+  "long_reason": "referenced_entity_ambiguous",
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.9000706672668457,
+  "short_pipeline_ms": 0.6778340000002103,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2115,
+  "output_tokens": 145,
+  "long_inference_ms": 6464.133543000003,
+  "long_roundtrip_ms": 7735.04087497713,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "غدير البنات",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "البنك الأهلي السعودي",
+        "source": "unspecified"
+      },
+      {
+        "name": "صيدلية النهدي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": null,
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": false
+}

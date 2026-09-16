@@ -1,0 +1,47 @@
+{
+  "challenge_id": "core-two_hop_nearest-19",
+  "task_type": "two_hop_nearest",
+  "language_register": "conversational",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": true,
+  "short_answer_correct": true,
+  "short_status": "success",
+  "short_confidence": 0.5623835921287537,
+  "short_pipeline_ms": 0.7005420000001372,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2015,
+  "output_tokens": 100,
+  "long_inference_ms": 4572.942394999927,
+  "long_roundtrip_ms": 5546.888166019926,
+  "predicted_query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "قرية قيار",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "عيادة",
+    "second_hop_category": "كلية"
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "كلية العلوم والاداب بنات",
+    "text": "كلية العلوم والاداب بنات"
+  },
+  "raw_operation": "two_hop_nearest",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

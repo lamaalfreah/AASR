@@ -1,0 +1,29 @@
+{
+  "app_id": "ap-qJouBk0RxJTyrDc6ZPQifh",
+  "started_unix": 1789215691.6482,
+  "authentication_verified": true,
+  "preparation": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "weight_preparation_seconds": 0.008379643000000048
+  },
+  "runtime": {
+    "model": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "model_loaded": true,
+    "cache_only": true,
+    "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "precision": "torch.bfloat16",
+    "model_load_seconds": 8.215370312,
+    "container_session": "433da381235249719316413a5a4b29ac",
+    "torch_version": "2.6.0+cu124",
+    "transformers_version": "4.57.1"
+  },
+  "wall_seconds": 47.93220075001591,
+  "status": "smoke_failed",
+  "reason": "DEV did not pass exact-query and frozen-engine answer checks; EVAL remains untouched"
+}

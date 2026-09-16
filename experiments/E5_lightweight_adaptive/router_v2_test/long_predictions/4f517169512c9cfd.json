@@ -1,0 +1,27 @@
+{
+  "id": "4f517169512c9cfd",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "within_radius_yes_no",
+    "origin": {
+      "name": "كلية علوم البحار بجامعة الملك عبد العزيز",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مستشفى"
+    ],
+    "radius_km": 2,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2021,
+  "output_tokens": 110,
+  "inference_ms": 6019.947735999267,
+  "roundtrip_ms": 8047.523987000204
+}

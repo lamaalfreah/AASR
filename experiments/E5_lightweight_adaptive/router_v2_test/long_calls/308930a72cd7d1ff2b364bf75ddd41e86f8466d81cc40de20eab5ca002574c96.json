@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "308930a72cd7d1ff2b364bf75ddd41e86f8466d81cc40de20eab5ca002574c96",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"within_radius_yes_no\",\n    \"origin\": {\n      \"name\": \"مكتبة عارف حكمت\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [],\n    \"categories\": [\"عيادة\"],\n    \"radius_km\": 2,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"\"\n}",
+  "input_tokens": 2305,
+  "output_tokens": 105,
+  "generation_ms": 5887.055102999511,
+  "inference_ms": 5897.479078999822,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 7889.915003000169,
+  "case_id": "7776fcd6f023bab6"
+}

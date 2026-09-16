@@ -1,0 +1,135 @@
+{
+  "seed": 240431,
+  "device": "cpu",
+  "torch_threads": 2,
+  "torch_version": "2.8.0",
+  "numpy_version": "2.0.2",
+  "source_train_records": 19597,
+  "excluded_core_source_anchors": 320,
+  "excluded_records_at_core_source_anchors": 5752,
+  "fit_records": 12387,
+  "internal_holdout_records": 1458,
+  "fit_anchors": 818,
+  "internal_holdout_anchors": 98,
+  "anchor_disjoint": true,
+  "fit_task_counts": {
+    "nearest_category": 4118,
+    "cardinal_direction": 2118,
+    "within_radius_yes_no": 1429,
+    "closer_of_two": 1403,
+    "count_within_radius": 398,
+    "nearest_of_two_categories": 1001,
+    "two_hop_nearest": 1006,
+    "spatial_multi_constraint": 914
+  },
+  "parameter_count": 32264,
+  "vocabulary_size": 68,
+  "selected_epoch": 11,
+  "epochs_run": 12,
+  "selection_rule": "Minimum original-TRAIN internal anchor-holdout loss; max 12 epochs, patience 3, improvement 1e-5. Fixed before validation/CORE evaluation.",
+  "training_seconds": 9.795446708,
+  "total_preparation_training_seconds": 11.740940042,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.18481531957466427,
+      "train_intent_accuracy": 0.986841043028982,
+      "internal_holdout_loss": 0.001586695474288867,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8287442499999997
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0012142104784422893,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.0007544461537448917,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8169816660000002
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0006545201735405619,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00044286489619717605,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8121142909999994
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00041177100900437614,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00029446771766016944,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8111842920000001
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00028860574699538687,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00021179835437825755,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8105702080000006
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.00021565232066029307,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00016125471195281422,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8152181250000012
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.00016873766353898463,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00012763903838159473,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.817049041999999
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0001369405666171226,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 0.00010368914389887005,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8139553750000008
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.00011329024136822145,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 8.633939654483946e-05,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8129531249999999
+    },
+    {
+      "epoch": 10,
+      "train_loss": 9.561497743071457e-05,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 7.339692552612624e-05,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8158278750000001
+    },
+    {
+      "epoch": 11,
+      "train_loss": 8.195489691736749e-05,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 6.327315937928583e-05,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8193418749999992
+    },
+    {
+      "epoch": 12,
+      "train_loss": 7.093629239961524e-05,
+      "train_intent_accuracy": 1.0,
+      "internal_holdout_loss": 5.5088019250816726e-05,
+      "internal_holdout_intent_accuracy": 1.0,
+      "seconds": 0.8206500419999987
+    }
+  ],
+  "challenge_text_used_for_training": false,
+  "validation_used_for_training": false,
+  "core_source_anchors_excluded_from_fit_and_internal_holdout": true,
+  "checkpoint_sha256": "2971ce28a720e45cf3b98fcfce92293eef9daf0202913e3f146a74361b6770d7",
+  "short_source_sha256": "a74c6cdd8d117fd5bc5c71d0c2fa11c64317bad525a5f8cbe8db9e2f9d7a4267"
+}

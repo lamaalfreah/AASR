@@ -1,0 +1,34 @@
+{
+  "id": "5a8ff9e9fd9d2c97",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "قصف مطار أبها الدولي",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مستشفى أبها للولادة والاطفال",
+        "source": "unspecified"
+      },
+      {
+        "name": "محطة بن خشيم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1741,
+  "output_tokens": 153,
+  "inference_ms": 7960.615304000385,
+  "roundtrip_ms": 9973.155984000186
+}

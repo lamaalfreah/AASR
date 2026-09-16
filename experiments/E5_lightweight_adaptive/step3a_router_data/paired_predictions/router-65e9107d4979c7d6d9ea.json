@@ -1,0 +1,65 @@
+{
+  "id": "router-65e9107d4979c7d6d9ea",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.4756406545639038,
+    "short_entropy": 0.9595555506025745,
+    "short_top1_top2_margin": 0.01187172532081604,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 151,
+    "question_length_words": 26,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": 2
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": true,
+    "query": {
+      "operation": "two_hop_nearest",
+      "origin": {
+        "name": "قائمة سفراء إيطاليا بالسعودية",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": "مقهى",
+      "second_hop_category": "بنك"
+    },
+    "status": "success"
+  },
+  "long": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": {
+      "operation": "closer_of_two",
+      "origin": {
+        "name": "قائمة سفراء إيطاليا بالسعودية",
+        "source": "context_anchor"
+      },
+      "targets": [
+        {
+          "name": "The Pancake House",
+          "source": "unspecified"
+        },
+        {
+          "name": "Al Safarat Secondary School",
+          "source": "unspecified"
+        }
+      ],
+      "categories": [],
+      "radius_km": null,
+      "direction": null,
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 9768.401881999807
+  }
+}

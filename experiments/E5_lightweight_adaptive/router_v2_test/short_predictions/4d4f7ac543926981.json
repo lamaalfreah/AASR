@@ -1,0 +1,47 @@
+{
+  "id": "4d4f7ac543926981",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "nearest_of_two_categories",
+  "query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "مكتبة عارف حكمت",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "مقهى",
+      "بنك"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999278783798218,
+    "short_entropy": 0.0008890245519551027,
+    "short_top1_top2_margin": 0.9999085774961713,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 80,
+    "question_length_words": 15,
+    "predicted_operation": "nearest_of_two_categories",
+    "constraint_count": 2,
+    "operation_probabilities": {
+      "nearest_category": 9.852353286987636e-06,
+      "cardinal_direction": 5.927294751018053e-06,
+      "within_radius_yes_no": 3.3028579764504684e-06,
+      "closer_of_two": 1.4916643522155937e-05,
+      "count_within_radius": 4.183107193966862e-06,
+      "nearest_of_two_categories": 0.9999278783798218,
+      "two_hop_nearest": 1.9300883650430478e-05,
+      "spatial_multi_constraint": 1.4663984075014014e-05
+    }
+  },
+  "parser_ms": 2.5571300000137853,
+  "short_with_features_ms": 2.7023790000839654
+}

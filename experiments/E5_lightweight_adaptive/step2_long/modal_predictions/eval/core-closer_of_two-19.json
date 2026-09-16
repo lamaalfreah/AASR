@@ -1,0 +1,56 @@
+{
+  "challenge_id": "core-closer_of_two-19",
+  "task_type": "closer_of_two",
+  "language_register": "conversational",
+  "complexity_level": "L2",
+  "config_hash": "82096a7741f4e785cac0a3055c674fade2a09f17854a5a918b578f412e53cdbe",
+  "split": "eval",
+  "long_intent_correct": true,
+  "long_query_exact": true,
+  "long_answer_correct": true,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.46327248215675354,
+  "short_pipeline_ms": 0.43933300000009723,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2016,
+  "output_tokens": 146,
+  "long_inference_ms": 6441.6201039999805,
+  "long_roundtrip_ms": 7763.41566699557,
+  "predicted_query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "أحداث نجران (2000)",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "سوسايتي",
+        "source": "unspecified"
+      },
+      {
+        "name": "محطة الحرمين",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "محطة الحرمين",
+    "text": "محطة الحرمين"
+  },
+  "raw_operation": "closer_of_two",
+  "invented_entity_names": [],
+  "invented_entity_count": 0,
+  "validation_errors": [],
+  "raw_operation_correct": true
+}

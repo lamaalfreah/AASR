@@ -1,0 +1,49 @@
+{
+  "id": "a56f787e2ee55c86",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "operation": "cardinal_direction",
+  "query": {
+    "operation": "cardinal_direction",
+    "origin": {
+      "name": "خميس مشيط",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "دجاج كنتاكي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "reason": null,
+  "features": {
+    "short_confidence": 0.9999445676803589,
+    "short_entropy": 0.0006967219023511806,
+    "short_top1_top2_margin": 0.9999288011349563,
+    "query_valid": true,
+    "missing_slots": [],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 54,
+    "question_length_words": 10,
+    "predicted_operation": "cardinal_direction",
+    "constraint_count": 1,
+    "operation_probabilities": {
+      "nearest_category": 1.5766545402584597e-05,
+      "cardinal_direction": 0.9999445676803589,
+      "within_radius_yes_no": 5.8082146097149234e-06,
+      "closer_of_two": 1.060883641912369e-05,
+      "count_within_radius": 3.1463221148442244e-06,
+      "nearest_of_two_categories": 2.5765662030607928e-06,
+      "two_hop_nearest": 1.1006760360032786e-05,
+      "spatial_multi_constraint": 6.417425993276993e-06
+    }
+  },
+  "parser_ms": 2.368079999996553,
+  "short_with_features_ms": 2.490910000005897
+}

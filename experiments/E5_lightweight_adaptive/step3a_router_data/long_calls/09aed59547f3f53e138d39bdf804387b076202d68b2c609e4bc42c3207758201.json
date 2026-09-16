@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.412387078,
+  "container_session": "7a0fc6b49fb6440e8b69fe9e7f0acbd7",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "09aed59547f3f53e138d39bdf804387b076202d68b2c609e4bc42c3207758201",
+  "text": "{\n  \"status\": \"success\",\n  \"query\": {\n    \"operation\": \"closer_of_two\",\n    \"origin\": {\n      \"name\": \"مدينة الأمير محمد بن عبد العزيز الرياضية\",\n      \"source\": \"context_anchor\"\n    },\n    \"targets\": [\n      {\n        \"name\": \"جامعة الملك خالد\",\n        \"source\": \"unspecified\"\n      },\n      {\n        \"name\": \"جامعة الملك خالد\",\n        \"source\": \"unspecified\"\n      }\n    ],\n    \"categories\": [],\n    \"radius_km\": null,\n    \"direction\": null,\n    \"first_hop_category\": null,\n    \"second_hop_category\": null\n  },\n  \"message\": \"The query is asking for the closer of two named entities (both named 'جامعة الملك خالد') from the origin. Since both targets are the same, the result will be the same entity.\"\n}",
+  "input_tokens": 1817,
+  "output_tokens": 193,
+  "generation_ms": 11137.520187000064,
+  "inference_ms": 11148.018300999865,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 13947.564750007587,
+  "case_id": "router-77f543577f48d06c3e3b"
+}

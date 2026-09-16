@@ -1,0 +1,34 @@
+{
+  "id": "ff8d9eb90f0012be",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "متحف سعود بن سعد بن هريش",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "شوبك",
+        "source": "unspecified"
+      },
+      {
+        "name": "محطة الغزالي",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "The query has been parsed to compare the distances between two specific named entities (شوبك and محطة الغزالي) from the origin (متحف سعود بن سعد بن هريش).",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2168,
+  "output_tokens": 190,
+  "inference_ms": 9970.821242000056,
+  "roundtrip_ms": 11123.479214002145
+}

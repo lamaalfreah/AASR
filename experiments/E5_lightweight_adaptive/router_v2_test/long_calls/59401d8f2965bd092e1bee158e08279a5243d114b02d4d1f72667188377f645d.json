@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 8.116815026000001,
+  "container_session": "8fe6247c947c43958c22a2c966fcb061",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "59401d8f2965bd092e1bee158e08279a5243d114b02d4d1f72667188377f645d",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"closer_of_two\",\"origin\":{\"name\":\"منتدى تورايز\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"Kudu\",\"source\":\"unspecified\"},{\"name\":\"Diplomatic School\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2329,
+  "output_tokens": 82,
+  "generation_ms": 4613.528133000727,
+  "inference_ms": 4624.3891550002445,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 8601.541196998369,
+  "case_id": "e4aba26305ea5f11"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "router-bd4e22c5c51da33e01bd",
+  "config_hash": "0c185a1859440f8ededc379b2b28f93c7dc7480c10f97ce250a294c444ea1493",
+  "features": {
+    "short_confidence": 0.4385804831981659,
+    "short_entropy": 1.5128169309224466,
+    "short_top1_top2_margin": 0.21633780002593994,
+    "query_valid": false,
+    "missing_slots": [
+      "categories"
+    ],
+    "entity_ambiguity_count": 0,
+    "question_length_chars": 79,
+    "question_length_words": 16,
+    "predicted_operation": "two_hop_nearest",
+    "constraint_count": null
+  },
+  "short": {
+    "query_exact": false,
+    "answer_correct": false,
+    "query": null,
+    "status": "invalid_query"
+  },
+  "long": {
+    "query_exact": true,
+    "answer_correct": true,
+    "query": {
+      "operation": "spatial_multi_constraint",
+      "origin": {
+        "name": "مقبرة العود",
+        "source": "context_anchor"
+      },
+      "targets": [],
+      "categories": [
+        "مطعم"
+      ],
+      "radius_km": 3,
+      "direction": "جنوب",
+      "first_hop_category": null,
+      "second_hop_category": null
+    },
+    "status": "success",
+    "reason": null,
+    "llm_calls": 1,
+    "invalid_responses": 0,
+    "inference_ms": 4690.295555000006
+  }
+}

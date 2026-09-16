@@ -1,0 +1,34 @@
+{
+  "id": "cf87a81f33c44b12",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "وسط الرياض",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "Layali Cafe",
+        "source": "unspecified"
+      },
+      {
+        "name": "فوال و فلافل مصري",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2156,
+  "output_tokens": 144,
+  "inference_ms": 7736.293146001117,
+  "roundtrip_ms": 10843.127832000391
+}

@@ -1,0 +1,34 @@
+{
+  "id": "c85adf799e647ea3",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "closer_of_two",
+    "origin": {
+      "name": "جبل مرير",
+      "source": "context_anchor"
+    },
+    "targets": [
+      {
+        "name": "مزايا",
+        "source": "unspecified"
+      },
+      {
+        "name": "جامع آل خثيم",
+        "source": "unspecified"
+      }
+    ],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1626,
+  "output_tokens": 142,
+  "inference_ms": 7455.2582719989,
+  "roundtrip_ms": 10487.930825000149
+}

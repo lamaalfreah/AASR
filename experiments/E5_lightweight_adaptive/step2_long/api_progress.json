@@ -1,0 +1,12 @@
+{
+  "provider": "Modal",
+  "model": "Qwen/Qwen3-4B",
+  "status": "complete",
+  "reason": null,
+  "smoke_completed": 16,
+  "eval_completed": 128,
+  "eval_total": 128,
+  "eval_remaining": 0,
+  "durable_generation_checkpoints": 182,
+  "updated_unix": 1789218847.1631732
+}

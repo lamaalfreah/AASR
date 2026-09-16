@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_loaded": true,
+  "cache_only": true,
+  "snapshot_path": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "gpu": "NVIDIA L4",
+  "gpu_count": 1,
+  "precision": "torch.bfloat16",
+  "model_load_seconds": 7.568988132,
+  "container_session": "7b5281eb822f44fab205120de24345ed",
+  "torch_version": "2.6.0+cu124",
+  "transformers_version": "4.57.1",
+  "request_digest": "f2292b609bb549c0dae8c7b5366dc5f06d51f6531fbecdcca8ff89669adcd609",
+  "text": "{\"status\":\"success\",\"query\":{\"operation\":\"cardinal_direction\",\"origin\":{\"name\":\"قصر الدرعية\",\"source\":\"context_anchor\"},\"targets\":[{\"name\":\"دUNKIN' DONUTS\",\"source\":\"unspecified\"}],\"categories\":[],\"radius_km\":null,\"direction\":null,\"first_hop_category\":null,\"second_hop_category\":null},\"message\":\"\"}",
+  "input_tokens": 2322,
+  "output_tokens": 73,
+  "generation_ms": 4197.906164999978,
+  "inference_ms": 4209.631029999997,
+  "reached_token_limit": false,
+  "request_roundtrip_ms": 5228.174888000012,
+  "case_id": "3b55c782eef08ce2"
+}

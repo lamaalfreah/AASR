@@ -1,0 +1,27 @@
+{
+  "id": "e2bf632cf70b4fc8",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "nearest_category",
+    "origin": {
+      "name": "مدركة (قرية)",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1611,
+  "output_tokens": 99,
+  "inference_ms": 5357.697469000414,
+  "roundtrip_ms": 7772.533997999744
+}

@@ -1,0 +1,10 @@
+{
+  "step3a_files_unchanged": 5369,
+  "frozen_components_unchanged": true,
+  "serialized_model_probability_parity": true,
+  "serialized_model_route_parity": true,
+  "core_eval_and_test_not_accessed": true,
+  "inference_safe_features_only": true,
+  "failure_excluded_from_fit": true,
+  "preprocessing_fit_on_train_only": true
+}

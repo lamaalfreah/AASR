@@ -1,0 +1,45 @@
+{
+  "challenge_id": "core-two_hop_nearest-01",
+  "task_type": "two_hop_nearest",
+  "language_register": "natural_msa",
+  "complexity_level": "L1",
+  "config_hash": "055595ac441b1f5405ad8cb3fcdb43dd6e6d04a4f313e2f3b0b63a40ac84928c",
+  "split": "dev",
+  "long_intent_correct": false,
+  "long_query_exact": false,
+  "long_answer_correct": false,
+  "long_status": "success",
+  "long_reason": null,
+  "short_query_exact": false,
+  "short_answer_correct": false,
+  "short_status": "invalid_query",
+  "short_confidence": 0.4943230152130127,
+  "short_pipeline_ms": 0.2478329999999751,
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 1125,
+  "output_tokens": 104,
+  "long_inference_ms": 5872.035898999997,
+  "long_roundtrip_ms": 7299.019167025108,
+  "predicted_query": {
+    "operation": "nearest_of_two_categories",
+    "origin": {
+      "name": "مسجد الحوزة",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [
+      "محطة وقود",
+      "مقهى"
+    ],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": null,
+    "second_hop_category": null
+  },
+  "predicted_answer": {
+    "kind": "entity",
+    "value": "الواحة",
+    "text": "الواحة"
+  }
+}

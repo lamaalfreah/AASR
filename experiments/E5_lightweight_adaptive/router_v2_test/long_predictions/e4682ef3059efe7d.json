@@ -1,0 +1,25 @@
+{
+  "id": "e4682ef3059efe7d",
+  "config_digest": "9f770d5237c81607d810f47391d6f9af679cc19c66e3b1ed6e9aac635cf4273a",
+  "query": {
+    "operation": "two_hop_nearest",
+    "origin": {
+      "name": "قلعة أبو عريش",
+      "source": "context_anchor"
+    },
+    "targets": [],
+    "categories": [],
+    "radius_km": null,
+    "direction": null,
+    "first_hop_category": "عيادة",
+    "second_hop_category": "صيدلية"
+  },
+  "status": "success",
+  "message": "",
+  "llm_calls": 1,
+  "invalid_responses": 0,
+  "input_tokens": 2274,
+  "output_tokens": 103,
+  "inference_ms": 5909.591447000025,
+  "roundtrip_ms": 7164.9515099999235
+}
