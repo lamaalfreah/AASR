@@ -1,9 +1,71 @@
 let map;
 let markersLayer;
 let shapeLayer;
+let processingStateTimer;
+let mascotTransitionTimer;
+
+const MASCOT_STATES = {
+    welcome: {
+        file: "01_welcome.png",
+        caption: "مرحبًا، أنا جاهز لسؤالك المكاني.",
+        alt: "شخصية ASAR ترحب بك",
+        status: "النظام جاهز للتحليل",
+        statusClass: ""
+    },
+    waiting: {
+        file: "02_waiting_for_question.png",
+        caption: "بانتظار سؤالك… اكتب المكان والقرار الذي تريد تحليله.",
+        alt: "شخصية ASAR تنتظر السؤال",
+        status: "بانتظار السؤال",
+        statusClass: ""
+    },
+    searching: {
+        file: "03_searching_answer_laptop.png",
+        caption: "أحلل السؤال وأحدد عمق الاستدلال المناسب.",
+        alt: "شخصية ASAR تحلل السؤال باستخدام الحاسوب",
+        status: "جاري تحليل السؤال",
+        statusClass: "is-loading"
+    },
+    found: {
+        file: "04_answer_found_idea.png",
+        caption: "وجدت إجابة مكانية قابلة للعرض.",
+        alt: "شخصية ASAR توصلت إلى الإجابة",
+        status: "اكتمل التحليل",
+        statusClass: "is-success"
+    },
+    map: {
+        file: "05_spatial_guidance_map.png",
+        caption: "أعرض العلاقات والنتائج على الخريطة.",
+        alt: "شخصية ASAR تقدم إرشادًا مكانيًا",
+        status: "عرض مكاني",
+        statusClass: ""
+    },
+    "geo-search": {
+        file: "06_searching_magnifier.png",
+        caption: "أراجع المعطيات المكانية المتاحة قبل صياغة الإجابة.",
+        alt: "شخصية ASAR تبحث في المعطيات المكانية",
+        status: "جاري التحقق من المعطيات",
+        statusClass: "is-loading"
+    },
+    success: {
+        file: "07_success.png",
+        caption: "اكتمل التحليل والتحقق بنجاح.",
+        alt: "شخصية ASAR تحتفل بنجاح التحليل",
+        status: "النتيجة جاهزة",
+        statusClass: "is-success"
+    },
+    error: {
+        file: "08_error.png",
+        caption: "لم أتمكن من إكمال التحليل. راجع السؤال أو حاول مجددًا.",
+        alt: "شخصية ASAR تشير إلى تعذر التحليل",
+        status: "تعذر إكمال التحليل",
+        statusClass: "is-error"
+    }
+};
 
 document.addEventListener("DOMContentLoaded", () => {
     initMap();
+    preloadMascots();
 
     document.querySelectorAll(".tag").forEach((tag) => {
         tag.addEventListener("click", () => {
@@ -12,8 +74,49 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    document.getElementById("analysis-form").addEventListener("submit", handleAnalyze);
+    const form = document.getElementById("analysis-form");
+    const questionInput = document.getElementById("question-input");
+    form.addEventListener("submit", handleAnalyze);
+    questionInput.addEventListener("input", () => {
+        if (document.getElementById("analyze-button").disabled) return;
+        if (!questionInput.value.trim()) setMascotState("waiting");
+        else if (document.getElementById("mascot-stage").dataset.state === "waiting") {
+            setMascotState("welcome");
+        }
+    });
 });
+
+function preloadMascots() {
+    const base = document.body.dataset.mascotBase || "";
+    Object.values(MASCOT_STATES).forEach((state) => {
+        const image = new Image();
+        image.src = `${base}${state.file}`;
+    });
+}
+
+function setMascotState(name) {
+    const state = MASCOT_STATES[name];
+    const stage = document.getElementById("mascot-stage");
+    const image = document.getElementById("state-mascot");
+    const caption = document.getElementById("mascot-caption");
+    const statusElement = document.getElementById("system-status");
+    if (!state || !stage || !image || !caption || !statusElement) return;
+
+    clearTimeout(mascotTransitionTimer);
+    stage.classList.add("is-changing");
+    stage.dataset.state = name;
+    statusElement.classList.remove("is-loading", "is-success", "is-error");
+    if (state.statusClass) statusElement.classList.add(state.statusClass);
+    document.getElementById("system-status-text").textContent = state.status;
+
+    mascotTransitionTimer = setTimeout(() => {
+        const base = document.body.dataset.mascotBase || "";
+        image.src = `${base}${state.file}`;
+        image.alt = state.alt;
+        caption.textContent = state.caption;
+        stage.classList.remove("is-changing");
+    }, 110);
+}
 
 function initMap() {
     map = L.map("map", { zoomControl: true, scrollWheelZoom: true })
@@ -36,12 +139,19 @@ async function handleAnalyze(event) {
     const question = document.getElementById("question-input").value.trim();
 
     if (!question) {
+        setMascotState("waiting");
         showToast("اكتبي سؤالًا مكانيًا أولاً.");
         return;
     }
 
     button.disabled = true;
     buttonText.textContent = "جاري التحليل...";
+    document.getElementById("analysis-form").setAttribute("aria-busy", "true");
+    setMascotState("searching");
+    clearTimeout(processingStateTimer);
+    processingStateTimer = setTimeout(() => {
+        if (button.disabled) setMascotState("geo-search");
+    }, 1600);
 
     try {
         const response = await fetch("/api/analyze/", {
@@ -54,35 +164,90 @@ async function handleAnalyze(event) {
         });
 
         const data = await response.json();
-        if (!response.ok) throw new Error(data.error || "تعذر تنفيذ التحليل.");
+        if (!response.ok) {
+            const message = typeof data.error === "object" ? data.error?.message : data.error;
+            throw new Error(message || "تعذر تنفيذ التحليل.");
+        }
 
         renderSpatialResponse(data);
+        setMascotState(
+            data.status === "insufficient_information"
+                ? "error"
+                : data.status === "needs_clarification"
+                    ? "waiting"
+                    : data.verification?.passed === true
+                        ? "success"
+                        : "found"
+        );
         showToast("تم تحديث العرض حسب نوع السؤال.");
     } catch (error) {
+        setMascotState("error");
         showToast(error.message);
     } finally {
+        clearTimeout(processingStateTimer);
         button.disabled = false;
         buttonText.textContent = "تحليل واستدلال";
+        document.getElementById("analysis-form").setAttribute("aria-busy", "false");
     }
 }
 
 function renderSpatialResponse(data) {
     const meta = taskMeta(data.task_type);
+    const insufficient =
+    data.status === "insufficient_information" ||
+    data.status === "needs_clarification";
+    const depthBadge = document.getElementById("reasoning-depth");
 
     document.getElementById("result-task-label").textContent = meta.label;
-    document.getElementById("answer-symbol").textContent = meta.symbol;
+    document.getElementById("answer-symbol").textContent = insufficient ? "؟" : meta.symbol;
     document.getElementById("answer-title").textContent =
         data.answer?.text || String(data.answer?.value ?? "—");
     document.getElementById("answer-subtitle").textContent =
-        `نوع المهمة: ${meta.label}`;
+        insufficient ? "المعلومات المكانية غير مكتملة" : `نوع المهمة: ${meta.label}`;
     document.getElementById("reasoning-text").textContent =
         data.reasoning || "لا يوجد شرح إضافي.";
+
+    depthBadge.classList.remove("hidden", "concise", "deep");
+    depthBadge.classList.add(data.reasoning_depth === "deep" ? "deep" : "concise");
+    depthBadge.textContent = data.reasoning_depth === "deep" ? "استدلال متعمق" : "استدلال موجز";
 
     renderComparison(data.comparison || []);
     renderConstraints(data.constraints || []);
     renderEvidence(data.evidence || []);
+    renderSources(data.sources || []);
+    renderLimitations(data.limitations || []);
     renderMetrics(data, meta);
     renderMap(data);
+}
+
+function renderSources(items) {
+    const card = document.getElementById("sources-card");
+    const container = document.getElementById("sources-list");
+    if (!items.length) {
+        card.classList.add("hidden");
+        container.innerHTML = "";
+        return;
+    }
+    card.classList.remove("hidden");
+    container.innerHTML = items.map((item) => {
+        const href = safeHttpUrl(item.url);
+        const provider = escapeHtml(item.provider || "مصدر جغرافي");
+        const title = href ? `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${provider}</a>` : provider;
+        const timestamp = item.data_timestamp || item.retrieved_at || "";
+        return `<div class="source-item"><strong>${title}</strong><span>${escapeHtml(item.attribution || "")}</span><small>${escapeHtml(timestamp)}</small></div>`;
+    }).join("");
+}
+
+function renderLimitations(items) {
+    const card = document.getElementById("limitations-card");
+    const list = document.getElementById("limitations-list");
+    if (!items.length) {
+        card.classList.add("hidden");
+        list.innerHTML = "";
+        return;
+    }
+    card.classList.remove("hidden");
+    list.innerHTML = items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
 }
 
 function renderComparison(items) {
@@ -96,21 +261,25 @@ function renderComparison(items) {
     }
 
     card.classList.remove("hidden");
-    container.innerHTML = items.map((item, index) => `
-        <div class="rank-item">
-            <div class="rank-number">${index + 1}</div>
-            <div class="rank-main">
-                <div class="rank-title">
-                    <span>${escapeHtml(item.label)}</span>
-                    <span>${escapeHtml(item.value)}</span>
+    container.innerHTML = items.map((item, index) => {
+        const score = normalizedScore(item.score);
+        const scorePercent = score === null ? null : Math.round(score * 100);
+        return `
+            <div class="rank-item">
+                <div class="rank-number">${index + 1}</div>
+                <div class="rank-main">
+                    <div class="rank-title">
+                        <span>${escapeHtml(item.label)}</span>
+                        <span>${escapeHtml(item.value)}</span>
+                    </div>
+                    <div class="rank-bar">
+                        <div class="rank-fill" style="width:${scorePercent ?? 0}%"></div>
+                    </div>
                 </div>
-                <div class="rank-bar">
-                    <div class="rank-fill" style="width:${Math.round((item.score ?? 0.5) * 100)}%"></div>
-                </div>
+                <div class="rank-score">${scorePercent === null ? "—" : `${scorePercent}%`}</div>
             </div>
-            <div class="rank-score">${Math.round((item.score ?? 0.5) * 100)}%</div>
-        </div>
-    `).join("");
+        `;
+    }).join("");
 }
 
 function renderConstraints(items) {
@@ -124,9 +293,10 @@ function renderConstraints(items) {
     }
 
     card.classList.remove("hidden");
-    list.innerHTML = items.map((item) =>
-        `<li>${escapeHtml(item.label)}${item.passed ? "" : " — غير متحقق"}</li>`
-    ).join("");
+    list.innerHTML = items.map((item) => {
+        const state = item.passed === true ? "" : item.passed === false ? " — غير متحقق" : " — غير محدد";
+        return `<li>${escapeHtml(item.label)}${state}</li>`;
+    }).join("");
 }
 
 function renderEvidence(items) {
@@ -155,15 +325,15 @@ function renderMetrics(data, meta) {
     setMetric(1, "نوع المهمة", meta.label, "Task Type");
 
     const m = data.metrics || {};
-    if (m.distance_km !== undefined)
+    if (m.distance_km != null)
         setMetric(2, "المسافة", `${m.distance_km} كم`, "أقرب مسافة محسوبة");
-    else if (m.radius_km !== undefined)
+    else if (m.radius_km != null)
         setMetric(2, "نصف القطر", `${m.radius_km} كم`, "النطاق المستخدم");
-    else if (m.direction !== undefined)
+    else if (m.direction != null)
         setMetric(2, "الاتجاه", m.direction, "الاتجاه النسبي");
-    else if (m.count !== undefined)
+    else if (m.count != null)
         setMetric(2, "العدد", m.count, "عناصر داخل النطاق");
-    else if (m.suitability !== undefined)
+    else if (m.suitability != null)
         setMetric(2, "درجة الملاءمة", Number(m.suitability).toFixed(2), "تقييم متعدد القيود");
     else
         setMetric(2, "المؤشر المكاني", "—", "يعتمد على نوع السؤال");
@@ -183,11 +353,17 @@ function renderMap(data) {
 
     const locations = data.locations || [];
     const anchor = data.anchor;
+    const osmMode = data.data_mode === "osm_assisted";
+    document.getElementById("legend-osm").classList.toggle("hidden", !osmMode);
+    document.getElementById("legend-best").lastChild.textContent = osmMode ? " نقطة تغطية مرشحة" : " الأفضل";
+    document.getElementById("legend-alt").lastChild.textContent = osmMode ? " مرشح بديل" : " بديل";
 
     locations.forEach((loc) => {
-        if (loc.lat === undefined || loc.lng === undefined) return;
+        if (!hasCoordinates(loc)) return;
 
         const cls =
+            loc.source === "openstreetmap" ? "marker-osm" :
+            loc.source === "derived" && loc.role !== "answer" ? "marker-derived" :
             loc.role === "answer" ? "marker-best" :
             loc.role === "intermediate" ? "marker-alt" :
             loc.role === "anchor" ? "marker-muted" : "marker-alt";
@@ -204,14 +380,18 @@ function renderMap(data) {
             iconAnchor: [22, 22]
         });
 
+        const osmHref = osmObjectUrl(loc);
+        const sourceLine = loc.source === "openstreetmap"
+            ? `<br><small>${osmHref ? `<a href="${osmHref}" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>` : "OpenStreetMap"}</small>`
+            : loc.source === "derived" ? "<br><small>حساب حتمي — نقطة تغطية تحليلية</small>" : "";
         L.marker([loc.lat, loc.lng], { icon })
             .bindPopup(`<div dir="rtl"><strong>${escapeHtml(loc.name || "موقع")}</strong>${
-                loc.distance_km !== undefined ? `<br>المسافة: ${loc.distance_km} كم` : ""
-            }</div>`)
+                loc.distance_km != null ? `<br>المسافة: ${escapeHtml(loc.distance_km)} كم` : ""
+            }${sourceLine}</div>`)
             .addTo(markersLayer);
     });
 
-    if (anchor && data.metrics?.radius_km) {
+    if (hasCoordinates(anchor) && data.metrics?.radius_km != null) {
         L.circle([anchor.lat, anchor.lng], {
             radius: Number(data.metrics.radius_km) * 1000,
             weight: 2,
@@ -219,18 +399,50 @@ function renderMap(data) {
         }).addTo(shapeLayer);
     }
 
-    if (["nearest", "direction"].includes(data.visualization) && locations.length >= 2) {
-        drawPath(locations.slice(0, 2));
+    const mappedLocations = locations.filter(hasCoordinates);
+
+    if (["nearest", "direction"].includes(data.visualization) && mappedLocations.length >= 2) {
+        drawPath(mappedLocations.slice(0, 2));
     }
 
-    if (data.visualization === "two_hop" && locations.length >= 3) {
-        drawPath(locations.slice(0, 3));
+    if (data.visualization === "two_hop" && mappedLocations.length >= 3) {
+        drawPath(mappedLocations.slice(0, 3));
     }
 
-    const valid = locations.filter((x) => x.lat !== undefined && x.lng !== undefined);
-    if (valid.length) {
-        map.fitBounds(L.latLngBounds(valid.map((x) => [x.lat, x.lng])).pad(0.22));
+    if (mappedLocations.length) {
+        map.fitBounds(L.latLngBounds(mappedLocations.map((x) => [x.lat, x.lng])).pad(0.22));
+    } else {
+        map.setView([24.7136, 46.6753], 12);
     }
+}
+
+function osmObjectUrl(point) {
+    if (point?.source !== "openstreetmap") return null;
+    if (!["node", "way", "relation"].includes(point.osm_type)) return null;
+    if (!/^\d+$/.test(String(point.osm_id || ""))) return null;
+    return `https://www.openstreetmap.org/${point.osm_type}/${point.osm_id}`;
+}
+
+function safeHttpUrl(value) {
+    try {
+        const url = new URL(String(value || ""));
+        return ["http:", "https:"].includes(url.protocol) ? url.href : null;
+    } catch (_error) {
+        return null;
+    }
+}
+
+function hasCoordinates(point) {
+    return point
+        && point.lat !== null
+        && point.lng !== null
+        && Number.isFinite(Number(point.lat))
+        && Number.isFinite(Number(point.lng));
+}
+
+function normalizedScore(value) {
+    if (value === null || value === undefined || !Number.isFinite(Number(value))) return null;
+    return Math.min(1, Math.max(0, Number(value)));
 }
 
 function drawPath(points) {
@@ -247,7 +459,8 @@ function taskMeta(taskType) {
         count_within_radius: { label: "عد داخل نطاق", symbol: "#" },
         nearest_of_two_categories: { label: "مقارنة بين فئتين", symbol: "≋" },
         two_hop_nearest: { label: "استدلال على خطوتين", symbol: "②" },
-        spatial_multi_constraint: { label: "قيود مكانية متعددة", symbol: "✓" }
+        spatial_multi_constraint: { label: "قيود مكانية متعددة", symbol: "✓" },
+        general_spatial: { label: "استدلال مكاني عام", symbol: "✦" }
     };
     return items[taskType] || { label: "استدلال مكاني", symbol: "✦" };
 }

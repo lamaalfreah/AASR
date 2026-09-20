@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASAR | Arabic Spatial Adaptive Reasoning</title>
+    <title>AASR | Arabic Spatial Adaptive Reasoning</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
     >
     <link rel="stylesheet" href="{% static 'dashboard/css/style.css' %}">
 </head>
-<body>
+<body data-mascot-base="{% static 'dashboard/images/mascot/' %}">
     <div class="page-shell">
         <header class="topbar">
             <a class="brand" href="/">
@@ -26,66 +26,109 @@
                 </div>
 
                 <div class="brand-copy">
-                    <div class="brand-name">ASAR</div>
+                    <div class="brand-name">AASR</div>
                     <div class="brand-subtitle">Arabic Spatial Adaptive Reasoning</div>
                 </div>
             </a>
 
-            <div class="status-pill">
+            <div id="system-status" class="status-pill" aria-live="polite">
                 <span class="status-dot"></span>
-                النظام جاهز للتحليل
+                <span id="system-status-text">النظام جاهز للتحليل</span>
             </div>
         </header>
 
         <main class="dashboard-grid">
             <section class="main-panel">
                 <div class="hero-card glass-card">
-                    <div class="hero-heading">
-                        <div>
+                    <div class="hero-layout">
+                        <div class="hero-main">
+                            <div class="hero-heading">
                             <p class="eyebrow">Spatial Decision Intelligence</p>
-                            <h1>اسأل ASAR عن القرار المكاني الأفضل</h1>
+                            <h1>اسأل AASR عن القرار المكاني الأفضل</h1>
                             <p class="hero-description">
-                                اكتب سؤالًا مكانيًا، وسيتم عرض التوصية والأدلة وترتيب البدائل
-                                بشكل بصري قابل للربط مباشرة بمخرجات المودل.
+                                اكتب سؤالًا مكانيًا ستعرض لك الإجابة والحقائق المكانية بشكل بصري.
                             </p>
-                        </div>
-
-                        <div class="asar-badge">ASAR</div>
-                    </div>
-
-                    <form id="analysis-form" class="question-form">
-                        {% csrf_token %}
-                        <div class="question-box">
-                            <div class="spark-icon">✦</div>
-                            <textarea
-                                id="question-input"
-                                name="question"
-                                rows="2"
-                                placeholder="مثال: ما أفضل موقع لإنشاء مركز صحي جديد قريب من المدارس وبعيد عن المراكز الحالية؟"
-                            >ما أفضل موقع لإنشاء مركز صحي جديد قريب من المدارس وبعيد عن المراكز الحالية؟</textarea>
-                        </div>
-
-                        <div class="question-actions">
-                            <div class="quick-tags">
-                                <button type="button" class="tag active">الصحة</button>
-                                <button type="button" class="tag">المدارس</button>
-                                <button type="button" class="tag">المسافة</button>
-                                <button type="button" class="tag">الخدمات</button>
                             </div>
+                            <div class="capabilities-panel">
 
-                            <button id="analyze-button" type="submit" class="primary-button">
-                                <span class="button-text">تحليل واستدلال</span>
-                                <span class="button-icon">✦</span>
-                            </button>
+                                <div class="capability-group">
+                                    <span class="capability-label">اسأل عن:</span>
+                            
+                                    <div class="capability-chips">
+                                        <button type="button" class="capability-chip">مستشفى</button>
+                                        <button type="button" class="capability-chip">مركز صحي</button>
+                                        <button type="button" class="capability-chip">مدرسة</button>
+                                        <button type="button" class="capability-chip">جامعة</button>
+                                        <button type="button" class="capability-chip">مترو</button>
+                                        <button type="button" class="capability-chip">مسجد</button>
+                                        <button type="button" class="capability-chip">صيدلية</button>
+                                        <button type="button" class="capability-chip">حديقة</button>
+                                        <button type="button" class="capability-chip more-chip">+ المزيد</button>
+                                    </div>
+                                </div>
+                            
+                                <div class="capability-group">
+                                    <span class="capability-label">يمكنني تحليل:</span>
+                            
+                                    <div class="capability-chips analysis-chips">
+                                        <button type="button" class="capability-chip">الأقرب</button>
+                                        <button type="button" class="capability-chip">داخل نطاق</button>
+                                        <button type="button" class="capability-chip">عدد المرافق</button>
+                                        <button type="button" class="capability-chip">مقارنة مكانين</button>
+                                        <button type="button" class="capability-chip">اتجاه</button>
+                                        <button type="button" class="capability-chip">بحث بخطوتين</button>
+                                        <button type="button" class="capability-chip">اقتراح موقع</button>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <form id="analysis-form" class="question-form">
+                                {% csrf_token %}
+                                <div class="question-box">
+                                    <div class="spark-icon">✦</div>
+                                    <textarea
+                                        id="question-input"
+                                        name="question"
+                                        rows="2"
+                                        placeholder="مثال: ما أفضل موقع لإنشاء مركز صحي جديد قريب من المدارس وبعيد عن المراكز الحالية؟"
+                                    >ما أفضل موقع لإنشاء مركز صحي جديد قريب من جامعة الملك سعود وبعيد عن المراكز الحالية؟</textarea>
+                                </div>
+
+                                <div class="question-actions">
+                                    <button id="analyze-button" type="submit" class="primary-button">
+                                        <span class="button-text">تحليل واستدلال</span>
+                                        <span class="button-icon">✦</span>
+                                    </button>
+                                </div>
+                            </form>
                         </div>
-                    </form>
+
+                        <aside id="mascot-stage" class="mascot-stage" data-state="welcome" aria-live="polite">
+                            <div class="mascot-orbit" aria-hidden="true"></div>
+                            <span class="mascot-chip">AASR</span>
+                            <img
+                                id="state-mascot"
+                                class="state-mascot"
+                                src="{% static 'dashboard/images/mascot/01_welcome.png' %}"
+                                alt="شخصية AASR ترحب بك"
+                            >
+                            <p id="mascot-caption">مرحبًا، أنا جاهز لسؤالك المكاني.</p>
+                        </aside>
+                    </div>
                 </div>
 
                 <div class="map-card glass-card">
                     <div class="map-toolbar">
-                        <div>
+                        <div class="map-title-group">
+                            <img
+                                class="map-mascot"
+                                src="{% static 'dashboard/images/mascot/05_spatial_guidance_map.png' %}"
+                                alt="شخصية AASR للإرشاد المكاني"
+                            >
+                            <div>
                             <span class="section-kicker">الخريطة التفاعلية</span>
                             <h2>المشهد المكاني</h2>
+                            </div>
                         </div>
 
                         <div class="map-pill">
@@ -97,9 +140,10 @@
                     <div id="map"></div>
 
                     <div class="map-legend">
-                        <span><i class="legend-dot best"></i> الأفضل</span>
-                        <span><i class="legend-dot alt"></i> بديل</span>
-                        <span><i class="legend-dot muted"></i> أقل ملاءمة</span>
+                        <span id="legend-best"><i class="legend-dot best"></i> الأفضل</span>
+                        <span id="legend-alt"><i class="legend-dot alt"></i> بديل</span>
+                        <span id="legend-muted"><i class="legend-dot muted"></i> مرجع</span>
+                        <span id="legend-osm" class="hidden"><i class="legend-dot osm"></i> مرفق OSM</span>
                     </div>
                 </div>
 
@@ -129,17 +173,19 @@
                 <article class="result-card glass-card result-highlight">
                     <div class="card-label">
                         <span id="result-task-label">النتيجة المكانية</span>
-                        <span class="mini-ai">ASAR</span>
+                        <div class="result-badges">
+                            <span id="reasoning-depth" class="depth-badge hidden"></span>
+                            <span class="mini-ai">AASR</span>
+                        </div>
                     </div>
                     <div class="dynamic-answer">
                         <div id="answer-symbol" class="answer-symbol">✦</div>
                         <div>
                             <h2 id="answer-title">اكتب سؤالًا وابدأ التحليل</h2>
-                            <p id="answer-subtitle">سيتغير العرض تلقائيًا حسب نوع السؤال.</p>
+                            <p id="answer-subtitle">  </p>
                         </div>
                     </div>
                     <p id="reasoning-text" class="winner-summary">
-                        يدعم ASAR ثمانية أنواع من مهام الاستدلال المكاني.
                     </p>
                 </article>
 
@@ -156,6 +202,16 @@
                 <article id="evidence-card" class="glass-card side-card hidden">
                     <div class="side-card-title"><h3>الأدلة المكانية</h3><span>03</span></div>
                     <div id="evidence-list" class="evidence-list"></div>
+                </article>
+
+                <article id="sources-card" class="glass-card side-card hidden">
+                    <div class="side-card-title"><h3>مصادر البيانات</h3><span>04</span></div>
+                    <div id="sources-list" class="source-list"></div>
+                </article>
+
+                <article id="limitations-card" class="glass-card side-card hidden">
+                    <div class="side-card-title"><h3>حدود التوصية</h3><span>05</span></div>
+                    <ul id="limitations-list" class="reason-list"></ul>
                 </article>
             </aside>
 
