@@ -119,6 +119,7 @@ function setMascotState(name) {
 }
 
 function initMap() {
+    if(!window.L){document.getElementById("map").textContent="الخريطة غير متاحة؛ تبقى الإجابة النصية متاحة.";return;}
     map = L.map("map", { zoomControl: true, scrollWheelZoom: true })
         .setView([24.7136, 46.6753], 12);
 
@@ -181,6 +182,7 @@ async function handleAnalyze(event) {
         );
         showToast("تم تحديث العرض حسب نوع السؤال.");
     } catch (error) {
+        renderSpatialResponse({status:'insufficient_information',answer:{value:null,text:error.message},locations:[],metrics:{},limitations:[]});
         setMascotState("error");
         showToast(error.message);
     } finally {
@@ -192,6 +194,8 @@ async function handleAnalyze(event) {
 }
 
 function renderSpatialResponse(data) {
+    document.getElementById('runtime-route').textContent = data.route ? `${data.route} • ${Math.round(data.latency?.total_ms || 0)} ms` : '';
+    document.getElementById('runtime-trace').textContent = JSON.stringify({question:data.interpreted_question,query:data.structured_query,trace:data.trace,latency:data.latency},null,2);
     const meta = taskMeta(data.task_type);
     const insufficient =
     data.status === "insufficient_information" ||
@@ -348,6 +352,7 @@ function setMetric(i, label, value, note) {
 }
 
 function renderMap(data) {
+    if(!map)return;
     markersLayer.clearLayers();
     shapeLayer.clearLayers();
 
@@ -355,13 +360,14 @@ function renderMap(data) {
     const anchor = data.anchor;
     const osmMode = data.data_mode === "osm_assisted";
     document.getElementById("legend-osm").classList.toggle("hidden", !osmMode);
-    document.getElementById("legend-best").lastChild.textContent = osmMode ? " نقطة تغطية مرشحة" : " الأفضل";
-    document.getElementById("legend-alt").lastChild.textContent = osmMode ? " مرشح بديل" : " بديل";
+    document.getElementById("legend-best").lastChild.textContent = " النتيجة";
+    document.getElementById("legend-alt").lastChild.textContent = " بديل";
 
     locations.forEach((loc) => {
         if (!hasCoordinates(loc)) return;
 
         const cls =
+            loc.role === "answer" ? "marker-best" :
             loc.source === "openstreetmap" ? "marker-osm" :
             loc.source === "derived" && loc.role !== "answer" ? "marker-derived" :
             loc.role === "answer" ? "marker-best" :

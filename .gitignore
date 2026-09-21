@@ -46,3 +46,8 @@ secrets/
 # Python generated files
 __pycache__/
 *.pyc
+
+# Local spatial/model serving caches and environments
+.runtime/
+.venv-router/
+data/osm/*.pbf

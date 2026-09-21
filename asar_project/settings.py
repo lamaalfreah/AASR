@@ -117,3 +117,20 @@ ASAR_GOOGLE_MAPS_API_KEY = os.getenv(
     "GOOGLE_MAPS_API_KEY",
     ""
 )
+# Frozen research runtime; environment variables configure serving, never the threshold.
+ASAR_GOOGLE_MAPS_API_KEY = os.environ.get('ASAR_GOOGLE_MAPS_API_KEY', ASAR_GOOGLE_MAPS_API_KEY)
+AASR_SHORT_DIR = BASE_DIR / 'experiments/E5_lightweight_adaptive/step2_neural_short'
+AASR_ROUTER_PATH = BASE_DIR / 'experiments/E5_lightweight_adaptive/router_v2/router_v2.joblib'
+AASR_MODAL_APP = 'aasr-step2b-qwen3-4b-long'
+AASR_MODAL_REVISION = '1cfa9a7208912126459214e8b04321603b3df60c'
+AASR_LONG_TIMEOUT = float(os.environ.get('AASR_LONG_TIMEOUT','240'))
+AASR_DEFAULT_ANCHOR_NAME = os.environ.get('AASR_DEFAULT_ANCHOR_NAME','وسط الرياض')
+AASR_DEFAULT_LAT = float(os.environ.get('AASR_DEFAULT_LAT','24.7136'))
+AASR_DEFAULT_LON = float(os.environ.get('AASR_DEFAULT_LON','46.6753'))
+# Local demo coverage; expand deliberately and rebuild the spatial cache as needed.
+AASR_OSM_BBOX = [float(v) for v in os.environ.get('AASR_OSM_BBOX','46.3,24.3,47.1,25.1').split(',')]
+AASR_SEARCH_KM = float(os.environ.get('AASR_SEARCH_KM','15'))
+AASR_PARSER_CANDIDATES = 80
+DATA_UPLOAD_MAX_MEMORY_SIZE = 256 * 1024
+
+AASR_DEFAULT_AREA_NAME = os.environ.get('AASR_DEFAULT_AREA_NAME','الرياض')

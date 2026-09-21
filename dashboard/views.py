@@ -41,7 +41,7 @@ def analyze_api(request):
                 400,
             )
 
-        result = analyze_spatial_question(question)
+        result = analyze_spatial_question(question, current_location=payload.get("current_location"))
         return JsonResponse(result, json_dumps_params={"ensure_ascii": False})
 
     except json.JSONDecodeError:

@@ -214,3 +214,11 @@ def verify_result(result: dict) -> dict:
     result["verification"] = {"passed": all_passed, "checks": checks}
     return result
  
+
+
+def verify_execution(execution):
+    """Frozen engine evidence; do not compare four-sector answers to eight sectors."""
+    unique=all(r['status']=='UNIQUE' for r in execution.trace.get('identity_resolutions',[]))
+    return {'passed':execution.status=='success' and unique,
+            'checks':[{'check':'grounded_identities','passed':unique},
+                      {'check':'deterministic_execution','passed':execution.status=='success'}]}

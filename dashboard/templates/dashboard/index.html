@@ -44,7 +44,7 @@
                         <div class="hero-main">
                             <div class="hero-heading">
                             <p class="eyebrow">Spatial Decision Intelligence</p>
-                            <h1>اسأل AASR عن القرار المكاني الأفضل</h1>
+                            <h1>اسأل AASR عن الأماكن والعلاقات المكانية</h1>
                             <p class="hero-description">
                                 اكتب سؤالًا مكانيًا ستعرض لك الإجابة والحقائق المكانية بشكل بصري.
                             </p>
@@ -89,11 +89,12 @@
                                     <textarea
                                         id="question-input"
                                         name="question"
-                                        rows="2"
-                                        placeholder="مثال: ما أفضل موقع لإنشاء مركز صحي جديد قريب من المدارس وبعيد عن المراكز الحالية؟"
-                                    >ما أفضل موقع لإنشاء مركز صحي جديد قريب من جامعة الملك سعود وبعيد عن المراكز الحالية؟</textarea>
+                                        rows="2" maxlength="6000"
+                                        placeholder="مثال: كم عدد الصيدليات ضمن 2 كم من وسط الرياض؟"
+                                    >كم عدد الصيدليات ضمن 2 كم من وسط الرياض؟</textarea>
                                 </div>
 
+                                <p class="hero-description">التغطية: بيانات OpenStreetMap محلية للرياض. عند غياب اسم المرجع يُستخدم وسط الرياض، وليس موقعك الحالي.</p>
                                 <div class="question-actions">
                                     <button id="analyze-button" type="submit" class="primary-button">
                                         <span class="button-text">تحليل واستدلال</span>
@@ -174,6 +175,7 @@
                     <div class="card-label">
                         <span id="result-task-label">النتيجة المكانية</span>
                         <div class="result-badges">
+                            <span id="runtime-route" class="depth-badge"></span>
                             <span id="reasoning-depth" class="depth-badge hidden"></span>
                             <span class="mini-ai">AASR</span>
                         </div>
@@ -215,6 +217,7 @@
                 </article>
             </aside>
 
+        <details class="glass-card" style="padding:16px;margin-top:16px"><summary>تفاصيل الفهم والتنفيذ</summary><pre id="runtime-trace" dir="ltr" style="white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto"></pre></details>
         </main>
     </div>
 

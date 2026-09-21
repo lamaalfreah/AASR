@@ -1,0 +1,12 @@
+# Python 3.12; matched to the frozen Router artifact and tested demo environment.
+-r requirements.txt
+torch==2.8.0
+scikit-learn==1.7.2
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+threadpoolctl==3.6.0
+modal==1.5.5
+pyrosm==0.13.1
+geopandas==1.1.4
+httpx==0.28.1
