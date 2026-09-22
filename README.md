@@ -432,25 +432,20 @@ Some reasoning paths require additional provider credentials or remote Modal inf
 
 ---
 
-## Current Development Status
+## Experimental Integration Branches
 
-| Component | Status |
-|---|---|
-| Router V2 | Completed |
-| Short Path — BiGRU | Completed |
-| Long Path — Qwen3-4B | Completed |
-| Structured Query pipeline | Completed |
-| Geo Engine | Completed |
-| Evaluation pipeline | Completed |
-| Experiment history | Preserved |
-| Latest Django frontend | Available |
-| Router V2 + frontend integration | In Progress |
-| End-to-end validation | Pending |
-| Production deployment | To Be Rebuilt |
+Two additional branches were created to explore integration beyond the frozen core AASR experiments:
 
-The previous production implementation has intentionally been excluded from the current integration branch.
+- **Router V2 Runtime Integration** — explores using the frozen Router V2 in the end-to-end runtime pipeline.
+- **Codex Integration** — explores Codex-assisted orchestration and integration workflows around the AASR system.
 
-A new clean production deployment will be built after the Router V2 and latest frontend integration has been validated.
+These branches are intentionally **not merged into the main branch**.
+
+The main branch is kept focused on the validated and reproducible research pipeline:
+
+**Arabic Query → Neural Short → Adaptive Router → Long Parser when needed → StructuredQuery → Deterministic Geo Engine**
+
+The integration branches introduce additional runtime/orchestration behavior that is experimental and was not part of the controlled evaluation used for the reported research results.
 
 ---
 
